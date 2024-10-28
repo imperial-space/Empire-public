@@ -5,6 +5,7 @@ using Content.Client.Clickable;
 using Content.Client.DebugMon;
 using Content.Client.Eui;
 using Content.Client.Fullscreen;
+using Content.Client.GameTicking.Managers;
 using Content.Client.GhostKick;
 using Content.Client.Guidebook;
 using Content.Client.Launcher;
@@ -59,6 +60,7 @@ namespace Content.Client.IoC
             IoCManager.Register<SponsorsManager>(); //Imperial sponsors
             collection.Register<PlayerRateLimitManager>();
             collection.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
+            collection.Register<TitleWindowManager>();
         }
     }
 }
