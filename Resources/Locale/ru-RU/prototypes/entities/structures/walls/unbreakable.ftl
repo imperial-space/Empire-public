@@ -1,19 +1,19 @@
-ent-WallReinforcedUnbreakable = { ent-WallReinforced }
+ent-WallReinforcedUnbreakableImperial = { ent-WallReinforced }
     .desc = { ent-BaseWall.desc }
     .suffix = { "НЕРАЗРУШИМОЕ" }
-ent-WallSolidUnbreakable = { ent-WallSolid }
+ent-WallSolidUnbreakableImperial = { ent-WallSolid }
     .desc = { ent-BaseWall.desc }
     .suffix = { "НЕРАЗРУШИМОЕ" }
-ent-WallRivetedUnbreakable = { ent-WallRiveted }
+ent-WallRivetedUnbreakableImperial = { ent-WallRiveted }
     .desc = { ent-WallRiveted.desc }
     .suffix = { "НЕРАЗРУШИМОЕ" }
-ent-WindowUnbreakable = { ent-Window }
+ent-WindowUnbreakableImperial = { ent-Window }
     .desc = { ent-Window.desc }
     .suffix = { "НЕРАЗРУШИМОЕ" }
-ent-ReinforcedPlasmaWindowUnbreakable = { ent-ReinforcedPlasmaWindow }
+ent-ReinforcedPlasmaWindowUnbreakableImperial = { ent-ReinforcedPlasmaWindow }
     .desc = { ent-ReinforcedPlasmaWindow.desc }
     .suffix = { "НЕРАЗРУШИМОЕ" }
-ent-ReinforcedWindowUnbreakable = { ent-ReinforcedWindow }
+ent-ReinforcedWindowUnbreakableImperial = { ent-ReinforcedWindow }
     .desc = { ent-ReinforcedWindow.desc }
     .suffix = { "НЕРАЗРУШИМОЕ" }
 
