@@ -14,3 +14,14 @@ tiles-glass-ruran-floor = пол из уранового бронестекла
 tiles-glass-rplasma-floor = пол из плазменного бронестекла
 
 tiles-ice-sheet-floor = ледяная плитка
+
+tiles-cross-wood = перекрёстный деревянный пол
+tiles-cross-wood-broken = сломанный перекрёстный деревянный пол
+tiles-dark-wood = тёмный деревянный пол
+tiles-dark-wood-broken = сломанный тёмный деревянный пол
+tiles-large-wood = брёвна
+tiles-large-wood-broken = сломанные брёвна
+tiles-long-wood = длинные деревянные доски
+tiles-long-wood-broken = сломанные длинные деревянные доски
+tiles-wooden-tile = деревянная плитка
+tiles-wooden-tile-broken = сломанная деревянная плитка
