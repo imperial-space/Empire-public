@@ -6,7 +6,7 @@
     layers:
       - sprite: Imperial/Objects/Fun/MANDARIN/shader_uv.rsi
         state: shader_uv
-        shader: MANDARINSHADER
+  - type: MANDARIN
 
 
 - type: shader

@@ -696,7 +696,7 @@
           Quantity: 4
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/extradimensional_orange.rsi
-    scale: 0.5,0.5
+    # scale: 0.5,0.5 Imperial MANDARIN
   - type: Produce
     seedId: extradimensionalOrange
   - type: PotencyVisuals
@@ -714,6 +714,7 @@
     entries:
       Burger: ExtradimensionalOrangeBurger
       Taco: ExtradimensionalOrange
+  - type: MANDARIN # Imperial MANDARIN
 
 - type: entity
   name: pineapple
