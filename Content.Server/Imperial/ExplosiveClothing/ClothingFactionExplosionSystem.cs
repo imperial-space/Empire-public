@@ -8,6 +8,7 @@ using Content.Server.Administration.Logs;
 using Content.Shared.Database;
 using Content.Server.Chat.Managers;
 using Content.Shared.NPC.Components;
+using Content.Shared.Hands;
 
 namespace Content.Server.Clothing.Systems;
 
@@ -24,6 +25,8 @@ public sealed class ClothingFactionExplosionSystem : EntitySystem
         SubscribeLocalEvent<ClothingFactionExplosionComponent, GotEquippedEvent>(OnGotEquipped);
         SubscribeLocalEvent<ClothingFactionExplosionComponent, GotUnequippedEvent>(OnGotUnequipped);
         SubscribeLocalEvent<ClothingFactionExplosionComponent, ComponentStartup>(OnComponentInit);
+        SubscribeLocalEvent<ClothingFactionExplosionComponent, HandSelectedEvent>(OnHandSelected);
+        SubscribeLocalEvent<ClothingFactionExplosionComponent, HandDeselectedEvent>(OnHandDeselected);
     }
 
     private void OnComponentInit(EntityUid uid, ClothingFactionExplosionComponent component, ComponentStartup args)
@@ -68,6 +71,44 @@ public sealed class ClothingFactionExplosionSystem : EntitySystem
                     DoExplode(uid, component.LastUser);
                 }
             }
+        }
+    }
+
+    private void OnHandSelected(EntityUid uid, ClothingFactionExplosionComponent component, HandSelectedEvent args)
+    {
+        component.LastUser = args.User;
+        SearchFriendlyFaction(args.User, component);
+        if (!component.OwnerIsFriendly)
+        {
+            component.TimerOn = true;
+            if (component.AnnouncementWas)
+            {
+                component.WearCount += 1;
+                if (component.WearCount >= component.WearCountPermanentExplosion)
+                {
+                    DoExplode(uid, component.LastUser);
+                }
+            }
+        }
+    }
+
+    private void OnHandDeselected(EntityUid uid, ClothingFactionExplosionComponent component, HandDeselectedEvent args)
+    {
+        if (!component.CountdownWas)
+        {
+            if (component.AnnouncementWas && component.WearCount < component.WearCountMax)
+            {
+                if (!component.OwnerIsFriendly)
+                {
+                    SayMessage(uid, Loc.GetString("clothing-faction-explosion-unknown-dna-lose"));
+                }
+                component.Timer = component.TimerDelay - 1f;
+                component.TimerDuration = component.VVTimerDuration;
+                component.AnnouncementWarnig = false;
+                component.AnnouncementMessage = false;
+            }
+            component.TimerOn = false;
+            component.CountdownOn = false;
         }
     }
 
