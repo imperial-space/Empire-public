@@ -14,3 +14,5 @@ bounty-console-flavor-left = Запросы, полученные от мест�
 bounty-console-flavor-right = v1.4
 bounty-manifest-header = Официальный манифест запроса (ID#{ $id })
 bounty-manifest-list-start = Требуется:
+bounty-console-skip-button-text = Пропустить
+bounty-console-manifest-reward = Награда: ${ $reward }

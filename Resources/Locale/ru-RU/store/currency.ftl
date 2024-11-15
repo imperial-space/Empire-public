@@ -8,3 +8,5 @@ store-currency-display-debugdollar = {$amount ->
 }
 store-currency-display-telecrystal = ТК
 store-currency-display-stolen-essence = Украденная Эссенция
+store-currency-war-boost-given = { CAPITALIZE($target) } начинает жужжать
+store-currency-display-wizcoin = ᛖᚤᛚᛕᛜᛋᚺ™

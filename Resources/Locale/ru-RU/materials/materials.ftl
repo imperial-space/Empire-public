@@ -39,3 +39,5 @@ materials-raw-salt = необработанная соль
 
 # Material Reclaimer
 material-reclaimer-upgrade-process-rate = скорость переработки
+materials-raw-diamond = необработанный алмаз
+materials-diamond = алмаз

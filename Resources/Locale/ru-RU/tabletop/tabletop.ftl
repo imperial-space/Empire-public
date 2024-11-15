@@ -14,3 +14,7 @@ tabletop-backgammon-board-name = Короткие нарды
 
 ## Checkers
 tabletop-checkers-board-name = Шашки
+tabletop-battlemap-board-name = Карта боя
+tabletop-verb-dump-pieces = Скинуть фигурки
+tabletop-error-remove-non-hologram = Вы не можете убрать встроенную фигурку!
+tabletop-added-piece = Доска ярко сияет!

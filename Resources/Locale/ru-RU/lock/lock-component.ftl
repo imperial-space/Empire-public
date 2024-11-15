@@ -8,3 +8,4 @@ lock-comp-has-user-access-fail = Доступ запрещён
 
 toggle-lock-verb-unlock = Разблокировать
 toggle-lock-verb-lock = Заблокировать
+lock-comp-generic-fail = {CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} заблокировано.

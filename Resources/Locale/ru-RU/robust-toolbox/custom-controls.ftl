@@ -10,3 +10,7 @@ entity-spawn-window-replace-button-text = Заменить
 ## Console
 
 console-line-edit-placeholder = Введите сюда команду
+
+## Common Used
+
+window-erase-button-text = Режим удаления

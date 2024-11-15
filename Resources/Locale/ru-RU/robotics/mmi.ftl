@@ -11,3 +11,4 @@ positronic-brain-wiped-device = Нейронная активность была
 
 positronic-brain-stop-searching-verb-text = Прекратить поиск
 positronic-brain-stopped-searching = Дескремблирование нейрона остановлено.
+positronic-brain-slot-component-slot-name-brain = Мозг

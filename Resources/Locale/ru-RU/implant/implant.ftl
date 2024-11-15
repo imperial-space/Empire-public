@@ -45,3 +45,4 @@ scramble-implant-activated-popup = Вы трансформировались в 
 
 deathrattle-implant-dead-message = {$user} умер в {$position}.
 deathrattle-implant-critical-message = {$user} жизненные показатели критические, требуется немедленная помощь по координатам {$position}.
+implanter-component-implant-failed = Имплантат {$implant} не может быть передан {$target}!

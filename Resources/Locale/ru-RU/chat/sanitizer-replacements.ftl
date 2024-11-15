@@ -22,3 +22,5 @@ chatsan-shrugs = пожимает плечами
 chatsan-claps = хлопает
 chatsan-snaps = щёлкает
 chatsan-whistle = свистит
+chatsan-winks = подмигивает
+chatsan-tearfully-smiles = улыбается со слезами на глазах

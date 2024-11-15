@@ -21,3 +21,15 @@ tool-quality-slicing-tool-name = Нож
 
 tool-quality-sawing-name = Отпиливание
 tool-quality-sawing-tool-name = Пила
+
+tool-quality-woodcutting-tool-name = Топорик
+tool-quality-woodcutting-name = Рубка
+
+tool-quality-rolling-tool-name = Скалка
+tool-quality-rolling-name = Раскатка
+
+tool-quality-honking-tool-name = Велосипедный гудок
+tool-quality-honking-name = Сигналить
+
+tool-quality-digging-name = Копать
+tool-quality-digging-tool-name = Лопата

@@ -49,4 +49,18 @@ signal-port-name-pulse = Импульс
 signal-port-description-pulse = Этот порт задействуется когда привязанная аномалия создаёт импульс.
 
 signal-port-name-supercrit = Коллапс
-signal-port-description-supercrit = Этот порт задействуется когда привязанная аномалия взрывается после перехода в состояние коллапса. 
+signal-port-description-supercrit = Этот порт задействуется когда привязанная аномалия взрывается после перехода в состояние коллапса.
+
+signal-port-name-power-discharging = Разрядка
+signal-port-name-power-charging = Зарядка
+signal-port-name-dockstatus = Статус дока
+signal-port-name-air-warning = Предупреждение
+signal-port-name-air-normal = Нормально
+signal-port-name-air-danger = Опасность
+signal-port-description-status-transmitter = Этот порт задействуется с высоким или низким уровнем, в зависимости от состояния передатчика.
+signal-port-description-power-discharging = Этот порт задействуется с высоким уровнем сигнала когда батарея разряжается, и с низким когда нет.
+signal-port-description-power-charging = Этот порт задействуется с высоким уровнем сигнала когда батарея заряжается, и с низким когда нет.
+signal-port-description-dockstatus = Этот порт задействуется с высоким уровнем когда устройство состыковано, и низким уровнем когда отстыковано.
+signal-port-description-air-warning = Этот порт задействуется с высоким уровнем сигнала когда статус Предупреждение, если статус другой, то с низким уровнем.
+signal-port-description-air-normal = Этот порт задействуется с высоким уровнем сигнал когда статус Нормально, если статус другой, то с низким уровнем.
+signal-port-description-air-danger = Этот порт задействуется с высоким уровнем сигнала когда статус Опасность, если статус другой, то с низким уровнем.

@@ -50,3 +50,12 @@ trait-cowboy-desc = Вы говорите с отчетливым ковбойс
 
 trait-italian-name = Итальянский акцент
 trait-italian-desc = Mamma mia! Вы, кажется, жили в космической Италии!
+
+trait-spanish-name = Испанский акцент
+trait-spanish-desc = Hola señor, где находится библиотека.
+
+trait-german-name = Немецкий акцент
+trait-german-desc = Вы, кажется, родом из космической Германии.
+
+trait-french-name = Французский акцент
+trait-french-desc = В вашем акценте, кажется, есть что-то особенное «je ne sais quoi».

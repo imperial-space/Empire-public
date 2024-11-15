@@ -48,3 +48,4 @@ gun-revolver-insert = Заряжен
 gun-revolver-spin = Вращать барабан
 gun-revolver-spun = Барабан вращается
 gun-speedloader-empty = Спидлоадер пуст
+gun-magazine-whitelist-fail = Это не влезет в пистолет!

@@ -3,3 +3,4 @@ intercom-channel-label = Канал:
 intercom-button-text-mic = Микрофон
 intercom-button-text-speaker = Динамик
 intercom-flavor-text-left = Никакой болтовни в эфире!
+intercom-options-none = Нет каналов

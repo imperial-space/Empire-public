@@ -34,3 +34,5 @@ ghost-roles-window-rules-footer = Кнопка станет доступна ч�
 
 ghost-return-to-body-title = Вернуться в тело
 ghost-return-to-body-text = Вы возрождаетесь! Вернуться в свое тело?
+ghost-gui-toggle-ghost-visibility-popup-on = Включение видимости призраков.
+ghost-gui-toggle-ghost-visibility-popup-off = Отключение видимости призраков.

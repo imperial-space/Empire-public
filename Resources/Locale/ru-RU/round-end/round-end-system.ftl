@@ -8,3 +8,4 @@ round-end-system-round-restart-eta-announcement = Раунд перезапус�
 
 eta-units-minutes = минут
 eta-units-seconds = секунд
+round-end-system-shuttle-sender-announcement = Станция

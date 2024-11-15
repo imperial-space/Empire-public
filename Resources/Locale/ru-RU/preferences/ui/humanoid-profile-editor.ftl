@@ -60,3 +60,6 @@ humanoid-profile-editor-trait-count-hint = Доступно очков: [{$curre
 trait-category-disabilities = Ограничения
 trait-category-speech = Черты речи
 trait-category-quirks = Причуды
+humanoid-profile-editor-export-image-button = Экспорт изображения
+humanoid-profile-editor-open-image-button = Открыть изображения
+

@@ -52,3 +52,4 @@ comp-pda-ui-unassigned = Не назначено
 
 pda-notification-message = [font size=12][bold]КПК[/bold] { $header }: [/font]
     "{ $message }"
+comp-pda-ui-footer = Персональный цифровой ассистент

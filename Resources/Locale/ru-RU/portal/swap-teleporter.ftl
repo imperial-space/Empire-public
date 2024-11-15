@@ -14,4 +14,4 @@ swap-teleporter-examine-time-remaining = Время, оставшееся до �
     [one].
     *[other]s.
 }[/color]
-
+swap-teleporter-popup-teleport-fail = {CAPITALIZE(THE($entity))} активируется и не может переместить вас куда-либо.

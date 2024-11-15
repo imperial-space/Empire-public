@@ -9,3 +9,4 @@ generic-reagent-effect-parched = Вы чувствуете себя пересо
 generic-reagent-effect-thirsty = Вы чувствуете жажду.
 generic-reagent-effect-sick = Вас тошнит после употребления этого...
 generic-reagent-effect-slicing-inside = Вы чувствуете невероятно острую боль в кишечнике!
+generic-reagent-effect-slicing-insides = Вы ощущаете невероятно острую боль в животе!

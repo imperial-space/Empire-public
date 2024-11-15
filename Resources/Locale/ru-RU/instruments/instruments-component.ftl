@@ -23,4 +23,5 @@ instruments-component-channels-menu = Выбор MIDI-канала
 instrument-component-channel-name = MIDI-канал {$number}
 instruments-component-channels-all-button = Все
 instruments-component-channels-clear-button = Очистить
+instrument-component-finger-cramps-light-message = Ваши пальцы начинает немного сводить судорогой!
 

@@ -45,3 +45,4 @@ cargo-shuttle-console-station-unknown = Неизвестно
 cargo-shuttle-console-shuttle-not-found = Не найден
 cargo-shuttle-console-organics = На шаттле обнаружены органические формы жизни
 cargo-no-shuttle = Шаттл снабжения не обнаружен!
+cargo-console-unlock-approved-order-broadcast = [bold]{$productName} x{$orderAmount}[/bold], который стоит  [bold]{$cost}[/bold], был одобрен [bold]{$approver}[/bold]

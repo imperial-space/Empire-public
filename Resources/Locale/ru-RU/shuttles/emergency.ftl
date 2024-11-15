@@ -16,6 +16,7 @@ emergency-shuttle-launch-time = Эвакуационный шаттл будет
 emergency-shuttle-docked = Эвакуационный шаттл пристыковался к станции, сторона: {$direction}. Он улетит через {$time} секунд.
 emergency-shuttle-good-luck = Эвакуационный шаттл не может найти станцию. Удачи.
 emergency-shuttle-nearby = Эвакуационный шаттл не может найти подходящий стыковочный шлюз. Он дрейфует {$direction}.
+emergency-shuttle-extended = {" "}Время запуска было продлено в связи с неудобными обстоятельствами.
 
 # Emergency shuttle console popup / announcement
 emergency-shuttle-console-no-early-launches = Досрочный запуск отключён
@@ -33,3 +34,7 @@ emergency-shuttle-ui-authorize = АВТОРИЗОВАТЬСЯ
 emergency-shuttle-ui-repeal = ПОВТОРИТЬ
 emergency-shuttle-ui-authorizations = Авторизации
 emergency-shuttle-ui-remaining = Осталось: {$remaining}
+
+# Map Misc.
+map-name-centcomm = Центральное командование
+map-name-terminal = Терминал прибытия

@@ -24,3 +24,5 @@ markings-category-Arms = Руки
 markings-category-Legs = Ноги
 markings-category-Tail = Хвост
 markings-category-Overlay = Наложение
+marking-slot = Слот {$number}
+markings-category-Special = Специальное

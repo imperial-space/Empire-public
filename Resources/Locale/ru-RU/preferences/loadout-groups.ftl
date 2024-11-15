@@ -195,3 +195,10 @@ loadout-group-reporter-jumpsuit = Репортёр, комбинезон
 
 loadout-group-boxer-jumpsuit = Боксёр, комбинезон
 loadout-group-boxer-gloves = Боксёр, перчатки
+loadout-group-security-star = Звезда СБ
+loadout-group-survival-mime = Аварийный запас мима
+loadout-group-psychologist-jumpsuit = Психолог, комбинезон
+loadout-group-pocket-tank-double = Рассово-специфический двойной аварийный баллон в пакете
+loadout-group-passenger-neck = Пассажир, шея
+loadout-group-mime-belt = Мим, пояс
+loadout-group-EVA-tank = Расозависимый газовый баллон

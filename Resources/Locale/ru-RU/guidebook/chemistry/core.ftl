@@ -20,11 +20,14 @@ guidebook-reagent-effects-metabolism-group-rate = [bold]{ $group }[/bold] [color
 guidebook-reagent-physical-description = На вид вещество { $description }.
 guidebook-reagent-recipes-mix-info = {$minTemp ->
     [0] {$hasMax ->
-            [true] {CAPITALIZE($verb)} below {NATURALFIXED($maxTemp, 2)}K
+            [true] {CAPITALIZE($verb)} ниже {NATURALFIXED($maxTemp, 2)}K
             *[false] {CAPITALIZE($verb)}
         }
     *[other] {CAPITALIZE($verb)} {$hasMax ->
-            [true] between {NATURALFIXED($minTemp, 2)}K and {NATURALFIXED($maxTemp, 2)}K
-            *[false] above {NATURALFIXED($minTemp, 2)}K
+            [true] между {NATURALFIXED($minTemp, 2)}K и {NATURALFIXED($maxTemp, 2)}K
+            *[false] выше {NATURALFIXED($minTemp, 2)}K
         }
 }
+guidebook-reagent-plant-metabolisms-header = Метаболизм растений
+guidebook-reagent-plant-metabolisms-rate = [bold]Метаболизм растений[/bold] [color=gray](1 единица каждые 3 секунды в качестве базовой)[/color]
+

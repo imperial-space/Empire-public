@@ -10,3 +10,5 @@ admin-player-spawn-failed = Не удалось найти действител�
 admin-player-actions-clone = Клонировать
 admin-player-actions-follow = Следовать
 admin-player-actions-confirm = Вы уверены, Мистер Админ?
+admin-player-actions-reason = Причина
+admin-player-actions-player-panel = Открыть панель игрока

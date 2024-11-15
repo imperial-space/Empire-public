@@ -34,7 +34,6 @@ wires-board-name-firelock = Управление пожарным шлюзом
 wires-board-name-windoor = управление раздвижным окном
 wires-board-name-mech = Мех
 wires-board-name-fatextractor = Экстрактор липидов
-sensor-monitoring-window-title = Консоль мониторинга датчиков
 
 # names that get displayed in the wire hacking hud & admin logs.
 
@@ -56,3 +55,17 @@ wire-name-bomb-delay = ЗАДЕРЖ
 wire-name-bomb-proceed = ПЕРЕДАЧА
 wire-name-bomb-boom = БУМ
 wire-name-bomb-bolt = БОЛТ
+wires-board-name-spaceheater = Обогреватель
+wires-board-name-recharger = Зарядное устройство
+wires-board-name-jukebox = Музыкальная шкатулка
+wires-board-name-flatpacker = Упаковщик плоских изделий
+wires-board-name-crusher = Дробилка
+wires-board-name-condenser = Конденсатор
+wires-board-name-computer = Компьютер
+wire-name-speech = СПКР
+wire-name-pa-strength = СИЛА
+wire-name-pa-power = ПИТН
+wire-name-pa-limiter = ЛИМТ
+wire-name-pa-keyboard = КЛАВ
+wire-name-log = ЛОГ
+wire-name-listen = МИК
