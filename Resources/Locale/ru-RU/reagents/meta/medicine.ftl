@@ -150,7 +150,3 @@ reagent-desc-haloperidol = Выводит из организма большин
 
 reagent-name-potassium-iodide = иодид калия
 reagent-desc-potassium-iodide = Снижает разрушительное воздействие радиации на 90%. Используется только в профилактических целях.
-
-reagent-name-opporozidone = оппорозидон
-reagent-desc-opporozidone = Трудно синтезируемый криогенный препарат, используемый для регенерации гниющих тканей и мозгового вещества.
-
