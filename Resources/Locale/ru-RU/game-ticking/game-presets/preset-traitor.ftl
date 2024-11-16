@@ -42,4 +42,4 @@ traitor-role-codewords-short =
     Кодовые слова:
     {$codewords}.
 traitor-role-uplink-code-short = Ваш код от аплинка: {$code}.
-traitor-role-uplink-implant-short = Your uplink was implanted. Access it from your hotbar.
+traitor-role-uplink-implant-short = Ваш аплинк был имплантирован. Зайдите на него с хотбара.
