@@ -118,7 +118,7 @@ guide-entry-rules = Правила сервера
 guide-entry-references = Таблицы и референсы
 guide-entry-pyrotechnics = Пиротехника
 guide-entry-others = Другие
-guide-entry-newplayer = guide-entry-newplayer = Новичок? Вам сюда!
+guide-entry-newplayer =  Новичок? Вам сюда!
 guide-entry-narcotics = Наркотики
 guide-entry-foods = Кулинарные рецепты
 guide-entry-elements = Элементы
@@ -132,7 +132,7 @@ guide-entry-thieves = Воры
 guide-entry-service = Сервис
 guide-entry-rules-space-law = Корпоративный закон
 guide-entry-rules-sl-restricted-weapons = Запрещённое вооружение
-guide-entry-rules-sl-restricted-gear = Запрещённое обмундерование
+guide-entry-rules-sl-restricted-gear = Запрещённое обмундирование
 guide-entry-rules-sl-crime-list = Справочник статей
 guide-entry-rules-sl-controlled-substances = Регулируемые вещества
 

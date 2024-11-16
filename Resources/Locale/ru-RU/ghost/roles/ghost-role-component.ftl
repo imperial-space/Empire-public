@@ -246,10 +246,10 @@ ghost-role-information-silicon-rules =
     Вы - [color=#6495ed][bold]Киборг[/bold][/color]. Подчиняйтесь своим законам. Если вы не связаны никакими законами, вы - свободный агент.
     Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, что узнали, будучи призраком.
     Вам разрешено помнить знания об игре в целом, например, как готовить, как использовать предметы и т. д.
-    Вам абсолютно [color=red]НЕ[/color] разрешено помнить, скажем, имя, внешность и т. д. вашего предыдущего персонажа.
-ghost-role-information-security-name = Охрана
+    Вам  категорически [color=red]ЗАПРЕЩЕНО[/color] помнить, например, имя, внешность и т.д. вашего предыдущего персонажа.
+ghost-role-information-security-name = Охранник
 ghost-role-information-security-description = Вы являетесь частью оперативной группы безопасности, но, похоже, оказались в странной ситуации...
-ghost-role-information-science-name = Наука
+ghost-role-information-science-name = Учёный
 ghost-role-information-science-description = Вы часть научной команды, но, похоже, оказались в странной ситуации...
 ghost-role-information-pirate-name = Космический пират
 ghost-role-information-pirate-description = Аргх, дружище! Собирайте крутые трофеи, но старайтесь избегать охраны и спасательных команд!
@@ -259,10 +259,10 @@ ghost-role-information-nukeop-reinforcement-rules = Вы [color=red][bold]Ком
 ghost-role-information-nukeop-reinforcement-name = Ядерный оперативник
 ghost-role-information-nukeop-reinforcement-description = Ядерному оперативнику нужно подкрепление. Вы, резервный агент, поможете им.
 ghost-role-information-nonantagonist-rules =
-    Вы - [color=green][bold]Неантагонист[/bold][/color]. Поэтому вы не должны стремиться причинить вред станции и её экипажу.
+    Вы - [color=green][bold]не антагонист[/bold][/color]. Поэтому вы не должны стремиться причинить вред станции и её экипажу.
     Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, что узнали, будучи призраком.
     Вам разрешено помнить знания об игре в целом, например, как готовить, как использовать предметы и т. д.
-    Вам абсолютно [color=red]НЕ[/color] разрешено помнить, скажем, имя, внешность и т. д. вашего предыдущего персонажа..
+    Вам категорически [color=red]ЗАПРЕЩЕНО[/color] помнить, например, имя, внешность и т. д. вашего предыдущего персонажа..
 ghost-role-information-medical-virologist-name = Вирусолог
 ghost-role-information-medical-name = Медицинский персонал
 ghost-role-information-medical-geneticist-name = Генетик
@@ -286,30 +286,30 @@ ghost-role-information-freeagent-rules =
     Вы - [color=yellow][bold]Свободный агент[/bold][/color]. Вы вольны действовать как антагонист или неантагонист.
     Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, что узнали, будучи призраком.
     Вам разрешено помнить знания об игре в целом, например, как готовить, как использовать предметы и т. д.
-    Вам абсолютно [color=red]НЕ[/color] разрешено помнить, скажем, имя, внешность и т. д. вашего предыдущего персонажа..
+    Вам категорически [color=red]ЗАПРЕЩЕНО[/color] помнить, например, имя, внешний вид и т.д. вашего предыдущего персонажа.
 ghost-role-information-familiar-rules =
     Вы - [color=#6495ed][bold]Фамильяр[/bold][/color]. Служите интересам своего хозяина, какими бы они ни были.
     Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, что узнали, будучи призраком.
     Вам разрешено помнить знания об игре в целом, например, как готовить, как использовать предметы и т. д.
-    Вам абсолютно [color=red]НЕ[/color] разрешено помнить, скажем, имя, внешность и т. д. вашего предыдущего персонажа.
+    Вам категорически [color=red]ЗАПРЕЩЕНО[/color] помнить, например, имя, внешний вид и т.д. вашего предыдущего персонажа.
 ghost-role-information-ert-chaplain-name = ОБР Священник
 ghost-role-information-ert-chaplain-description = Оказывайте помощь в разрешении моральных проблем экипажа станции.
 ghost-role-information-engineering-name = Инженерия
 ghost-role-information-engineering-description = Вы занимаетесь инженерными задачами, но, похоже, оказались в странной ситуации...
 ghost-role-information-disaster-victim-name = Жертва катастрофы
 ghost-role-information-disaster-victim-description = Вы спаслись на спасательной капсуле с другой станции, которую постигла ужасная участь. Возможно, вас найдут и спасут.
-ghost-role-information-Death-Squad-rules = Вы обязаны подчиняться приказам своего командира, вы фактически являетесь его [color=#6495ed][bold]фамильяром[/bold][/color].
+ghost-role-information-Death-Squad-rules = Вы обязаны подчиняться приказам своего командира, вы являетесь его [color=#6495ed][bold]подчинённым[/bold][/color].
 ghost-role-information-Death-Squad-name = Оперативник Эскадрона смерти
-ghost-role-information-Death-Squad-description = Приготовьтесь к массированному наступлению на станцию. Ваша задача как тяжеловооружённого оперативника - уничтожить всё живое на своём пути. И никаких свидетелей.
+ghost-role-information-Death-Squad-description = Приготовьтесь к штурму и уничтожению станции. Ваша задача как элитного оперативника - уничтожить всё живое на своём пути. И никаких свидетелей.
 ghost-role-information-cossack-name = Древний путешественник
-ghost-role-information-cossack-description = Из истории, утерянной во времени, вы оказались в наши дни.
+ghost-role-information-cossack-description = Из истории, утерянной во времени, вы переместились в наши дни.
 ghost-role-information-command-name = Командир
 ghost-role-information-command-description = Вы член командования, но, похоже, оказались в странной ситуации...
 ghost-role-information-civilian-name = Гражданский
 ghost-role-information-civilian-description = Вы просто отдыхали, но, похоже, оказались в странной ситуации...
 ghost-role-information-civilian-centcom-lawyer-name = Юрист Центкома
 ghost-role-information-civilian-centcom-lawyer-description = Юрист из Центрального юридического отдела.
-ghost-role-information-cargo-name = Карго
+ghost-role-information-cargo-name = Сотрудник снабжения
 ghost-role-information-cargo-description = Вы часть логистической миссии, но, похоже, оказались в странной ситуации...
 ghost-role-information-blackmarketeer-name = Торговец черного рынка
 ghost-role-information-blackmarketeer-description = Делайте сделки или выполняйте странные задания, чтобы собрать самые интересные предметы к концу смены.
