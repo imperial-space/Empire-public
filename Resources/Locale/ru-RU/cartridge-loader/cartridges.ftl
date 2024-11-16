@@ -35,7 +35,7 @@ wanted-list-species-label = [color=darkgray]Вид:[/color] [color=white]{$speci
 wanted-list-search-placeholder = Поиск по имени и статусу
 wanted-list-reason-label = [color=darkgray]Причина:[/color] [color=white]{$reason}[/color]
 wanted-list-program-name = Объявлен в розыск
-wanted-list-label-no-records = Все в порядке, ковбой
+wanted-list-label-no-records = Всё в порядке, ковбой
 wanted-list-job-label = [color=darkgray]Работа:[/color] [color=white]{$job}[/color]
 wanted-list-initiator-label = [color=darkgray]Инициатор:[/color] [color=white]{$initiator}[/color]
 wanted-list-history-table-time-col = Время
