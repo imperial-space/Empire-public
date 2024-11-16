@@ -1,6 +1,6 @@
 ﻿advertisement-bruiseomat-1 = Я ГОЛОСУЮ ЗА БОЕВЫЕ ОПЕРАЦИИ!!!
 advertisement-bruiseomat-2 = У кого ТК?
-advertisement-bruiseomat-3 = Кто-нибудь купил ЭМАГ?
+advertisement-bruiseomat-3 = Кто-нибудь купил ЕМАГ?
 advertisement-bruiseomat-4 = Хочу обратно на свою станцию...
 advertisement-bruiseomat-5 = Осторожнее с Мимом и Клоуном. ОСТОРОЖНЕЕ!
 advertisement-bruiseomat-6 = Одна ядерная бомба в день — и отряд смерти не появится!
