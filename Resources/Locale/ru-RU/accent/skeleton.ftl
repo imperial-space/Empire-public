@@ -1,4 +1,4 @@
-accent-skeleton-words-1 = пошёл нахуй
+accent-skeleton-words-1 = пошел нахуй
 accent-skeleton-words-replace-1 = У меня есть КОСТОЧКА для тебя
 accent-skeleton-words-2 = проебался
 accent-skeleton-words-replace-2 = раскостился
