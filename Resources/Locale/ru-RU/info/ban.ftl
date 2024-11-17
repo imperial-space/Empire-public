@@ -84,4 +84,4 @@ server-ban-string-no-pii = {$admin} инициировал {$severity} серь�
 server-ban-string-never = Никогда
 cmd-ban-hint-severity = [Серьезность]
 
-ban-kick-reason = Вы были забанены
+ban-kick-reason = Вы были отстранены от игры
