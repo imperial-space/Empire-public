@@ -22,6 +22,6 @@ vv-sound-pitch = Высота тона
 vv-sound-max-distance = Максимальное расстояние
 vv-sound-rolloff-factor = Коэффициент свертывания
 vv-sound-reference-distance = Базовое расстояние
-vv-sound-loop = Loop
+vv-sound-loop =Зациклить
 vv-sound-play-offset = Смещение воспроизведения
 vv-sound-variation = Изменение высоты тона
