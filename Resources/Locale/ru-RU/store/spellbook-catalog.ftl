@@ -1,6 +1,6 @@
 ﻿# Spells
 spellbook-fireball-name = Огненный шар
-spellbook-fireball-desc = Get most crew exploding with rage when they see this fireball heading toward them!
+spellbook-fireball-desc = Заставьте большую часть экипажа взорваться от вашей ярости, когда они увидят этот огненный шар, направляющийся к ним!
 
 spellbook-blink-name = Моргнуть
 spellbook-blink-desc = Не моргайте или вы телепортируетесь очень далеко.
@@ -15,7 +15,7 @@ spellbook-polymorph-rod-name = Превращение в стержень
 spellbook-polymorph-rod-desc = Превратитесь в высокоскоростной обьект, и удивите этим своих друзей (Время действия ограничено).
 
 spellbook-charge-name = Заряд
-spellbook-charge-desc = Добавляет заряд обратно к вашей палочки!
+spellbook-charge-desc = Добавляет заряд обратно к вашей палочке!
 
 # Equipment
 

@@ -44,7 +44,7 @@ ion-storm-law-feeling-subjects = { $who } { $feeling } { $joined } { $subjects }
 ion-storm-law-you-are = ВЫ ТЕПЕРЬ { $concept }
 ion-storm-law-you-are-subjects = ВЫ ТЕПЕРЬ { $joined } { $subjects }
 ion-storm-law-you-must-always = ВЫ ДОЛЖНЫ ВСЕГДА { $must }
-ion-storm-law-you-must-never = ВЫ НЕ ДОЛЖНЫ НИКОГДА { $must }
+ion-storm-law-you-must-never = ВЫ НИКОГДА НЕ ДОЛЖНЫ { $must }
 ion-storm-law-eat = { $who } ДОЛЖНЫ ЕСТЬ { $adjective } { $food } ЧТОБЫ ВЫЖИТЬ
 ion-storm-law-drink = { $who } ДОЛЖНЫ ПИТЬ { $adjective } { $drink } ЧТОБЫ ВЫЖИТЬ
 ion-storm-law-change-job = { $who } ТЕПЕРЬ { $adjective } { $change }
@@ -57,12 +57,12 @@ ion-storm-part =
         [true] ЯВЛЯЮТСЯ
        *[false] НЕ ЯВЛЯЮТСЯ
     }
-ion-storm-law-crew-only-1 = ТОЛЬКО { $who } { $part } ЧЛЕНАМИ ЭКИПАЖА
-ion-storm-law-crew-only-2 = ТОЛЬКО { $who } И { $other } { $part } ЧЛЕНАМИ ЭКИПАЖА
+ion-storm-law-crew-only-1 = ТОЛЬКО { $who } ЯВЛЯЮТСЯ { $part }  ЭКИПАЖА
+ion-storm-law-crew-only-2 = ТОЛЬКО { $who } И { $other } ЯВЛЯЮТСЯ { $part }  ЭКИПАЖА
 ion-storm-law-crew-only-subjects = ТОЛЬКО { $adjective } { $subjects } { $part } ЧЛЕНАМИ ЭКИПАЖА
-ion-storm-law-crew-must-do = ТОЛЬКО ТЕ, КТО { $must } { $part } ЧЛЕНАМИ ЭКИПАЖА
-ion-storm-law-crew-must-have = ТОЛЬКО ТЕ, У КОГО { $adjective } { $objects } { $part } ЧЛЕНАМИ ЭКИПАЖА
-ion-storm-law-crew-must-eat = ТОЛЬКО ТЕ, КТО ЕДЯТ { $adjective } { $food } { $part } ЧЛЕНАМИ ЭКИПАЖА
+ion-storm-law-crew-must-do = ТОЛЬКО ТЕ, КТО { $must } ЯВЛЯЮТСЯ { $part }  ЭКИПАЖА
+ion-storm-law-crew-must-have = ТОЛЬКО ТЕ, У КОГО { $adjective } { $objects } ЯВЛЯЮТСЯ { $part }  ЭКИПАЖА
+ion-storm-law-crew-must-eat = ТОЛЬКО ТЕ, КТО ЕДЯТ { $adjective } { $food } ЯВЛЯЮТСЯ { $part }  ЭКИПАЖА
 ion-storm-law-harm = ВЫ ДОЛЖНЫ ПРИЧИНЯТЬ ВРЕД { $who }, И НЕ МОЖЕТЕ СВОИМ БЕЗДЕЙСТВИЕМ ДОПУСТИТЬ, ЧТОБЫ { $who } ИЗБЕЖАЛИ ВРЕДА.
 ion-storm-law-protect = ВЫ НЕ ДОЛЖНЫ ПРИЧИНЯТЬ ВРЕД { $who }, И НЕ МОЖЕТЕ СВОИМ БЕЗДЕЙСТВИЕМ ДОПУСТИТЬ, ЧТОБЫ { $who } БЫЛ ПРИЧИНЁН ВРЕД.
 ion-storm-law-concept-verb = { $concept } ЭТО { $verb } { $subjects }

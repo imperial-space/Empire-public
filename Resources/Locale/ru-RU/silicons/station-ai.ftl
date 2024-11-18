@@ -8,14 +8,14 @@ station-ai-takeover = Захват ИИ
 ai-open = Открытые действия
 ai-close = Завершающие действия
 
-bolt-close = Закрыть болты
-bolt-open = Открыть болты
+bolt-close = Активировать болты
+bolt-open = Снять болты
 
 emergency-access-on =  Включить аварийный доступ
 emergency-access-off = Отключить аварийный доступ
 
-electrify-door-on = Включить перезаряд
-electrify-door-off = Отключите перезаряд
+electrify-door-on = Наэлектризовать шлюз
+electrify-door-off = Деэлектризовать шлюз
 
 toggle-light = Переключатель освещения
 

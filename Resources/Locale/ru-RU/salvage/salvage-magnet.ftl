@@ -74,7 +74,7 @@ salvage-map-proto-EngineeringChunk = Кусок инженерного отсе�
 salvage-map-proto-OutpostArm = Рукав захваченного аванпоста
 
 salvage-map-proto-Small-ship-1 = Маленький корабль
-salvage-map-wreck = Спасательный обломок
+salvage-map-wreck = Обломок спасательной капсулы
 salvage-map-wreck-desc-size = Размер:
 salvage-map-wreck-size-small = [color=lime]Маленький[/color]
 salvage-map-wreck-size-medium = [color=cornflowerblue]Средний[/color]

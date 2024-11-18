@@ -272,5 +272,5 @@ reagent-desc-painkiller = Лекарство от всех бед.
 reagent-desc-irish-bool = Непереводимая математическая шутка про булеан. Посмейтесь.
 reagent-desc-cosmopolitan = Даже в худшей ситуации ничто не сравнится со бокалом свежего космополитена.
 reagent-desc-coconut-rum = Ром с кокосом для тропического настроения.
-reagent-desc-budget-insuls = Любимый напиток тайдера.
+reagent-desc-budget-insuls = Любимый напиток грейтайда.
 reagent-desc-blue-hawaiian = Алоха! Это значит "привет" или "пока"?
