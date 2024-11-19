@@ -6,3 +6,6 @@ guidebook-filter-placeholder-text = Фильтр предметов
 
 guidebook-monkey-unspin = Отперевернуть обезьяну
 guidebook-monkey-disco = Диско обезьяна
+
+guidebook-parser-error = Ошибка парсера
+guidebook-error-message = Сообщение об ошибке

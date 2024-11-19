@@ -78,3 +78,12 @@ signal-port-description-logic-input-b = Второй вход логическо
 
 signal-port-name-logic-input = Вход
 signal-port-description-logic-input = Вход для детектора фронта, не может быть импульсным сигналом.
+
+signal-port-name-timer = Таймер
+signal-port-name-set-particle-sigma = Выбрать тип частиц: сигма
+
+signal-port-name-logic-enable = Включить
+signal-port-description-logic-enable = Загружает сигнал ввода в ячейку памяти только при HIGH.
+signal-port-description-timer = Запускает отсчёт таймера на устройстве.
+signal-port-description-logic-memory-input = Сигнал для загрузки в ячейку памяти, когда включено.
+

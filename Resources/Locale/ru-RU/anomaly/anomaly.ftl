@@ -69,3 +69,32 @@ anomaly-generator-announcement = Аномалия была создана!
 # Flavor text on the footer
 anomaly-generator-flavor-left = Аномалия может появиться внутри оператора
 anomaly-generator-flavor-right = v1.1
+anomaly-behavior-unknown = [color=red]ОШИБКА. Невозможно считать.[/color]
+anomaly-behavior-title = Анализ отклонений поведения:
+anomaly-behavior-point = [color=gold]Аномалия генерирует { $mod }% очков[/color]
+anomaly-behavior-safe = [color=forestgreen]Аномалия чрезвычайно стабильна. Крайне редкие импульсы.[/color]
+anomaly-behavior-slow = [color=forestgreen]Частота импульсов значительно снижена.[/color]
+anomaly-behavior-light = [color=forestgreen]Мощность импульсов значительно снижена.[/color]
+anomaly-behavior-balanced = Отклонения поведения не обнаружены.
+anomaly-behavior-delayed-force = Частота пульсаций значительно снижена, но их сила повышена.
+anomaly-behavior-rapid = Частота пульсаций значительно повышена, но их сила снижена.
+anomaly-behavior-reflect = Обнаружено защитное покрытие.
+anomaly-behavior-nonsensivity = Обнаружена слабая реакция на частицы.
+anomaly-behavior-sensivity = Обнаружена сильная реакция на частицы.
+anomaly-behavior-invisibility = Обнаружено искажение светового потока.
+anomaly-behavior-secret = Обнаружены помехи. Некоторые данные не могут быть считаны
+anomaly-behavior-inconstancy = [color=crimson]Обнаружено непостоянство. Со временем типы частиц могут поменяться.[/color]
+anomaly-behavior-fast = [color=crimson]Частота импульсов значительно повышена.[/color]
+anomaly-behavior-strenght = [color=crimson]Мощность импульсов значительно повышена.[/color]
+anomaly-behavior-moving = [color=crimson]Обнаружена координатная нестабильность.[/color]
+anomaly-command-pulse = Вызывает импульс аномалии
+anomaly-command-supercritical = Целевая аномалия переходит в суперкритическое состояние
+anomaly-particles-sigma = Сигма-частицы
+anomaly-scanner-stability-unknown = Текущее состояние аномалии: [color=red]ОШИБКА[/color]
+anomaly-scanner-severity-percentage-unknown = Текущая опасность: [color=red]ОШИБКА[/color]
+anomaly-scanner-point-output-unknown = Пассивная генерация очков: [color=red]ОШИБКА[/color]
+anomaly-scanner-particle-unstable-unknown = - [color=plum]Нестабильный тип:[/color] [color=red]ОШИБКА[/color]
+anomaly-scanner-particle-transformation-unknown = - [color=#6b75fa]Трансформирующий тип:[/color] [color=red]ОШИБКА[/color]
+anomaly-scanner-particle-transformation = - [color=#6b75fa]Трансформирующий тип:[/color] { $type }
+anomaly-scanner-particle-danger-unknown = - [color=crimson]Опасный тип:[/color] [color=red]ОШИБКА[/color]
+anomaly-scanner-particle-containment-unknown = - [color=goldenrod]Сдерживающий тип:[/color] [color=red]ОШИБКА[/color]

@@ -18,3 +18,4 @@ stamp-component-stamped-name-trader = Торговец
 stamp-component-stamped-name-syndicate = Синдикат
 stamp-component-stamped-name-ce = Старший Инженер
 stamp-component-stamped-name-coroner = Патологоанатом
+stamp-component-stamped-name-greytide = Грейтайд

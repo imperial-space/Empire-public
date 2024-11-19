@@ -21,3 +21,6 @@ reagent-desc-ammonia = Эффективное удобрение, которое
 
 reagent-name-diethylamine = диэтиламин
 reagent-desc-diethylamine = Очень сильное удобрение.
+
+reagent-name-sedin = седин
+reagent-desc-sedin = Модифицированная версия диэтилового аммиака, которая может восстанавливать семена на растениях за счет силы действия.

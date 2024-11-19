@@ -8,3 +8,9 @@ ui-actionmenu-clear-button = Очистить
 
 ui-actionsui-function-lock-action-slots = (Раз)блокировать перетаскивания и очистка слотов действия
 ui-actionsui-function-open-abilities-menu = Открыть меню действий
+
+ui-actionmenu-enabled = Включенный
+ui-actionmenu-item = Предмет
+ui-actionmenu-innate = Изначальный
+ui-actionmenu-instant = Моментальный
+ui-actionmenu-targeted = Цель

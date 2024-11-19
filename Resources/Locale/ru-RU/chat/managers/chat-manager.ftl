@@ -151,3 +151,4 @@ chat-speech-verb-name-electricity = Электричество
 chat-speech-verb-electricity-1 = трещит
 chat-speech-verb-electricity-2 = гудит
 chat-speech-verb-electricity-3 = скрипит
+chat-manager-sender-announcement = Центральное командование

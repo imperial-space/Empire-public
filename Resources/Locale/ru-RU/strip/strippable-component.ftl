@@ -20,3 +20,4 @@ strip-verb-get-data-text = Обыскать
 
 strippable-bound-user-interface-stripping-menu-title = Инвентарь { $ownerName }
 strippable-bound-user-interface-stripping-menu-ensnare-button = Ограничители ног
+strippable-component-alert-owner-insert-hand = { $user } вкладывает { $item } в вашу руку!

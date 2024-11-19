@@ -18,3 +18,4 @@ chat-radio-syndicate = Синдикат
 # not headset but whatever
 chat-radio-handheld = Рация
 chat-radio-binary = Двоичный
+chat-radio-freelance = Внештатный

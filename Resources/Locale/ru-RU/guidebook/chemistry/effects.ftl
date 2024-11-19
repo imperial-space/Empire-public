@@ -325,3 +325,58 @@ reagent-effect-condition-guidebook-total-hunger =
                *[other] цель имеет между  { NATURALFIXED($min, 2) } и { NATURALFIXED($max, 2) } общего голода
             }
     }
+reagent-effect-guidebook-smoke-area-reaction-effect =
+    { $chance ->
+        [1] Создаёт
+       *[other] создают
+    } большое количество дыма
+reagent-effect-guidebook-plant-seeds-remove =
+    { $chance ->
+        [1] Removes the
+       *[other] remove the
+    } seeds of the plant
+reagent-effect-guidebook-plant-seeds-add =
+    { $chance ->
+        [1] Restores the
+       *[other] restore the
+    } seeds of the plant
+reagent-effect-guidebook-plant-robust-harvest =
+    { $chance ->
+        [1] Повышает
+       *[other] повышают
+    } потенцию растения путём { $increase } до максимума в { $limit }. Приводит к тому, что растение теряет свои семена, когда потенция достигает { $seedlesstreshold }. Попытка повысить потенцию свыше { $limit } может вызвать снижение урожайности с вероятностью 10%.
+reagent-effect-guidebook-plant-phalanximine =
+    { $chance ->
+        [1] Восстанавливает
+       *[other] восстанавливают
+    } жизнеспособность растения, ставшего нежизнеспособным в результате мутации
+reagent-effect-guidebook-plant-diethylamine =
+    { $chance ->
+        [1] Повышает
+       *[other] повышают
+    } продолжительность жизни растения и/или его базовое здоровье с шансом 10% на единицу.
+reagent-effect-guidebook-plant-cryoxadone =
+    { $chance ->
+        [1] Омолаживает
+       *[other] омолаживают
+    } растение, в зависимости от возраста растения и времени его роста
+reagent-effect-guidebook-plant-attribute =
+    { $chance ->
+        [1] Изменяет
+       *[other] изменяют
+    } { $attribute } за [color={ $colorName }]{ $amount }[/color]
+reagent-effect-guidebook-flash-reaction-effect =
+    { $chance ->
+        [1] Вызывает
+        *[other] Вызывает
+    } ослепляющая вспышка
+reagent-effect-guidebook-area-reaction =
+    { $chance ->
+        [1] Вызывает
+       *[other] вызывают
+    } дымовую или пенную реакцию на { NATURALFIXED($duration, 3) } { MANY("second", $duration) }
+reagent-effect-guidebook-add-to-solution-reaction =
+    { $chance ->
+        [1] Заставляет
+       *[other] заставляют
+    } химикаты, применённые к объекту, добавиться во внутренний контейнер для растворов этого объекта

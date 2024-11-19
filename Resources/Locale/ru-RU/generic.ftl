@@ -14,3 +14,4 @@ generic-hours = часы
 generic-playtime-title = Время игры
 
 generic-confirm = Подтвердить
+generic-minutes = минуты

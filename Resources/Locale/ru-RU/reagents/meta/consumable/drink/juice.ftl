@@ -36,3 +36,12 @@ reagent-desc-juice-tomato = Томаты превращенные в сок. К�
 
 reagent-name-juice-watermelon = арбузный сок
 reagent-desc-juice-watermelon = Вкусный сок арбуза.
+
+reagent-name-juice-cherry = вишневый сок
+reagent-desc-juice-cherry = Вкусный вишневый сок, сладкий и с кислинкой.
+
+reagent-name-juice-bungo = сок из бунго
+reagent-desc-juice-bungo = Сок из плода бунго. Экзотично!
+
+reagent-name-juice-blue-pumpkin = сок из синей тыквы
+reagent-desc-juice-blue-pumpkin = Сок из синей тыквы. Пахнет как вода из бассейна.

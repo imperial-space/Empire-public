@@ -24,3 +24,5 @@ fax-machine-ui-paper-not-inserted = Нет бумаги
 fax-machine-chat-notify = Получено новое сообщение с "{$fax}" факса
 
 fax-machine-printed-paper-name = напечатать бумагу
+fax-machine-popup-error = ОШИБКА - неисправность в лотке для бумаги
+fax-machine-popup-copy-error = ОШИБКА - не удалось скопировать!

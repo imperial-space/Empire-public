@@ -27,3 +27,7 @@ hud-chatbox-channel-Server = Сервер
 hud-chatbox-channel-Visual = Визуальный
 hud-chatbox-channel-Damage = Повреждения
 hud-chatbox-channel-Unspecified = Неопределённый
+hud-chatbox-info-unbound = Нажмите здесь чтобы говорить.
+hud-chatbox-info-talk = { $talk-key } чтобы говорить.
+hud-chatbox-info-cycle = Нажмите здесь чтобы говорить, { $cycle-key } для переключения каналов.
+hud-chatbox-channel-Notifications = Уведомления

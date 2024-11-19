@@ -8,6 +8,7 @@ cmd-roleban-hint-1 = <name or user ID>
 cmd-roleban-hint-2 = <job>
 cmd-roleban-hint-3 = <reason>
 cmd-roleban-hint-4 = [продолжительность в минутах, не указывать или 0 для навсегда]
+cmd-roleban-hint-5 = [severity]
 
 cmd-roleban-hint-duration-1 = Навсегда
 cmd-roleban-hint-duration-2 = 1 день
@@ -49,3 +50,4 @@ cmd-roleban-until = до { $expires }
 # Department bans
 cmd-departmentban-desc = Запрещает пользователю играть на ролях, входящих в отдел
 cmd-departmentban-help = Использование: departmentban <name or user ID> <department> <reason> [продолжительность в минутах, не указывать или 0 для навсегда]
+cmd-roleban-severity-parse = ${ severity } является недопустимым уровнем строгости\n{ $help }.

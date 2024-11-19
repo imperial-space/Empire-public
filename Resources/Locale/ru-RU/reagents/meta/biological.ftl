@@ -30,3 +30,6 @@ reagent-desc-ammonia-blood = Ничто во всей галактике не п
 
 reagent-name-hemocyanin-blood = голубая кровь
 reagent-desc-hemocyanin-blood = Содержит медь, а не железо, что придает ему отчетливый синий цвет.
+
+reagent-name-sap = древесный сок
+reagent-desc-sap = Липкая, сладкая кровь деревьев.

@@ -105,3 +105,6 @@ marking-GauzeRighteyeTape = Марлевая подушечка для глаз�
 
 marking-GauzeLefteyeTape-gauze_lefteye_1 = Марлевая подушечка для глаз (слева)
 marking-GauzeLefteyeTape = Марлевая подушечка для глаз (слева)
+
+marking-GauzeHead-gauze_head = Бинт, Повязка на голову
+marking-GauzeHead = Бинт, Повязка на голову

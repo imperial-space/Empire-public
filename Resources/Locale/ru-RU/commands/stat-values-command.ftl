@@ -13,3 +13,13 @@ stat-lathe-values = Стоимость печати в лате
 stat-lathe-id = ID
 stat-lathe-cost = Стоимость
 stat-lathe-sell = Цена продажи
+
+# Item Sizes
+stat-item-values = Размеры предметов
+stat-item-id = ID
+stat-item-price = Размер
+
+# Draw Rate
+stat-drawrate-values = Уровень потребления ЛКП
+stat-drawrate-id = ID
+stat-drawrate-rate = Уровень потребления (Вт)

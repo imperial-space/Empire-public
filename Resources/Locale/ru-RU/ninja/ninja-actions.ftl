@@ -29,3 +29,8 @@ ninja-no-power = Батарея костюма недостаточно заря
 
 ninja-research-steal-fail = Ни одной новой технологий не было украдено...
 ninja-research-steal-success = Украл {$count} новых технологий с {$server}.
+ninja-suit-cooldown = Костюму нужно время, чтобы восстановиться после последней атаки.
+ninja-revealed = Вас раскрыли!
+ninja-criminal-records-hack-announcement = ОШИБКА: В криминальных записях обнаружена [УДАЛЕНО] ошибка #*;"
+ninja-cell-too-large = Этот источник энергии не помещается в костюм ниндзя!
+ninja-cell-downgrade = Костюм примет только тот новый элемент питания, который лучше нынешнего!

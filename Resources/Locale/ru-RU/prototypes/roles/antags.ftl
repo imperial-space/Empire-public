@@ -33,3 +33,9 @@ roles-antag-thief-objective = Добавьте немного собственн
 
 roles-antag-terminator-name = Истребитель
 roles-antag-terminator-objective = Убейте цель любой ценой, от этого зависит будущее.
+
+roles-antag-syndicate-agent-sleeper-name = Спящий агент Синдиката
+roles-antag-syndicate-agent-sleeper-objective = Разновидность агента Синдиката, который может активироваться и начать действие в любой момент смены.
+
+roles-antag-dragon-name = Космический дракон
+roles-antag-dragon-objective = Создайте армию карпов для захвата сектора.

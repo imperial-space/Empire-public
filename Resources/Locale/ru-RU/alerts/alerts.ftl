@@ -95,3 +95,13 @@ alerts-battery-desc = Если батарея разрядится, вы не с
 
 alerts-no-battery-name = Нет батареи
 alerts-no-battery-desc = У вас нет батареи, в результате чего вы не можете заряжаться или использовать свои способности.
+alerts-revenant-essence-name = Эссенция
+alerts-revenant-essence-desc = Сила душ. Поддерживает вас и используется для активации способностей. Медленно восстанавливается с течением времени.
+alerts-revenant-corporeal-name = Материальность
+alerts-revenant-corporeal-desc = Вы физически воплотились. Окружающие видят вас и могут нанести вред.
+alerts-magboots-name = Магнитные ботинки
+alerts-magboots-desc = Вы невосприимчивы к потокам ветра, но двигаетесь немного медленнее.
+alerts-low-nitrogen-name = [color=red]Низкий уровень азота[/color]
+alerts-low-nitrogen-desc = В воздухе, которым вы дышите, [color=red]недостаточно азота[/color]. Используйте [color=green]дыхательную маску и баллон[/color].
+alerts-adrenaline-name = [color=red]Адреналин[/color]
+alerts-adrenaline-desc = Вы полны адреналина: боль больше вас не замедляет.

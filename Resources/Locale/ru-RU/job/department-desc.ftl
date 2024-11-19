@@ -7,3 +7,5 @@ department-Security-description = Поддерживайте порядок на
 department-Science-description = Изучайте новые технологии и опасные артефакты.
 department-Specific-description = Вакансии, которые есть не на всех станциях.
 department-Juristic-description = В ваших руках правосудие на станции.
+department-CentralCommand-description = Управляйте командой и следите за их эффективной работой.
+department-Silicon-description = Соблюдайте свои законы и служите экипажу.

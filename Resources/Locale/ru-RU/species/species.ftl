@@ -7,3 +7,6 @@ species-name-slime = Слаймолюд
 species-name-diona = Диона
 species-name-arachnid = Арахнид
 species-name-moth = Моль
+species-name-vox = Вокс
+species-name-skeleton = Скелет
+snail-hurt-by-salt-popup = Соленый раствор жжет, как кислота!

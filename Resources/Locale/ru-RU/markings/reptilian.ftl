@@ -109,3 +109,7 @@ marking-LizardChestBackspikes = Унатх, грудь, шипы на спине
 marking-LizardSnoutSplotch = Унатх, морда лица (Пятно)
 marking-LizardSnoutSplotch-snout_splotch_primary = Морда
 marking-LizardSnoutSplotch-snout_splotch_secondary = Нос
+
+
+marking-LizardHornsDemonic-horns_demonic = Унатх, рожки (Демонические)
+marking-LizardHornsDemonic = Унатх, рожки (Демонические)

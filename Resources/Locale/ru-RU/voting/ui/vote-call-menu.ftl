@@ -21,3 +21,14 @@ ui-vote-fluff = На основе Robust™ Технология защиты о
 
 ui-vote-menu-command-description = Открывает меню голосования
 ui-vote-menu-command-help-text = Использование: votemenu
+ui-vote-votekick-type-spamming = Рассылка спама
+ui-vote-votekick-type-raiding = Совершение набегов
+ui-vote-votekick-type-cheating = Мошенничество
+ui-vote-type-votekick = Кикнуть
+ui-vote-trusted-users-notice =
+  возможность проголосовать за него доступна только игрокам, внесенным в белый список. { $timeReq } минут.
+ui-vote-follow-button = Следить за пользователем
+ui-vote-abuse-warning =
+  Предупреждение!
+  Злоупотребление системой Кикнуть может привести к бессрочной блокировке!
+
