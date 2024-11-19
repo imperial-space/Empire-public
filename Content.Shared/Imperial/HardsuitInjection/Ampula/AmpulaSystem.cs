@@ -43,7 +43,7 @@ public sealed partial class AmpulaSystem : EntitySystem
         if (!itemslot.InsertOnInteract)
             return;
 
-        if (!sys.CanInsert(slot.Value, args.Used, args.User, itemslot, swap: itemslot.Swap, popup: args.User))
+        if (!sys.CanInsert(slot.Value, args.Used, args.User, itemslot, swap: itemslot.Swap))
             return;
 
         // Drop the held item onto the floor. Return if the user cannot drop.
