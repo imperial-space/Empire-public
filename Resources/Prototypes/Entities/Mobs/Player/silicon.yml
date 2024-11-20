@@ -496,6 +496,9 @@
       cell_slot:
         name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellHyper
+  - type: Mimicry ## Imperial Space Маскировка под обычного борга
+  - type: PointLight
+    color: "#FFFFFFFF"
 
 - type: entity
   id: PlayerBorgSyndicateSaboteurGhostRole

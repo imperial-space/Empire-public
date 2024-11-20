@@ -118,7 +118,7 @@
   defaultModules:
   - BorgModuleLightReplacer
 #  - BorgModuleCleaning
-  - BorgModuleAdvancedCleaning # Ребаланс боргов под Imperial Space
+  - BorgModuleAdvancedCleaning # Ребаланс боргов под Imperial Space. Добавлена новая швабра
 
   radioChannels:
   - Science

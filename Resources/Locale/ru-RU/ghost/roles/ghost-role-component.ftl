@@ -233,6 +233,8 @@ ghost-role-information-syndicate-kobold-reinforcement-rules = Вы [color=red][b
 ghost-role-information-syndicate-kobold-reinforcement-name = Агент Синдиката-кобольд
 ghost-role-information-syndicate-cyborg-description = Синдикату нужны подкрепления. Вы, холодная металическая машина для убийств, поможете им.
 ghost-role-information-syndicate-cyborg-assault-name = Киборг-штурмовик Синдиката
+ghost-role-information-syndicate-cyborg-medical-name = Киборг-медик Синдиката
+ghost-role-information-syndicate-medical-description = Синдикату нужно подкрепление. Вы - самая передавая медицинская модель Синдиката. Окажите поддержку им.
 ghost-role-information-space-dragon-summoned-carp-rules = Вы [color=red][bold]Командный антагонист[/bold][/color], в команде с драконом и другими его союзниками.
 ghost-role-information-space-dragon-rules = Вы [color=red][bold]Командный антагонист[/bold][/color], в команде с другими призванными карпами
 ghost-role-information-space-dragon-dungeon-rules = Вы [color=red][bold]Командный антагонист[/bold][/color], в команде с другими обитателями подземелья.
