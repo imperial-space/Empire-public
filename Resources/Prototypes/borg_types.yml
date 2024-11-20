@@ -117,7 +117,8 @@
 
   defaultModules:
   - BorgModuleLightReplacer
-  - BorgModuleCleaning
+#  - BorgModuleCleaning
+  - BorgModuleAdvancedCleaning # Ребаланс боргов под Imperial Space
 
   radioChannels:
   - Science
@@ -152,6 +153,8 @@
 
   defaultModules:
   - BorgModuleTreatment
+  - BorgModuleDefibrillator # Imperial Space Ребаланс боргов (добавлен модуль дефиба)
+  - BorgModuleAdvancedTreatment # Imperial Space Ребаланс боргов (добавлен модуль гипоспрея)
 
   radioChannels:
   - Science

@@ -344,11 +344,13 @@
     - state: icon-mop-adv
   - type: ItemBorgModule
     items:
-    - AdvMopItem
+#   - AdvMopItem
+    - BorgMopItem # Imperial Space Кастомная швабра для борга
     - HoloprojectorBorg
     - SprayBottleSpaceCleaner
     - Dropper
-    - TrashBag
+#   - TrashBag
+    - TrashBagBorg # Imperial Space Кастомный мешок для мусора для наших боргов
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-cleaning-module }
 
@@ -380,7 +382,7 @@
     - state: icon-treatment
   - type: ItemBorgModule
     items:
-    - HandheldHealthAnalyzerUnpowered
+#    - HandheldHealthAnalyzerUnpowered Imperial Space Удалено для ребаланса медицинского борга
     - Brutepack10Lingering
     - Ointment10Lingering
     - Gauze10Lingering
@@ -416,10 +418,11 @@
   - type: ItemBorgModule
     items:
     - HandheldHealthAnalyzerUnpowered
-    - Beaker
-    - Beaker
-    - BorgDropper
-    - BorgHypo
+#    - Beaker  Imperial Space Удалено в связи с ребалансом медицинского борга
+#    - Beaker
+#    - BorgDropper
+#    - BorgHypo
+    - HyposprayBorg # Imperial Space Наш кастомный гипоспрей боргов
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-diagnosis-module }
 
