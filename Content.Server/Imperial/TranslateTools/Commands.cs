@@ -112,6 +112,15 @@ public sealed class GetAllEntityes : LocalizedCommands
 
     public override CompletionResult GetCompletion(IConsoleShell shell, string[] args)
     {
+        if (args.Count() == 1)
+        {
+            return CompletionResult.FromHint($"file");
+        }
+        if (args.Count() == 2)
+        {
+            return CompletionResult.FromOptions(new List<string>() { "true", "false" });
+        }
+
         return CompletionResult.Empty;
     }
 
@@ -122,9 +131,10 @@ public sealed class GetAllEntityes : LocalizedCommands
         foreach (var record in query)
         {
             var data = _localizationManager.GetEntityData(record.ID);
-            result.Add($"ent-{record.ID} = {data.Name}\n");
-            result.Add($".desc = {data.Desc}\n");
-            result.Add($".suffix = {data.Suffix}\n");
+            if (_localizationManager.HasString($"ent-{record.ID}") && args[1] == "false" || record.Abstract || record.HideSpawnMenu) continue;
+            result.Add($"ent-{record.ID} = 鎰{data.Name}\n");
+            result.Add($".desc = 鎰{data.Desc}\n");
+            result.Add($".suffix = 鎰{data.Suffix}\n");
         }
         var savePath = new ResPath($"{args[0]}").ToRootedPath();
         resourceManager.UserData.CreateDir(savePath.Directory);
@@ -133,6 +143,7 @@ public sealed class GetAllEntityes : LocalizedCommands
             writer.Write(str);
         shell.WriteLine("Complite!");
         shell.WriteLine($"data load to file {args[0]} in data directory");
+
     }
 }
 
