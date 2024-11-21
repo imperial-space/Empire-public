@@ -4,6 +4,7 @@
 traitor-round-end-agent-name = Предатель
 objective-issuer-syndicate = [color=#87cefa]Синдикат[/color]
 traitor-round-end-codewords = Кодовыми словами были: [color=White]{$codewords}[/color].
+objective-issuer-unknown = Неизвестно
 traitor-title = Предатели
 traitor-description = Среди нас есть предатели...
 traitor-not-enough-ready-players = Недостаточно игроков готовы к игре! Из {$minimumPlayers} необходимых игроков готовы {$readyPlayersCount}. Не удалось начать режим Предателя.

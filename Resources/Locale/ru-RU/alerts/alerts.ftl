@@ -105,3 +105,6 @@ alerts-low-nitrogen-name = [color=red]Низкий уровень азота[/co
 alerts-low-nitrogen-desc = В воздухе, которым вы дышите, [color=red]недостаточно азота[/color]. Используйте [color=green]дыхательную маску и баллон[/color].
 alerts-adrenaline-name = [color=red]Адреналин[/color]
 alerts-adrenaline-desc = Вы полны адреналина: боль больше вас не замедляет.
+
+alerts-walking-name = Ходьба
+alerts-walking-desc = Вы идете, двигаясь в медленном темпе.

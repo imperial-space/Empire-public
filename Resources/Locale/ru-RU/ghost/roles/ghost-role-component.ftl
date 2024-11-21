@@ -322,3 +322,10 @@ ghost-role-information-antagonist-rules =
     Вам абсолютно [color=red]НЕ[/color] разрешено помнить, скажем, имя, внешность и т. д. вашего предыдущего персонажа.
 ghost-role-information-angry-slimes-rules = Вы [color=red][bold]Командный антагонист[/bold][/color], в команде с другими злыми слаймами.
 ghost-role-information-angry-slimes-name = Слайм
+ghost-role-information-rules-team-antagonist = Вы [color=red][bold]командный антагонист[/bold][/color]. Ваши намерения ясны и вредны для станции и ее экипажа.
+                                               Вы должны [bold]работать в команде[/bold] или следовать разумным указаниям вашего командира.
+                                               Вы не помните ничего из своей предыдущей жизни и ничего, что узнали, будучи призраком.
+                                               Вам можете помнить знания об игре в целом, например, как готовить, как использовать предметы и т. д.
+                                               Вам категорически [color=red]ЗАПРЕЩЕНО[/color] помнить, скажем, имя, внешний вид и т. д. вашего предыдущего персонажа.
+ghost-role-information-giant-spider-rules = Вы являетесь [color=red][bold]командным антагонистом[/bold][/color] вместе со всеми другими гигантскими пауками.
+ghost-role-information-syndicate-cyborg-saboteur-name = Саботажный борг Синдиката
