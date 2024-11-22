@@ -136,3 +136,4 @@ admin-smite-super-bonk-name = СуперБонк
 admin-smite-super-bonk-lite-name = СуперБонк-Лайт
 admin-smite-terminate-name = Экстерминировать
 admin-smite-super-slip-name = Суперскольжение
+admin-smite-super-slip-description = Подскальзывается  очень, очень сильно.

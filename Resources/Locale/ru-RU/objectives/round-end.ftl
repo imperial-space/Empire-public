@@ -15,3 +15,5 @@ objectives-with-objectives = {$title} – {$agent} со следующими ц�
 
 objectives-objective-success = {$objective} | [color={$markupColor}]Успех![/color]
 objectives-objective-fail = {$objective} | [color={$markupColor}]Провал![/color] ({$progress}%)
+
+objectives-in-custody = [bold][color=red]| АРЕСТОВАН | [/color][/bold]
