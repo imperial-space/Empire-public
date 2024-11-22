@@ -53,6 +53,12 @@
   - Engineering
   - Science
 
+  addComponents: # Imperial Space Улучшение инженерного борга, чтобы он видел ХП других боргов
+  - type: ShowHealthBars
+    damageContainers:
+      - Inorganic
+      - Silicon
+
   # Visual
   inventoryTemplateId: borgShort
   spriteBodyState: engineer

@@ -785,6 +785,7 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      - BorgModuleLethalSecurityRecipe # Imperial Модуль летального оружия СБ борга
   - type: MaterialStorage
     whitelist:
       tags:

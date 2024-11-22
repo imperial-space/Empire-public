@@ -233,3 +233,134 @@
       state: mimicry
     event: !type:MimicryEvent
     useDelay: 4
+
+
+## Борг СБ'шник
+- type: entity
+  id: BorgModuleJawsSecurity # Модуль для вскрывания дверей. Содержит только челюсти жизни
+  parent: [ BaseBorgModule, BaseProviderBorgModule ]
+  name: tool security cyborg module
+  components:
+  - type: Sprite
+    layers:
+    - state: security
+    - state: icon-security-instrument
+  - type: ItemBorgModule
+    items:
+    - JawsOfLife
+  - type: BorgModuleIcon
+    icon: { sprite: Interface/Actions/actions_borg.rsi, state: security-instrument }
+
+- type: entity
+  name: borg's disabler
+  parent: WeaponDisabler
+  id: WeaponDisablerBorg
+  description: A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 50
+
+- type: entity
+  name: borg's stun baton
+  parent: Stunbaton
+  id: StunbatonBorg
+  description: A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 50
+
+- type: entity
+  id: Zipties10
+  parent: Zipties
+  suffix: 10, Zipties
+  components:
+  - type: Stack
+    stackType: Zipties
+    lingering: true
+    count: 10
+
+
+- type: entity
+  id: BorgModuleNonLethalSecurity # Нелетальный модуль СБ борга 
+  parent: [ BaseBorgModule, BaseProviderBorgModule ]
+  name: NonLethal Security Module
+  components:
+  - type: Sprite
+    layers:
+    - state: security
+    - state: icon-nonlethalmodule-security
+  - type: ItemBorgModule
+    items:
+    - StunbatonBorg
+    - WeaponDisablerBorg
+    - Zipties10
+  - type: BorgModuleIcon
+    icon: { sprite: Interface/Actions/actions_borg.rsi, state: security-borg-unlethal } # Надо заменить, пока заглушка
+
+- type: entity
+  id: BorgModuleLethalSecurity # Летальный модуль СБ борга 
+  parent: [ BaseBorgModule, BaseProviderBorgModule ]
+  name: Lethal Security Module
+  components:
+  - type: Sprite
+    layers:
+    - state: security
+    - state: icon-lethalmodule-security 
+  - type: ItemBorgModule
+    items:
+    - WeaponLaserBorg
+  - type: BorgModuleIcon
+    icon: { sprite: Interface/Actions/actions_borg.rsi, state: security-borg-lethal }  #Надо заменить
+
+- type: entity
+  name: borg's laser
+  parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
+  id: WeaponLaserBorg
+  description: This is an antique laser pistol. All craftsmanship is of the highest quality. It is decorated with assistant leather and chrome. The object menaces with spikes of energy.
+  components:
+  - type: Sprite
+    sprite: Imperial/Roles/Synthetics/Security/borg_laser.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Imperial/Roles/Synthetics/Security/borg_laser.rsi
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: RedMediumLaser
+    fireCost: 150
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 50
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 750
+
+- type: technology
+  id: WeaponLaserBorgTech
+  name: research-technology-weaponlaserborg
+  icon:
+    sprite: Imperial/Roles/Synthetics/Security/borg_laser.rsi
+    state: base
+  discipline: Arsenal
+  tier: 2
+  cost: 5000
+  recipeUnlocks:
+  - BorgModuleLethalSecurityRecipe
+
+
+- type: latheRecipe
+  parent: BaseBorgModuleRecipe
+  id: BorgModuleLethalSecurityRecipe
+  result: BorgModuleLethalSecurity
