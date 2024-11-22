@@ -53,3 +53,6 @@ type-type-medical-transponder = Медицинский борг
 borg-type-service-name = Сервисный
 borg-type-service-desc = Помогите экипажу с широким спектром услуг: от подачи закусок и напитков до ботаники и развлечений.
 borg-type-service-transponder = Сервисный борг
+borg-type-security-name = Охранный
+borg-type-security-desc = Помогите Службе Безопасности в поимке нарушителей, следите за порядком на станции и уничтожайте агрессивную фауну.
+borg-type-security-transponder = Охранный борг
