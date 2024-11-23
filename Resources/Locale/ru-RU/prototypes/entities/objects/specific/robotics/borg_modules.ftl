@@ -65,3 +65,12 @@ ent-BorgModuleClowning = клоунский модуль борга
 
 ent-BorgModuleAdvancedTreatment = усовершенстованный модуль лечения борга
     .desc = { ent-BaseBorgModule.desc }
+
+ent-BorgModuleNonLethalSecurity = Нелетальный модуль СБ борга
+   .desc = { ent-BaseBorgModule.desc }
+
+ent-BorgModuleJawsSecurity = Модуль инструментов СБ борга
+   .desc = { ent-BaseBorgModule.desc }
+
+ent-BorgModuleLethalSecurity = Летальный модуль СБ борга
+   .desc = { ent-BaseBorgModule.desc }

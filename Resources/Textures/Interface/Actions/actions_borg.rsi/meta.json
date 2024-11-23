@@ -105,6 +105,15 @@
         },
         {
             "name": "select-type"
+        },
+        {
+            "name": "security-borg-lethal"
+        },
+        {
+            "name": "security-borg-unlethal"
+        },
+        {
+            "name": "security-instrument"
         }
     ]
 }

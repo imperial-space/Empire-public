@@ -72,3 +72,4 @@ research-technology-quantum-fiber-weaving = Плетение квантовог�
 research-technology-bluespace-cargo-transport = Блюспейс-транспортировка грузов
 research-technology-excavation = Снаряжение для массовых раскопок
 research-technology-special-means = Специальные средства
+research-technology-weaponlaserborg = Летальные системы киборгов

@@ -73,3 +73,4 @@ station-beacon-disposals = Мусоросброс
 station-beacon-cryosleep = Криосон
 station-beacon-escape-pod = Спасательная капсула
 station-beacon-gateway = Врата
+station-beacon-vox = Комната отдыха воксов

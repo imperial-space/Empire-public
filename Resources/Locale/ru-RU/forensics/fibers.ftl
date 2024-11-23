@@ -29,3 +29,4 @@ fibers-maroon = бордовое
 fibers-insulative-frayed = изношенные изолирующие
 fibers-gold = золотые
 fibers-pink = розовые
+

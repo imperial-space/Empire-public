@@ -126,6 +126,15 @@
     },
     {
       "name": "syndicate"
+    },
+    {
+      "name": "icon-lethalmodule-security"
+    },
+    {
+      "name": "icon-nonlethalmodule-security"
+    },
+    {
+      "name": "icon-security-instrument"
     }
   ]
 }

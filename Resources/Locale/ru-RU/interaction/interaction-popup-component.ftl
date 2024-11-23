@@ -77,3 +77,5 @@ fence-rattle-success = *бдзынь*
 hugging-success-generic-target = { CAPITALIZE($user) } обнимает вас.
 petting-success-tesla = Вы гладите { $target }, попутно нарушая законы природы и физики.
 petting-failure-tesla = Вы тянетесь погладить { $target }, но разряд заставляет вас отдёрнуть руку.
+petting-success-security-cyborg = Вы гладите { $target } по { POSS-ADJ($target) } светоотражающей красной металлической голове.
+petting-failure-security-cyborg = Вы тянетесь погладить { $target }, но { $target } занимается вычислением траектории выстрела!
