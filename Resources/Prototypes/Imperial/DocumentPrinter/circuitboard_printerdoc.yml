@@ -1,0 +1,12 @@
+- type: entity
+  id: PrinterDocMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: printer documents machine board
+  description: A machine printed circuit board for an printer documents
+  components:
+    - type: MachineBoard
+      prototype: PrinterDoc
+      requirements:
+        Manipulator: 3
+      materialRequirements:
+        Glass: 5
