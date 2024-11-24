@@ -1,9 +1,10 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Server.Administration.Logs;
 using Content.Shared.Materials;
 using Content.Shared.Popups;
 using Content.Shared.Stacks;
 using Content.Server.Power.Components;
+using Content.Server.PrinterDoc; // Imperial PrinterDoc
 using Content.Server.Stack;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Construction;
@@ -25,6 +26,8 @@ public sealed class MaterialStorageSystem : SharedMaterialStorageSystem
     [Dependency] private readonly ActionBlockerSystem _actionBlocker = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
+    // Imperial PrinterDoc
+    [Dependency] private readonly PrinterDocSystem _printerDoc = default!;
     [Dependency] private readonly StackSystem _stackSystem = default!;
 
     public override void Initialize()
@@ -95,7 +98,13 @@ public sealed class MaterialStorageSystem : SharedMaterialStorageSystem
         MaterialComponent? material = null,
         PhysicalCompositionComponent? composition = null)
     {
-        if (!Resolve(receiver, ref storage) || !Resolve(toInsert, ref material, ref composition, false))
+        // Imperial PrinterDoc
+        if (!Resolve(receiver, ref storage))
+            return false;
+        // Imperial PrinterDoc
+        _printerDoc.TryAddPaperToPrinter(toInsert, storage, receiver, _popup, _adminLogger, user);
+        // Imperial PrinterDoc
+        if (!Resolve(toInsert, ref material, ref composition, false))
             return false;
         if (TryComp<ApcPowerReceiverComponent>(receiver, out var power) && !power.Powered)
             return false;

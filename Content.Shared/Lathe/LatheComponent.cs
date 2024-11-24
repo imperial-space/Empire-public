@@ -28,6 +28,18 @@ namespace Content.Shared.Lathe
         public List<LatheRecipePrototype> Queue = new();
 
         /// <summary>
+        /// Imperial PrinterDoc
+        /// </summary>
+        [DataField, AutoNetworkedField]
+        public bool UseCardId { get; set; } = false;
+
+        /// <summary>
+        /// Imperial PrinterDoc
+        /// </summary>
+        [DataField]
+        public EntityUid? LastUser { get; set; }
+
+        /// <summary>
         /// The sound that plays when the lathe is producing an item, if any
         /// </summary>
         [DataField]
