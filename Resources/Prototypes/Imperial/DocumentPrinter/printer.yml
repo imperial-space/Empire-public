@@ -79,6 +79,16 @@
         - DangerousSkillsTrainingRequestRecipe
         - MarriageCertificateRecipe
         - DivorceCertificateRecipe
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+              bounds: "-0.10,-0.10, 0.15, 0.30"
+          mask:
+          - MachineMask
+          layer:
+            - MachineLayer
     - type: MaterialStorage
       whitelist:
         components:
