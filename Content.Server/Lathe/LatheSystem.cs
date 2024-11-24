@@ -8,6 +8,7 @@ using Content.Server.Materials;
 using Content.Server.Popups;
 using Content.Server.Power.Components;
 using Content.Server.Power.EntitySystems;
+using Content.Server.PrinterDoc; // Imperial PrinterDoc
 using Content.Server.Stack;
 using Content.Shared.Atmos;
 using Content.Shared.Chemistry.Components;
@@ -20,6 +21,7 @@ using Content.Shared.Examine;
 using Content.Shared.Lathe;
 using Content.Shared.Materials;
 using Content.Shared.Power;
+using Content.Shared.PrinterDoc; // Imperial PrinterDoc
 using Content.Shared.ReagentSpeed;
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Prototypes;
@@ -45,6 +47,8 @@ namespace Content.Server.Lathe
         [Dependency] private readonly UserInterfaceSystem _uiSys = default!;
         [Dependency] private readonly MaterialStorageSystem _materialStorage = default!;
         [Dependency] private readonly PopupSystem _popup = default!;
+        // Imperial PrinterDoc
+        [Dependency] private readonly PrinterDocSystem _printerDoc = default!;
         [Dependency] private readonly PuddleSystem _puddle = default!;
         [Dependency] private readonly ReagentSpeedSystem _reagentSpeed = default!;
         [Dependency] private readonly SharedSolutionContainerSystem _solution = default!;
@@ -67,6 +71,9 @@ namespace Content.Server.Lathe
 
             SubscribeLocalEvent<LatheComponent, LatheQueueRecipeMessage>(OnLatheQueueRecipeMessage);
             SubscribeLocalEvent<LatheComponent, LatheSyncRequestMessage>(OnLatheSyncRequestMessage);
+
+            // Imperial PrinterDoc
+            SubscribeLocalEvent<LatheComponent, PrinterDocCheckIdCardMessage>(OnPrinterDocCheckIdCard);
 
             SubscribeLocalEvent<LatheComponent, BeforeActivatableUIOpenEvent>((u, c, _) => UpdateUserInterfaceState(u, c));
             SubscribeLocalEvent<LatheComponent, MaterialAmountChangedEvent>(OnMaterialAmountChanged);
@@ -229,6 +236,8 @@ namespace Content.Server.Lathe
                 if (comp.CurrentRecipe.Result is { } resultProto)
                 {
                     var result = Spawn(resultProto, Transform(uid).Coordinates);
+                    // Imperial PrinterDoc
+                    _printerDoc.TrySetContentPrintedDocument(result, comp.LastUser ?? default, comp.UseCardId);
                     _stack.TryMergeToContacts(result);
                 }
 
@@ -271,7 +280,7 @@ namespace Content.Server.Lathe
 
             var producing = component.CurrentRecipe ?? component.Queue.FirstOrDefault();
 
-            var state = new LatheUpdateState(GetAvailableRecipes(uid, component), component.Queue, producing);
+            var state = new LatheUpdateState(GetAvailableRecipes(uid, component), component.Queue, producing, component.UseCardId);
             _uiSys.SetUiState(uid, LatheUiKey.Key, state);
         }
 
@@ -313,6 +322,16 @@ namespace Content.Server.Lathe
 
         private void OnMaterialAmountChanged(EntityUid uid, LatheComponent component, ref MaterialAmountChangedEvent args)
         {
+            UpdateUserInterfaceState(uid, component);
+        }
+
+        /// <summary>
+        /// Imperial PrinterDoc
+        /// </summary>
+        private void OnPrinterDocCheckIdCard(EntityUid uid, LatheComponent component, PrinterDocCheckIdCardMessage args)
+        {
+            component.UseCardId = args.UseCardId;
+            Dirty(uid, component);
             UpdateUserInterfaceState(uid, component);
         }
 
@@ -385,6 +404,8 @@ namespace Content.Server.Lathe
                     _adminLogger.Add(LogType.Action,
                         LogImpact.Low,
                         $"{ToPrettyString(args.Actor):player} queued {count} {GetRecipeName(recipe)} at {ToPrettyString(uid):lathe}");
+                    // Imperial PrinterDoc
+                    component.LastUser = args.Session.AttachedEntity.Value;
                 }
             }
             TryStartProducing(uid, component);

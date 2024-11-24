@@ -13,11 +13,19 @@ public sealed class LatheUpdateState : BoundUserInterfaceState
 
     public LatheRecipePrototype? CurrentlyProducing;
 
-    public LatheUpdateState(List<ProtoId<LatheRecipePrototype>> recipes, List<LatheRecipePrototype> queue, LatheRecipePrototype? currentlyProducing = null)
+    // Imperial PrinterDoc
+    public bool UseCardId;
+
+    public LatheUpdateState(
+        List<ProtoId<LatheRecipePrototype>> recipes,
+        List<LatheRecipePrototype> queue,
+        LatheRecipePrototype? currentlyProducing,
+        bool useCardId)
     {
         Recipes = recipes;
         Queue = queue;
         CurrentlyProducing = currentlyProducing;
+        UseCardId = useCardId;
     }
 }
 

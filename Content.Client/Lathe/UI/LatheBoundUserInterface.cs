@@ -1,5 +1,6 @@
 using Content.Shared.Lathe;
 using Content.Shared.Research.Components;
+using Content.Shared.PrinterDoc; // Imperial PrinterDoc
 using JetBrains.Annotations;
 using Robust.Client.UserInterface;
 
@@ -31,6 +32,13 @@ namespace Content.Client.Lathe.UI
             {
                 SendMessage(new LatheQueueRecipeMessage(recipe, amount));
             };
+
+            // Imperial PrinterDoc
+            _menu.OnUseCardIdCheckBoxChanged += useCardId =>
+            {
+                SendMessage(new PrinterDocCheckIdCardMessage(useCardId));
+            };
+
         }
 
         protected override void UpdateState(BoundUserInterfaceState state)
@@ -46,6 +54,7 @@ namespace Content.Client.Lathe.UI
                     _menu?.UpdateCategories();
                     _menu?.PopulateQueueList(msg.Queue);
                     _menu?.SetQueueInfo(msg.CurrentlyProducing);
+                    _menu.SetUseCardId(msg.UseCardId);
                     break;
             }
         }
