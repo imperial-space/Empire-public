@@ -81,7 +81,5 @@
         - DivorceCertificateRecipe
     - type: MaterialStorage
       whitelist:
-        tags:
+        components:
           - Paper
-      storage:
-        Paper: 0
