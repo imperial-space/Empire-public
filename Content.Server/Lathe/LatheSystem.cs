@@ -280,6 +280,7 @@ namespace Content.Server.Lathe
 
             var producing = component.CurrentRecipe ?? component.Queue.FirstOrDefault();
 
+            // Imperial PrinterDoc
             var state = new LatheUpdateState(GetAvailableRecipes(uid, component), component.Queue, producing, component.UseCardId);
             _uiSys.SetUiState(uid, LatheUiKey.Key, state);
         }

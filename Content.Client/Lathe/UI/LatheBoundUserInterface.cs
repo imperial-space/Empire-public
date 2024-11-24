@@ -45,6 +45,7 @@ namespace Content.Client.Lathe.UI
         {
             base.UpdateState(state);
 
+            // Imperial PrinterDoc
             if (_menu == null)
                 return;
             if (state is LatheUpdateState msg)
