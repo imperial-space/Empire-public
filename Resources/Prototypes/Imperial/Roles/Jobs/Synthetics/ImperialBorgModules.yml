@@ -250,6 +250,9 @@
     - JawsOfLife
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: security-instrument }
+  - type: Tag
+    tags:
+    - BorgModuleSecurityImperial
 
 - type: entity
   name: borg's disabler
@@ -298,6 +301,9 @@
     - Zipties10
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: security-borg-unlethal } # Надо заменить, пока заглушка
+  - type: Tag
+    tags:
+    - BorgModuleSecurityImperial
 
 - type: entity
   id: BorgModuleLethalSecurity # Летальный модуль СБ борга 
@@ -313,6 +319,10 @@
     - WeaponLaserBorg
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: security-borg-lethal }  #Надо заменить
+  - type: Tag
+    tags:
+    - BorgModuleSecurityImperial
+
 
 - type: entity
   name: borg's laser
