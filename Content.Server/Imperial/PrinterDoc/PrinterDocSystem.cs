@@ -1,4 +1,4 @@
-using Content.Server.Paper;
+using System.Text.RegularExpressions;
 using Content.Server.Station.Systems;
 using Content.Server.Administration.Logs;
 using Content.Shared.PrinterDoc;
@@ -7,7 +7,6 @@ using Content.Server.Lathe;
 using Content.Shared.Lathe;
 using Content.Shared.Materials;
 using Content.Shared.Database;
-using Content.Shared.Tag;
 using Content.Shared.Popups;
 using Robust.Shared.Prototypes;
 using Content.Shared.Paper;
@@ -69,14 +68,36 @@ namespace Content.Server.PrinterDoc
                 {
                     if (idCard.Comp != null)
                     {
+                        string profession = string.Empty;
+
+                        EntityUid idCardEntity = idCard.Comp.Owner;
+
+                        if (TryComp<MetaDataComponent>(idCardEntity, out var metaData))
+                        {
+                            string entityName = metaData.EntityName;
+
+                            Regex regex = new Regex(@"\((.*?)\)");
+                            Match match = regex.Match(entityName);
+
+                            if (match.Success && match.Groups.Count > 1)
+                            {
+                                profession = match.Groups[1].Value;
+                            }
+                        }
+
                         content = content
                             .Replace("ПОДОТЧЁТНОЕ ЛИЦО:", "ПОДОТЧЁТНОЕ ЛИЦО: " + (idCard.Comp.FullName ?? string.Empty))
-                            .Replace("ДОЛЖНОСТЬ:", "ДОЛЖНОСТЬ: " + (idCard.Comp.JobTitle ?? string.Empty));
+                            .Replace("ДОЛЖНОСТЬ:", "ДОЛЖНОСТЬ: " + profession);
                     }
                 }
             }
 
-            _paper.SetContent(uid, content);
+            if (!TryComp<PaperComponent>(uid, out var paperComponent))
+                return;
+
+            var paperEntity = new Entity<PaperComponent>(uid, paperComponent);
+
+            _paper.SetContent(paperEntity, content);
         }
 
         private string GetStationNameForObject(EntityUid uid)
@@ -108,7 +129,7 @@ namespace Content.Server.PrinterDoc
 
         public void TryAddPaperToPrinter(EntityUid toInsert, MaterialStorageComponent? storage, EntityUid receiver, SharedPopupSystem _popup, IAdminLogManager _adminLogger, EntityUid user)
         {
-            if (TryComp<TagComponent>(toInsert, out var tagComp) && tagComp.Tags.Contains("Paper") && TryToCheckPrinter(receiver))
+            if (HasComp<PaperComponent>(toInsert) && TryToCheckPrinter(receiver))
             {
                 _materialStorageSystem.TryChangeMaterialAmount(receiver, "Paper", 100, storage);
 

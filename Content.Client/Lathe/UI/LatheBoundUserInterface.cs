@@ -45,17 +45,16 @@ namespace Content.Client.Lathe.UI
         {
             base.UpdateState(state);
 
-            switch (state)
+            if (_menu == null)
+                return;
+            if (state is LatheUpdateState msg)
             {
-                case LatheUpdateState msg:
-                    if (_menu != null)
-                        _menu.Recipes = msg.Recipes;
-                    _menu?.PopulateRecipes();
-                    _menu?.UpdateCategories();
-                    _menu?.PopulateQueueList(msg.Queue);
-                    _menu?.SetQueueInfo(msg.CurrentlyProducing);
-                    _menu.SetUseCardId(msg.UseCardId);
-                    break;
+                _menu.Recipes = msg.Recipes;
+                _menu.PopulateRecipes();
+                _menu.UpdateCategories();
+                _menu.PopulateQueueList(msg.Queue);
+                _menu.SetQueueInfo(msg.CurrentlyProducing);
+                _menu.SetUseCardId(msg.UseCardId);
             }
         }
     }

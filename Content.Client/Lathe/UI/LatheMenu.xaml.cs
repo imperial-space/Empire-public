@@ -85,7 +85,7 @@ public sealed partial class LatheMenu : DefaultWindow
         }
 
         // Imperial PrinterDoc
-        if (PrinterDocHelpers.TryToCheckPrinterShared(_owner, _entityManager, _prototypeManager))
+        if (PrinterDocHelpers.TryToCheckPrinterShared(Entity, _entityManager, _prototypeManager))
         {
             CardIdContainer.Visible = true;
             CardIdContainerExpand.Visible = true;

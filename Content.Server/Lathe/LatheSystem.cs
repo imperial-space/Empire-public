@@ -405,7 +405,7 @@ namespace Content.Server.Lathe
                         LogImpact.Low,
                         $"{ToPrettyString(args.Actor):player} queued {count} {GetRecipeName(recipe)} at {ToPrettyString(uid):lathe}");
                     // Imperial PrinterDoc
-                    component.LastUser = args.Session.AttachedEntity.Value;
+                    component.LastUser = args.Actor;
                 }
             }
             TryStartProducing(uid, component);
