@@ -1,0 +1,456 @@
+- type: entity
+  parent: Paper
+  id: ReportOnTheStationSituation
+  name: "Отчёт о ситуации на станции"
+  components:
+    - type: Paper
+      content: doc-text-printer-report-on-the-station-situation
+
+- type: entity
+  parent: Paper
+  id: RequestForAppointmentOfActingCaptain
+  name: "Запрос о назначении ВрИО Капитана"
+  components:
+    - type: Paper
+      content: doc-text-printer-request-for-appointment-captain
+
+- type: entity
+  parent: Paper
+  id: RequestForAppointmentOfActingHeadOfDepartment
+  name: "Запрос о назначении ВрИО Главы отдела"
+  components:
+    - type: Paper
+      content: doc-text-printer-request-for-appointment-head
+
+- type: entity
+  parent: Paper
+  id: ReportGoalAchievement
+  name: "Отчет о выполнении цели"
+  components:
+    - type: Paper
+      content: doc-text-printer-report-goal-achievement
+
+- type: entity
+  parent: Paper
+  id: ApplicationForDismissHead
+  name: "Заявление об увольнении главы отдела"
+  components:
+    - type: Paper
+      content: doc-text-printer-application-for-dismiss-head
+
+- type: entity
+  parent: Paper
+  id: ApplicationForPassengerEmployment
+  name: "Заявление о трудоустройстве пассажира"
+  components:
+    - type: Paper
+      content: doc-text-printer-application-for-passenger-employment
+
+- type: entity
+  parent: Paper
+  id: ApplicationForPositionChange
+  name: "Заявление о смене должности"
+  components:
+    - type: Paper
+      content: doc-text-printer-application-for-position-change
+
+- type: entity
+  parent: Paper
+  id: AccessIncreaseOrder
+  name: "Ордер на повышение доступа"
+  components:
+    - type: Paper
+      content: doc-text-printer-access-increase-order
+
+- type: entity
+  parent: Paper
+  id: AccessDeniedOrder
+  name: "Приказ о лишении доступа"
+  components:
+    - type: Paper
+      content: doc-text-printer-access-denied-order
+
+
+- type: entity
+  parent: Paper
+  id: CertificationOfQualificationUpgrade
+  name: "Сертификат о повышении квалификации"
+  components:
+    - type: Paper
+      content: doc-text-printer-certification-of-qualification
+
+- type: entity
+  parent: Paper
+  id: DismissalOrder
+  name: "Приказ об увольнении"
+  components:
+    - type: Paper
+      content: doc-text-printer-dismissal-order
+
+- type: entity
+  parent: Paper
+  id: RequestForERT
+  name: "Запрос на вызов ОБР"
+  components:
+    - type: Paper
+      content: doc-text-printer-request-ert
+
+- type: entity
+  parent: Paper
+  id: RequestForCBURN
+  name: "Запрос на вызов РХБЗЗ"
+  components:
+    - type: Paper
+      content: doc-text-printer-request-cburn
+
+- type: entity
+  parent: Paper
+  id: RequestForCentCom
+  name: "Запрос на вызов пЦК"
+  components:
+    - type: Paper
+      content: doc-text-printer-request-for-centcom
+
+- type: entity
+  parent: Paper
+  id: RequestForBonus
+  name: "Запрос на выдачу премии"
+  components:
+    - type: Paper
+      content: doc-text-printer-request-for-bonus
+
+- type: entity
+  parent: Paper
+  id: ApplicationForIDCard
+  name: "Заявление на получение ID карты"
+  components:
+    - type: Paper
+      content: doc-text-printer-application-for-idcard
+
+- type: entity
+  parent: Paper
+  id: ApplicationForPDA
+  name: "Заявление на получение КПК"
+  components:
+    - type: Paper
+      content: doc-text-printer-application-for-pda
+
+- type: entity
+  parent: Paper
+  id: PermissionToCarryEquipment
+  name: "Разрешение на ношение снаряжения"
+  components:
+    - type: Paper
+      content: doc-text-printer-permission-to-carry-equipment
+
+- type: entity
+  parent: Paper
+  id: CrewSRPViolationReport
+  name: "Заявление о нарушении СРП членом экипажа"
+  components:
+    - type: Paper
+      content: doc-text-printer-crew-srp-violation-report
+
+- type: entity
+  parent: Paper
+  id: ParoleRequestForPrisoner
+  name: "Запрос на УДО для заключенного"
+  components:
+    - type: Paper
+      content: doc-text-printer-parole-request-for-prisoner
+
+- type: entity
+  parent: Paper
+  id: InternalAffairsAgentReport
+  name: "Отчёт Агента Внутренних Дел"
+  components:
+    - type: Paper
+      content: doc-text-printer-iaa-report
+
+- type: entity
+  parent: Paper
+  id: Complaint
+  name: "Жалоба"
+  components:
+    - type: Paper
+      content: doc-text-printer-complaint
+
+- type: entity
+  parent: Paper
+  id: InterrogationReport
+  name: "Отчёт о допросе"
+  components:
+    - type: Paper
+      content: doc-text-printer-interrogation-report
+
+- type: entity
+  parent: Paper
+  id: VoluntaryConfession
+  name: "Явка с повинной"
+  components:
+    - type: Paper
+      content: doc-text-printer-voluntary-confession
+
+- type: entity
+  parent: Paper
+  id: DutyOrder
+  name: "Приказ о дежурствах"
+  components:
+    - type: Paper
+      content: doc-text-printer-DutyOrder
+
+- type: entity
+  parent: Paper
+  id: FinalExamReport
+  name: "Отчёт о проведении итогового зачёта"
+  components:
+    - type: Paper
+      content: doc-text-printer-final-exam-report
+
+- type: entity
+  parent: Paper
+  id: JudicialProceeding
+  name: "Судебное производство"
+  components:
+    - type: Paper
+      content: doc-text-printer-judicial-proceeding
+
+- type: entity
+  parent: Paper
+  id: SearchOrder
+  name: "Постановление о розыске"
+  components:
+    - type: Paper
+      content: doc-text-printer-search-order
+
+- type: entity
+  parent: Paper
+  id: WeaponCarryingPermit
+  name: "Разрешение на ношение оружия"
+  components:
+    - type: Paper
+      content: doc-text-printer-weapon-carrying-permit
+
+- type: entity
+  parent: Paper
+  id: TrackerImplantInstallationOrder
+  name: "Постановление об установке импланта Трекер"
+  components:
+    - type: Paper
+      content: doc-text-printer-tracker-implant-installation-order
+
+- type: entity
+  parent: Paper
+  id: EliminationOrder
+  name: "Приказ о ликвидации"
+  components:
+    - type: Paper
+      content: doc-text-printer-elimination-order
+
+- type: entity
+  parent: Paper
+  id: ArrestWarrant
+  name: "Ордер на арест"
+  components:
+    - type: Paper
+      content: doc-text-printer-arrest-warrant
+
+- type: entity
+  parent: Paper
+  id: SearchWarrant
+  name: "Ордер на обыск"
+  components:
+    - type: Paper
+      content: doc-text-printer-search-warrant
+
+- type: entity
+  parent: Paper
+  id: InvestigationReport
+  name: "Отчет о расследовании"
+  components:
+    - type: Paper
+      content: doc-text-printer-investigation-report
+
+- type: entity
+  parent: Paper
+  id: ChemicalOrder
+  name: "Заказ на химические вещества"
+  components:
+    - type: Paper
+      content: doc-text-printer-chemical-order
+
+- type: entity
+  parent: Paper
+  id: DischargeSummary
+  name: "Выписной эпикриз"
+  components:
+    - type: Paper
+      content: doc-text-printer-discharge-summary
+
+- type: entity
+  parent: Paper
+  id: RequestForPharmaceuticalProduction
+  name: "Запрос на производство лекарственных препаратов"
+  components:
+    - type: Paper
+      content: doc-text-printer-request-for-pharmaceutical-production
+
+- type: entity
+  parent: Paper
+  id: DeathCertificate
+  name: "Свидетельство о смерти"
+  components:
+    - type: Paper
+      content: doc-text-printer-death-certificate
+
+- type: entity
+  parent: Paper
+  id: PsychologicalHealthConclusion
+  name: "Заключение о психологическом здоровье"
+  components:
+    - type: Paper
+      content: doc-text-printer-psychological-health-conclusion
+
+- type: entity
+  parent: Paper
+  id: MedicalPrescription
+  name: "Лекарственный рецепт"
+  components:
+    - type: Paper
+      content: doc-text-printer-medical-prescription
+
+- type: entity
+  parent: Paper
+  id: EuthanasiaRequest
+  name: "Запрос на проведение эвтаназии"
+  components:
+    - type: Paper
+      content: doc-text-printer-euthanasia-request
+
+- type: entity
+  parent: Paper
+  id: BuildingPermit
+  name: "Разрешение на строительство"
+  components:
+    - type: Paper
+      content: doc-text-printer-building-permit
+
+- type: entity
+  parent: Paper
+  id: ApplicationForConstructionWork
+  name: "Заявление на проведение строительных работ"
+  components:
+    - type: Paper
+      content: doc-text-printer-application-for-construction-work
+
+- type: entity
+  parent: Paper
+  id: RepairWorkRequest
+  name: "Запрос на проведение ремонтных работ"
+  components:
+    - type: Paper
+      content: doc-text-printer-repair-work-request
+
+- type: entity
+  parent: Paper
+  id: PrintedDocumentReportStation
+  name: "Утверждённый чертёж цели"
+  components:
+    - type: Paper
+      content: doc-text-printer-approved-goal-blueprint
+
+- type: entity
+  parent: Paper
+  id: ApprovedGoalBlueprint
+  name: "Отчет о проведении технических работ"
+  components:
+    - type: Paper
+      content: doc-text-printer-technical-work-report
+
+- type: entity
+  parent: Paper
+  id: PowerSystemReport
+  name: "Отчет о работе системы электроснабжения"
+  components:
+    - type: Paper
+      content: doc-text-printer-power-system-report
+
+- type: entity
+  parent: Paper
+  id: AtmosSystemReport
+  name: "Отчет о работе системы АТМОС"
+  components:
+    - type: Paper
+      content: doc-text-printer-atmos-system-report
+
+- type: entity
+  parent: Paper
+  id: CreatureSapienceRecognition
+  name: "Признание разумности существа"
+  components:
+    - type: Paper
+      content: doc-text-printer-creature-sapience-recognition
+
+- type: entity
+  parent: Paper
+  id: SubjectStudyReport
+  name: "Отчет об изучении предмета"
+  components:
+    - type: Paper
+      content: doc-text-printer-subject-study-report
+
+- type: entity
+  parent: Paper
+  id: ArtifactReport
+  name: "Отчёт об артефакте"
+  components:
+    - type: Paper
+      content: doc-text-printer-artifact-report
+
+- type: entity
+  parent: Paper
+  id: OrderCreateProduct
+  name: "Заказ на производство продукта"
+  components:
+    - type: Paper
+      content: doc-text-printer-order-create-product
+
+- type: entity
+  parent: Paper
+  id: Order
+  name: "Заказ"
+  components:
+    - type: Paper
+      content: doc-text-printer-order
+
+- type: entity
+  parent: Paper
+  id: WeaponOrder
+  name: "Заказ оружия"
+  components:
+    - type: Paper
+      content: doc-text-printer-weapon-order
+
+- type: entity
+  parent: Paper
+  id: DangerousSkillsTrainingRequest
+  name: "Запрос на обучение потенциально опасным навыкам"
+  components:
+    - type: Paper
+      content: doc-text-printer-dangerous-skills-training-request
+
+- type: entity
+  parent: Paper
+  id: MarriageCertificate
+  name: "Свидетельство о заключении брака"
+  components:
+    - type: Paper
+      content: doc-text-printer-marriage-certificate
+
+- type: entity
+  parent: Paper
+  id: DivorceCertificate
+  name: "Свидетельство о расторжении брака"
+  components:
+    - type: Paper
+      content: doc-text-printer-divorce-certificate

@@ -121,6 +121,26 @@
                     </BoxContainer>
                 </ScrollContainer>
             </BoxContainer>
+            <!-- Imperial PrinterDoc -->
+            <BoxContainer
+                Name="CardIdContainer"
+                Orientation="Horizontal"
+                HorizontalExpand="True"
+                Visible="False">
+                <BoxContainer
+                    VerticalExpand="True" >
+                    <Label Text="Использовать данные ID Карты: "/>
+                    <CheckBox Name="UseCardIdCheckBox"/>
+                </BoxContainer>
+            </BoxContainer>
+            <!-- Imperial PrinterDoc -->
+            <BoxContainer
+                Name="CardIdContainerExpand"
+                Orientation="Vertical"
+                VerticalExpand="True"
+                HorizontalExpand="True"
+                MinHeight="10"
+                Visible="False"/>
             <BoxContainer
             VerticalExpand="True"
             HorizontalExpand="True"

@@ -36,9 +36,9 @@
 
 - type: material
   id: Paper
-  stackEntity: SheetPaper1
+  stackEntity: Paper # Imperial PrinterDoc (delete SheetPaper1)
   name: materials-paper
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: paper }
+  icon: { sprite: Objects/Misc/bureaucracy.rsi, state: paper } # Imperial PrinterDoc (delete Objects/Materials/Sheets/other.rsi)
   color: "#d9d9d9"
   price: 0.01 # it's paper bro what do you expect?
 
