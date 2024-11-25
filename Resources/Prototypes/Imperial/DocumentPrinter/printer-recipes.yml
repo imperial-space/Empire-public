@@ -2,7 +2,7 @@
   id: ReportOnTheStationSituationRecipe
   result: ReportOnTheStationSituation
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -11,7 +11,7 @@
   id: RequestForAppointmentOfActingCaptainRecipe
   result: RequestForAppointmentOfActingCaptain
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -20,7 +20,7 @@
   id: RequestForAppointmentOfActingHeadOfDepartmentRecipe
   result: RequestForAppointmentOfActingHeadOfDepartment
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -29,7 +29,7 @@
   id: ReportGoalAchievementRecipe
   result: ReportGoalAchievement
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -38,7 +38,7 @@
   id: ApplicationForDismissHeadRecipe
   result: ApplicationForDismissHead
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -47,7 +47,7 @@
   id: ApplicationForPassengerEmploymentRecipe
   result: ApplicationForPassengerEmployment
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -56,7 +56,7 @@
   id: ApplicationForPositionChangeRecipe
   result: ApplicationForPositionChange
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -65,7 +65,7 @@
   id: AccessIncreaseOrderRecipe
   result: AccessIncreaseOrder
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -74,7 +74,7 @@
   id: AccessDeniedOrderRecipe
   result: AccessDeniedOrder
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -83,7 +83,7 @@
   id: CertificationOfQualificationUpgradeRecipe
   result: CertificationOfQualificationUpgrade
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -92,7 +92,7 @@
   id: DismissalOrderRecipe
   result: DismissalOrder
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -101,7 +101,7 @@
   id: RequestForERTRecipe
   result: RequestForERT
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -110,7 +110,7 @@
   id: RequestForCBURNRecipe
   result: RequestForCBURN
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -119,7 +119,7 @@
   id: RequestForCentComRecipe
   result: RequestForCentCom
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -128,7 +128,7 @@
   id: RequestForBonusRecipe
   result: RequestForBonus
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -137,7 +137,7 @@
   id: ApplicationForIDCardRecipe
   result: ApplicationForIDCard
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -146,7 +146,7 @@
   id: ApplicationForPDARecipe
   result: ApplicationForPDA
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -155,7 +155,7 @@
   id: PermissionToCarryEquipmentRecipe
   result: PermissionToCarryEquipment
   category: Command
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -164,7 +164,7 @@
   id: CrewSRPViolationReportRecipe
   result: CrewSRPViolationReport
   category: Law
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -173,7 +173,7 @@
   id: ParoleRequestForPrisonerRecipe
   result: ParoleRequestForPrisoner
   category: Law
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -182,7 +182,7 @@
   id: InternalAffairsAgentReportRecipe
   result: InternalAffairsAgentReport
   category: Law
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -191,7 +191,7 @@
   id: ComplaintRecipe
   result: Complaint
   category: Law
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -200,7 +200,7 @@
   id: InterrogationReportRecipe
   result: InterrogationReport
   category: Sec
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -208,8 +208,8 @@
 - type: latheRecipe
   id: VoluntaryConfessionRecipe
   result: VoluntaryConfession
-  category: 
-  completeTime: 7
+  category:
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -218,7 +218,7 @@
   id: DutyOrderRecipe
   result: DutyOrder
   category: Sec
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -227,7 +227,7 @@
   id: FinalExamReportRecipe
   result: FinalExamReport
   category: Sec
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -236,7 +236,7 @@
   id: JudicialProceedingRecipe
   result: JudicialProceeding
   category: Sec
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -245,7 +245,7 @@
   id: SearchOrderRecipe
   result: SearchOrder
   category: Sec
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -254,7 +254,7 @@
   id: WeaponCarryingPermitRecipe
   result: WeaponCarryingPermit
   category: Sec
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -263,7 +263,7 @@
   id: TrackerImplantInstallationOrderRecipe
   result: TrackerImplantInstallationOrder
   category: Sec
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -272,7 +272,7 @@
   id: EliminationOrderRecipe
   result: EliminationOrder
   category: Sec
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -281,7 +281,7 @@
   id: ArrestWarrantRecipe
   result: ArrestWarrant
   category: Sec
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -290,7 +290,7 @@
   id: SearchWarrantRecipe
   result: SearchWarrant
   category: Sec
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -299,7 +299,7 @@
   id: InvestigationReportRecipe
   result: InvestigationReport
   category: Sec
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -308,7 +308,7 @@
   id: ChemicalOrderRecipe
   result: ChemicalOrder
   category: Medical
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -317,7 +317,7 @@
   id: DischargeSummaryRecipe
   result: DischargeSummary
   category: Medical
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -326,7 +326,7 @@
   id: RequestForPharmaceuticalProductionRecipe
   result: RequestForPharmaceuticalProduction
   category: Medical
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -334,8 +334,8 @@
 - type: latheRecipe
   id: DeathCertificateRecipe
   result: DeathCertificate
-  category: 
-  completeTime: 7
+  category:
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -344,7 +344,7 @@
   id: PsychologicalHealthConclusionRecipe
   result: PsychologicalHealthConclusion
   category: Medical
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -353,7 +353,7 @@
   id: MedicalPrescriptionRecipe
   result: MedicalPrescription
   category: Medical
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -362,7 +362,7 @@
   id: EuthanasiaRequestRecipe
   result: EuthanasiaRequest
   category: Medical
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -371,7 +371,7 @@
   id: BuildingPermitRecipe
   result: BuildingPermit
   category: Engineering
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -380,7 +380,7 @@
   id: ApplicationForConstructionWorkRecipe
   result: ApplicationForConstructionWork
   category: Engineering
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -389,7 +389,7 @@
   id: RepairWorkRequestRecipe
   result: RepairWorkRequest
   category: Engineering
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -398,7 +398,7 @@
   id: PrintedDocumentReportStationRecipe
   result: PrintedDocumentReportStation
   category: Engineering
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -407,7 +407,7 @@
   id: ApprovedGoalBlueprintRecipe
   result: ApprovedGoalBlueprint
   category: Engineering
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -416,7 +416,7 @@
   id: PowerSystemReportRecipe
   result: PowerSystemReport
   category: Engineering
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -425,7 +425,7 @@
   id: AtmosSystemReportRecipe
   result: AtmosSystemReport
   category: Engineering
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -434,7 +434,7 @@
   id: CreatureSapienceRecognitionRecipe
   result: CreatureSapienceRecognition
   category: Science
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -443,7 +443,7 @@
   id: SubjectStudyReportRecipe
   result: SubjectStudyReport
   category: Science
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -452,7 +452,7 @@
   id: ArtifactReportRecipe
   result: ArtifactReport
   category: Science
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -461,7 +461,7 @@
   id: OrderCreateProductRecipe
   result: OrderCreateProduct
   category: Science
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -470,7 +470,7 @@
   id: OrderRecipe
   result: Order
   category: Supplies
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -479,7 +479,7 @@
   id: WeaponOrderRecipe
   result: WeaponOrder
   category: Supplies
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -488,7 +488,7 @@
   id: DangerousSkillsTrainingRequestRecipe
   result: DangerousSkillsTrainingRequest
   category: Service
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
@@ -497,16 +497,16 @@
   id: MarriageCertificateRecipe
   result: MarriageCertificate
   category: Service
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
-    
+
 - type: latheRecipe
   id: DivorceCertificateRecipe
   result: DivorceCertificate
   category: Service
-  completeTime: 7
+  completeTime: 4
   applyMaterialDiscount: false
   materials:
     Paper: 100
