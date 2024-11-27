@@ -1,6 +1,5 @@
 plants-analyzer-window-no-plant-data-text = Нет данных
-plants-analyzer-window-plant-dead = Растение мертво
-plants-analyzer-window-plant-alive = Растение живо
+plants-analyzer-window-plant-dead = Статус: Растение мертво
 plants-analyzer-window-scan-mode-active = АКТИВНО
 plants-analyzer-window-scan-mode-inactive = НЕАКТИВНО
 plants-analyzer-window-entity-unknown-text = Неизвестно
@@ -15,7 +14,7 @@ plants-analyzer-window-toxins-text = Уровень токсинов
 plants-analyzer-window-age-text = Возраст
 plants-analyzer-window-health-text = Здоровье
 plants-analyzer-window-mutation-level-text = Уровень мутации
-plants-analyzer-window-kudzu-warning = ОПАСНОСТЬ РАСПРОСТРАНЕНИЯ КУДЗЫ
+plants-analyzer-window-kudzu-warning = КРИТИЧЕСКИЙ УРОВЕНЬ СОРНЯКОВ
 plants-analyzer-window-mutations = Текущие мутации:
 plants-analyzer-window-chemicals = Химический состав растения:
 plants-analyzer-window-unknown-plant = Неизвестное растение

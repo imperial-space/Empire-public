@@ -60,7 +60,6 @@
 
                 <Label Name="DeadLabel" Visible="False" Text="{Loc 'plants-analyzer-window-plant-dead'}" />
                 <Label Name="OptimalConditionsLabel" Visible="False" />
-                <Label Name="KudzuWarningLabel" Visible="False" Text="{Loc 'plants-analyzer-window-kudzu-warning'}" />
 
                 <PanelContainer StyleClasses="LowDivider" />
 
@@ -94,7 +93,7 @@
             <BoxContainer
                 Name="AlertsContainer"
                 Visible="False"
-                Margin="0 5"
+                Margin="0 5 0 5"
                 Orientation="Vertical"
                 HorizontalAlignment="Center">
             </BoxContainer>

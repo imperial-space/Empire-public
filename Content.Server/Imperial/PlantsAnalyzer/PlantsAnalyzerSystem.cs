@@ -171,7 +171,7 @@ public sealed class PlantsAnalyzerSystem : EntitySystem
             var lowPressure = plantHolder.Seed?.LowPressureTolerance ?? 0f;
             var highPressure = plantHolder.Seed?.HighPressureTolerance ?? 0f;
 
-            optimalConditions.Add($"{Loc.GetString("plants-analyzer-optimal-pressure")} {lowPressure:F1} - {highPressure:F1}" + Loc.GetString("units-k-pascal"));
+            optimalConditions.Add($"{Loc.GetString("plants-analyzer-optimal-pressure")} {lowPressure:F1} - {highPressure:F1} " + Loc.GetString("units-k-pascal"));
         }
 
         if (plantHolder.ImproperLight)
