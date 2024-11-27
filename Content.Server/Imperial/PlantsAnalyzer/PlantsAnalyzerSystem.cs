@@ -185,7 +185,9 @@ public sealed class PlantsAnalyzerSystem : EntitySystem
             : Loc.GetString("plants-analyzer-window-no-mutations");
 
         var chemicals = plantHolder.Seed?.Chemicals.Any() == true
-            ? string.Join(", ", plantHolder.Seed.Chemicals.Keys)
+            ? string.Join(",\n     " + string.Concat(Enumerable.Repeat(" ", Loc.GetString("plants-analyzer-window-chemicals").Length * 2)),
+                          plantHolder.Seed.Chemicals.Keys.Select(reagent =>
+                              Loc.GetString("reagent-name-" + (reagent.Contains("Juice") ? "juice-" + reagent.Substring(5).ToLower() : reagent.ToLower()))))
             : Loc.GetString("plants-analyzer-window-no-chemicals");
 
         _uiSystem.ServerSendUiMessage(plantsAnalyzer, PlantsAnalyzerUiKey.Key, new PlantsAnalyzerScannedUserMessage(
@@ -210,4 +212,5 @@ public sealed class PlantsAnalyzerSystem : EntitySystem
             chemicals
         ));
     }
+
 }

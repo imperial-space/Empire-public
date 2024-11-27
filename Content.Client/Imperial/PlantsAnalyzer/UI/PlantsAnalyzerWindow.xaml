@@ -85,6 +85,8 @@
 
                 <Label Name="MutationsLabel" />
                 <Label Name="ChemicalsLabel" />
+
+                <Label Name="ChemicalsLabelWithLineBreaks" Text="" />
             </BoxContainer>
 
             <PanelContainer Name="AlertsDivider" Visible="False" StyleClasses="LowDivider" />
