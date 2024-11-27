@@ -6,6 +6,7 @@
     HydroponicsToolClippers: 4
     HydroponicsToolScythe: 4
     HydroponicsToolHatchet: 4
+    HandheldPlantsAnalyzer: 2 # ImperialSpace PlantsAnalyzer
     Dropper: 4
     PlantBag: 3
     PlantBGoneSpray: 20
