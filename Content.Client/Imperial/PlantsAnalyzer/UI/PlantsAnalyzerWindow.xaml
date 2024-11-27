@@ -65,10 +65,10 @@
                 <PanelContainer StyleClasses="LowDivider" />
 
                 <GridContainer Margin="0 5 0 0" Columns="2">
-                    <Label Text="{Loc 'plants-analyzer-window-water-level-text'}" />
-                    <Label Name="WaterLevelLabel" />
-                    <Label Text="{Loc 'plants-analyzer-window-nutrition-level-text'}" />
-                    <Label Name="NutritionLevelLabel" />
+                    <Label Text="{Loc 'plants-analyzer-window-potency-level-text'}" />
+                    <Label Name="PotencyLevelLabel" />
+                    <Label Text="{Loc 'plants-analyzer-window-production-level-text'}" />
+                    <Label Name="ProductionLevelLabel" />
                     <Label Text="{Loc 'plants-analyzer-window-pest-level-text'}" />
                     <Label Name="PestLevelLabel" />
                     <Label Text="{Loc 'plants-analyzer-window-weed-level-text'}" />

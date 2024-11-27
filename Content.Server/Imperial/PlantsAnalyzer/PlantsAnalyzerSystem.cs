@@ -149,6 +149,11 @@ public sealed class PlantsAnalyzerSystem : EntitySystem
             return;
 
         var plantName = Loc.GetString(plantHolder.Seed?.DisplayName ?? "plants-analyzer-window-unknown-plant");
+
+        var potencyLevel = plantHolder.Seed?.Potency ?? 0f;
+
+        var productionLevel = plantHolder.Seed?.Production ?? 0f;
+
         var isDead = plantHolder.Dead;
 
         var optimalConditions = new List<string>();
@@ -158,7 +163,7 @@ public sealed class PlantsAnalyzerSystem : EntitySystem
             var idealHeat = plantHolder.Seed?.IdealHeat ?? 0f;
             var heatTolerance = plantHolder.Seed?.HeatTolerance ?? 0f;
 
-            optimalConditions.Add($"{Loc.GetString("plants-analyzer-optimal-temperature")} {idealHeat:F1} ± {heatTolerance:F1} K");
+            optimalConditions.Add($"{Loc.GetString("plants-analyzer-optimal-temperature")} {idealHeat:F1} ± {heatTolerance:F1} " + Loc.GetString("units-kelvin"));
         }
 
         if (plantHolder.ImproperPressure)
@@ -166,7 +171,7 @@ public sealed class PlantsAnalyzerSystem : EntitySystem
             var lowPressure = plantHolder.Seed?.LowPressureTolerance ?? 0f;
             var highPressure = plantHolder.Seed?.HighPressureTolerance ?? 0f;
 
-            optimalConditions.Add($"{Loc.GetString("plants-analyzer-optimal-pressure")} {lowPressure:F1} - {highPressure:F1}" + "кПа");
+            optimalConditions.Add($"{Loc.GetString("plants-analyzer-optimal-pressure")} {lowPressure:F1} - {highPressure:F1}" + Loc.GetString("units-k-pascal"));
         }
 
         if (plantHolder.ImproperLight)
@@ -185,16 +190,17 @@ public sealed class PlantsAnalyzerSystem : EntitySystem
             : Loc.GetString("plants-analyzer-window-no-mutations");
 
         var chemicals = plantHolder.Seed?.Chemicals.Any() == true
-            ? string.Join(",\n     " + string.Concat(Enumerable.Repeat(" ", Loc.GetString("plants-analyzer-window-chemicals").Length * 2)),
+            ? string.Join(",\n      " + string.Concat(Enumerable.Repeat(" ", Loc.GetString("plants-analyzer-window-chemicals").Length * 2)),
                           plantHolder.Seed.Chemicals.Keys.Select(reagent =>
-                              Loc.GetString("reagent-name-" + (reagent.Contains("Juice") ? "juice-" + reagent.Substring(5).ToLower() : reagent.ToLower()))))
+                              Loc.GetString("reagent-name-" +
+                                  System.Text.RegularExpressions.Regex.Replace(reagent.Contains("Juice") ? reagent: reagent, @"(?<=[a-z])([A-Z])", "-$1").ToLower())))
             : Loc.GetString("plants-analyzer-window-no-chemicals");
 
         _uiSystem.ServerSendUiMessage(plantsAnalyzer, PlantsAnalyzerUiKey.Key, new PlantsAnalyzerScannedUserMessage(
             GetNetEntity(target),
             plantName,
-            plantHolder.WaterLevel,
-            plantHolder.NutritionLevel,
+            potencyLevel,
+            productionLevel,
             plantHolder.PestLevel,
             plantHolder.WeedLevel,
             plantHolder.Toxins,

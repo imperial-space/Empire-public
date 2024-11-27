@@ -7,8 +7,8 @@ namespace Content.Shared.Imperial.PlantsAnalyzer
     {
         public readonly NetEntity? TargetEntity;
         public readonly string PlantName;
-        public readonly float WaterLevel;
-        public readonly float NutritionLevel;
+        public readonly float PotencyLevel;
+        public readonly float ProductionLevel;
         public readonly float PestLevel;
         public readonly float WeedLevel;
         public readonly float Toxins;
@@ -28,8 +28,8 @@ namespace Content.Shared.Imperial.PlantsAnalyzer
         public PlantsAnalyzerScannedUserMessage(
             NetEntity? targetEntity,
             string plantName,
-            float waterLevel,
-            float nutritionLevel,
+            float potencyLevel,
+            float productionLevel,
             float pestLevel,
             float weedLevel,
             float toxins,
@@ -48,8 +48,8 @@ namespace Content.Shared.Imperial.PlantsAnalyzer
         {
             TargetEntity = targetEntity;
             PlantName = plantName;
-            WaterLevel = waterLevel;
-            NutritionLevel = nutritionLevel;
+            PotencyLevel = potencyLevel;
+            ProductionLevel = productionLevel;
             PestLevel = pestLevel;
             WeedLevel = weedLevel;
             Toxins = toxins;

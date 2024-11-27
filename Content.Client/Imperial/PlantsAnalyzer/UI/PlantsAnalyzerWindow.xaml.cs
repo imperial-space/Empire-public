@@ -50,20 +50,21 @@ namespace Content.Client.Imperial.PlantsAnalyzer.UI
 
             SpeciesLabel.Text = msg.PlantName;
 
-            WaterLevelLabel.Text = $"{msg.WaterLevel:F1} %";
-            NutritionLevelLabel.Text = $"{msg.NutritionLevel:F1} %";
-            PestLevelLabel.Text = $"{msg.PestLevel:F1} %";
-            WeedLevelLabel.Text = $"{msg.WeedLevel:F1} %";
-            ToxinsLabel.Text = $"{msg.Toxins:F1} %";
+            PotencyLevelLabel.Text = $"{msg.PotencyLevel:F1}";
+            ProductionLevelLabel.Text = $"{msg.ProductionLevel:F1} un";
+            PestLevelLabel.Text = $"{msg.PestLevel * 10:F1} %";
+            WeedLevelLabel.Text = $"{msg.WeedLevel * 10:F1} %";
+            ToxinsLabel.Text = $"{msg.Toxins * 10:F1} %";
             AgeLabel.Text = $"{msg.Age}";
-            HealthLabel.Text = $"{msg.Health:F1} / 100";
-            MutationLevelLabel.Text = $"{msg.MutationLevel:F1} %";
+            HealthLabel.Text = $"{msg.Health:F1} / 110";
+            MutationLevelLabel.Text = $"{msg.MutationLevel:F1}";
 
             DeadLabel.Visible = msg.IsDead;
             DeadLabel.Text = msg.IsDead ? Loc.GetString("plants-analyzer-window-plant-dead") : Loc.GetString("plants-analyzer-window-plant-alive");
 
             OptimalConditionsLabel.Visible = !string.IsNullOrEmpty(msg.OptimalConditions);
             OptimalConditionsLabel.Text = msg.OptimalConditions;
+            OptimalConditionsLabel.Modulate = Color.Yellow;
 
             KudzuWarningLabel.Visible = msg.HasKudzu;
             KudzuWarningLabel.Modulate = Color.Red;
