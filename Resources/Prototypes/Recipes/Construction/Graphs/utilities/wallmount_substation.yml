@@ -57,13 +57,8 @@
             sprite: "Objects/Power/power_cells.rsi"
             state: "medium"
           doAfter: 0.5
-        - tag: CapacitorStockPart
-          name: конденсатор
-          store: capacitor
-          icon:
-            sprite: "Objects/Misc/stock_parts.rsi"
-            state: "capacitor"
-          doAfter: 0.5
+        - material: Capacitor
+          amount: 1
       - to: frame
         completed:
         - !type:GivePrototype
