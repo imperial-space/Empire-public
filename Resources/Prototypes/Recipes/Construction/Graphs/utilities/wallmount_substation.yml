@@ -59,6 +59,7 @@
           doAfter: 0.5
         - material: Capacitor
           amount: 1
+          doAfter: 0.5
       - to: frame
         completed:
         - !type:GivePrototype
