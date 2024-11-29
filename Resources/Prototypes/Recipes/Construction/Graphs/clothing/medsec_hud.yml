@@ -28,6 +28,7 @@
                 state: walkietalkie
               doAfter: 5
             - material: Capacitor
-              amount: 1
+              amount: 2
+              doAfter: 5
     - node: medsecHud
       entity: ClothingEyesHudMedSec
