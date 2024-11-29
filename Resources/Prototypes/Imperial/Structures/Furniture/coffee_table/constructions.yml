@@ -3,8 +3,8 @@
 - type: entity
   id: CoffeeTableFrame
   parent: BaseStructure
-  name: coffee table frame
-  description: Pieces of metal that make the frame of a coffee table.
+  name: Каркас кофейного столика
+  description: Металлические ножки, составляющие основу столика.
   components:
   - type: Sprite
     sprite: Imperial/Structures/Furniture/coffee_table.rsi
@@ -52,13 +52,13 @@
 
 # Wood
 - type: construction
-  name: wood coffee table
+  name: Деревянный кофейный столик
   id: CoffeeTableWood
   graph: CoffeeTableGraph
   startNode: start
   targetNode: CoffeeTableWood
   category: construction-category-furniture
-  description: Do not apply fire to this. Rumour says it burns easily.
+  description: Не размещайте рядом с огнем. Ходят слухи, что они хорошо горят.
   icon:
     sprite: Imperial/Structures/Furniture/coffee_table.rsi
     state: wood
@@ -71,13 +71,13 @@
 
 # Steel
 - type: construction
-  name: coffee table
+  name: Кофейный столик
   id: CoffeeTableSteel
   graph: CoffeeTableGraph
   startNode: start
   targetNode: CoffeeTableSteel
   category: construction-category-furniture
-  description: A square piece of metal standing on four metal legs.
+  description: Лист металла, стоящий на четырех металлических ножках.
   icon:
     sprite: Imperial/Structures/Furniture/coffee_table.rsi
     state: steel
@@ -90,13 +90,13 @@
 
 # Reinforced
 - type: construction
-  name: reinforced coffee table
+  name: Укреплённый кофейный столик
   id: CoffeeTableReinforced
   graph: CoffeeTableGraph
   startNode: start
   targetNode: CoffeeTableReinforced
   category: construction-category-furniture
-  description: A square piece of metal standing on four metal legs. Extra robust.
+  description: Лист металла, стоящий на четырех металлических ножках. Очень прочный.
   icon:
     sprite: Imperial/Structures/Furniture/coffee_table.rsi
     state: reinforced
@@ -109,13 +109,13 @@
 
 # Glass
 - type: construction
-  name: glass coffee table
+  name: Стеклянный кофейный столик
   id: CoffeeTableGlass
   graph: CoffeeTableGraph
   startNode: start
   targetNode: CoffeeTableGlass
   category: construction-category-furniture
-  description: A square piece of glass, standing on four metal legs.
+  description: Лист стекла, стоящий на четырех металлических ножках.
   icon:
     sprite: Imperial/Structures/Furniture/coffee_table.rsi
     state: glass
@@ -128,13 +128,13 @@
 
 # Plasma
 - type: construction
-  name: plasma glass coffee table
+  name: Плазменный кофейный столик
   id: CoffeeTablePlasma
   graph: CoffeeTableGraph
   startNode: start
   targetNode: CoffeeTablePlasma
   category: construction-category-furniture
-  description: A square piece of plasma glass, standing on four metal legs. Pretty!
+  description: Лист плазменного стекла, стоящий на четырех металлических ножках.
   icon:
     sprite: Imperial/Structures/Furniture/coffee_table.rsi
     state: plasma
@@ -147,13 +147,13 @@
 
 # Reinforced glass
 - type: construction
-  name: reinforced glass coffee table
+  name: Укреплённый стеклянный кофейный столик
   id: CoffeeTableReinforcedGlass
   graph: CoffeeTableGraph
   startNode: start
   targetNode: CoffeeTableReinforcedGlass
   category: construction-category-furniture
-  description: A square piece of glass, standing on four metal legs. Extra robust.
+  description: Лист стекла, стоящий на четырех металлических ножках. Очень прочный.
   icon:
     sprite: Imperial/Structures/Furniture/coffee_table.rsi
     state: reinforced_glass
@@ -166,13 +166,13 @@
 
 # Uranium
 - type: construction
-  name: uranium glass coffee table
+  name: Урановый кофейный столик
   id: CoffeeTableUranium
   graph: CoffeeTableGraph
   startNode: start
   targetNode: CoffeeTableUranium
   category: construction-category-furniture
-  description: A square piece of uranium glass, standing on four metal legs. Pretty!
+  description: Лист уранового стекла, стоящий на четырех металлических ножках. Симпатичный!
   icon:
     sprite: Imperial/Structures/Furniture/coffee_table.rsi
     state: uranium
@@ -185,13 +185,13 @@
 
 # Reinforced Uranium
 - type: construction
-  name: reinforced uranium glass coffee table
+  name: Укреплённый урановый кофейный столик
   id: CoffeeTableReinforcedUranium
   graph: CoffeeTableGraph
   startNode: start
   targetNode: CoffeeTableReinforcedUranium
   category: construction-category-furniture
-  description: A square piece of uranium glass, standing on four metal legs. Extra robust.
+  description: Лист укрепленного уранового стекла, стоящий на четырех металлических ножках. Очень прочный.
   icon:
     sprite: Imperial/Structures/Furniture/coffee_table.rsi
     state: reinforced_uranium
@@ -204,13 +204,13 @@
 
 # Reinforced plasma
 - type: construction
-  name: reinforced plasma glass coffee table
+  name: Укреплённый плазменный кофейный столик
   id: CoffeeTableReinforcedPlasma
   graph: CoffeeTableGraph
   startNode: start
   targetNode: CoffeeTableReinforcedPlasma
   category: construction-category-furniture
-  description: A square piece of plasma glass, standing on four metal legs. Extra robust.
+  description: Лист укрепленного плазменного стекла, стоящий на четырех металлических ножках.
   icon:
     sprite: Imperial/Structures/Furniture/coffee_table.rsi
     state: reinforced_plasma

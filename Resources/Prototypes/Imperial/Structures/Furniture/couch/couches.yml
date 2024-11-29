@@ -18,13 +18,13 @@
     node: couchComfy
 
 - type: construction
-  name: comfy couch
+  name: Комфортный диван
   id: CouchComfy
   graph: Seat
   startNode: start
   targetNode: couchComfy
   category: construction-category-furniture
-  description: It looks comfy.
+  description: Выглядит комфортно.
   icon:
     sprite: Imperial/Structures/Furniture/couch.rsi
     state: comfy_couch
@@ -55,13 +55,13 @@
 
 
 - type: construction
-  name: golden couch
+  name: Золотой диван
   id: CouchGold
   graph: Seat
   startNode: start
   targetNode: couchGold
   category: construction-category-furniture
-  description: It looks rich.
+  description: Выглядит богато.
   icon:
     sprite: Imperial/Structures/Furniture/couch.rsi
     state: gold_couch_2

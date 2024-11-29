@@ -6,7 +6,7 @@
     edges:
     - to: done
       steps:
-      - material: ArtifactFragment
+      - material: фрагмент артефакта
         amount: 4
         doAfter: 5
   - node: done
