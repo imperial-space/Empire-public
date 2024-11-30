@@ -21,3 +21,4 @@ toggle-light = Переключатель освещения
 
 ai-device-not-responding = Устройство не отвечает
 ai-consciousness-download-warning = Ваше сознание загружается.
+circuit-holder = Плата законов
