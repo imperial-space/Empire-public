@@ -1,5 +1,5 @@
 plants-analyzer-window-no-plant-data-text = Нет данных
-plants-analyzer-window-plant-dead = Статус: Растение мертво
+plants-analyzer-window-plant-dead = Растение мертво
 plants-analyzer-window-scan-mode-active = АКТИВНО
 plants-analyzer-window-scan-mode-inactive = НЕАКТИВНО
 plants-analyzer-window-entity-unknown-text = Неизвестно

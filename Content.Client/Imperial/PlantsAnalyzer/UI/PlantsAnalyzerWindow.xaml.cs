@@ -57,11 +57,11 @@ namespace Content.Client.Imperial.PlantsAnalyzer.UI
             WeedLevelLabel.Text = $"{msg.WeedLevel * 10:F1} %";
             ToxinsLabel.Text = $"{msg.Toxins * 10:F1} %";
             AgeLabel.Text = $"{msg.Age}";
-            HealthLabel.Text = $"{msg.Health:F1} / 110";
+            HealthLabel.Text = $"{msg.Health:F1}";
             MutationLevelLabel.Text = $"{msg.MutationLevel:F1}";
 
             DeadLabel.Visible = msg.IsDead;
-            DeadLabel.Text = msg.IsDead ? Loc.GetString("plants-analyzer-window-plant-dead") : Loc.GetString("plants-analyzer-window-plant-alive");
+            DeadLabel.Text = Loc.GetString("plants-analyzer-window-plant-dead");
 
             MutationsLabel.Text = $"{Loc.GetString("plants-analyzer-window-mutations")} {msg.Mutations}";
             var chemicals = msg.Chemicals;

@@ -1,4 +1,5 @@
 using System.Linq;
+using System.Text.RegularExpressions;
 using Content.Server.Botany.Components;
 using Content.Server.Imperial.PlantsAnalyzer.Components;
 using Content.Server.PowerCell;
@@ -186,14 +187,17 @@ public sealed class PlantsAnalyzerSystem : EntitySystem
         var hasKudzu = plantHolder.Seed?.TurnIntoKudzu ?? false;
 
         var mutations = plantHolder.Seed?.Mutations.Any() == true
-            ? string.Join(", ", plantHolder.Seed.Mutations.Select(m => m.Name))
+            ? string.Join(",\n      " + string.Concat(Enumerable.Repeat(" ", Loc.GetString("plants-analyzer-window-mutations").Length * 2)),
+                plantHolder.Seed.Mutations.Select(mutation =>
+                    Loc.GetString("random-mutation-name-" +
+                    Regex.Replace(mutation.Name, @"(?<=[a-z])([A-Z])", "-$1").ToLower())))
             : Loc.GetString("plants-analyzer-window-no-mutations");
 
         var chemicals = plantHolder.Seed?.Chemicals.Any() == true
             ? string.Join(",\n      " + string.Concat(Enumerable.Repeat(" ", Loc.GetString("plants-analyzer-window-chemicals").Length * 2)),
-                          plantHolder.Seed.Chemicals.Keys.Select(reagent =>
-                              Loc.GetString("reagent-name-" +
-                                  System.Text.RegularExpressions.Regex.Replace(reagent.Contains("Juice") ? reagent: reagent, @"(?<=[a-z])([A-Z])", "-$1").ToLower())))
+                plantHolder.Seed.Chemicals.Keys.Select(reagent =>
+                    Loc.GetString("reagent-name-" +
+                    Regex.Replace(reagent, @"(?<=[a-z])([A-Z])", "-$1").ToLower())))
             : Loc.GetString("plants-analyzer-window-no-chemicals");
 
         _uiSystem.ServerSendUiMessage(plantsAnalyzer, PlantsAnalyzerUiKey.Key, new PlantsAnalyzerScannedUserMessage(
