@@ -1,4 +1,4 @@
-iar-word-1 = Да
+liar-word-1 = Да
 liar-word-replacement-1 = Нет
 
 liar-word-2 = Нет
