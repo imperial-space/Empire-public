@@ -5,7 +5,7 @@
   description: A handheld plant scanner capable of distinguishing botanically important features of an object.
   components:
   - type: Sprite
-    sprite: Imperial\PlantsAnalyzer\plants_analyzer.rsi
+    sprite: Imperial/PlantsAnalyzer/plants_analyzer.rsi
     state: icon
     layers:
       - state: icon
