@@ -26,6 +26,7 @@
             Chaplain: [ 1, 1 ]
             Librarian: [ 1, 1 ]
             ServiceWorker: [ 2, 2 ]
+            Adjutant: [ 1, 1 ]
             Zookeeper: [ 1, 1 ]
             Reporter: [ 1, 1 ]
             #engineering

@@ -61,6 +61,4 @@ borg-type-service-name = Service
 borg-type-service-desc = Help out with a wide range of crew services, ranging from serving snacks and drinks to botany to entertainment.
 borg-type-service-transponder = service cyborg
 
-borg-type-security-name = Security
-borg-type-security-desc = Help the Security Service in catching violators, keep order at the station and destroy third-party fauna.
-borg-type-security-transponder = security cyborg
+

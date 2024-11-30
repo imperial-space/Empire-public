@@ -2,8 +2,8 @@
 cmd-ftldisk-desc = Создает диск с координатами сверхсветовой скорости для перемещения к карте, на которой указан EntityId
 cmd-ftldisk-help = ftdisk [идентификатор объекта]
 
-cmd-ftldisk-no-transform = Eсущность {$destination} не имеет компонента преобразования!
-cmd-ftldisk-no-map =У объекта {$destination} нет карты!
+cmd-ftldisk-no-transform = Cущность {$destination} не имеет компонента преобразования!
+cmd-ftldisk-no-map = У объекта {$destination} нет карты!
 cmd-ftldisk-no-map-comp = Объект {$destination} каким-то образом находится на карте {$map} без компонента map.
 cmd-ftldisk-map-not-init = Объект {$destination} находится на карте {$map}, которая не инициализирована! Убедитесь, что инициализация безопасна, а затем сначала инициализируйте карту, иначе игроки застрянут на месте!
 cmd-ftldisk-map-paused = Объект {$destination} находится на карте {$map}, которая приостановлена! Пожалуйста, сначала снимите паузу с карты, иначе игроки застрянут на месте.

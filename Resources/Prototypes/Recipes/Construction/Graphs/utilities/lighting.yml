@@ -28,7 +28,7 @@
         - to: icon
           steps:
             - material: Glass
-              amount: 2
+              amount: 1
               doAfter: 1
             - tag: CrystalBlue
               name: синий осколок кристалла
@@ -48,7 +48,7 @@
         - to: icon
           steps:
             - material: Glass
-              amount: 2
+              amount: 1
               doAfter: 1
             - tag: CrystalPink
               name: розовый осколок кристалла
@@ -68,7 +68,7 @@
         - to: icon
           steps:
             - material: Glass
-              amount: 2
+              amount: 1
               doAfter: 1
             - tag: CrystalOrange
               name: оранжевый осколок кристалла
@@ -88,7 +88,7 @@
         - to: icon
           steps:
             - material: Glass
-              amount: 2
+              amount: 1
               doAfter: 1
             - tag: CrystalRed
               name: красный осколок кристалла
@@ -108,7 +108,7 @@
         - to: icon
           steps:
             - material: Glass
-              amount: 2
+              amount: 1
               doAfter: 1
             - tag: CrystalGreen
               name: зеленый осколок кристалла
