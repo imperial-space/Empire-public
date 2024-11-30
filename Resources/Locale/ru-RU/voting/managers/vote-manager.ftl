@@ -29,4 +29,4 @@ ui-vote-votekick-server-cancelled = Голосование за исключен
 ui-vote-votekick-no = Нет
 ui-vote-votekick-failure = Не удалось выбрать { $target }. Причина выбора: { $reason }
 ui-vote-votekick-abstain = Воздержаться
-ui-vote-votekick-not-enough-eligible = Недостаточно избирателей онлайн, чтобы начать голосование: { $voters }/{ $requirement }
+ui-vote-votekick-not-enough-eligible = Недостаточно игроков онлайн, чтобы начать голосование: { $voters }/{ $requirement }
