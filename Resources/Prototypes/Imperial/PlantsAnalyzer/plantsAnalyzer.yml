@@ -33,6 +33,9 @@
         enum.PowerDeviceVisualLayers.Powered:
           True: { visible: true }
           False: { visible: false }
+  - type: GuideHelp
+    guides:
+    - Botanical
 
 - type: entity
   id: HandheldPlantsAnalyzer
