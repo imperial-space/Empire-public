@@ -34,7 +34,7 @@ id-card-access-level-theatre = Театр
 id-card-access-level-chapel = Церковь
 id-card-access-level-lawyer = Юрист
 
-id-card-access-level-maintenance = Техобслуживие
+id-card-access-level-maintenance = Техобслуживание
 
 id-card-access-level-external = Внешний
 

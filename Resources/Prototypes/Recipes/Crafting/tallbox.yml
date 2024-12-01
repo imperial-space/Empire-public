@@ -1,44 +1,44 @@
 - type: construction
   id: ClosetSteel
-  name: closet
+  name: Шкаф
   graph: ClosetSteel
   startNode: start
   targetNode: done
   category: construction-category-storage
-  description: A tall steel box that cannot be locked.
+  description: Высокий стальной ящик, который невозможно запереть.
   icon: { sprite: Structures/Storage/closet.rsi, state: generic_icon }
   objectType: Structure
 
 - type: construction
   id: ClosetSteelSecure
-  name: secure closet
+  name: Защищённый шкаф
   graph: ClosetSteelSecure
   startNode: start
   targetNode: done
   category: construction-category-storage
-  description: A tall steel box that can be locked.
+  description: Высокий стальной ящик, который можно запереть. Можно настроить доступ с помощью конфигуратора доступов.
   icon: { sprite: Structures/Storage/closet.rsi, state: secure_icon }
   objectType: Structure
 
 - type: construction
   id: ClosetFreezer
-  name: freezer
+  name: Холодильник
   graph: ClosetFreezer
   startNode: start
   targetNode: done
   category: construction-category-storage
-  description: A tall steel box with freezing abilities.
+  description: Высокий стальной ящик с замораживающими способностями.
   icon: { sprite: Structures/Storage/closet.rsi, state: freezer_icon }
   objectType: Structure
 
 - type: construction
   id: ClosetWall
-  name: wall closet
+  name: Настенный шкаф
   graph: ClosetWall
   startNode: start
   targetNode: done
   category: construction-category-storage
-  description: A standard-issue Nanotrasen storage unit, now on walls.
+  description: Стандартное хранилище Nanotrasen, теперь на стене.
   icon: { sprite: Structures/Storage/wall_locker.rsi, state: generic_icon }
   objectType: Structure
   placementMode: SnapgridCenter
@@ -46,3 +46,4 @@
   canBuildInImpassable: true
   conditions:
     - !type:WallmountCondition
+    

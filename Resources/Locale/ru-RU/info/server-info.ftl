@@ -6,3 +6,4 @@ server-info-wiki-button = Вики
 server-info-forum-button = Форум
 server-info-report-button = Сообщить об ошибке
 server-info-credits-button = Авторы
+server-info-telegram-button = Телеграмм
