@@ -1,0 +1,10 @@
+- type: entity
+  name: Spider Clan Terminal
+  suffix: Crook, SpiderClan
+  description: Makes it a lot easier to track your victims. Assuming, of course, they've turned on their sensors...
+  parent: HandheldCrewMonitor
+  id: SpiderClanTerminal
+  components:
+  - type: Sprite
+    sprite: Imperial/SpiderClan/terminal.rsi
+    state: scanner

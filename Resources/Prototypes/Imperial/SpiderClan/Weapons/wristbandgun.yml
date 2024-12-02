@@ -1,0 +1,39 @@
+- type: entity
+  name: ninja battle wristband
+  suffix: Crook, SpiderClan
+  parent: [BaseStorageItem, BaseMajorContraband]
+  id: WeaponWristbandGun
+  description: A wristband that has a cavity for ninja throwing weapons.
+  components:
+  - type: Sprite
+    sprite: Imperial/SpiderClan/Weapon/wristbandgun.rsi
+    layers:
+    - state: icon
+  - type: Item
+    size: Huge
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - Belt
+  - type: Gun
+    fireRate: 7
+    selectedMode: Burst
+    availableModes:
+    - SemiAuto
+    - Burst
+    soundGunshot:
+      path: /Audio/Effects/thunk.ogg
+    soundEmpty:
+      path: /Audio/Items/hiss.ogg
+    clumsyProof: true
+  - type: ContainerAmmoProvider
+    container: storagebase
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,2,3
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []

@@ -2,7 +2,7 @@
   id: NinjaSleeper
   parent: BaseMachinePowered
   name: ninja sleeper
-  suffix: SpiderClan
+  suffix: Crook, SpiderClan
   description: A special device that lets you find out their dirtiest secrets...
   components:
   - type: MedicalScanner
