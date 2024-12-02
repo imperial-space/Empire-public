@@ -63,7 +63,7 @@
     - HeadSide
 
 - type: entity
-  parent: [ClothingHeadEVAHelmetBase, BaseMajorContraband]
+  parent: [ClothingHeadBase, BaseMajorContraband]
   id: RedAltHelmetSpaceNinja
   name: space ninja mask
   suffix: Crook, SpiderClan
@@ -78,9 +78,15 @@
     - WhitelistChameleon
   - type: IngestionBlocker
   - type: IdentityBlocker
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.2
+    coolingCoefficient: 0.2
 
 - type: entity
-  parent: [ClothingHeadEVAHelmetBase, BaseMajorContraband]
+  parent: [ClothingHeadBase, BaseMajorContraband]
   id: BlueAltHelmetSpaceNinja
   name: space ninja mask
   suffix: Crook, SpiderClan
@@ -95,9 +101,15 @@
     - WhitelistChameleon
   - type: IngestionBlocker
   - type: IdentityBlocker
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.2
+    coolingCoefficient: 0.2
 
 - type: entity
-  parent: [ClothingHeadEVAHelmetBase, BaseMajorContraband]
+  parent: [ClothingHeadBase, BaseMajorContraband]
   id: GreenAltHelmetSpaceNinja
   name: space ninja mask
   suffix: Crook, SpiderClan
@@ -112,3 +124,9 @@
     - WhitelistChameleon
   - type: IngestionBlocker
   - type: IdentityBlocker
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.2
+    coolingCoefficient: 0.2
