@@ -7,7 +7,7 @@
   components:
   - type: Sprite
     sprite: Imperial/SpiderClan/Clothing/Default/Boots/redninja.rsi
-    state: icon
+    state: icon-on
   - type: Clothing
     sprite: Imperial/SpiderClan/Clothing/Default/Boots/redninja.rsi
   - type: NoSlip
@@ -26,7 +26,7 @@
   components:
   - type: Sprite
     sprite: Imperial/SpiderClan/Clothing/Default/Boots/blueninja.rsi
-    state: icon
+    state: icon-on
   - type: Clothing
     sprite: Imperial/SpiderClan/Clothing/Default/Boots/blueninja.rsi
   - type: NoSlip
@@ -45,7 +45,7 @@
   components:
   - type: Sprite
     sprite: Imperial/SpiderClan/Clothing/Default/Boots/greenninja.rsi
-    state: icon
+    state: icon-on
   - type: Clothing
     sprite: Imperial/SpiderClan/Clothing/Default/Boots/greenninja.rsi
   - type: NoSlip
