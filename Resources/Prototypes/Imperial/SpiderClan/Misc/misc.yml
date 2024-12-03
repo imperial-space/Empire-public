@@ -30,6 +30,8 @@
   - type: Access
     tags:
     - Ninja
+    - SyndicateAgent
+    - NuclearOperative
   - type: Sprite
     sprite: Imperial/SpiderClan/Misc/Card.rsi
     layers:
