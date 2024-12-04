@@ -8,7 +8,7 @@
   - type: Sprite
     sprite: Imperial/SpiderClan/Clothing/Default/Backpacks/redninja.rsi
   - type: ExplosionResistance
-    damageCoefficient: 0.2
+    damageCoefficient: 0
   - type: Storage
     grid:
     - 0,0,10,3
@@ -23,7 +23,7 @@
   - type: Sprite
     sprite: Imperial/SpiderClan/Clothing/Default/Backpacks/blueninja.rsi
   - type: ExplosionResistance
-    damageCoefficient: 0.2
+    damageCoefficient: 0
   - type: Storage
     grid:
     - 0,0,10,3
@@ -38,7 +38,7 @@
   - type: Sprite
     sprite: Imperial/SpiderClan/Clothing/Default/Backpacks/greenninja.rsi
   - type: ExplosionResistance
-    damageCoefficient: 0.2
+    damageCoefficient: 0
   - type: Storage
     grid:
     - 0,0,10,3
