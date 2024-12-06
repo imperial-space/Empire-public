@@ -17,6 +17,15 @@ ent-SpiderClanTerminal = Терминал клана Паука
     .desc = Упрощает выслеживание ваших жертв в разы. Если, конечно, они включили свои датчики...
 ent-WeaponWristbandGun = боевой браслет ниндзя
     .desc = Наручный браслет, имеющий полость для метательного оружия ниндзя.
+
+ent-GreenSpaceNinja = космический ниндзя
+ent-RedSpaceNinja = космический ниндзя
+ent-BlueSpaceNinja = космический ниндзя
+
+ent-GhostGreenSpaceNinja = спавнер космический ниндзя
+ent-GhostRedSpaceNinja = спавнер космический ниндзя
+ent-GhostBlueSpaceNinja = спавнер космический ниндзя
+
 id-card-access-level-ninja = Ниндзя клана Паука
 job-name-ninja = Ниндзя Клана Паука
 job-name-empty = Неизвестно
