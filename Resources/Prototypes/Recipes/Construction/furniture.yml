@@ -606,7 +606,7 @@
   description: НТ-451, устройство для удаления мелких отходов, основанное на вращательном моменте.
   icon:
     sprite: Structures/Furniture/toilet.rsi
-    state: closed_toilet_seat_up
+    state: condisposal
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
