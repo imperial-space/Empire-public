@@ -1,8 +1,8 @@
 health-analyzer-window-no-patient-data-text = Нет данных о пациенте.
 health-analyzer-window-entity-unknown-text = неизвестно
 health-analyzer-window-entity-health-text = Состояние {$entityName}:
-health-analyzer-window-entity-damage-total-text = Общие повреждения: {$amount}
-health-analyzer-window-entity-bleeding-text = Пациент истекает кровью!
+health-analyzer-window-entity-damage-total-text = Общие повреждения:
+health-analyzer-window-entity-bleeding-text = [color=red]Пациент истекает кровью![/color]
 health-analyzer-window-damage-group-text = {$damageGroup}: {$amount}
 health-analyzer-window-damage-type-text = {$damageType}: {$amount}
 health-analyzer-window-damage-type-duplicate-text = {$damageType}: {$amount} (повтор)
@@ -33,8 +33,8 @@ health-analyzer-window-damage-type-Radiation = Радиация
 health-analyzer-window-damage-group-Genetic = Генетические
 health-analyzer-window-damage-type-Cellular = Клеточные
 
-health-analyzer-window-entity-temperature-text = Температура: {$temperature}
-health-analyzer-window-entity-blood-level-text = Уровень крови: {$bloodLevel}
+health-analyzer-window-entity-temperature-text = Температура:
+health-analyzer-window-entity-blood-level-text = Уровень крови:
 health-analyzer-window-entity-unrevivable-text = [color=red]Обнаружен уникальный состав тела! Пациент не может быть реанимирован обычными средствами![/color]
 health-analyzer-window-entity-unknown-value-text = Н/Д
 health-analyzer-window-entity-unknown-species-text = Не гуманоид
