@@ -10,7 +10,7 @@
       time: 14400 #Imperial role timers
   startingGear: CoronerGear
   icon: "JobIconCoroner"
-  supervisors: job-supervisors-medicine
+  supervisors: job-supervisors-cmo
   canBeAntag: true
   access:
   - Medical

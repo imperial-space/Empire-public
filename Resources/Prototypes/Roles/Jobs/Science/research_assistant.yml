@@ -10,7 +10,7 @@
       inverted: true # stop playing intern if you're good at science!
   startingGear: ResearchAssistantGear
   icon: "JobIconResearchAssistant"
-  supervisors: job-supervisors-science
+  supervisors: job-supervisors-for-junior-rnd
   canBeAntag: false
   access:
   - Research
