@@ -42,8 +42,8 @@
       - !type:GibBehavior { }
   - type: SlowOnDamage #modified speeds because they're so weak
     speedModifierThresholds:
-      60: 0.9
-      80: 0.7
+      15: 0.9
+      20: 0.7
   - type: Speech
     speechVerb: Skeleton
   - type: ZombieImmune
