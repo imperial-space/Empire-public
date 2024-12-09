@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseERTUplink
+  parent: [ BaseERTUplink, BSUlpinkPreset ]
   id: BlackShieldWTH
   name: WTH Terminal of the black shield
   description: Made in dark colors, for an equally dark person.
@@ -16,15 +16,15 @@
   - type: Item
     sprite: Imperial/VlClothes/DSO/BSWTH.rsi
     heldPrefix: device
+
+- type: entity
+  id: BSUlpinkPreset
+  abstract: true
+  components:
   - type: Store
-    preset: BSUlpinkPreset
+    categories:
+    - BSStoreMelee
+    currencyWhitelist:
+    - BlueSpaceCube
     balance:
       BlueSpaceCube: 30
-
-- type: storePreset
-  id: BSUlpinkPreset
-  storeName: BSUlpink
-  categories:
-  - BSStoreMelee
-  currencyWhitelist:
-  - BlueSpaceCube
