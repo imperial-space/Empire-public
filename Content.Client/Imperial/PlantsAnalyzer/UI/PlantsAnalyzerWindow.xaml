@@ -1,0 +1,102 @@
+<controls:FancyWindow
+    xmlns="https://spacestation14.io"
+    xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+    MaxHeight="525"
+    MinWidth="300"
+    Title="Plants Analyzer">
+    <ScrollContainer
+        Margin="5"
+        ReturnMeasure="True"
+        VerticalExpand="True">
+        <BoxContainer
+            Name="RootContainer"
+            VerticalExpand="True"
+            Orientation="Vertical">
+            
+            <Label
+                Name="NoPlantDataText"
+                Text="{Loc 'plants-analyzer-window-no-plant-data-text'}" />
+
+            <BoxContainer
+                Name="PlantDataContainer"
+                Margin="0 0 0 5"
+                Orientation="Vertical">
+                
+                <BoxContainer Orientation="Horizontal" Margin="0 0 0 5">
+                    <SpriteView
+                        OverrideDirection="South"
+                        Scale="2 2"
+                        Name="SpriteView"
+                        Access="Public"
+                        SetSize="64 64" />
+                    <TextureRect
+                        Name="NoDataTex"
+                        Access="Public"
+                        SetSize="64 64"
+                        Visible="False"
+                        Stretch="KeepAspectCentered"
+                        TexturePath="/Textures/Interface/Misc/health_analyzer_out_of_range.png" />
+                    <BoxContainer
+                        Margin="5 0 0 0"
+                        Orientation="Vertical"
+                        VerticalAlignment="Top">
+                        <RichTextLabel
+                            Name="NameLabel"
+                            SetWidth="150" />
+                        <Label
+                            Name="SpeciesLabel"
+                            VerticalAlignment="Top"
+                            StyleClasses="LabelSubText" />
+                    </BoxContainer>
+                    <Label
+                        Margin="0 0 5 0"
+                        HorizontalExpand="True"
+                        HorizontalAlignment="Right"
+                        VerticalExpand="True"
+                        VerticalAlignment="Top"
+                        Name="ScanModeLabel"
+                        Text="{Loc 'plants-analyzer-window-entity-unknown-text'}" />
+                </BoxContainer>
+
+                <Label Name="DeadLabel" Visible="False" Text="{Loc 'plants-analyzer-window-plant-dead'}" />
+                <Label Name="OptimalConditionsLabel" Visible="False" />
+
+                <PanelContainer StyleClasses="LowDivider" />
+
+                <GridContainer Margin="0 5 0 0" Columns="2">
+                    <Label Text="{Loc 'plants-analyzer-window-potency-level-text'}" />
+                    <Label Name="PotencyLevelLabel" />
+                    <Label Text="{Loc 'plants-analyzer-window-production-level-text'}" />
+                    <Label Name="ProductionLevelLabel" />
+                    <Label Text="{Loc 'plants-analyzer-window-pest-level-text'}" />
+                    <Label Name="PestLevelLabel" />
+                    <Label Text="{Loc 'plants-analyzer-window-weed-level-text'}" />
+                    <Label Name="WeedLevelLabel" />
+                    <Label Text="{Loc 'plants-analyzer-window-toxins-text'}" />
+                    <Label Name="ToxinsLabel" />
+                    <Label Text="{Loc 'plants-analyzer-window-age-text'}" />
+                    <Label Name="AgeLabel" />
+                    <Label Text="{Loc 'plants-analyzer-window-health-text'}" />
+                    <Label Name="HealthLabel" />
+                    <Label Text="{Loc 'plants-analyzer-window-mutation-level-text'}" />
+                    <Label Name="MutationLevelLabel" />
+                </GridContainer>
+
+                <Label Name="MutationsLabel" />
+                <Label Name="ChemicalsLabel" />
+
+                <Label Name="ChemicalsLabelWithLineBreaks" Text="" />
+            </BoxContainer>
+
+            <PanelContainer Name="AlertsDivider" Visible="False" StyleClasses="LowDivider" />
+
+            <BoxContainer
+                Name="AlertsContainer"
+                Visible="False"
+                Margin="0 5 0 5"
+                Orientation="Vertical"
+                HorizontalAlignment="Center">
+            </BoxContainer>
+        </BoxContainer>
+    </ScrollContainer>
+</controls:FancyWindow>

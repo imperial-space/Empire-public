@@ -5,7 +5,7 @@
   playTimeTracker: JobServiceWorker
   startingGear: ServiceWorkerGear
   icon: "JobIconServiceWorker"
-  supervisors: job-supervisors-service
+  supervisors: job-supervisors-for-junior-serv
   access:
   - Service
   - Maintenance

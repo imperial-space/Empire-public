@@ -12,7 +12,7 @@
       inverted: true # stop playing intern if you're good at engineering!
   startingGear: TechnicalAssistantGear
   icon: "JobIconTechnicalAssistant"
-  supervisors: job-supervisors-engineering
+  supervisors: job-supervisors-for-junior-eng
   canBeAntag: false
   access:
   - Maintenance

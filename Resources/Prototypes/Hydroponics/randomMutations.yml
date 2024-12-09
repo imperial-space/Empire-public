@@ -9,7 +9,7 @@
     - name: Sentient
       baseOdds: 0.0072
       appliesToProduce: false
-      persists: false
+      persists: true # Imperial PlantsAnalyzer (false -> true)
       effect: !type:MakeSentient # existing effect.
     - name: Slippery
       baseOdds: 0.036
@@ -22,7 +22,7 @@
       persists: false
     - name: Unviable
       baseOdds: 0.109
-      persists: false
+      persists: true # Imperial PlantsAnalyzer (false -> true)
       effect: !type:PlantChangeStat
         targetValue: Viable
     - name: ChangeWaterConsumption
@@ -147,12 +147,12 @@
         steps: 5
     - name: ChangeSeedless
       baseOdds: 0.036
-      persists: false
+      persists: true # Imperial PlantsAnalyzer (false -> true)
       effect: !type:PlantChangeStat
         targetValue: Seedless
     - name: ChangeLigneous
       baseOdds: 0.036
-      persists: false
+      persists: true # Imperial PlantsAnalyzer (false -> true)
       effect: !type:PlantChangeStat
         targetValue: Ligneous
     - name: ChangeTurnIntoKudzu
@@ -162,20 +162,20 @@
         targetValue: TurnIntoKudzu
     - name: ChangeScreaming
       baseOdds: 0.036
-      persists: false
+      persists: true # Imperial PlantsAnalyzer (false -> true)
       effect: !type:PlantChangeStat
         targetValue: CanScream
     - name: ChangeChemicals
       baseOdds: 0.072
-      persists: false
+      persists: true # Imperial PlantsAnalyzer (false -> true)
       effect: !type:PlantMutateChemicals
     - name: ChangeExudeGasses
       baseOdds: 0.0145
-      persists: false
+      persists: true # Imperial PlantsAnalyzer (false -> true)
       effect: !type:PlantMutateExudeGasses
     - name: ChangeConsumeGasses
       baseOdds: 0.0036
-      persists: false
+      persists: true # Imperial PlantsAnalyzer (false -> true)
       effect: !type:PlantMutateConsumeGasses
     - name: ChangeHarvest
       baseOdds: 0.036
