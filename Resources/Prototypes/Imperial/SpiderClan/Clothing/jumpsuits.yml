@@ -1,0 +1,11 @@
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: JumpsuitNinja
+  name: ninja jumpsuit
+  suffix: Crook, SpiderClan
+  description: Comfortable ninja suit, for convenience when relaxing and when you need to practice.
+  components:
+  - type: Sprite
+    sprite: Imperial/SpiderClan/Clothing/Default/Jumpsuits/ninja.rsi
+  - type: Clothing
+    sprite: Imperial/SpiderClan/Clothing/Default/Jumpsuits/ninja.rsi
