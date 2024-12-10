@@ -29,6 +29,7 @@
   - type: ShowJobIcons
   - type: ShowMindShieldIcons
   - type: ShowCriminalRecordIcons
+  - type: FlashImmunity
 
   radioChannels:
   - Security

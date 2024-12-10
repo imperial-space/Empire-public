@@ -275,14 +275,22 @@
     autoRechargeRate: 50
 
 - type: entity
-  id: Zipties10
-  parent: Zipties
-  suffix: 10, Zipties
+  name: flash
+  parent: [BaseItem, Flash]
+  id: FlashBorg
+  description: An advanced cyborg flash with a nuclear battery.
   components:
-  - type: Stack
-    stackType: Zipties
-    lingering: true
-    count: 10
+  - type: AutoRecharge
+    rechargeDuration: 20
+  - type: GenericVisualizer
+    visuals:
+      enum.FlashVisuals.Burnt:
+        enum.FlashVisuals.BaseLayer:
+          False: {state: burnt}
+      enum.FlashVisuals.Flashing:
+        enum.FlashVisuals.LightLayer:
+          True: {visible: true}
+          False: {visible: false}
 
 
 - type: entity
@@ -298,7 +306,7 @@
     items:
     - StunbatonBorg
     - WeaponDisablerBorg
-    - Zipties10
+    - FlashBorg
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: security-borg-unlethal } # Надо заменить, пока заглушка
   - type: Tag
