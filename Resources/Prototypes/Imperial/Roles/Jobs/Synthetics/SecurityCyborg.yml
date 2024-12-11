@@ -46,6 +46,18 @@
   petSuccessString: petting-success-security-cyborg
   petFailureString: petting-failure-security-cyborg
 
+  # Sounds
+  footstepCollection:
+    collection: FootstepSecurityCyborg
+
 
 - type: Tag
   id: BorgModuleSecurityImperial
+
+
+- type: soundCollection
+  id: FootstepSecurityCyborg
+  files:
+  - /Audio/Imperial/Synthetics/sound_misc_step_step_robo_1.ogg
+  - /Audio/Imperial/Synthetics/sound_misc_step_step_robo_2.ogg
+  - /Audio/Imperial/Synthetics/sound_misc_step_step_robo_3.ogg
