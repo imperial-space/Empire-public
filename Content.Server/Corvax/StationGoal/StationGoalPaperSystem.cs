@@ -55,6 +55,7 @@ namespace Content.Server.Corvax.StationGoal
                     Loc.GetString(goal.Text),
                     Loc.GetString("station-goal-fax-paper-name"),
                     null,
+                    null,
                     "paper_stamp-cent",
                     list
                 );

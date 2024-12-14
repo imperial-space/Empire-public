@@ -3,7 +3,7 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using Content.Server.Maps;
-using Content.Shared.Corvax.CCCVars;
+using Content.Shared.Imperial.ICCVar;
 using Content.Shared.GameTicking;
 using Robust.Shared.Configuration;
 
@@ -31,9 +31,9 @@ public sealed class RoundNotificationsSystem : EntitySystem
         SubscribeLocalEvent<RoundStartedEvent>(OnRoundStarted);
         SubscribeLocalEvent<RoundEndedEvent>(OnRoundEnded);
 
-        _config.OnValueChanged(CCCVars.DiscordRoundWebhook, value => _webhookUrl = value, true);
-        _config.OnValueChanged(CCCVars.DiscordRoundRoleId, value => _roleId = value, true);
-        _config.OnValueChanged(CCCVars.DiscordRoundStartOnly, value => _roundStartOnly = value, true);
+        _config.OnValueChanged(ICCVars.DiscordRoundWebhook, value => _webhookUrl = value, true);
+        _config.OnValueChanged(ICCVars.DiscordRoundRoleId, value => _roleId = value, true);
+        _config.OnValueChanged(ICCVars.DiscordRoundStartOnly, value => _roundStartOnly = value, true);
 
         _sawmill = IoCManager.Resolve<ILogManager>().GetSawmill("notifications");
     }
