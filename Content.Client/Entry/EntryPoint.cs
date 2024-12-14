@@ -81,7 +81,7 @@ namespace Content.Client.Entry
 
             foreach (var callback in TestingCallbacks)
             {
-                var cast = (ClientModuleTestingCallbacks) callback;
+                var cast = (ClientModuleTestingCallbacks)callback;
                 cast.ClientBeforeIoC?.Invoke();
             }
 
@@ -123,6 +123,8 @@ namespace Content.Client.Entry
             _prototypeManager.RegisterIgnore("alertLevels");
             _prototypeManager.RegisterIgnore("nukeopsRole");
             _prototypeManager.RegisterIgnore("ghostRoleRaffleDecider");
+            _prototypeManager.RegisterIgnore("stationGoal"); // Corvax-Station
+            _prototypeManager.RegisterIgnore("ertCall"); // Imperial ert call
 
             _componentFactory.GenerateNetIds();
             _adminManager.Initialize();
@@ -209,7 +211,7 @@ namespace Content.Client.Entry
             else if (_gameController.LaunchState.FromLauncher)
             {
                 _stateManager.RequestStateChange<LauncherConnecting>();
-                var state = (LauncherConnecting) _stateManager.CurrentState;
+                var state = (LauncherConnecting)_stateManager.CurrentState;
 
                 if (disconnected)
                 {
