@@ -44,7 +44,7 @@ namespace Content.Server.Corvax.StationGoal
         {
             var faxes = EntityManager.EntityQuery<FaxMachineComponent>();
             var wasSent = false;
-            var funny = new StampDisplayInfo() { StampedName = Loc.GetString("stamp-component-stamped-name-centcom") };
+            var funny = new StampDisplayInfo() { StampedName = Loc.GetString("stamp-component-stamped-name-centcom"), StampedColor = Color.FromHex("#006600") };
             var list = new List<StampDisplayInfo>();
             list.Add(funny);
             foreach (var fax in faxes)
@@ -56,7 +56,7 @@ namespace Content.Server.Corvax.StationGoal
                     Loc.GetString("station-goal-fax-paper-name"),
                     null,
                     null,
-                    "paper_stamp-cent",
+                    "paper_stamp-centcom",
                     list
                 );
                 _faxSystem.Receive(fax.Owner, printout, null, fax);
