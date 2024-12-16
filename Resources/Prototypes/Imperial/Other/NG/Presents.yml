@@ -1,0 +1,2324 @@
+#region Trash
+- type: entity
+  id: PresentTrashNG0
+  parent: PresentTrash
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: unwrapped0
+
+- type: entity
+  id: PresentTrashNG1
+  parent: PresentTrash
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: unwrapped1
+
+- type: entity
+  id: PresentTrashNG2
+  parent: PresentTrash
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: unwrapped2
+
+- type: entity
+  id: PresentTrashNG3
+  parent: PresentTrash
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: unwrapped3
+
+- type: entity
+  id: PresentTrashNG4
+  parent: PresentTrash
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: unwrapped4
+
+#region RandomUnsafe
+- type: entity
+  id: PresentRandomUnsafeNG0
+  parent: PresentRandomUnsafe
+  components:
+  - type: RandomGift
+    wrapper: PresentTrashNG0
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present0
+
+- type: entity
+  id: PresentRandomUnsafeNG1
+  parent: PresentRandomUnsafe
+  components:
+  - type: RandomGift
+    wrapper: PresentTrashNG1
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present1
+
+- type: entity
+  id: PresentRandomUnsafeNG2
+  parent: PresentRandomUnsafe
+  components:
+  - type: RandomGift
+    wrapper: PresentTrashNG2
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present2
+
+- type: entity
+  id: PresentRandomUnsafeNG3
+  parent: PresentRandomUnsafe
+  components:
+  - type: RandomGift
+    wrapper: PresentTrashNG3
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present3
+
+- type: entity
+  id: PresentRandomUnsafeNG4
+  parent: PresentRandomUnsafe
+  components:
+  - type: RandomGift
+    wrapper: PresentTrashNG4
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present4
+
+#region Insane
+- type: entity
+  id: PresentRandomInsaneNG0
+  parent: PresentRandomUnsafeNG0
+  suffix: Filled, any entity
+  components:
+  - type: RandomGift
+    insaneMode: true
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present0
+
+- type: entity
+  id: PresentRandomInsaneNG1
+  parent: PresentRandomUnsafeNG1
+  suffix: Filled, any entity
+  components:
+  - type: RandomGift
+    insaneMode: true
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present1
+
+- type: entity
+  id: PresentRandomInsaneNG2
+  parent: PresentRandomUnsafeNG2
+  suffix: Filled, any entity
+  components:
+  - type: RandomGift
+    insaneMode: true
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present2
+
+- type: entity
+  id: PresentRandomInsaneNG3
+  parent: PresentRandomUnsafeNG3
+  suffix: Filled, any entity
+  components:
+  - type: RandomGift
+    insaneMode: true
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present3
+
+- type: entity
+  id: PresentRandomInsaneNG4
+  parent: PresentRandomUnsafeNG4
+  suffix: Filled, any entity
+  components:
+  - type: RandomGift
+    insaneMode: true
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present4
+
+#region Ash
+- type: entity
+  id: PresentRandomAshNG0
+  parent: PresentRandomAsh
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG0
+      - id: Ash # No coal yet!
+        orGroup: GiftPool
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present0
+
+- type: entity
+  id: PresentRandomAshNG1
+  parent: PresentRandomAsh
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG1
+      - id: Ash # No coal yet!
+        orGroup: GiftPool
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present1
+
+- type: entity
+  id: PresentRandomAshNG2
+  parent: PresentRandomAsh
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG2
+      - id: Ash # No coal yet!
+        orGroup: GiftPool
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present2
+
+- type: entity
+  id: PresentRandomAshNG3
+  parent: PresentRandomAsh
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG3
+      - id: Ash # No coal yet!
+        orGroup: GiftPool
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present3
+
+- type: entity
+  id: PresentRandomAshNG4
+  parent: PresentRandomAsh
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG4
+      - id: Ash # No coal yet!
+        orGroup: GiftPool
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present4
+
+#region Cash
+- type: entity
+  id: PresentRandomCashNG0
+  parent: PresentRandomCash
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present0
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG0
+      - id: SpaceCash
+        prob: .01
+        orGroup: GiftPool
+      - id: SpaceCash10
+        prob: .1
+        orGroup: GiftPool
+      - id: SpaceCash100
+        prob: .5
+        orGroup: GiftPool
+      - id: SpaceCash500
+        orGroup: GiftPool
+      - id: SpaceCash1000
+        prob: .01
+        orGroup: GiftPool
+      - id: SpaceCash2500
+        prob: .004
+        orGroup: GiftPool
+      - id: SpaceCash5000
+        prob: .002
+        orGroup: GiftPool
+      - id: SpaceCash10000
+        prob: .001
+        orGroup: GiftPool
+      - id: SpaceCash1000000
+        prob: .000001
+        orGroup: GiftPool
+
+- type: entity
+  id: PresentRandomCashNG1
+  parent: PresentRandomCash
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present1
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG1
+      - id: SpaceCash
+        prob: .01
+        orGroup: GiftPool
+      - id: SpaceCash10
+        prob: .1
+        orGroup: GiftPool
+      - id: SpaceCash100
+        prob: .5
+        orGroup: GiftPool
+      - id: SpaceCash500
+        orGroup: GiftPool
+      - id: SpaceCash1000
+        prob: .01
+        orGroup: GiftPool
+      - id: SpaceCash2500
+        prob: .004
+        orGroup: GiftPool
+      - id: SpaceCash5000
+        prob: .002
+        orGroup: GiftPool
+      - id: SpaceCash10000
+        prob: .001
+        orGroup: GiftPool
+      - id: SpaceCash1000000
+        prob: .000001
+        orGroup: GiftPool
+
+- type: entity
+  id: PresentRandomCashNG2
+  parent: PresentRandomCash
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present2
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG2
+      - id: SpaceCash
+        prob: .01
+        orGroup: GiftPool
+      - id: SpaceCash10
+        prob: .1
+        orGroup: GiftPool
+      - id: SpaceCash100
+        prob: .5
+        orGroup: GiftPool
+      - id: SpaceCash500
+        orGroup: GiftPool
+      - id: SpaceCash1000
+        prob: .01
+        orGroup: GiftPool
+      - id: SpaceCash2500
+        prob: .004
+        orGroup: GiftPool
+      - id: SpaceCash5000
+        prob: .002
+        orGroup: GiftPool
+      - id: SpaceCash10000
+        prob: .001
+        orGroup: GiftPool
+      - id: SpaceCash1000000
+        prob: .000001
+        orGroup: GiftPool
+
+- type: entity
+  id: PresentRandomCashNG3
+  parent: PresentRandomCash
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present3
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG3
+      - id: SpaceCash
+        prob: .01
+        orGroup: GiftPool
+      - id: SpaceCash10
+        prob: .1
+        orGroup: GiftPool
+      - id: SpaceCash100
+        prob: .5
+        orGroup: GiftPool
+      - id: SpaceCash500
+        orGroup: GiftPool
+      - id: SpaceCash1000
+        prob: .01
+        orGroup: GiftPool
+      - id: SpaceCash2500
+        prob: .004
+        orGroup: GiftPool
+      - id: SpaceCash5000
+        prob: .002
+        orGroup: GiftPool
+      - id: SpaceCash10000
+        prob: .001
+        orGroup: GiftPool
+      - id: SpaceCash1000000
+        prob: .000001
+        orGroup: GiftPool
+  
+- type: entity
+  id: PresentRandomCashNG4
+  parent: PresentRandomCash
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present4
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG4
+      - id: SpaceCash
+        prob: .01
+        orGroup: GiftPool
+      - id: SpaceCash10
+        prob: .1
+        orGroup: GiftPool
+      - id: SpaceCash100
+        prob: .5
+        orGroup: GiftPool
+      - id: SpaceCash500
+        orGroup: GiftPool
+      - id: SpaceCash1000
+        prob: .01
+        orGroup: GiftPool
+      - id: SpaceCash2500
+        prob: .004
+        orGroup: GiftPool
+      - id: SpaceCash5000
+        prob: .002
+        orGroup: GiftPool
+      - id: SpaceCash10000
+        prob: .001
+        orGroup: GiftPool
+      - id: SpaceCash1000000
+        prob: .000001
+        orGroup: GiftPool
+
+#region Safe
+- type: entity
+  id: PresentRandomNG0
+  parent: PresentRandom
+  suffix: Filled Safe
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present0
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG0
+      - id: Bucket
+        orGroup: GiftPool
+      - id: JetpackMiniFilled
+        orGroup: GiftPool
+      - id: PlushieGhost
+        orGroup: GiftPool
+      - id: PlushieBee
+        orGroup: GiftPool
+      - id: PlushieRGBee
+        orGroup: GiftPool
+      - id: PlushieNuke
+        orGroup: GiftPool
+      - id: PlushieRouny
+        orGroup: GiftPool
+      - id: PlushieLizard #Weh!
+        orGroup: GiftPool
+      - id: PlushieNar
+        orGroup: GiftPool
+      - id: PlushieCarp
+        orGroup: GiftPool
+      - id: PlushieMagicarp
+        orGroup: GiftPool
+      - id: PlushieHolocarp
+        orGroup: GiftPool
+      - id: PlushieRainbowCarp
+        orGroup: GiftPool
+      - id: PlushieSlime
+        orGroup: GiftPool
+      - id: PlushieSnake
+        orGroup: GiftPool
+      - id: PlushieVox
+        orGroup: GiftPool
+      - id: PlushieRatvar
+        orGroup: GiftPool
+      - id: PlushieSpaceLizard
+        orGroup: GiftPool
+      - id: PlushieSharkBlue
+        orGroup: GiftPool
+      - id: PlushieSharkPink
+        orGroup: GiftPool
+      - id: PlushieSharkGrey
+        orGroup: GiftPool
+      - id: ToyAmongPequeno
+        orGroup: GiftPool
+      - id: PlushieDiona
+        orGroup: GiftPool
+      - id: PlushieArachind
+        orGroup: GiftPool
+      - id: ClothingNeckCloakMoth
+        orGroup: GiftPool
+      - id: ToyMouse
+        orGroup: GiftPool
+      - id: ToyAi
+        orGroup: GiftPool
+      - id: ToyNuke
+        orGroup: GiftPool
+      - id: ToyFigurinePassenger
+        orGroup: GiftPool
+      - id: ToyGriffin
+        orGroup: GiftPool
+      - id: ToyHonk
+        orGroup: GiftPool
+      - id: ToyIan
+        orGroup: GiftPool
+      - id: ToyMarauder
+        orGroup: GiftPool
+      - id: ToyMauler
+        orGroup: GiftPool
+      - id: ToyGygax
+        orGroup: GiftPool
+      - id: ToyOdysseus
+        orGroup: GiftPool
+      - id: ToyOwlman
+        orGroup: GiftPool
+      - id: ToyDeathRipley
+        orGroup: GiftPool
+      - id: ToyPhazon
+        orGroup: GiftPool
+      - id: ToyFireRipley
+        orGroup: GiftPool
+      - id: ToyReticence
+        orGroup: GiftPool
+      - id: ToyRipley
+        orGroup: GiftPool
+      - id: ToySeraph
+        orGroup: GiftPool
+      - id: ToyDurand
+        orGroup: GiftPool
+      - id: ToySkeleton
+        orGroup: GiftPool
+      - id: FoamBlade
+        orGroup: GiftPool
+      - id: AcousticGuitarInstrument
+        orGroup: GiftPool
+      - id: ViolinInstrument
+        orGroup: GiftPool
+      - id: TrumpetInstrument
+        orGroup: GiftPool
+      - id: ElectricGuitarInstrument
+        orGroup: GiftPool
+      - id: AccordionInstrument
+        orGroup: GiftPool
+      - id: HarmonicaInstrument
+        orGroup: GiftPool
+      - id: TromboneInstrument
+        orGroup: GiftPool
+      - id: FrenchHornInstrument
+        orGroup: GiftPool
+      - id: BanjoInstrument
+        orGroup: GiftPool
+      - id: SaxophoneInstrument
+        orGroup: GiftPool
+      - id: GlockenspielInstrument
+        orGroup: GiftPool
+      - id: RecorderInstrument
+        orGroup: GiftPool
+      - id: FluteInstrument
+        orGroup: GiftPool
+      - id: ClarinetInstrument
+        orGroup: GiftPool
+      - id: CelloInstrument
+        orGroup: GiftPool
+      - id: KalimbaInstrument
+        orGroup: GiftPool
+      - id: MicrophoneInstrument
+        orGroup: GiftPool
+      - id: BassGuitarInstrument
+        orGroup: GiftPool
+      - id: OcarinaInstrument
+        orGroup: GiftPool
+      - id: PanFluteInstrument
+        orGroup: GiftPool
+      - id: SynthesizerInstrument
+        orGroup: GiftPool
+      - id: BagpipeInstrument
+        orGroup: GiftPool
+      - id: GunpetInstrument
+        orGroup: GiftPool
+      - id: RockGuitarInstrument
+        orGroup: GiftPool
+      - id: MusicBoxInstrument
+        orGroup: GiftPool
+      - id: ViolaInstrument
+        orGroup: GiftPool
+      - id: ToySkeleton
+        orGroup: GiftPool
+      - id: Basketball
+        orGroup: GiftPool
+      - id: Football
+        orGroup: GiftPool
+      - id: BalloonCorgi
+        orGroup: GiftPool
+      - id: PonderingOrb
+        orGroup: GiftPool
+      - id: Skub
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGarGiga
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGarOrange
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGar
+        orGroup: GiftPool
+      - id: ClothingNeckBling
+        orGroup: GiftPool
+      - id: ClothingHeadHelmetCosmonaut
+        orGroup: GiftPool
+      - id: ClothingShoeSlippersDuck
+        orGroup: GiftPool
+      - id: ClothingUnderSocksBee
+        orGroup: GiftPool
+      - id: ClothingUnderSocksCoder
+        orGroup: GiftPool
+      - id: ClothingBeltUtilityFilled
+        orGroup: GiftPool
+      - id: WeaponFlareGun
+        orGroup: GiftPool
+      - id: ResearchDisk
+        orGroup: GiftPool
+      - id: Machete
+        orGroup: GiftPool
+      - id: BaseBallBat
+        orGroup: GiftPool
+      - id: CombatKnife
+        orGroup: GiftPool
+      - id: FlashlightLantern
+        orGroup: GiftPool
+      - id: Spear
+        orGroup: GiftPool
+      - id: LidSalami
+        orGroup: GiftPool
+      - id: Soap
+        orGroup: GiftPool
+      - id: SoapHomemade
+        orGroup: GiftPool
+      - id: SoapNT
+        orGroup: GiftPool
+      - id: SoapDeluxe
+        orGroup: GiftPool
+      - id: SoapSyndie
+        orGroup: GiftPool
+      - id: SoapOmega
+        orGroup: GiftPool
+      - id: BedsheetCosmos
+        orGroup: GiftPool
+      - id: BedsheetIan
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocket
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketSpicy
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketTeriyaki
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketPizza
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketStonk
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketCarp
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketBerry
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketHonk
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorPurple
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorYellow
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorYellowBudget
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesSunglasses
+        orGroup: GiftPool
+      - id: ClothingHeadHatOutlawHat
+        orGroup: GiftPool
+      - id: ClothingHeadHatSantahat
+        orGroup: GiftPool
+      - id: ClothingHeadHatUshanka
+        orGroup: GiftPool
+      - id: ClothingHeadHatXmasCrown
+        orGroup: GiftPool
+      - id: ClothingHeadHatBunny
+        orGroup: GiftPool
+      - id: ClothingHeadHatFlowerCrown
+        orGroup: GiftPool
+      - id: ClothingHeadHatHairflower
+        orGroup: GiftPool
+      - id: ClothingMaskClown
+        orGroup: GiftPool
+      - id: ClothingOuterCoatGentle
+        orGroup: GiftPool
+      - id: ClothingOuterCoatJensen
+        orGroup: GiftPool
+      - id: ClothingOuterHoodieBlack
+        orGroup: GiftPool
+      - id: ClothingOuterHoodieGrey
+        orGroup: GiftPool
+      - id: ClothingOuterVestWebMerc
+        orGroup: GiftPool
+      - id: ClothingShoesFlippers
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitAncient
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitDetectiveGrey
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitColorMaroon
+        orGroup: GiftPool
+      - id: ClothingUniformColorRainbow
+        orGroup: GiftPool
+      - id: ClothingUniformOveralls
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtDetectiveGrey
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtColorMaroon
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtJanimaid
+        orGroup: GiftPool
+      - id: PersonalAI
+        orGroup: GiftPool
+      - id: DiceBag
+        orGroup: GiftPool
+      - id: CrayonBox
+        orGroup: GiftPool
+      - id: ClothingHeadHatCatEars
+        orGroup: GiftPool
+      - id: ClothingHeadHatDogEars
+        orGroup: GiftPool
+      - id: ToySword
+        orGroup: GiftPool
+      - id: RevolverCapGun
+        orGroup: GiftPool
+      - id: Ash
+        orGroup: GiftPool
+      - id: Coal1
+        orGroup: GiftPool
+      - id: MiningDrill
+        orGroup: GiftPool
+      - id: CowToolboxFilled
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitEngineeringHazard
+        orGroup: GiftPool
+      - id: Bola
+        orGroup: GiftPool
+      - id: GlowstickBase
+        orGroup: GiftPool
+      - id: GlowstickBlue
+        orGroup: GiftPool
+      - id: GlowstickPurple
+        orGroup: GiftPool
+      - id: GlowstickRed
+        orGroup: GiftPool
+      - id: GlowstickYellow
+        orGroup: GiftPool
+      - id: ToyRubberDuck
+        orGroup: GiftPool
+      - id: BalloonSyn
+        orGroup: GiftPool
+      - id: RGBStaff
+        orGroup: GiftPool
+
+- type: entity
+  id: PresentRandomNG1
+  parent: PresentRandom
+  suffix: Filled Safe
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present1
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG1
+      - id: Bucket
+        orGroup: GiftPool
+      - id: JetpackMiniFilled
+        orGroup: GiftPool
+      - id: PlushieGhost
+        orGroup: GiftPool
+      - id: PlushieBee
+        orGroup: GiftPool
+      - id: PlushieRGBee
+        orGroup: GiftPool
+      - id: PlushieNuke
+        orGroup: GiftPool
+      - id: PlushieRouny
+        orGroup: GiftPool
+      - id: PlushieLizard #Weh!
+        orGroup: GiftPool
+      - id: PlushieNar
+        orGroup: GiftPool
+      - id: PlushieCarp
+        orGroup: GiftPool
+      - id: PlushieMagicarp
+        orGroup: GiftPool
+      - id: PlushieHolocarp
+        orGroup: GiftPool
+      - id: PlushieRainbowCarp
+        orGroup: GiftPool
+      - id: PlushieSlime
+        orGroup: GiftPool
+      - id: PlushieSnake
+        orGroup: GiftPool
+      - id: PlushieVox
+        orGroup: GiftPool
+      - id: PlushieRatvar
+        orGroup: GiftPool
+      - id: PlushieSpaceLizard
+        orGroup: GiftPool
+      - id: PlushieSharkBlue
+        orGroup: GiftPool
+      - id: PlushieSharkPink
+        orGroup: GiftPool
+      - id: PlushieSharkGrey
+        orGroup: GiftPool
+      - id: ToyAmongPequeno
+        orGroup: GiftPool
+      - id: PlushieDiona
+        orGroup: GiftPool
+      - id: PlushieArachind
+        orGroup: GiftPool
+      - id: ClothingNeckCloakMoth
+        orGroup: GiftPool
+      - id: ToyMouse
+        orGroup: GiftPool
+      - id: ToyAi
+        orGroup: GiftPool
+      - id: ToyNuke
+        orGroup: GiftPool
+      - id: ToyFigurinePassenger
+        orGroup: GiftPool
+      - id: ToyGriffin
+        orGroup: GiftPool
+      - id: ToyHonk
+        orGroup: GiftPool
+      - id: ToyIan
+        orGroup: GiftPool
+      - id: ToyMarauder
+        orGroup: GiftPool
+      - id: ToyMauler
+        orGroup: GiftPool
+      - id: ToyGygax
+        orGroup: GiftPool
+      - id: ToyOdysseus
+        orGroup: GiftPool
+      - id: ToyOwlman
+        orGroup: GiftPool
+      - id: ToyDeathRipley
+        orGroup: GiftPool
+      - id: ToyPhazon
+        orGroup: GiftPool
+      - id: ToyFireRipley
+        orGroup: GiftPool
+      - id: ToyReticence
+        orGroup: GiftPool
+      - id: ToyRipley
+        orGroup: GiftPool
+      - id: ToySeraph
+        orGroup: GiftPool
+      - id: ToyDurand
+        orGroup: GiftPool
+      - id: ToySkeleton
+        orGroup: GiftPool
+      - id: FoamBlade
+        orGroup: GiftPool
+      - id: AcousticGuitarInstrument
+        orGroup: GiftPool
+      - id: ViolinInstrument
+        orGroup: GiftPool
+      - id: TrumpetInstrument
+        orGroup: GiftPool
+      - id: ElectricGuitarInstrument
+        orGroup: GiftPool
+      - id: AccordionInstrument
+        orGroup: GiftPool
+      - id: HarmonicaInstrument
+        orGroup: GiftPool
+      - id: TromboneInstrument
+        orGroup: GiftPool
+      - id: FrenchHornInstrument
+        orGroup: GiftPool
+      - id: BanjoInstrument
+        orGroup: GiftPool
+      - id: SaxophoneInstrument
+        orGroup: GiftPool
+      - id: GlockenspielInstrument
+        orGroup: GiftPool
+      - id: RecorderInstrument
+        orGroup: GiftPool
+      - id: FluteInstrument
+        orGroup: GiftPool
+      - id: ClarinetInstrument
+        orGroup: GiftPool
+      - id: CelloInstrument
+        orGroup: GiftPool
+      - id: KalimbaInstrument
+        orGroup: GiftPool
+      - id: MicrophoneInstrument
+        orGroup: GiftPool
+      - id: BassGuitarInstrument
+        orGroup: GiftPool
+      - id: OcarinaInstrument
+        orGroup: GiftPool
+      - id: PanFluteInstrument
+        orGroup: GiftPool
+      - id: SynthesizerInstrument
+        orGroup: GiftPool
+      - id: BagpipeInstrument
+        orGroup: GiftPool
+      - id: GunpetInstrument
+        orGroup: GiftPool
+      - id: RockGuitarInstrument
+        orGroup: GiftPool
+      - id: MusicBoxInstrument
+        orGroup: GiftPool
+      - id: ViolaInstrument
+        orGroup: GiftPool
+      - id: ToySkeleton
+        orGroup: GiftPool
+      - id: Basketball
+        orGroup: GiftPool
+      - id: Football
+        orGroup: GiftPool
+      - id: BalloonCorgi
+        orGroup: GiftPool
+      - id: PonderingOrb
+        orGroup: GiftPool
+      - id: Skub
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGarGiga
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGarOrange
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGar
+        orGroup: GiftPool
+      - id: ClothingNeckBling
+        orGroup: GiftPool
+      - id: ClothingHeadHelmetCosmonaut
+        orGroup: GiftPool
+      - id: ClothingShoeSlippersDuck
+        orGroup: GiftPool
+      - id: ClothingUnderSocksBee
+        orGroup: GiftPool
+      - id: ClothingUnderSocksCoder
+        orGroup: GiftPool
+      - id: ClothingBeltUtilityFilled
+        orGroup: GiftPool
+      - id: WeaponFlareGun
+        orGroup: GiftPool
+      - id: ResearchDisk
+        orGroup: GiftPool
+      - id: Machete
+        orGroup: GiftPool
+      - id: BaseBallBat
+        orGroup: GiftPool
+      - id: CombatKnife
+        orGroup: GiftPool
+      - id: FlashlightLantern
+        orGroup: GiftPool
+      - id: Spear
+        orGroup: GiftPool
+      - id: LidSalami
+        orGroup: GiftPool
+      - id: Soap
+        orGroup: GiftPool
+      - id: SoapHomemade
+        orGroup: GiftPool
+      - id: SoapNT
+        orGroup: GiftPool
+      - id: SoapDeluxe
+        orGroup: GiftPool
+      - id: SoapSyndie
+        orGroup: GiftPool
+      - id: SoapOmega
+        orGroup: GiftPool
+      - id: BedsheetCosmos
+        orGroup: GiftPool
+      - id: BedsheetIan
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocket
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketSpicy
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketTeriyaki
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketPizza
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketStonk
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketCarp
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketBerry
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketHonk
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorPurple
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorYellow
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorYellowBudget
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesSunglasses
+        orGroup: GiftPool
+      - id: ClothingHeadHatOutlawHat
+        orGroup: GiftPool
+      - id: ClothingHeadHatSantahat
+        orGroup: GiftPool
+      - id: ClothingHeadHatUshanka
+        orGroup: GiftPool
+      - id: ClothingHeadHatXmasCrown
+        orGroup: GiftPool
+      - id: ClothingHeadHatBunny
+        orGroup: GiftPool
+      - id: ClothingHeadHatFlowerCrown
+        orGroup: GiftPool
+      - id: ClothingHeadHatHairflower
+        orGroup: GiftPool
+      - id: ClothingMaskClown
+        orGroup: GiftPool
+      - id: ClothingOuterCoatGentle
+        orGroup: GiftPool
+      - id: ClothingOuterCoatJensen
+        orGroup: GiftPool
+      - id: ClothingOuterHoodieBlack
+        orGroup: GiftPool
+      - id: ClothingOuterHoodieGrey
+        orGroup: GiftPool
+      - id: ClothingOuterVestWebMerc
+        orGroup: GiftPool
+      - id: ClothingShoesFlippers
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitAncient
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitDetectiveGrey
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitColorMaroon
+        orGroup: GiftPool
+      - id: ClothingUniformColorRainbow
+        orGroup: GiftPool
+      - id: ClothingUniformOveralls
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtDetectiveGrey
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtColorMaroon
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtJanimaid
+        orGroup: GiftPool
+      - id: PersonalAI
+        orGroup: GiftPool
+      - id: DiceBag
+        orGroup: GiftPool
+      - id: CrayonBox
+        orGroup: GiftPool
+      - id: ClothingHeadHatCatEars
+        orGroup: GiftPool
+      - id: ClothingHeadHatDogEars
+        orGroup: GiftPool
+      - id: ToySword
+        orGroup: GiftPool
+      - id: RevolverCapGun
+        orGroup: GiftPool
+      - id: Ash
+        orGroup: GiftPool
+      - id: Coal1
+        orGroup: GiftPool
+      - id: MiningDrill
+        orGroup: GiftPool
+      - id: CowToolboxFilled
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitEngineeringHazard
+        orGroup: GiftPool
+      - id: Bola
+        orGroup: GiftPool
+      - id: GlowstickBase
+        orGroup: GiftPool
+      - id: GlowstickBlue
+        orGroup: GiftPool
+      - id: GlowstickPurple
+        orGroup: GiftPool
+      - id: GlowstickRed
+        orGroup: GiftPool
+      - id: GlowstickYellow
+        orGroup: GiftPool
+      - id: ToyRubberDuck
+        orGroup: GiftPool
+      - id: BalloonSyn
+        orGroup: GiftPool
+      - id: RGBStaff
+        orGroup: GiftPool
+
+- type: entity
+  id: PresentRandomNG2
+  parent: PresentRandom
+  suffix: Filled Safe
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present2
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG2
+      - id: Bucket
+        orGroup: GiftPool
+      - id: JetpackMiniFilled
+        orGroup: GiftPool
+      - id: PlushieGhost
+        orGroup: GiftPool
+      - id: PlushieBee
+        orGroup: GiftPool
+      - id: PlushieRGBee
+        orGroup: GiftPool
+      - id: PlushieNuke
+        orGroup: GiftPool
+      - id: PlushieRouny
+        orGroup: GiftPool
+      - id: PlushieLizard #Weh!
+        orGroup: GiftPool
+      - id: PlushieNar
+        orGroup: GiftPool
+      - id: PlushieCarp
+        orGroup: GiftPool
+      - id: PlushieMagicarp
+        orGroup: GiftPool
+      - id: PlushieHolocarp
+        orGroup: GiftPool
+      - id: PlushieRainbowCarp
+        orGroup: GiftPool
+      - id: PlushieSlime
+        orGroup: GiftPool
+      - id: PlushieSnake
+        orGroup: GiftPool
+      - id: PlushieVox
+        orGroup: GiftPool
+      - id: PlushieRatvar
+        orGroup: GiftPool
+      - id: PlushieSpaceLizard
+        orGroup: GiftPool
+      - id: PlushieSharkBlue
+        orGroup: GiftPool
+      - id: PlushieSharkPink
+        orGroup: GiftPool
+      - id: PlushieSharkGrey
+        orGroup: GiftPool
+      - id: ToyAmongPequeno
+        orGroup: GiftPool
+      - id: PlushieDiona
+        orGroup: GiftPool
+      - id: PlushieArachind
+        orGroup: GiftPool
+      - id: ClothingNeckCloakMoth
+        orGroup: GiftPool
+      - id: ToyMouse
+        orGroup: GiftPool
+      - id: ToyAi
+        orGroup: GiftPool
+      - id: ToyNuke
+        orGroup: GiftPool
+      - id: ToyFigurinePassenger
+        orGroup: GiftPool
+      - id: ToyGriffin
+        orGroup: GiftPool
+      - id: ToyHonk
+        orGroup: GiftPool
+      - id: ToyIan
+        orGroup: GiftPool
+      - id: ToyMarauder
+        orGroup: GiftPool
+      - id: ToyMauler
+        orGroup: GiftPool
+      - id: ToyGygax
+        orGroup: GiftPool
+      - id: ToyOdysseus
+        orGroup: GiftPool
+      - id: ToyOwlman
+        orGroup: GiftPool
+      - id: ToyDeathRipley
+        orGroup: GiftPool
+      - id: ToyPhazon
+        orGroup: GiftPool
+      - id: ToyFireRipley
+        orGroup: GiftPool
+      - id: ToyReticence
+        orGroup: GiftPool
+      - id: ToyRipley
+        orGroup: GiftPool
+      - id: ToySeraph
+        orGroup: GiftPool
+      - id: ToyDurand
+        orGroup: GiftPool
+      - id: ToySkeleton
+        orGroup: GiftPool
+      - id: FoamBlade
+        orGroup: GiftPool
+      - id: AcousticGuitarInstrument
+        orGroup: GiftPool
+      - id: ViolinInstrument
+        orGroup: GiftPool
+      - id: TrumpetInstrument
+        orGroup: GiftPool
+      - id: ElectricGuitarInstrument
+        orGroup: GiftPool
+      - id: AccordionInstrument
+        orGroup: GiftPool
+      - id: HarmonicaInstrument
+        orGroup: GiftPool
+      - id: TromboneInstrument
+        orGroup: GiftPool
+      - id: FrenchHornInstrument
+        orGroup: GiftPool
+      - id: BanjoInstrument
+        orGroup: GiftPool
+      - id: SaxophoneInstrument
+        orGroup: GiftPool
+      - id: GlockenspielInstrument
+        orGroup: GiftPool
+      - id: RecorderInstrument
+        orGroup: GiftPool
+      - id: FluteInstrument
+        orGroup: GiftPool
+      - id: ClarinetInstrument
+        orGroup: GiftPool
+      - id: CelloInstrument
+        orGroup: GiftPool
+      - id: KalimbaInstrument
+        orGroup: GiftPool
+      - id: MicrophoneInstrument
+        orGroup: GiftPool
+      - id: BassGuitarInstrument
+        orGroup: GiftPool
+      - id: OcarinaInstrument
+        orGroup: GiftPool
+      - id: PanFluteInstrument
+        orGroup: GiftPool
+      - id: SynthesizerInstrument
+        orGroup: GiftPool
+      - id: BagpipeInstrument
+        orGroup: GiftPool
+      - id: GunpetInstrument
+        orGroup: GiftPool
+      - id: RockGuitarInstrument
+        orGroup: GiftPool
+      - id: MusicBoxInstrument
+        orGroup: GiftPool
+      - id: ViolaInstrument
+        orGroup: GiftPool
+      - id: ToySkeleton
+        orGroup: GiftPool
+      - id: Basketball
+        orGroup: GiftPool
+      - id: Football
+        orGroup: GiftPool
+      - id: BalloonCorgi
+        orGroup: GiftPool
+      - id: PonderingOrb
+        orGroup: GiftPool
+      - id: Skub
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGarGiga
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGarOrange
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGar
+        orGroup: GiftPool
+      - id: ClothingNeckBling
+        orGroup: GiftPool
+      - id: ClothingHeadHelmetCosmonaut
+        orGroup: GiftPool
+      - id: ClothingShoeSlippersDuck
+        orGroup: GiftPool
+      - id: ClothingUnderSocksBee
+        orGroup: GiftPool
+      - id: ClothingUnderSocksCoder
+        orGroup: GiftPool
+      - id: ClothingBeltUtilityFilled
+        orGroup: GiftPool
+      - id: WeaponFlareGun
+        orGroup: GiftPool
+      - id: ResearchDisk
+        orGroup: GiftPool
+      - id: Machete
+        orGroup: GiftPool
+      - id: BaseBallBat
+        orGroup: GiftPool
+      - id: CombatKnife
+        orGroup: GiftPool
+      - id: FlashlightLantern
+        orGroup: GiftPool
+      - id: Spear
+        orGroup: GiftPool
+      - id: LidSalami
+        orGroup: GiftPool
+      - id: Soap
+        orGroup: GiftPool
+      - id: SoapHomemade
+        orGroup: GiftPool
+      - id: SoapNT
+        orGroup: GiftPool
+      - id: SoapDeluxe
+        orGroup: GiftPool
+      - id: SoapSyndie
+        orGroup: GiftPool
+      - id: SoapOmega
+        orGroup: GiftPool
+      - id: BedsheetCosmos
+        orGroup: GiftPool
+      - id: BedsheetIan
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocket
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketSpicy
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketTeriyaki
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketPizza
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketStonk
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketCarp
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketBerry
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketHonk
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorPurple
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorYellow
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorYellowBudget
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesSunglasses
+        orGroup: GiftPool
+      - id: ClothingHeadHatOutlawHat
+        orGroup: GiftPool
+      - id: ClothingHeadHatSantahat
+        orGroup: GiftPool
+      - id: ClothingHeadHatUshanka
+        orGroup: GiftPool
+      - id: ClothingHeadHatXmasCrown
+        orGroup: GiftPool
+      - id: ClothingHeadHatBunny
+        orGroup: GiftPool
+      - id: ClothingHeadHatFlowerCrown
+        orGroup: GiftPool
+      - id: ClothingHeadHatHairflower
+        orGroup: GiftPool
+      - id: ClothingMaskClown
+        orGroup: GiftPool
+      - id: ClothingOuterCoatGentle
+        orGroup: GiftPool
+      - id: ClothingOuterCoatJensen
+        orGroup: GiftPool
+      - id: ClothingOuterHoodieBlack
+        orGroup: GiftPool
+      - id: ClothingOuterHoodieGrey
+        orGroup: GiftPool
+      - id: ClothingOuterVestWebMerc
+        orGroup: GiftPool
+      - id: ClothingShoesFlippers
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitAncient
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitDetectiveGrey
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitColorMaroon
+        orGroup: GiftPool
+      - id: ClothingUniformColorRainbow
+        orGroup: GiftPool
+      - id: ClothingUniformOveralls
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtDetectiveGrey
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtColorMaroon
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtJanimaid
+        orGroup: GiftPool
+      - id: PersonalAI
+        orGroup: GiftPool
+      - id: DiceBag
+        orGroup: GiftPool
+      - id: CrayonBox
+        orGroup: GiftPool
+      - id: ClothingHeadHatCatEars
+        orGroup: GiftPool
+      - id: ClothingHeadHatDogEars
+        orGroup: GiftPool
+      - id: ToySword
+        orGroup: GiftPool
+      - id: RevolverCapGun
+        orGroup: GiftPool
+      - id: Ash
+        orGroup: GiftPool
+      - id: Coal1
+        orGroup: GiftPool
+      - id: MiningDrill
+        orGroup: GiftPool
+      - id: CowToolboxFilled
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitEngineeringHazard
+        orGroup: GiftPool
+      - id: Bola
+        orGroup: GiftPool
+      - id: GlowstickBase
+        orGroup: GiftPool
+      - id: GlowstickBlue
+        orGroup: GiftPool
+      - id: GlowstickPurple
+        orGroup: GiftPool
+      - id: GlowstickRed
+        orGroup: GiftPool
+      - id: GlowstickYellow
+        orGroup: GiftPool
+      - id: ToyRubberDuck
+        orGroup: GiftPool
+      - id: BalloonSyn
+        orGroup: GiftPool
+      - id: RGBStaff
+        orGroup: GiftPool
+
+- type: entity
+  id: PresentRandomNG3
+  parent: PresentRandom
+  suffix: Filled Safe
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present3
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG3
+      - id: Bucket
+        orGroup: GiftPool
+      - id: JetpackMiniFilled
+        orGroup: GiftPool
+      - id: PlushieGhost
+        orGroup: GiftPool
+      - id: PlushieBee
+        orGroup: GiftPool
+      - id: PlushieRGBee
+        orGroup: GiftPool
+      - id: PlushieNuke
+        orGroup: GiftPool
+      - id: PlushieRouny
+        orGroup: GiftPool
+      - id: PlushieLizard #Weh!
+        orGroup: GiftPool
+      - id: PlushieNar
+        orGroup: GiftPool
+      - id: PlushieCarp
+        orGroup: GiftPool
+      - id: PlushieMagicarp
+        orGroup: GiftPool
+      - id: PlushieHolocarp
+        orGroup: GiftPool
+      - id: PlushieRainbowCarp
+        orGroup: GiftPool
+      - id: PlushieSlime
+        orGroup: GiftPool
+      - id: PlushieSnake
+        orGroup: GiftPool
+      - id: PlushieVox
+        orGroup: GiftPool
+      - id: PlushieRatvar
+        orGroup: GiftPool
+      - id: PlushieSpaceLizard
+        orGroup: GiftPool
+      - id: PlushieSharkBlue
+        orGroup: GiftPool
+      - id: PlushieSharkPink
+        orGroup: GiftPool
+      - id: PlushieSharkGrey
+        orGroup: GiftPool
+      - id: ToyAmongPequeno
+        orGroup: GiftPool
+      - id: PlushieDiona
+        orGroup: GiftPool
+      - id: PlushieArachind
+        orGroup: GiftPool
+      - id: ClothingNeckCloakMoth
+        orGroup: GiftPool
+      - id: ToyMouse
+        orGroup: GiftPool
+      - id: ToyAi
+        orGroup: GiftPool
+      - id: ToyNuke
+        orGroup: GiftPool
+      - id: ToyFigurinePassenger
+        orGroup: GiftPool
+      - id: ToyGriffin
+        orGroup: GiftPool
+      - id: ToyHonk
+        orGroup: GiftPool
+      - id: ToyIan
+        orGroup: GiftPool
+      - id: ToyMarauder
+        orGroup: GiftPool
+      - id: ToyMauler
+        orGroup: GiftPool
+      - id: ToyGygax
+        orGroup: GiftPool
+      - id: ToyOdysseus
+        orGroup: GiftPool
+      - id: ToyOwlman
+        orGroup: GiftPool
+      - id: ToyDeathRipley
+        orGroup: GiftPool
+      - id: ToyPhazon
+        orGroup: GiftPool
+      - id: ToyFireRipley
+        orGroup: GiftPool
+      - id: ToyReticence
+        orGroup: GiftPool
+      - id: ToyRipley
+        orGroup: GiftPool
+      - id: ToySeraph
+        orGroup: GiftPool
+      - id: ToyDurand
+        orGroup: GiftPool
+      - id: ToySkeleton
+        orGroup: GiftPool
+      - id: FoamBlade
+        orGroup: GiftPool
+      - id: AcousticGuitarInstrument
+        orGroup: GiftPool
+      - id: ViolinInstrument
+        orGroup: GiftPool
+      - id: TrumpetInstrument
+        orGroup: GiftPool
+      - id: ElectricGuitarInstrument
+        orGroup: GiftPool
+      - id: AccordionInstrument
+        orGroup: GiftPool
+      - id: HarmonicaInstrument
+        orGroup: GiftPool
+      - id: TromboneInstrument
+        orGroup: GiftPool
+      - id: FrenchHornInstrument
+        orGroup: GiftPool
+      - id: BanjoInstrument
+        orGroup: GiftPool
+      - id: SaxophoneInstrument
+        orGroup: GiftPool
+      - id: GlockenspielInstrument
+        orGroup: GiftPool
+      - id: RecorderInstrument
+        orGroup: GiftPool
+      - id: FluteInstrument
+        orGroup: GiftPool
+      - id: ClarinetInstrument
+        orGroup: GiftPool
+      - id: CelloInstrument
+        orGroup: GiftPool
+      - id: KalimbaInstrument
+        orGroup: GiftPool
+      - id: MicrophoneInstrument
+        orGroup: GiftPool
+      - id: BassGuitarInstrument
+        orGroup: GiftPool
+      - id: OcarinaInstrument
+        orGroup: GiftPool
+      - id: PanFluteInstrument
+        orGroup: GiftPool
+      - id: SynthesizerInstrument
+        orGroup: GiftPool
+      - id: BagpipeInstrument
+        orGroup: GiftPool
+      - id: GunpetInstrument
+        orGroup: GiftPool
+      - id: RockGuitarInstrument
+        orGroup: GiftPool
+      - id: MusicBoxInstrument
+        orGroup: GiftPool
+      - id: ViolaInstrument
+        orGroup: GiftPool
+      - id: ToySkeleton
+        orGroup: GiftPool
+      - id: Basketball
+        orGroup: GiftPool
+      - id: Football
+        orGroup: GiftPool
+      - id: BalloonCorgi
+        orGroup: GiftPool
+      - id: PonderingOrb
+        orGroup: GiftPool
+      - id: Skub
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGarGiga
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGarOrange
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGar
+        orGroup: GiftPool
+      - id: ClothingNeckBling
+        orGroup: GiftPool
+      - id: ClothingHeadHelmetCosmonaut
+        orGroup: GiftPool
+      - id: ClothingShoeSlippersDuck
+        orGroup: GiftPool
+      - id: ClothingUnderSocksBee
+        orGroup: GiftPool
+      - id: ClothingUnderSocksCoder
+        orGroup: GiftPool
+      - id: ClothingBeltUtilityFilled
+        orGroup: GiftPool
+      - id: WeaponFlareGun
+        orGroup: GiftPool
+      - id: ResearchDisk
+        orGroup: GiftPool
+      - id: Machete
+        orGroup: GiftPool
+      - id: BaseBallBat
+        orGroup: GiftPool
+      - id: CombatKnife
+        orGroup: GiftPool
+      - id: FlashlightLantern
+        orGroup: GiftPool
+      - id: Spear
+        orGroup: GiftPool
+      - id: LidSalami
+        orGroup: GiftPool
+      - id: Soap
+        orGroup: GiftPool
+      - id: SoapHomemade
+        orGroup: GiftPool
+      - id: SoapNT
+        orGroup: GiftPool
+      - id: SoapDeluxe
+        orGroup: GiftPool
+      - id: SoapSyndie
+        orGroup: GiftPool
+      - id: SoapOmega
+        orGroup: GiftPool
+      - id: BedsheetCosmos
+        orGroup: GiftPool
+      - id: BedsheetIan
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocket
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketSpicy
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketTeriyaki
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketPizza
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketStonk
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketCarp
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketBerry
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketHonk
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorPurple
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorYellow
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorYellowBudget
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesSunglasses
+        orGroup: GiftPool
+      - id: ClothingHeadHatOutlawHat
+        orGroup: GiftPool
+      - id: ClothingHeadHatSantahat
+        orGroup: GiftPool
+      - id: ClothingHeadHatUshanka
+        orGroup: GiftPool
+      - id: ClothingHeadHatXmasCrown
+        orGroup: GiftPool
+      - id: ClothingHeadHatBunny
+        orGroup: GiftPool
+      - id: ClothingHeadHatFlowerCrown
+        orGroup: GiftPool
+      - id: ClothingHeadHatHairflower
+        orGroup: GiftPool
+      - id: ClothingMaskClown
+        orGroup: GiftPool
+      - id: ClothingOuterCoatGentle
+        orGroup: GiftPool
+      - id: ClothingOuterCoatJensen
+        orGroup: GiftPool
+      - id: ClothingOuterHoodieBlack
+        orGroup: GiftPool
+      - id: ClothingOuterHoodieGrey
+        orGroup: GiftPool
+      - id: ClothingOuterVestWebMerc
+        orGroup: GiftPool
+      - id: ClothingShoesFlippers
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitAncient
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitDetectiveGrey
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitColorMaroon
+        orGroup: GiftPool
+      - id: ClothingUniformColorRainbow
+        orGroup: GiftPool
+      - id: ClothingUniformOveralls
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtDetectiveGrey
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtColorMaroon
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtJanimaid
+        orGroup: GiftPool
+      - id: PersonalAI
+        orGroup: GiftPool
+      - id: DiceBag
+        orGroup: GiftPool
+      - id: CrayonBox
+        orGroup: GiftPool
+      - id: ClothingHeadHatCatEars
+        orGroup: GiftPool
+      - id: ClothingHeadHatDogEars
+        orGroup: GiftPool
+      - id: ToySword
+        orGroup: GiftPool
+      - id: RevolverCapGun
+        orGroup: GiftPool
+      - id: Ash
+        orGroup: GiftPool
+      - id: Coal1
+        orGroup: GiftPool
+      - id: MiningDrill
+        orGroup: GiftPool
+      - id: CowToolboxFilled
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitEngineeringHazard
+        orGroup: GiftPool
+      - id: Bola
+        orGroup: GiftPool
+      - id: GlowstickBase
+        orGroup: GiftPool
+      - id: GlowstickBlue
+        orGroup: GiftPool
+      - id: GlowstickPurple
+        orGroup: GiftPool
+      - id: GlowstickRed
+        orGroup: GiftPool
+      - id: GlowstickYellow
+        orGroup: GiftPool
+      - id: ToyRubberDuck
+        orGroup: GiftPool
+      - id: BalloonSyn
+        orGroup: GiftPool
+      - id: RGBStaff
+        orGroup: GiftPool
+  
+- type: entity
+  id: PresentRandomNG4
+  parent: PresentRandom
+  suffix: Filled Safe
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/presents.rsi
+    layers:
+      - state: present4
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrashNG4
+      - id: Bucket
+        orGroup: GiftPool
+      - id: JetpackMiniFilled
+        orGroup: GiftPool
+      - id: PlushieGhost
+        orGroup: GiftPool
+      - id: PlushieBee
+        orGroup: GiftPool
+      - id: PlushieRGBee
+        orGroup: GiftPool
+      - id: PlushieNuke
+        orGroup: GiftPool
+      - id: PlushieRouny
+        orGroup: GiftPool
+      - id: PlushieLizard #Weh!
+        orGroup: GiftPool
+      - id: PlushieNar
+        orGroup: GiftPool
+      - id: PlushieCarp
+        orGroup: GiftPool
+      - id: PlushieMagicarp
+        orGroup: GiftPool
+      - id: PlushieHolocarp
+        orGroup: GiftPool
+      - id: PlushieRainbowCarp
+        orGroup: GiftPool
+      - id: PlushieSlime
+        orGroup: GiftPool
+      - id: PlushieSnake
+        orGroup: GiftPool
+      - id: PlushieVox
+        orGroup: GiftPool
+      - id: PlushieRatvar
+        orGroup: GiftPool
+      - id: PlushieSpaceLizard
+        orGroup: GiftPool
+      - id: PlushieSharkBlue
+        orGroup: GiftPool
+      - id: PlushieSharkPink
+        orGroup: GiftPool
+      - id: PlushieSharkGrey
+        orGroup: GiftPool
+      - id: ToyAmongPequeno
+        orGroup: GiftPool
+      - id: PlushieDiona
+        orGroup: GiftPool
+      - id: PlushieArachind
+        orGroup: GiftPool
+      - id: ClothingNeckCloakMoth
+        orGroup: GiftPool
+      - id: ToyMouse
+        orGroup: GiftPool
+      - id: ToyAi
+        orGroup: GiftPool
+      - id: ToyNuke
+        orGroup: GiftPool
+      - id: ToyFigurinePassenger
+        orGroup: GiftPool
+      - id: ToyGriffin
+        orGroup: GiftPool
+      - id: ToyHonk
+        orGroup: GiftPool
+      - id: ToyIan
+        orGroup: GiftPool
+      - id: ToyMarauder
+        orGroup: GiftPool
+      - id: ToyMauler
+        orGroup: GiftPool
+      - id: ToyGygax
+        orGroup: GiftPool
+      - id: ToyOdysseus
+        orGroup: GiftPool
+      - id: ToyOwlman
+        orGroup: GiftPool
+      - id: ToyDeathRipley
+        orGroup: GiftPool
+      - id: ToyPhazon
+        orGroup: GiftPool
+      - id: ToyFireRipley
+        orGroup: GiftPool
+      - id: ToyReticence
+        orGroup: GiftPool
+      - id: ToyRipley
+        orGroup: GiftPool
+      - id: ToySeraph
+        orGroup: GiftPool
+      - id: ToyDurand
+        orGroup: GiftPool
+      - id: ToySkeleton
+        orGroup: GiftPool
+      - id: FoamBlade
+        orGroup: GiftPool
+      - id: AcousticGuitarInstrument
+        orGroup: GiftPool
+      - id: ViolinInstrument
+        orGroup: GiftPool
+      - id: TrumpetInstrument
+        orGroup: GiftPool
+      - id: ElectricGuitarInstrument
+        orGroup: GiftPool
+      - id: AccordionInstrument
+        orGroup: GiftPool
+      - id: HarmonicaInstrument
+        orGroup: GiftPool
+      - id: TromboneInstrument
+        orGroup: GiftPool
+      - id: FrenchHornInstrument
+        orGroup: GiftPool
+      - id: BanjoInstrument
+        orGroup: GiftPool
+      - id: SaxophoneInstrument
+        orGroup: GiftPool
+      - id: GlockenspielInstrument
+        orGroup: GiftPool
+      - id: RecorderInstrument
+        orGroup: GiftPool
+      - id: FluteInstrument
+        orGroup: GiftPool
+      - id: ClarinetInstrument
+        orGroup: GiftPool
+      - id: CelloInstrument
+        orGroup: GiftPool
+      - id: KalimbaInstrument
+        orGroup: GiftPool
+      - id: MicrophoneInstrument
+        orGroup: GiftPool
+      - id: BassGuitarInstrument
+        orGroup: GiftPool
+      - id: OcarinaInstrument
+        orGroup: GiftPool
+      - id: PanFluteInstrument
+        orGroup: GiftPool
+      - id: SynthesizerInstrument
+        orGroup: GiftPool
+      - id: BagpipeInstrument
+        orGroup: GiftPool
+      - id: GunpetInstrument
+        orGroup: GiftPool
+      - id: RockGuitarInstrument
+        orGroup: GiftPool
+      - id: MusicBoxInstrument
+        orGroup: GiftPool
+      - id: ViolaInstrument
+        orGroup: GiftPool
+      - id: ToySkeleton
+        orGroup: GiftPool
+      - id: Basketball
+        orGroup: GiftPool
+      - id: Football
+        orGroup: GiftPool
+      - id: BalloonCorgi
+        orGroup: GiftPool
+      - id: PonderingOrb
+        orGroup: GiftPool
+      - id: Skub
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGarGiga
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGarOrange
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesGar
+        orGroup: GiftPool
+      - id: ClothingNeckBling
+        orGroup: GiftPool
+      - id: ClothingHeadHelmetCosmonaut
+        orGroup: GiftPool
+      - id: ClothingShoeSlippersDuck
+        orGroup: GiftPool
+      - id: ClothingUnderSocksBee
+        orGroup: GiftPool
+      - id: ClothingUnderSocksCoder
+        orGroup: GiftPool
+      - id: ClothingBeltUtilityFilled
+        orGroup: GiftPool
+      - id: WeaponFlareGun
+        orGroup: GiftPool
+      - id: ResearchDisk
+        orGroup: GiftPool
+      - id: Machete
+        orGroup: GiftPool
+      - id: BaseBallBat
+        orGroup: GiftPool
+      - id: CombatKnife
+        orGroup: GiftPool
+      - id: FlashlightLantern
+        orGroup: GiftPool
+      - id: Spear
+        orGroup: GiftPool
+      - id: LidSalami
+        orGroup: GiftPool
+      - id: Soap
+        orGroup: GiftPool
+      - id: SoapHomemade
+        orGroup: GiftPool
+      - id: SoapNT
+        orGroup: GiftPool
+      - id: SoapDeluxe
+        orGroup: GiftPool
+      - id: SoapSyndie
+        orGroup: GiftPool
+      - id: SoapOmega
+        orGroup: GiftPool
+      - id: BedsheetCosmos
+        orGroup: GiftPool
+      - id: BedsheetIan
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocket
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketSpicy
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketTeriyaki
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketPizza
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketStonk
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketCarp
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketBerry
+        orGroup: GiftPool
+      - id: FoodBoxDonkpocketHonk
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorPurple
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorYellow
+        orGroup: GiftPool
+      - id: ClothingHandsGlovesColorYellowBudget
+        orGroup: GiftPool
+      - id: ClothingEyesGlassesSunglasses
+        orGroup: GiftPool
+      - id: ClothingHeadHatOutlawHat
+        orGroup: GiftPool
+      - id: ClothingHeadHatSantahat
+        orGroup: GiftPool
+      - id: ClothingHeadHatUshanka
+        orGroup: GiftPool
+      - id: ClothingHeadHatXmasCrown
+        orGroup: GiftPool
+      - id: ClothingHeadHatBunny
+        orGroup: GiftPool
+      - id: ClothingHeadHatFlowerCrown
+        orGroup: GiftPool
+      - id: ClothingHeadHatHairflower
+        orGroup: GiftPool
+      - id: ClothingMaskClown
+        orGroup: GiftPool
+      - id: ClothingOuterCoatGentle
+        orGroup: GiftPool
+      - id: ClothingOuterCoatJensen
+        orGroup: GiftPool
+      - id: ClothingOuterHoodieBlack
+        orGroup: GiftPool
+      - id: ClothingOuterHoodieGrey
+        orGroup: GiftPool
+      - id: ClothingOuterVestWebMerc
+        orGroup: GiftPool
+      - id: ClothingShoesFlippers
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitAncient
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitDetectiveGrey
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitColorMaroon
+        orGroup: GiftPool
+      - id: ClothingUniformColorRainbow
+        orGroup: GiftPool
+      - id: ClothingUniformOveralls
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtDetectiveGrey
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtColorMaroon
+        orGroup: GiftPool
+      - id: ClothingUniformJumpskirtJanimaid
+        orGroup: GiftPool
+      - id: PersonalAI
+        orGroup: GiftPool
+      - id: DiceBag
+        orGroup: GiftPool
+      - id: CrayonBox
+        orGroup: GiftPool
+      - id: ClothingHeadHatCatEars
+        orGroup: GiftPool
+      - id: ClothingHeadHatDogEars
+        orGroup: GiftPool
+      - id: ToySword
+        orGroup: GiftPool
+      - id: RevolverCapGun
+        orGroup: GiftPool
+      - id: Ash
+        orGroup: GiftPool
+      - id: Coal1
+        orGroup: GiftPool
+      - id: MiningDrill
+        orGroup: GiftPool
+      - id: CowToolboxFilled
+        orGroup: GiftPool
+      - id: ClothingUniformJumpsuitEngineeringHazard
+        orGroup: GiftPool
+      - id: Bola
+        orGroup: GiftPool
+      - id: GlowstickBase
+        orGroup: GiftPool
+      - id: GlowstickBlue
+        orGroup: GiftPool
+      - id: GlowstickPurple
+        orGroup: GiftPool
+      - id: GlowstickRed
+        orGroup: GiftPool
+      - id: GlowstickYellow
+        orGroup: GiftPool
+      - id: ToyRubberDuck
+        orGroup: GiftPool
+      - id: BalloonSyn
+        orGroup: GiftPool
+      - id: RGBStaff
+        orGroup: GiftPool
+
+#region Spawners
+- type: entity
+  name: Random NG Gift Spawner
+  suffix: NG, ALL
+  id: RandomNGGiftSpawnerAll
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Markers/cross.rsi
+          state: red
+        - sprite: Imperial/NG/presents.rsi
+          state: present0
+    - type: RandomSpawner
+      rarePrototypes:
+        - PresentRandomInsaneNG0
+        - PresentRandomInsaneNG1
+        - PresentRandomInsaneNG2
+        - PresentRandomInsaneNG3
+        - PresentRandomInsaneNG4
+        - PresentRandomAshNG0
+        - PresentRandomAshNG1
+        - PresentRandomAshNG2
+        - PresentRandomAshNG3
+        - PresentRandomAshNG4
+        - PresentRandomCashNG0
+        - PresentRandomCashNG1
+        - PresentRandomCashNG2
+        - PresentRandomCashNG3
+        - PresentRandomCashNG4
+      rareChance: 0.2
+      prototypes:
+        - PresentRandomNG0
+        - PresentRandomNG1
+        - PresentRandomNG2
+        - PresentRandomNG3
+        - PresentRandomNG4
+        - PresentRandomUnsafeNG0
+        - PresentRandomUnsafeNG1
+        - PresentRandomUnsafeNG2
+        - PresentRandomUnsafeNG3
+        - PresentRandomUnsafeNG4
+      chance: 0.8
+  placement:
+    mode: AlignTileAny
+
+- type: entity
+  name: Random NG Gift Spawner
+  suffix: NG, Ash
+  id: RandomNGGiftSpawnerAsh
+  parent: MarkerBase
+  placement:
+    mode: AlignTileAny
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Markers/cross.rsi
+          state: red
+        - sprite: Imperial/NG/presents.rsi
+          state: present0
+    - type: RandomSpawner
+      prototypes:
+        - PresentRandomAshNG0
+        - PresentRandomAshNG1
+        - PresentRandomAshNG2
+        - PresentRandomAshNG3
+        - PresentRandomAshNG4
+
+- type: entity
+  name: Random NG Gift Spawner
+  suffix: NG, Cash
+  id: RandomNGGiftSpawnerCash
+  parent: MarkerBase
+  placement:
+    mode: AlignTileAny
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Markers/cross.rsi
+          state: red
+        - sprite: Imperial/NG/presents.rsi
+          state: present0
+    - type: RandomSpawner
+      prototypes:
+        - PresentRandomCashNG0
+        - PresentRandomCashNG1
+        - PresentRandomCashNG2
+        - PresentRandomCashNG3
+        - PresentRandomCashNG4
+
+- type: entity
+  name: Random NG Gift Spawner
+  suffix: NG, Insane
+  id: RandomNGGiftSpawnerInsane
+  parent: MarkerBase
+  placement:
+    mode: AlignTileAny
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Markers/cross.rsi
+          state: red
+        - sprite: Imperial/NG/presents.rsi
+          state: present0
+    - type: RandomSpawner
+      prototypes:
+        - PresentRandomInsaneNG0
+        - PresentRandomInsaneNG1
+        - PresentRandomInsaneNG2
+        - PresentRandomInsaneNG3
+        - PresentRandomInsaneNG4
+
+- type: entity
+  name: Random NG Gift Spawner
+  suffix: NG, Random
+  id: RandomNGGiftSpawnerRandom
+  parent: MarkerBase
+  placement:
+    mode: AlignTileAny
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Markers/cross.rsi
+          state: red
+        - sprite: Imperial/NG/presents.rsi
+          state: present0
+    - type: RandomSpawner
+      prototypes:
+        - PresentRandomNG0
+        - PresentRandomNG1
+        - PresentRandomNG2
+        - PresentRandomNG3
+        - PresentRandomNG4
+
+- type: entity
+  name: Random NG Gift Spawner
+  suffix: NG, Unsafe
+  id: RandomNGGiftSpawnerUnsafe
+  parent: MarkerBase
+  placement:
+    mode: AlignTileAny
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Markers/cross.rsi
+          state: red
+        - sprite: Imperial/NG/presents.rsi
+          state: present0
+    - type: RandomSpawner
+      prototypes:
+        - PresentRandomUnsafeNG0
+        - PresentRandomUnsafeNG1
+        - PresentRandomUnsafeNG2
+        - PresentRandomUnsafeNG3
+        - PresentRandomUnsafeNG4
+
+#region cristmas tree
+- type: entity
+  parent: BaseTreeConifer
+  id: FloraTreeChristmasNG
+  suffix: NG, PresentsGiver
+  name: christmas tree
+  components:
+  - type: Sprite
+    state: treechristmas02
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,0,0.5,0.75"
+        density: 4500
+        layer:
+        - WallLayer
+  - type: LimitedItemGiver
+    spawnEntries:
+      - id: PresentRandomInsaneNG0
+        prob: 0.05
+        orGroup: present
+      - id: PresentRandomInsaneNG1
+        prob: 0.05
+        orGroup: present
+      - id: PresentRandomInsaneNG2
+        prob: 0.05
+        orGroup: present
+      - id: PresentRandomInsaneNG3
+        prob: 0.05
+        orGroup: present
+      - id: PresentRandomInsaneNG4
+        prob: 0.1
+        orGroup: present
+      - id: PresentRandomAshNG0
+        prob: 0.05
+        orGroup: present
+      - id: PresentRandomAshNG1
+        prob: 0.05
+        orGroup: present
+      - id: PresentRandomAshNG2
+        prob: 0.05
+        orGroup: present
+      - id: PresentRandomAshNG3
+        prob: 0.05
+        orGroup: present
+      - id: PresentRandomAshNG4
+        prob: 0.2
+        orGroup: present
+      - id: PresentRandomCashNG0
+        prob: 0.1
+        orGroup: present
+      - id: PresentRandomCashNG1
+        prob: 0.1
+        orGroup: present
+      - id: PresentRandomCashNG2
+        prob: 0.1
+        orGroup: present
+      - id: PresentRandomCashNG3
+        prob: 0.1
+        orGroup: present
+      - id: PresentRandomCashNG4
+        prob: 0.1
+        orGroup: present
+      - if: PresentRandomNG0
+        prob: 0.4
+        orGroup: present
+      - if: PresentRandomNG1
+        prob: 0.4
+        orGroup: present
+      - if: PresentRandomNG2
+        prob: 0.4
+        orGroup: present
+      - if: PresentRandomNG3
+        prob: 0.4
+        orGroup: present
+      - if: PresentRandomNG4
+        prob: 0.4
+        orGroup: present
+      - id: PresentRandomUnsafeNG0
+        prob: 0.3
+        orGroup: present
+      - id: PresentRandomUnsafeNG1
+        prob: 0.3
+        orGroup: present
+      - id: PresentRandomUnsafeNG2
+        prob: 0.3
+        orGroup: present
+      - id: PresentRandomUnsafeNG3
+        prob: 0.3
+        orGroup: present
+      - id: PresentRandomUnsafeNG4
+        prob: 0.5
+        orGroup: present
+    receivedPopup: christmas-tree-got-gift
+    deniedPopup: christmas-tree-no-gift

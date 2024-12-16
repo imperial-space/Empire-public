@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "license": "CC-BY-SA-3.0",
+  "copyright": "pyrolizz (discord) for Imperial space",
+  "states": [
+    {
+      "name": "present0"
+    },
+    {
+      "name": "unwrapped0"
+    },
+    {
+      "name": "present1"
+    },
+    {
+      "name": "unwrapped1"
+    },
+    {
+      "name": "present2"
+    },
+    {
+      "name": "unwrapped2"
+    },
+    {
+      "name": "present3"
+    },
+    {
+      "name": "unwrapped3"
+    },
+    {
+      "name": "present4"
+    },
+    {
+      "name": "unwrapped4"
+    }
+  ]
+}

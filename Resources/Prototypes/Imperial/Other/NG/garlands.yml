@@ -1,0 +1,427 @@
+#region Base
+- type: entity
+  id: GarlandBase
+  abstract: true
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wallmount
+  components:
+  - type: WallMount
+    arc: 360
+  - type: Sprite
+    drawdepth: SmallObjects
+    sprite: Imperial/NG/garlands/elka.rsi
+    noRot: false
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Transform
+    noRot: false
+    anchored: true
+  - type: Physics
+    bodyType: Static
+    canCollide: false
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb {}
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10 
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/poster_broken.ogg
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetSteel1:
+            min: 1
+            max: 1
+        offset: 0
+
+#region Entities
+
+- type: entity
+  parent: GarlandBase
+  id: GarlandNG1
+  name: "New Year garland"
+  description: "A garland with a ng design."
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: light
+      shader: unshaded
+  - type: SyncSprite
+  - type: Construction
+    graph: GarlandNG1ConstructionProto
+    node: end
+
+- type: entity
+  parent: GarlandBase
+  id: GarlandNG2
+  name: "New Year garland"
+  description: "A garland with a ng design."
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/garlands/lamps1.rsi
+    layers:
+    - state: base
+    - state: light
+      shader: unshaded
+  - type: SyncSprite
+  - type: Construction
+    graph: GarlandNG2ConstructionProto
+    node: end
+
+- type: entity
+  parent: GarlandBase
+  id: GarlandNG3
+  name: "New Year garland"
+  description: "A garland with a ng design."
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/garlands/shariki.rsi
+    layers:
+    - state: base
+  - type: SyncSprite
+  - type: Construction
+    graph: GarlandNG3ConstructionProto
+    node: end
+
+- type: entity
+  parent: GarlandBase
+  id: GarlandNG32
+  name: "New Year garland"
+  description: "A garland with a ng design."
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/garlands/shariki.rsi
+    layers:
+    - state: base2
+  - type: SyncSprite
+  - type: Construction
+    graph: GarlandNG32ConstructionProto
+    node: end
+
+- type: entity
+  parent: GarlandBase
+  id: GarlandNG33
+  name: "New Year garland"
+  description: "A garland with a ng design."
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/garlands/shariki.rsi
+    layers:
+    - state: base3
+  - type: SyncSprite
+  - type: Construction
+    graph: GarlandNG33ConstructionProto
+    node: end
+
+- type: entity
+  parent: GarlandBase
+  id: GarlandNG34
+  name: "New Year garland"
+  description: "A garland with a ng design."
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/garlands/shariki.rsi
+    layers:
+    - state: base4
+  - type: SyncSprite
+  - type: Construction
+    graph: GarlandNG34ConstructionProto
+    node: end
+
+- type: entity
+  parent: GarlandBase
+  id: GarlandNG35
+  name: "New Year garland"
+  description: "A garland with a ng design."
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/garlands/shariki.rsi
+    layers:
+    - state: base5
+  - type: SyncSprite
+  - type: Construction
+    graph: GarlandNG35ConstructionProto
+    node: end
+
+- type: entity
+  parent: GarlandBase
+  id: GarlandNG4
+  name: "New Year garland"
+  description: "A garland with a ng design."
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/garlands/snezhinka.rsi
+    layers:
+    - state: base
+    - state: light
+      shader: unshaded
+  - type: SyncSprite
+  - type: Construction
+    graph: GarlandNG4ConstructionProto
+    node: end
+
+- type: entity
+  parent: GarlandBase
+  id: GarlandNG5
+  name: "New Year garland"
+  description: "A garland with a ng design."
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/garlands/garland.rsi
+    layers:
+    - state: garland
+      shader: unshaded
+  - type: SyncSprite
+  - type: Construction
+    graph: GarlandNG5ConstructionProto
+    node: end
+
+#region Construction
+- type: construction
+  name: Гирлянда
+  id: GarlandNG1ConstructionProto
+  graph: GarlandNG1ConstructionGraph
+  startNode: start
+  targetNode: end
+  category: construction-category-structures
+  description: Праздничная гирлянда
+  icon: { sprite: Imperial/NG/garlands/elka.rsi, state: base }
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true
+
+- type: construction
+  name: Гирлянда
+  id: GarlandNG2ConstructionProto
+  graph: GarlandNG2ConstructionGraph
+  startNode: start
+  targetNode: end
+  category: construction-category-structures
+  description: Праздничная гирлянда
+  icon: { sprite: Imperial/NG/garlands/lamps1.rsi, state: base }
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true
+
+- type: construction
+  name: Гирлянда
+  id: GarlandNG3ConstructionProto
+  graph: GarlandNG3ConstructionGraph
+  startNode: start
+  targetNode: end
+  category: construction-category-structures
+  description: Праздничная гирлянда
+  icon: { sprite: Imperial/NG/garlands/shariki.rsi, state: base }
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true
+
+- type: construction
+  name: Гирлянда
+  id: GarlandNG32ConstructionProto
+  graph: GarlandNG32ConstructionGraph
+  startNode: start
+  targetNode: end
+  category: construction-category-structures
+  description: Праздничная гирлянда
+  icon: { sprite: Imperial/NG/garlands/shariki.rsi, state: base2 }
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true
+
+- type: construction
+  name: Гирлянда
+  id: GarlandNG33ConstructionProto
+  graph: GarlandNG33ConstructionGraph
+  startNode: start
+  targetNode: end
+  category: construction-category-structures
+  description: Праздничная гирлянда
+  icon: { sprite: Imperial/NG/garlands/shariki.rsi, state: base3 }
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true
+
+- type: construction
+  name: Гирлянда
+  id: GarlandNG34ConstructionProto
+  graph: GarlandNG34ConstructionGraph
+  startNode: start
+  targetNode: end
+  category: construction-category-structures
+  description: Праздничная гирлянда
+  icon: { sprite: Imperial/NG/garlands/shariki.rsi, state: base4 }
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true
+
+- type: construction
+  name: Гирлянда
+  id: GarlandNG35ConstructionProto
+  graph: GarlandNG35ConstructionGraph
+  startNode: start
+  targetNode: end
+  category: construction-category-structures
+  description: Праздничная гирлянда
+  icon: { sprite: Imperial/NG/garlands/shariki.rsi, state: base5 }
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true
+
+- type: construction
+  name: Гирлянда
+  id: GarlandNG4ConstructionProto
+  graph: GarlandNG4ConstructionGraph
+  startNode: start
+  targetNode: end
+  category: construction-category-structures
+  description: Праздничная гирлянда
+  icon: { sprite: Imperial/NG/garlands/snezhinka.rsi, state: base }
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true
+
+- type: construction
+  name: Гирлянда
+  id: GarlandNG5ConstructionProto
+  graph: GarlandNG5ConstructionGraph
+  startNode: start
+  targetNode: end
+  category: construction-category-structures
+  description: Праздничная гирлянда
+  icon: { sprite: Imperial/NG/garlands/garland.rsi, state: garland }
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true
+
+#region Graphs
+- type: constructionGraph
+  id: GarlandNG1ConstructionGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: end
+      steps:
+      - material: Steel
+        amount: 1
+        doAfter: 1
+  - node: end
+    entity: GarlandNG1
+
+- type: constructionGraph
+  id: GarlandNG2ConstructionGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: end
+      steps:
+      - material: Steel
+        amount: 1
+        doAfter: 1
+  - node: end
+    entity: GarlandNG2
+  
+- type: constructionGraph
+  id: GarlandNG3ConstructionGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: end
+      steps:
+      - material: Steel
+        amount: 1
+        doAfter: 1
+  - node: end
+    entity: GarlandNG3
+
+- type: constructionGraph
+  id: GarlandNG32ConstructionGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: end
+      steps:
+      - material: Steel
+        amount: 1
+        doAfter: 1
+  - node: end
+    entity: GarlandNG32
+  
+- type: constructionGraph
+  id: GarlandNG33ConstructionGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: end
+      steps:
+      - material: Steel
+        amount: 1
+        doAfter: 1
+  - node: end
+    entity: GarlandNG33
+
+- type: constructionGraph
+  id: GarlandNG34ConstructionGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: end
+      steps:
+      - material: Steel
+        amount: 1
+        doAfter: 1
+  - node: end
+    entity: GarlandNG34
+  
+- type: constructionGraph
+  id: GarlandNG35ConstructionGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: end
+      steps:
+      - material: Steel
+        amount: 1
+        doAfter: 1
+  - node: end
+    entity: GarlandNG35
+  
+- type: constructionGraph
+  id: GarlandNG4ConstructionGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: end
+      steps:
+      - material: Steel
+        amount: 1
+        doAfter: 1
+  - node: end
+    entity: GarlandNG4
+
+- type: constructionGraph
+  id: GarlandNG5ConstructionGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: end
+      steps:
+      - material: Steel
+        amount: 1
+        doAfter: 1
+  - node: end
+    entity: GarlandNG5

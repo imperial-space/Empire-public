@@ -1,0 +1,130 @@
+- type: entity
+  id: PresentRandomAsh
+  parent: [PresentBase, BaseItem]
+  suffix: Filled Ash
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: PresentTrash
+      - id: Ash # No coal yet!
+        orGroup: GiftPool
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  id: GiftPumpkinBase
+  name: Gift Pumpkin
+  description: Gift Pumpkin. Hallowen?
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Imperial/GiftPuppet.rsi
+    layers:
+      - state: present
+
+- type: entity
+  name: PumpkinRandomSpawn
+  id: RandomPumpkinSpawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Markers/cross.rsi
+          state: red
+        - sprite: Imperial/GiftPumpkin.rsi
+          state: openPumpkin
+    - type: RandomSpawner
+      rarePrototypes:
+        - GiftPumpkinRed
+        - GiftPumpkinBlue
+        - GiftPumpkinBrown
+      rareChance: 0.1
+      prototypes:
+        - CarvedPumpkin
+        - FoodPumpkin
+      chance: 0.9
+  placement:
+    mode: AlignTileAny
+
+- type: entity
+  id: GiftPumpkinRed
+  parent: [GiftPumpkinBase, BaseItem]
+  suffix: Red
+  components:
+  - type: RandomGift
+    wrapper: OpenPumpkin
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+    insaneMode: false
+    contentsViewers:
+      components:
+      - Ghost
+      - Santa
+  - type: PointLight
+    radius: 2
+    energy: 1.8
+    color: "#C02727"
+  - type: Sprite
+    sprite: Imperial/GiftPumpkin.rsi
+    layers:
+      - state: redPumpkin
+
+- type: entity
+  id: GiftPumpkinBrown
+  parent: [GiftPumpkinBase, BaseItem]
+  suffix: Brown
+  components:
+  - type: RandomGift
+    wrapper: OpenPumpkin
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+    insaneMode: false
+    contentsViewers:
+      components:
+      - Ghost
+      - Santa
+  - type: PointLight
+    radius: 2
+    energy: 1.8
+    color: "#456422"
+  - type: Sprite
+    sprite: Imperial/GiftPumpkin.rsi
+    layers:
+      - state: brownPumpkin
+
+- type: entity
+  id: GiftPumpkinBlue
+  parent: [GiftPumpkinBase, BaseItem]
+  suffix: Blue
+  components:
+  - type: RandomGift
+    wrapper: OpenPumpkin
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+    insaneMode: false
+    contentsViewers:
+      components:
+      - Ghost
+      - Santa
+  - type: PointLight
+    radius: 2
+    energy: 1.8
+    color: "#B31EB8"
+  - type: Sprite
+    sprite: Imperial/GiftPumpkin.rsi
+    layers:
+      - state: bluePumpkin
+
+
+
+- type: entity
+  id: OpenPumpkin
+  noSpawn: true
+  parent: BaseItem
+  name: Open Pumpkin
+  description: Monkey
+  components:
+  - type: Sprite
+    sprite: Imperial/GiftPumpkin.rsi
+    layers:
+      - state: openPumpkin

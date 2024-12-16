@@ -1,0 +1,47 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Made by Vladegeg",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "bluePumpkin",
+        "delays": [
+          [
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ]
+        ]
+      },
+      {
+        "name": "brownPumpkin",
+        "delays": [
+          [
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ]
+        ]
+      },
+      {
+        "name": "redPumpkin",
+        "delays": [
+          [
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ]
+        ]
+      },
+      {
+        "name": "openPumpkin"
+      }
+    ]
+  }

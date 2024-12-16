@@ -1,0 +1,88 @@
+- type: tile
+  id: FloorSnowNG
+  name: tiles-snow-ng
+  sprite: /Textures/Tiles/Planet/Snow/snow.png
+  variants: 13
+  placementVariants:
+  - 0.8
+  - 0.0166
+  - 0.0166
+  - 0.0166
+  - 0.0166
+  - 0.0166
+  - 0.0166
+  - 0.0166
+  - 0.0166
+  - 0.0166
+  - 0.0166
+  - 0.0116
+  - 0.0116
+  edgeSpritePriority: 2
+  edgeSprites:
+    South: /Textures/Tiles/Planet/Snow/snow_double_edge_south.png
+    East: /Textures/Tiles/Planet/Snow/snow_double_edge_east.png
+    North: /Textures/Tiles/Planet/Snow/snow_double_edge_north.png
+    West: /Textures/Tiles/Planet/Snow/snow_double_edge_west.png
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepSnow
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
+  baseTurf: Plating
+  deconstructTools: [ Prying ]
+  itemDrop: SnowTileNG
+
+- type: stack
+  id: SnowTileNG
+  name: snow tile
+  spawn: SnowTileNG
+  maxCount: 30
+  itemSize: 5
+
+- type: constructionGraph
+  id: SnowTileNG
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: snowtile
+          completed:
+            - !type:SetStackCount
+              amount: 4
+          steps:
+            - material: Steel
+              amount: 1
+    - node: snowtile
+      entity: SnowTileNG
+
+- type: construction
+  name: плитка искусственного снега
+  id: SnowTileNG
+  graph: SnowTileNG
+  startNode: start
+  targetNode: snowtile
+  category: construction-category-tiles
+  description: неотличимая от настоящего снега напольная плитка
+  icon: { sprite: Imperial/NG/tiles.rsi, state: snowTileItem }
+  objectType: Item
+
+- type: entity
+  name: snow tile
+  parent: FloorTileItemBase
+  id: SnowTileNG
+  components:
+  - type: Sprite
+    sprite: Imperial/NG/tiles.rsi
+    state: snowTileItem
+  - type: Item
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSnowNG
+  - type: Stack
+    stackType: SnowTileNG
+  #Imperial craft tiles
+  - type: Construction
+    graph: SnowTileNG
+    node: SnowTileNG
