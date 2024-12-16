@@ -487,6 +487,8 @@
     jobTitle: лидер ОБР #Imperial translate
   - type: Item
     heldPrefix: gold
+  - type: PresetIdCard # Imperial Space Добавление доступов ОБР
+    job: ERTLeader
 
 - type: entity
   parent: IDCardStandard
@@ -501,6 +503,8 @@
     jobTitle: священник ОБР #Imperial translate
   - type: Item
     heldPrefix: blue
+  - type: PresetIdCard # Imperial Space Добавление доступов ОБР
+    job: ERTChaplain
 
 - type: entity
   parent: IDCardStandard
@@ -513,6 +517,8 @@
     - state: ert_engineer
   - type: IdCard
     jobTitle: инженер ОБР #Imperial translate
+  - type: PresetIdCard # Imperial Space Добавление доступов ОБР
+    job: ERTEngineer
 
 - type: entity
   parent: IDCardStandard
@@ -525,6 +531,8 @@
     - state: ert_janitor
   - type: IdCard
     jobTitle: уборщик ОБР #Imperial translate
+  - type: PresetIdCard # Imperial Space Добавление доступов ОБР
+    job: ERTJanitor
 
 - type: entity
   parent: IDCardStandard
@@ -537,6 +545,8 @@
     - state: ert_medic
   - type: IdCard
     jobTitle: медик ОБР #Imperial translate
+  - type: PresetIdCard # Imperial Space Добавление доступов ОБР
+    job: ERTMedical
 
 - type: entity
   parent: IDCardStandard
@@ -549,6 +559,8 @@
     - state: ert_security
   - type: IdCard
     jobTitle: Боец ОБР #Imperial translate
+  - type: PresetIdCard # Imperial Space Добавление доступов ОБР
+    job: ERTSecurity
 
 - type: entity
   parent: IDCardStandard
