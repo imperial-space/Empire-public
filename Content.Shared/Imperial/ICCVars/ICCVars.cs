@@ -5,7 +5,7 @@ namespace Content.Shared.Imperial.ICCVar;
 
 [CVarDefs]
 // ReSharper disable once InconsistentNaming
-public sealed partial class class ICCVars : CVars
+public sealed partial class ICCVars : CVars
 {
     public static readonly CVarDef<string> LobbyName =
             CVarDef.Create("server.lobby_name", "MyServer", CVar.REPLICATED | CVar.SERVER);
