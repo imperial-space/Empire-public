@@ -72,15 +72,15 @@
   categories:
   - BSStoreMelee
 
-- type: listing
-  id: BSStoreRig
-  name: Укреплённый медицинский Р.И.Г
-  description: Защитит вас от космоса, однако, придётся пожертвовать защитой от пуль.
-  productEntity: ClothingControlModsuitMedical2Sealed
-  cost:
-    BlueSpaceCube: 12
-  categories:
-  - BSStoreMelee
+# - type: listing
+#   id: BSStoreRig
+#   name: Укреплённый медицинский Р.И.Г
+#   description: Защитит вас от космоса, однако, придётся пожертвовать защитой от пуль.
+#   productEntity: ClothingControlModsuitMedical2Sealed
+#   cost:
+#     BlueSpaceCube: 12
+#   categories:
+#   - BSStoreMelee
 
 - type: listing
   id: BSStoreGolo

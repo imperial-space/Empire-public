@@ -48,7 +48,7 @@ ent-ClothingUniformJumpsuitTGMC = комбинезон пилота
 ent-ClothingOuterModsuitTGMC = тяжелый скафандр морпеха
     .desc = Хорошая защита, но низка скорость. Обычно используется пулеметчиками
 
-ent-ClothingHeadHelmetModsuitTGMC = шлем скафандра морпеха
+ent-ClothingHeadHelmetModsuitSpecialForces = шлем скафандра сил Специального назначения
     .desc = Хорошая защита для вашей головы от клыков опасной фауны!
 
 ent-ClothingEyesHudMarine = боевые очки морпеха

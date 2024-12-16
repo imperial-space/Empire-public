@@ -15,4 +15,4 @@ handcuff-component-cuff-interrupt-other-message = Вы помешали {$otherN
 handcuff-component-cuff-interrupt-self-message = Вам помешали заковать себя.
 handcuff-component-cuff-interrupt-buckled-message = Вы не можете пристегнуться в наручниках!
 handcuff-component-cuff-interrupt-unbuckled-message = Вы не можете расстегнуть наручники!
-handcuff-component-cannot-drop-cuffs = Вы не можете наложить запреты на {$target}
+handcuff-component-cannot-drop-cuffs = Вы не можете одеть наручники на {$target}
