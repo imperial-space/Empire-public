@@ -35,6 +35,23 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
+  - type: UnpoweredFlashlight
+  - type: LightBehaviour
+    behaviours:
+      - !type:FadeBehaviour
+        id: radiating
+        maxDuration: 2.0
+        startValue: 3.0
+        endValue: 2.0
+        isLooped: true
+        reverseWhenFinished: true
+      - !type:PulseBehaviour
+        id: blinking
+        interpolate: Nearest
+        maxDuration: 1.0
+        minValue: 0.1
+        maxValue: 2.0
+        isLooped: true
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -95,9 +112,6 @@
     lowPressureMultiplier: 200
   - type: FlashImmunity
   - type: EyeProtection
-  - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
 
 - type: entity
   parent: ClothingHandsBase
@@ -122,34 +136,39 @@
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 200
   - type: ToggleableClothing
-    clothingPrototype: ClothingBootsModsuitSpecialForces
-    slot: shoes
-    requiredSlot: gloves
-
-- type: entity
-  parent: ClothingShoesBase
-  id: ClothingBootsModsuitSpecialForces
-  noSpawn: true
-  name: Special Forces Boots
-  description: Reinforced shoes to protect you from alien invaders!
-  components:
-  - type: Sprite
-    sprite: Imperial/VlClothes/DSO/Modsuit/Boots.rsi
-  - type: Clothing
-    sprite: Imperial/VlClothes/DSO/Modsuit/Boots.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.7
-        Shock: 0.8
-        Caustic: 0.6
-        Radiation: 0.5
-  - type: PressureProtection
-    highPressureMultiplier: 0.05
-    lowPressureMultiplier: 200
-  - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetModsuitSpecialForces
     slot: head
-    requiredSlot: feet
+    requiredSlot: gloves
+  - type: Insulated
+
+
+# - type: entity
+#   parent: ClothingShoesBase
+#   id: ClothingBootsModsuitSpecialForces
+#   noSpawn: true
+#   name: Special Forces Boots
+#   description: Reinforced shoes to protect you from alien invaders!
+#   components:
+#   - type: Sprite
+#     sprite: Imperial/VlClothes/DSO/Modsuit/Boots.rsi
+#   - type: Clothing
+#     sprite: Imperial/VlClothes/DSO/Modsuit/Boots.rsi
+#   - type: Armor
+#     modifiers:
+#       coefficients:
+#         Blunt: 0.8
+#         Slash: 0.8
+#         Piercing: 0.7
+#         Shock: 0.8
+#         Caustic: 0.6
+#         Radiation: 0.5
+#   - type: PressureProtection
+#     highPressureMultiplier: 0.05
+#     lowPressureMultiplier: 200
+#   - type: ToggleableClothing
+#     clothingPrototype: ClothingHeadHelmetModsuitSpecialForces
+#     slot: head
+#     requiredSlot: feet
+#   - type: FootstepModifier
+#     footstepSoundCollection:
+#       collection: FootstepSpecialOfficer

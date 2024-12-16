@@ -2,12 +2,10 @@
   id: BlackShieldGear
   equipment:
     jumpsuit: BlackShieldJumpsuit
-    back: BlackShieldBackpack
+    back: ClothingControlModsuitSpecialForces
     shoes: ClothingShoesBootsJackSpecialOfficer
     head: BlackShieldBeret
     eyes: ClothingDSOGlassesWhite
-    gloves: ClothingHandsGlovesCombat
-    outerClothing: ClothingOuterVestWeb
     ears: BlackShieldHeadset
     belt: BlackShieldWebbing
     mask: ClothingMaskGasSecurity
