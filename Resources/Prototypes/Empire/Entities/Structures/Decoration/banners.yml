@@ -1,0 +1,21 @@
+# By DreakTheFantom
+- type: entity
+  id: BannerEmpire
+  parent: BannerBase
+  name: Empire Banner
+  suffix: Empire
+  description: A banner of Empire
+  components:
+  - type: Sprite
+    sprite: Empire/Structures/Decoration/empire_banner.rsi
+    state: IBanner
+
+- type: entity
+  parent: PosterBase
+  id: WallBannerEmpire
+  name: Empire Banner Wallmount
+  description: A flag of Glorious Empire.
+  components:
+  - type: Sprite
+    sprite: Empire/Structures/Decoration/empire_banner_wallmount.rsi
+    state: full
