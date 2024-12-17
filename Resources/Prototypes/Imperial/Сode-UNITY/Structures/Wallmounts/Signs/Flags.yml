@@ -1,0 +1,8 @@
+- type: entity
+  parent: BaseFlag
+  id: EmpireFlag
+  name: Empire Flag
+  description: A flag of Great Empire
+  components:
+  - type: Sprite
+    state: IBanner_2 #Спрайт выдаёт эррор. Пока весит как плейсхолдер.

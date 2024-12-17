@@ -1,0 +1,8 @@
+- type: entity
+  parent: PosterBase
+  id: BanPosImp
+  name: Imperium Flag
+  description: "A flag of Glorious Empire"
+  components:
+  - type: Sprite
+    state: IBanner_2

@@ -1,0 +1,10 @@
+- type: entity
+  id: ImperiumBanner
+  parent: BannerBase
+  name: Imperium Banner
+  suffix: Imperium
+  description: A banner of Great Imperium
+  components:
+  - type: Sprite
+    sprite: Imperial/Code-UNITY/Banners/Imperium/Stand.rsi
+    state: IBanner
