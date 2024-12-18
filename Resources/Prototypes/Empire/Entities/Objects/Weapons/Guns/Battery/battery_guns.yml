@@ -1,0 +1,23 @@
+- type: entity
+  name: Serenada
+  parent: [BaseWeaponBattery, BaseGunWieldable]
+  id: WeaponSerenada
+  description: A civilian pulse sniper.
+  components:
+  - type: Sprite
+    sprite: Empire/Entities/Objects/Weapons/Guns/Battery/serenada_empire.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"] # Не до конца доделаны лееры. Нужно доделать леер разрядки(Дрейк)
+  - type: Clothing
+    sprite: Empire/Entities/Objects/Weapons/Guns/Battery/serenada_empire.rsi
+  - type: Gun
+    fireRate: 3
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: Pulse
+    fireCost: 100 
+  - type: Battery
+    maxCharge: 3000
+    startingCharge: 3000
