@@ -26,6 +26,9 @@
             "name": "emergencytank"
         },
         {
+            "name": "nitrogentank"
+        },
+        {
             "name": "heart"
         },
         {
