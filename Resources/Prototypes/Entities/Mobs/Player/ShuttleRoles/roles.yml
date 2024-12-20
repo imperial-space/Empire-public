@@ -1195,7 +1195,7 @@
         - skillPiloting
         - skillShooting
 
-# Other
+# Другое
 
 - type: entity
   id: RandomHumanoidVisitorBlackmarketeer
