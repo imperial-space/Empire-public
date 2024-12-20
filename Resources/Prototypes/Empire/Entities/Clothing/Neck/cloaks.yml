@@ -1,0 +1,85 @@
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakCenturion
+  name: Centurion's cloak
+  description: description later
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/cap.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakOption
+  name: Option's cloak
+  description: description later
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/cap.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakInquisitor
+  name: Inquisitor's cloak
+  description: description later
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/cap.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakCap
+  name: Capellan's cloak
+  description: description later
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/cap.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakEmpireChiefMedicialOfficer
+  name: Chief Medicial Officer's cloak
+  description: description later
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/cap.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakDecurion
+  name: Decurion's cloak
+  description: description later
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/cap.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakMagos
+  name: Magos's cloak
+  description: description later
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/cap.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakTriary
+  name: Triary's cloak
+  description: An evil-looking red cloak with spikes on its shoulders.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/herald.rsi

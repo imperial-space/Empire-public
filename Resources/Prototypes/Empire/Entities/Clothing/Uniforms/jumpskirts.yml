@@ -1,0 +1,211 @@
+#TODO: СПРАЙТОВ ПОКА НЕТ. ДОБАВИТЬ И ПОМЕНЯТЬ КОГДА ПОЯВЯТСЯ(Дрейк)
+#TODO: ПРИДУМАТЬ НОРМАЛЬНЫЕ ОПИСАНИЯ. Я НЕ УМЕЮ ИХ СОСТАВЛЯТЬ(Дрейк)
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtHoW # Начальник цеха
+  name: Head of Workshop skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtWW # Работник цеха
+  name: Worker of Workshop skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtMagos # Магос
+  name: Magos skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtTAscientist # Техно-Арканум учёный
+  name: Techno-Arcanum scientist skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtTAengineer
+  name: Techno-Arcanum engineer
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCenturion # Центурион
+  name: Centurion skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtOption # Опцион
+  name: Option skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtInquisitor # Инквизитор
+  name: Inquisitor skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCapellan # Капеллан
+  name: Capellan skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtDecurion # Декурион
+  name: Decurion skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtTriary # Триарий
+  name: Triary skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtGestat # Гестат
+  name: Gestat skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtLegioner # Легионер
+  name: Legioner skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtEmpireCheifMedicialOfficer # Главврач
+  name: Chief medicial officer skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtLEmpireChemist # Химик
+  name: Chemist skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtMedico # Лекарь
+  name: Medico skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtEmpireBartender # Бармен
+  name: Bartender skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtEmpireChief # Повар
+  name: Chief-cooker skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtEmpireBotanist # Ботаник
+  name: Botanist skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
