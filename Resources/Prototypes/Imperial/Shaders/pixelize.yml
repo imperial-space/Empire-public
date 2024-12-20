@@ -1,0 +1,4 @@
+- type: shader
+  id: Pixelize
+  kind: source
+  path: "/Textures/Imperial/Shaders/pixelize.swsl"

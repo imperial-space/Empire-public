@@ -409,6 +409,7 @@
 - type: reaction
   id: ConcentratedBluespaceLiquidCollapse1
   impact: High
+  quantized: true
   reactants:
     UnstableBluespaceLiquid:
       amount: 1
@@ -425,6 +426,7 @@
   id: ConcentratedBluespaceLiquidCollapse2
   impact: High
   minTemp: 288
+  quantized: true
   reactants:
     ConcentratedBluespaceLiquid:
       amount: 1
