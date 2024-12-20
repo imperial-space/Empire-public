@@ -1,8 +1,8 @@
-## See also ../settings.yml and ../spawners.yml
+## Смотрите также ../settings.yml и ../spawners.yml
 
-### Visitors with Visitor ID
+### Посетители с ID посетителя
 
-# Command
+# Коммандный
 
 - type: entity
   id: RandomHumanoidVisitorCaptain
@@ -165,7 +165,7 @@
         - skillBaseConstraction
         - skillPiloting
 
-# Security
+# Служба Безопасности
 
 - type: entity
   id: RandomHumanoidVisitorSecurityCadet
@@ -247,7 +247,7 @@
         - skillPiloting
         - skillShooting
 
-# Cargo
+# Снабжение
 
 - type: entity
   id: RandomHumanoidVisitorCargoTechnician
@@ -285,7 +285,7 @@
         - skillShooting
 
 
-# Engineering
+# Инженерный
 
 - type: entity
   id: RandomHumanoidVisitorAtmosTech
@@ -352,7 +352,7 @@
         - skillPiloting
         - skillHardInstrumentation
 
-# Medical
+# Медицинский
 
 - type: entity
   id: RandomHumanoidVisitorMedicalIntern
@@ -506,7 +506,7 @@
         - skillSurgery
         - skillNeuroSurgery
 
-# Science
+# Научный
 
 - type: entity
   id: RandomHumanoidVisitorResearchAssistant
@@ -561,7 +561,7 @@
         - skillSurgery
         - skillNeuroSurgery
 
-# Civilian
+# Гражданский
 
 - type: entity
   id: RandomHumanoidVisitorBartender
@@ -841,7 +841,7 @@
         - skillBaseConstraction
         - skillPiloting
 
-# Misc
+# Разное
 
 - type: entity
   id: RandomHumanoidClownTroupeBanana
@@ -857,15 +857,15 @@
         - skillBaseConstraction
         - skillPiloting
 
-# Visitors missing equipment for challenges
+# Посетители с неполной экипировкой
 
-# Command
+# Коммандный
 
 - type: entity
   id: RandomHumanoidChallengeVictimCaptain
   name: disaster victim Captain ghost role
   suffix: CHALLENGE
-#   This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: Sprite
       sprite: Mobs/Species/Skeleton/parts.rsi
@@ -888,7 +888,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim CE ghost role
   suffix: CHALLENGE
-#   This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimChiefEngineer
@@ -914,7 +914,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim CMO ghost role
   suffix: CHALLENGE
-#   This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimCMO
@@ -938,7 +938,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim HOP ghost role
   suffix: CHALLENGE
-#   This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimHeadOfPersonnel
@@ -957,7 +957,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim HOS ghost role
   suffix: CHALLENGE
-#   This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimHeadOfSecurity
@@ -977,7 +977,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim RD ghost role
   suffix: CHALLENGE
-#   This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimResearchDirector
@@ -1008,7 +1008,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim QM ghost role
   suffix: CHALLENGE
-#   This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimQuartermaster
@@ -1022,16 +1022,16 @@
         - skillBaseConstraction
         - skillPiloting
 
-# Security
+# Служба Безопасности
 
-# Cargo
+# Снабжение
 
 - type: entity
   id: RandomHumanoidChallengeCargoTechnician
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster cargo technician ghost role
   suffix: CHALLENGE
-#   This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeCargoTechnician
@@ -1042,17 +1042,17 @@
         - skillBaseConstraction
         - skillPiloting
 
-# Engineering
+# Инженерный
 
-# Medical
+# Медицинский
 
-# Science
+# Научный
 
-# Civilian
+# Гражданский
 
-# Misc
+# Разное
 
-# Syndicate & Hostiles
+# Синдикат & Враги
 
 - type: entity
   id: RandomHumanoidSyndieSoldierTeamLeader
