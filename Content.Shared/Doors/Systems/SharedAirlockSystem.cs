@@ -43,7 +43,7 @@ public abstract class SharedAirlockSystem : EntitySystem
 
         if (TryComp(uid, out DoorComponent? door)
             && !door.Partial
-            && airlock.Powered && !CanChangeState(uid, airlock)) // Imperial Crowbar Door fix
+            && airlock.Powered && !CanChangeState(uid, airlock)) // Imperial Door Crowbar Prying fix
         {
             args.Cancel();
         }
