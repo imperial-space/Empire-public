@@ -12,7 +12,7 @@ public sealed partial class AdminMenuWindow : DefaultWindow
 
     public AdminMenuWindow()
     {
-        MinSize = new Vector2(750, 250); // Default 650. Изменено для удобности Imperial Space
+        MinSize = new Vector2(850, 250); // Default 650. Изменено для удобности Imperial Space
         Title = Loc.GetString("admin-menu-title");
         RobustXamlLoader.Load(this);
         MasterTabContainer.SetTabTitle((int) TabIndex.Admin, Loc.GetString("admin-menu-admin-tab"));
