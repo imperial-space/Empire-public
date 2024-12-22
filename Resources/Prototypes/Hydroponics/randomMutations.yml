@@ -160,11 +160,11 @@
       persists: false
       effect: !type:PlantChangeStat
         targetValue: TurnIntoKudzu
-    - name: ChangeScreaming
-      baseOdds: 0.036
-      persists: false 
-      effect: !type:PlantChangeStat
-        targetValue: CanScream
+    # - name: ChangeScreaming
+    #   baseOdds: 0.036
+    #   persists: false 
+    #   effect: !type:PlantChangeStat
+    #     targetValue: CanScream
     - name: ChangeChemicals
       baseOdds: 0.072
       persists: true # Imperial PlantsAnalyzer (false -> true)
