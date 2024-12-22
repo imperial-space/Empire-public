@@ -1,0 +1,161 @@
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseCommandContraband]
+  id: ClothingBackpackSatchelCenturion
+  name: centurion's satchel
+  description: An exclusive satchel for Empire officers.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/centurion.rsi
+
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseCommandContraband]
+  id: ClothingBackpackSatchelOption
+  name: option's satchel
+  description: It's belongs to option.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/option.rsi
+
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseCommandContraband]
+  id: ClothingBackpackSatchelInquisitor
+  name: inquisitor's satchel
+  description: Special satchel with hidden sector for something.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/inquisitor.rsi
+
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseCommandContraband]
+  id: ClothingBackpackSatchelCapellan
+  name: capellan's satchel
+  description: An exclusive satchel for God connectors.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/capellan.rsi
+
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseCommandContraband]
+  id: ClothingBackpackSatchelDecurion
+  name: decurion's satchel
+  description: Satchel with a lot of scars on it. It's probably passed through many battlefields.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/decurion.rsi
+
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseRestrictedContraband]
+  id: ClothingBackpackSatchelTriary
+  name: triary's satchel
+  description: A very robust satchel for Triary needs.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/triary.rsi
+
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseRestrictedContraband]
+  id: ClothingBackpackSatchelGuard
+  name: guard satchel
+  description: A robust satchel for guard related needs.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/guard.rsi
+
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseCommandContraband]
+  id: ClothingBackpackSatchelHoW
+  name: head of workshop's satchel
+  description: Fine satchel with lot of pockets.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/decurion.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelWoW
+  name: worker's satchel
+  description: A base satchel, but gray.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/wow.rsi
+
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseCommandContraband]
+  id: ClothingBackpackSatchelEmpireCMO
+  name: chief medicial officer's satchel
+  description: A satchel for emergency help needs.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/cmo.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelEmpireChemist
+  name: chemist's satchel
+  description: Satchel with extra pockets for pills and bulbs.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/chemist.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelEmpireMedico
+  name: medico's satchel
+  description: Satchel with extra pockets for pills and bulbs.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/medico.rsi
+
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseCommandContraband]
+  id: ClothingBackpackSatchelMagos
+  name: magos's satchel
+  description: It's electized a lot. Might be it passed through tesla.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/magos.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelTAEngineering
+  name: engineering satchel
+  description: A comfy satchel with a lot of pockets for materials.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/engineering.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelTAScientist
+  name: scientist's satchel
+  description: Probably, that satchel holds a lot of sources for you death.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/scientist.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelEmpireBartender
+  name: bartender's satchel
+  description: That satchel is soaked by vodka.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/bartender.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelEmpireChef
+  name: chef's satchel
+  description: It's smells like delicious meal.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/chef.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelEmpireHydroponics
+  name: hydroponics satchel
+  description: A small satchel for your soils and tools.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/hydroponics.rsi

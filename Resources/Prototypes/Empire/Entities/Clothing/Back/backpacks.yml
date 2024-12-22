@@ -1,0 +1,161 @@
+- type: entity
+  parent: [ClothingBackpack, BaseCommandContraband]
+  id: ClothingBackpackCenturion
+  name: centurion's backpack
+  description: It's a special backpack made exclusively for Empire officers.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/centurion.rsi
+
+- type: entity
+  parent: [ClothingBackpack, BaseCommandContraband]
+  id: ClothingBackpackOption
+  name: option's backpack
+  description: It's a special backpack to help your officer.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/option.rsi
+
+- type: entity
+  parent: [ClothingBackpack, BaseCommandContraband]
+  id: ClothingBackpackInquisitor
+  name: inquisitor's backpack
+  description: It's a exclusive backpack for blaming and pure agony.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/inquisitor.rsi
+
+- type: entity
+  parent: [ClothingBackpack, BaseCommandContraband]
+  id: ClothingBackpackCapellan
+  name: capellan's backpack
+  description: Only for god connectors.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/capellan.rsi
+
+- type: entity
+  parent: [ClothingBackpack, BaseCommandContraband]
+  id: ClothingBackpackDecurion
+  name: decurion's backpack
+  description: The great warrior of Emperor wears it.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/decurion.rsi
+
+- type: entity
+  parent: [ClothingBackpack, BaseRestrictedContraband]
+  id: ClothingBackpackTriary
+  name: Triary's backpack
+  description: It's a very robust backpack.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/Triary.rsi
+
+- type: entity
+  parent: [ClothingBackpack, BaseRestrictedContraband]
+  id: ClothingBackpackGuard
+  name: guard backpack
+  description: It's a robust backpack.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/guard.rsi
+
+- type: entity
+  parent: [ClothingBackpack, BaseCommandContraband]
+  id: ClothingBackpackHoW
+  name: head of workshop's backpack
+  description: For maximum effience.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/how.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackWoW
+  name: worker's backpack
+  description: To carry parts.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/wow.rsi
+
+- type: entity
+  parent: [ClothingBackpack, BaseCommandContraband]
+  id: ClothingBackpackEmpireCMO
+  name: chief medicial officer's backpack
+  description: A special back made only for those, who saved emperor warriors in battle.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/cmo.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackEmpireChemist
+  name: chemist's backpack
+  description: A backpack with additional pockets for bulbs and pils.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/chemist.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpacEmpireMedico
+  name: medico's backpack
+  description: Sterilized. Only for medics.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/medico.rsi
+
+- type: entity
+  parent: [ClothingBackpack, BaseCommandContraband]
+  id: ClothingBackpackMagos
+  name: magos's backpack
+  description: FOR NERDS ONLY.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/magos.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackTAEngineering
+  name: engineering's backpack
+  description: Maybe, you should't ask engineer about what does he carry here.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/engineering.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackTAScientist
+  name: scientist's backpack
+  description: Definetly, there is a lot of ways to kill you.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/scientist.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackEmpireBartender
+  name: bartender's backpack
+  description: "Sir, i want a drink with blood... and skulls".
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/bartender.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackEmpireChef
+  name: chef's backpack
+  description: this backpack is made from special material, so you can't randomaly cut it with your knives.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/chef.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpacEmpireHydroponics
+  name: hydroponics's backpack
+  description: For soils and plants.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Backpacks/hydroponics.rsi
