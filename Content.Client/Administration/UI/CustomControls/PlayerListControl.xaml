@@ -13,6 +13,6 @@
                   Access="Public"
                   Toggle="True"
                   Group="True"
-                  MinSize="100 0"/>
+                  MinSize="350 0"/>
     </PanelContainer>
 </BoxContainer>
