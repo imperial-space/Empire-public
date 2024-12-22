@@ -1,0 +1,161 @@
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
+  id: ClothingBackpackDuffelCenturion
+  name: centurion's duffel bag
+  description: A large duffel bag for holding extra centurionly goods.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/centurion.rsi
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
+  id: ClothingBackpackDuffelOption
+  name: option's duffel bag
+  description: A duffel bag for your duty.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/option.rsi
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
+  id: ClothingBackpackDuffelInquisitor
+  name: inquisitor's duffel bag
+  description: For extra items against heretics.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/inquisitor.rsi
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
+  id: ClothingBackpackDuffelCapellan
+  name: capellan's duffel bag
+  description: A duffel bag for connection with your God.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/capellan.rsi
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
+  id: ClothingBackpackDuffelDecurion
+  name: decurion's duffel bag
+  description: A large duffel bag with extra pockets for ammos and hidden combat axe.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/decurion.rsi
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseRestrictedContraband]
+  id: ClothingBackpackDuffelTriary
+  name: triary duffel bag
+  description: This duffel bag specialy made for outstanding militaries.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/triary.rsi
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseRestrictedContraband]
+  id: ClothingBackpackDuffelGuard
+  name: guard duffel bag
+  description: A large duffel bag for holding extra guard related goods.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/guard.rsi
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
+  id: ClothingBackpackDuffelEmpireCMO
+  name: chief medicial officer's duffel bag
+  description: A duffel bag for holding extra medicial needs to help people.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/cmo.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelEmpireChemist
+  name: chemist's duffel bag
+  description: A large duffel bag for holding extra bulbs and pills.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/chemist.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelEmpireMedico
+  name: medico's duffel bag
+  description: This duffel bag made with extra pocket to carry more bandages and ointments.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/medico.rsi
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
+  id: ClothingBackpackDuffelMagos
+  name: magos's duffel bag
+  description: A duffel bag. You can see a lot of scars on it. It probably travelled through singularity.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/magos.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelTAEngineering
+  name: engineering duffel bag
+  description: This duffel bag is made to carry a lot of materials. Definetly.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/engineering.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelTAScientist
+  name: scientist's duffel bag
+  description: This duffel bag carries a lot of sources for your death.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/scientist.rsi
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
+  id: ClothingBackpackDuffelHoW
+  name: head of workshop's duffel bag
+  description: This is standart bank robber bag.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/how.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelWoW
+  name: worker's duffel bag
+  description: For parts for toys.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/wow.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelEmpireBartender
+  name: bartender's duffel bag
+  description: Handle it over, bartender.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/bartender.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelEmpireChef
+  name: chef's duffel bag
+  description: A special duffel bag with material that prevents your bag from cutting with knives.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/chef.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelEmpireHydroponics
+  name: hydroponic duffel bag
+  description: Extra large duffel bag for soils and plants.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Duffels/hydroponics.rsi
