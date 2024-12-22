@@ -144,6 +144,15 @@
 
 - type: entity
   parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelEmpireChef
+  name: chef's satchel
+  description: It's smells like delicious meal.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Back/Satchels/chef.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelEmpireHydroponics
   name: hydroponics satchel
   description: A small satchel for your soils and tools.
