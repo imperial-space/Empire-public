@@ -8,7 +8,7 @@
   markingLimits: MobSlimeMarkingLimits
   dollPrototype: MobSlimePersonDummy
   skinColoration: Hues
-  femaleLastNames: names_last_female #Imperial
+  femaleLastNames: names_last_female # Imperial
 
 - type: speciesBaseSprites
   id: MobSlimeSprites
@@ -26,6 +26,8 @@
     RLeg: MobSlimeRLeg
     LFoot: MobSlimeLFoot
     RFoot: MobSlimeRFoot
+    Tail: MobSlimeMarkingFollowSkin # imperial HairAndTail
+    HeadTop: MobSlimeMarkingFollowSkin # imperial HairAndTail
 
 - type: markingPoints
   id: MobSlimeMarkingLimits
@@ -45,6 +47,14 @@
     Arms:
       points: 4
       required: false
+    # imperial HairAndTail Start
+    Tail:
+      points: 1
+      required: false
+    HeadTop:
+      points: 1
+      required: false
+     # imperial HairAndTail End
 
 - type: humanoidBaseSprite
   id: MobSlimeMarkingFollowSkin
