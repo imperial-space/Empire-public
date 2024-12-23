@@ -225,7 +225,7 @@
       sprite: Markers/jobs.rsi
       state: doctor
     - type: RandomHumanoidSpawner
-      settings: VisitorMedicalDocto
+      settings: VisitorMedicalDoctor
 
 - type: entity
   id: RandomHumanoidVisitorParamedic
