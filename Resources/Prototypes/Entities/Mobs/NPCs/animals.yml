@@ -2434,6 +2434,22 @@
   - MobGiantSpider
   - MobSpiderAngryBase
   id: MobGiantSpiderAngry
+  components:
+    # Imperial NPC Fix Start
+    - type: HTN
+      rootTask:
+        task: XenoCompound
+      blackboard:
+        NavClimb: !type:Bool
+          true
+        NavInteract: !type:Bool
+          true
+        NavSmash: !type:Bool
+          true
+    - type: NpcFactionMember
+      factions:
+        - SimpleHostile
+    # Imperial NPC Fix End
 
 - type: entity
   name: clown spider
