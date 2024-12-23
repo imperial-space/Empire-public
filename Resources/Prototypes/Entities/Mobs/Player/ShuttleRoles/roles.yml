@@ -16,13 +16,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
-        - skillShooting
 
 
 - type: entity
@@ -37,19 +30,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillHacking
-        - skillInstrumentation
-        - skillMaintenance
-        - skillMediumConstruction
-        - skillBasicAtmos
-        - skillPiloting
-        - skillAtmos
-        - skillHardInstrumentation
 
 - type: entity
   id: RandomHumanoidVisitorCMO
@@ -63,17 +43,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPharmaceuticals
-        - skillPiloting
-        - skillSurgery
-        - skillNeuroSurgery
 
 - type: entity
   id: RandomHumanoidVisitorHOP
@@ -87,12 +56,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorHOS
@@ -106,13 +69,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
-        - skillShooting
 
 - type: entity
   id: RandomHumanoidVisitorRD
@@ -126,25 +82,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillHacking
-        - skillInstrumentation
-        - skillMaintenance
-        - skillMediumConstruction
-        - skillBasicAtmos
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillHardInstrumentation
-        - skillRobotics
-        - skillResearch
-        - skillPharmaceuticals
-        - skillPiloting
-        - skillSurgery
-        - skillNeuroSurgery
 
 - type: entity
   id: RandomHumanoidVisitorQM
@@ -158,12 +95,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 # Служба Безопасности
 
@@ -179,13 +110,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillShooting
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorSecurityOfficer
@@ -199,13 +123,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillShooting
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorDetective
@@ -219,13 +136,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillShooting
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorWarden
@@ -239,13 +149,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
-        - skillShooting
 
 # Снабжение
 
@@ -258,12 +161,6 @@
       state: cargo_tech
     - type: RandomHumanoidSpawner
       settings: VisitorCargoTechnician
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorSalvageSpecialist
@@ -274,15 +171,6 @@
       state: salvagespecialist
     - type: RandomHumanoidSpawner
       settings: VisitorSalvageSpecialist
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillHacking
-        - skillMediumConstruction
-        - skillPiloting
-        - skillShooting
 
 
 # Инженерный
@@ -296,19 +184,6 @@
       state: atmospherics
     - type: RandomHumanoidSpawner
       settings: VisitorAtmosTech
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillHacking
-        - skillInstrumentation
-        - skillMaintenance
-        - skillMediumConstruction
-        - skillBasicAtmos
-        - skillPiloting
-        - skillAtmos
-        - skillHardInstrumentation
 
 - type: entity
   id: RandomHumanoidVisitorTechnicalAssistant
@@ -319,16 +194,6 @@
       state: technicalassistant
     - type: RandomHumanoidSpawner
       settings: VisitorTechnicalAssistant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillHacking
-        - skillInstrumentation
-        - skillMaintenance
-        - skillMediumConstruction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorEngineer
@@ -339,18 +204,6 @@
       state: engineer
     - type: RandomHumanoidSpawner
       settings: VisitorEngineer
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillHacking
-        - skillInstrumentation
-        - skillMaintenance
-        - skillMediumConstruction
-        - skillBasicAtmos
-        - skillPiloting
-        - skillHardInstrumentation
 
 # Медицинский
 
@@ -363,14 +216,6 @@
       state: medicalintern
     - type: RandomHumanoidSpawner
       settings: VisitorMedicalIntern
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorMedicalDoctor
@@ -381,16 +226,6 @@
       state: doctor
     - type: RandomHumanoidSpawner
       settings: VisitorMedicalDoctor
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillSurgery
-        - skillNeuroSurgery
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorParamedic
@@ -401,14 +236,6 @@
       state: paramedic
     - type: RandomHumanoidSpawner
       settings: VisitorParamedic
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorPsychologist
@@ -419,13 +246,6 @@
       state: psychologist
     - type: RandomHumanoidSpawner
       settings: VisitorPsychologist
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPharmacology
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorChemist
@@ -436,15 +256,6 @@
       state: chemist
     - type: RandomHumanoidSpawner
       settings: VisitorChemist
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPharmaceuticals
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorVirologist
@@ -455,16 +266,6 @@
       state: virologist
     - type: RandomHumanoidSpawner
       settings: VisitorVirologist
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPiloting
-        - skillSurgery
-        - skillNeuroSurgery
 
 - type: entity
   id: RandomHumanoidVisitorGeneticist
@@ -475,16 +276,6 @@
       state: geneticist
     - type: RandomHumanoidSpawner
       settings: VisitorGeneticist
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPiloting
-        - skillSurgery
-        - skillNeuroSurgery
 
 - type: entity
   id: RandomHumanoidVisitorDentist
@@ -495,16 +286,6 @@
       state: seniorphysician
     - type: RandomHumanoidSpawner
       settings: VisitorDentist
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPiloting
-        - skillSurgery
-        - skillNeuroSurgery
 
 # Научный
 
@@ -517,21 +298,6 @@
       state: researchassistant
     - type: RandomHumanoidSpawner
       settings: VisitorResearchAssistant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillHacking
-        - skillInstrumentation
-        - skillMediumConstruction
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPiloting
-        - skillResearch
-        - skillPharmaceuticals
-        - skillSurgery
-        - skillNeuroSurgery
 
 - type: entity
   id: RandomHumanoidVisitorScientist
@@ -542,24 +308,6 @@
       state: scientist
     - type: RandomHumanoidSpawner
       settings: VisitorScientist
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillHacking
-        - skillInstrumentation
-        - skillMediumConstruction
-        - skillBasicAtmos
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillHardInstrumentation
-        - skillRobotics
-        - skillResearch
-        - skillPharmaceuticals
-        - skillPiloting
-        - skillSurgery
-        - skillNeuroSurgery
 
 # Гражданский
 
@@ -572,14 +320,6 @@
       state: bartender
     - type: RandomHumanoidSpawner
       settings: VisitorBartender
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillBartending
-        - skillShooting
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorBotanist
@@ -590,14 +330,6 @@
       state: botanist
     - type: RandomHumanoidSpawner
       settings: VisitorBotanist
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillCooking
-        - skillMediumBotany
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorBoxer
@@ -608,13 +340,6 @@
       state: boxer
     - type: RandomHumanoidSpawner
       settings: VisitorBoxer
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
-
 - type: entity
   id: RandomHumanoidVisitorChaplain
   name: visiting chaplain ghost role
@@ -624,12 +349,6 @@
       state: chaplain
     - type: RandomHumanoidSpawner
       settings: VisitorChaplain
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorChef
@@ -640,13 +359,6 @@
       state: chef
     - type: RandomHumanoidSpawner
       settings: VisitorChef
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillCooking
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorClown
@@ -657,14 +369,6 @@
       state: clown
     - type: RandomHumanoidSpawner
       settings: VisitorClown
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillClownJoker
-        - skillPiloting
-
 - type: entity
   id: RandomHumanoidVisitorJanitor
   name: visiting janitor ghost role
@@ -674,12 +378,6 @@
       state: janitor
     - type: RandomHumanoidSpawner
       settings: VisitorJanitor
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorLawyer
@@ -690,13 +388,6 @@
       state: lawyer
     - type: RandomHumanoidSpawner
       settings: VisitorLawyer
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
-
 - type: entity
   id: RandomHumanoidVisitorLawyerCentcom
   name: visiting centcom lawyer ghost role
@@ -706,12 +397,6 @@
       state: lawyer
     - type: RandomHumanoidSpawner
       settings: VisitorLawyerCentcom
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorLibrarian
@@ -722,12 +407,6 @@
       state: librarian
     - type: RandomHumanoidSpawner
       settings: VisitorLibrarian
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorMusician
@@ -738,13 +417,6 @@
       state: musician
     - type: RandomHumanoidSpawner
       settings: VisitorMusician
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
-
 - type: entity
   id: RandomHumanoidVisitorMusicianFancy
   name: visiting fancy musician ghost role
@@ -754,12 +426,6 @@
       state: musician
     - type: RandomHumanoidSpawner
       settings: VisitorMusicianFancy
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorMusicianRelaxed
@@ -770,12 +436,6 @@
       state: musician
     - type: RandomHumanoidSpawner
       settings: VisitorMusicianRelaxed
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorMime
@@ -786,12 +446,6 @@
       state: mime
     - type: RandomHumanoidSpawner
       settings: VisitorMime
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorReporter
@@ -802,12 +456,6 @@
       state: reporter
     - type: RandomHumanoidSpawner
       settings: VisitorReporter
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorServiceWorker
@@ -818,12 +466,6 @@
       state: serviceworker
     - type: RandomHumanoidSpawner
       settings: VisitorServiceWorker
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidVisitorZookeeper
@@ -834,12 +476,6 @@
       state: zookeeper
     - type: RandomHumanoidSpawner
       settings: VisitorZookeeper
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 # Разное
 
@@ -850,12 +486,6 @@
   components:
     - type: RandomHumanoidSpawner
       settings: ClownTroupeBanana
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 # Посетители с неполной экипировкой
 
@@ -875,13 +505,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
-        - skillShooting
 
 - type: entity
   id: RandomHumanoidChallengeVictimCE
@@ -895,19 +518,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillHacking
-        - skillInstrumentation
-        - skillMaintenance
-        - skillMediumConstruction
-        - skillBasicAtmos
-        - skillPiloting
-        - skillAtmos
-        - skillHardInstrumentation
 
 - type: entity
   id: RandomHumanoidChallengeVictimCMO
@@ -921,17 +531,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPharmaceuticals
-        - skillPiloting
-        - skillSurgery
-        - skillNeuroSurgery
 
 - type: entity
   id: RandomHumanoidChallengeVictimHOP
@@ -945,12 +544,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 - type: entity
   id: RandomHumanoidChallengeVictimHOS
@@ -964,13 +557,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
-        - skillShooting
 
 - type: entity
   id: RandomHumanoidChallengeVictimRD
@@ -984,24 +570,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillHacking
-        - skillInstrumentation
-        - skillMediumConstruction
-        - skillBasicAtmos
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPiloting
-        - skillHardInstrumentation
-        - skillRobotics
-        - skillResearch
-        - skillPharmaceuticals
-        - skillSurgery
-        - skillNeuroSurgery
 
 - type: entity
   id: RandomHumanoidChallengeVictimQM
@@ -1015,12 +583,6 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 # Служба Безопасности
 
@@ -1035,12 +597,6 @@
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeCargoTechnician
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
 
 # Инженерный
 
@@ -1063,31 +619,6 @@
       state: banner_syndicate
     - type: RandomHumanoidSpawner
       settings: SyndieSoldierTeamLeader
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillCooking
-        - skillBartending
-        - skillHacking
-        - skillInstrumentation
-        - skillMaintenance
-        - skillMediumConstruction
-        - skillMediumBotany
-        - skillBasicAtmos
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPiloting
-        - skillAtmos
-        - skillHardInstrumentation
-        - skillRobotics
-        - skillResearch
-        - skillPharmaceuticals
-        - skillPiloting
-        - skillShooting
-        - skillSurgery
-        - skillNeuroSurgery
 
 - type: entity
   id: RandomHumanoidSyndieSoldier
@@ -1098,31 +629,6 @@
       state: banner_syndicate
     - type: RandomHumanoidSpawner
       settings: SyndieSoldier
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillCooking
-        - skillBartending
-        - skillHacking
-        - skillInstrumentation
-        - skillMaintenance
-        - skillMediumConstruction
-        - skillMediumBotany
-        - skillBasicAtmos
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPiloting
-        - skillAtmos
-        - skillHardInstrumentation
-        - skillRobotics
-        - skillResearch
-        - skillPharmaceuticals
-        - skillPiloting
-        - skillShooting
-        - skillSurgery
-        - skillNeuroSurgery
 
 - type: entity
   id: RandomHumanoidSyndieVisitor
@@ -1133,31 +639,6 @@
       state: banner_syndicate
     - type: RandomHumanoidSpawner
       settings: SyndieVisitor
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillCooking
-        - skillBartending
-        - skillHacking
-        - skillInstrumentation
-        - skillMaintenance
-        - skillMediumConstruction
-        - skillMediumBotany
-        - skillBasicAtmos
-        - skillMedicalEquipment
-        - skillPharmacology
-        - skillPiloting
-        - skillAtmos
-        - skillHardInstrumentation
-        - skillRobotics
-        - skillResearch
-        - skillPharmaceuticals
-        - skillPiloting
-        - skillShooting
-        - skillSurgery
-        - skillNeuroSurgery
 
 - type: entity
   id: RandomHumanoidPirateScooner
@@ -1169,13 +650,6 @@
       state: banner-red
     - type: RandomHumanoidSpawner
       settings: PirateScooner
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
-        - skillShooting
 
 - type: entity
   id: RandomHumanoidPirateCaptainScooner
@@ -1187,13 +661,6 @@
       state: banner-red
     - type: RandomHumanoidSpawner
       settings: PirateCaptainScooner
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
-        - skillShooting
 
 # Другое
 
@@ -1206,13 +673,6 @@
       state: banner-yellow
     - type: RandomHumanoidSpawner
       settings: VisitorBlackmarketeer
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
-        - skillShooting
 
 
 - type: entity
@@ -1224,9 +684,3 @@
       state: banner-yellow
     - type: RandomHumanoidSpawner
       settings: Cossack
-    - type: CrewSkills
-      skills:
-        - skillBotany
-        - skillBaseMed
-        - skillBaseConstraction
-        - skillPiloting
