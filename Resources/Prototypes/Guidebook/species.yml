@@ -47,7 +47,7 @@
   name: species-name-slime
   text: "/ServerInfo/Guidebook/Mobs/SlimePerson.xml"
 
-# - type: guideEntry # Imperial Space Вырезано из раундстартовых рас
-#   id: Vox
-#   name: species-name-vox
-#   text: "/ServerInfo/Guidebook/Mobs/Vox.xml"
+- type: guideEntry 
+  id: Vox
+  name: species-name-vox
+  text: "/ServerInfo/Guidebook/Mobs/Vox.xml"

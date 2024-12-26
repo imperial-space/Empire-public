@@ -735,8 +735,8 @@
 
 - type: construction
   id: GasFilterFlipped
-  hide: true
-  name: Газовый фильтр
+  hide: false # Imperial Space
+  name: Газовый фильтр (перевёрнутый)
   description: Очень полезен для фильтрации газов.
   graph: GasTrinary
   startNode: start
@@ -770,8 +770,8 @@
 
 - type: construction
   id: GasMixerFlipped
-  hide: true
-  name: Газовый смеситель
+  hide: false # Imperial Space
+  name: Газовый смеситель (перевёрнутый)
   description: Очень полезен для смешивания газов.
   graph: GasTrinary
   startNode: start
