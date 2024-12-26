@@ -46,7 +46,7 @@
   id: NinjaIDCard
   name: Spider Clan card
   description: It looks quite unusual...
-  suffix: Crook, SpiderClan
+  suffix: Agent, Crook, SpiderClan
   components:
   - type: PresetIdCard
     job: Passenger
