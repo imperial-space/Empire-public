@@ -95,7 +95,7 @@
   - type: StealCondition
     stealGroup: HandHeldSecurityMonitor
   - type: Objective
-    difficulty: 0.1
+    difficulty: 1.3
 
 - type: stealTargetGroup
   id: HandHeldSecurityMonitor
