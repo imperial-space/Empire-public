@@ -64,10 +64,3 @@ zzzz-conjugate-basic =
         [epicene] { $first }
        *[other] { $second }
     }
-
-zzzz-dat-object = { GENDER($ent) ->
-    [male] hего
-    [female] ее
-    [epicene] их
-   *[neuter] оно
-   }

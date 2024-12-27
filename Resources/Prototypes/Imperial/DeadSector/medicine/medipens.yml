@@ -8,13 +8,13 @@
   - type: Sprite
     sprite: Imperial/DeadSector/items/Medical/medipens.rsi
     layers:
-    - state: antirad
+    - state: firstaid
       map: [ "enum.SolutionContainerLayers.Fill" ]
   - type: Appearance
   - type: SolutionContainerVisuals
     maxFillLevels: 1
     changeColor: false
-    emptySpriteName: antirad_empty
+    emptySpriteName: hypovolemic_empty
   - type: Hypospray
     solutionName: pen
     transferAmount: 6

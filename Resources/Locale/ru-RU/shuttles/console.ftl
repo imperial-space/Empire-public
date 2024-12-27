@@ -54,4 +54,3 @@ shuttle-console-docks-label = Стыковочные порты
 shuttle-console-undock-fail = Не удалось отстыковаться
 shuttle-console-dock-fail = Не удалось пристыковаться
 shuttle-console-static = Грид является статическим
-shuttle-console-ftl-state-Invalid = Недействительный

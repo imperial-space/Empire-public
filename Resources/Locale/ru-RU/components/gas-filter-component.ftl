@@ -11,4 +11,3 @@ comp-gas-filter-ui-filter-gas-confirm = Выбрать газ
 comp-gas-filter-ui-filter-gas-none = Нет
 
 comp-gas-filter-ui-needs-anchor = Сначала закрепите его!
-ui-needs-anchor = Сначала закрепите его!

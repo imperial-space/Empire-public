@@ -15,6 +15,3 @@ reagent-desc-saxoite = Отдаёт джазом.
 
 reagent-name-licoxide = ликоксид
 reagent-desc-licoxide = Это выглядит... электризующе.
-
-reagent-name-hew = cок, заставляющий говорить Вех
-reagent-desc-hew = Чистая сущность плюшевого унатха. Заставляет вас говорить Вех!

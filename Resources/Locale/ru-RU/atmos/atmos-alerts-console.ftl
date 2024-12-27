@@ -27,6 +27,3 @@ atmos-alerts-window-alerts-being-silenced = Отключение предупр�
 atmos-alerts-window-toggle-overlays = Переключить отображение тревоги
 atmos-alerts-window-flavor-left = Свяжитесь с атмосферным техником для помощи
 atmos-alerts-window-flavor-right = v1.8
-atmos-alerts-window-invalid-value = N/A
-atmos-alerts-window-total-mol-label = Всего молей
-atmos-alerts-window-total-mol-value = {$value} моль

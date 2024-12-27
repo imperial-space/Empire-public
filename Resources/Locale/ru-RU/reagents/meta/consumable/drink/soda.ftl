@@ -51,6 +51,3 @@ reagent-desc-shirley-temple = Фаворит среди более юных чл
 
 reagent-name-roy-rogers = Рой Роджерс
 reagent-desc-roy-rogers = Убедительное доказательство того, что существует нечто известное, как "слишком сладко".
-
-reagent-name-lemon-lime-cranberry = Фрустайл
-reagent-desc-lemon-lime-cranberry = Терпкая клюква, Рождество и легкий привкус лимона и лайма.
