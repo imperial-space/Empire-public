@@ -148,4 +148,14 @@
   equipment:
     back: CapSheriffbackpack
 
+- type: loadout
+  id: ClothingUniformJumpsuitCaptainAlt
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCaptainAlt
+
+- type: loadout
+  id: ClothingUniformJumpskirtCaptainAlt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCaptainAlt
+
 # Imperial Captain Loadouts End
