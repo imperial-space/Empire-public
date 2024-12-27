@@ -1,6 +1,6 @@
 - type: marking
   id: CatEars
-  bodyPart: HeadTop
+  bodyPart: HeadTop # Imperial Hair And Tail
   markingCategory: HeadTop # Imperial Hair And Tail
   speciesRestriction: [Human]
   coloring:
