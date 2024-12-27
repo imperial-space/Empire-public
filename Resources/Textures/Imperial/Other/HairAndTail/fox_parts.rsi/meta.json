@@ -8,6 +8,14 @@
   },
   "states": [
     {
+        "name": "ears_fox_inner",
+        "directions": 4
+    },
+    {
+        "name": "ears_fox_outer",
+        "directions": 4
+    },
+    {
       "name": "tail_fox_prime",
       "directions": 4,
       "delays": [
