@@ -97,6 +97,12 @@
   loadouts:
   - CaptainHead
   - CaptainCap
+  # Imperial Captain Loadouts Start
+  - ClothingHeadHatBeretCaptainWhite
+  - ClothingHeadHatBeretCaptainSheriff
+  - ClothingHeadHatCapcapWhite
+  - ClothingHeadHatCapcapSheriff
+  # Imperial Captain Loadouts End
 
 - type: loadoutGroup
   id: CaptainJumpsuit
@@ -106,6 +112,11 @@
   - CaptainJumpskirt
   - CaptainFormalSuit
   - CaptainFormalSkirt
+  # Imperial Captain Loadouts Start
+  - ClothingUniformJumpskirtWhiteCaptain
+  - ClothingUniformJumpsuitWhiteCaptain
+  - ClothingUniformJumpsuitSheriffCaptain
+  # Imperial Captain Loadouts End
 
 - type: loadoutGroup
   id: CaptainNeck
@@ -115,6 +126,11 @@
   - CaptainCloak
   - CaptainCloakFormal
   - CaptainMantle
+  # Imperial Captain Loadouts Start
+  - Capwhitecloack
+  - CapSheriffcloack
+  # Imperial Captain Loadouts End
+
 
 - type: loadoutGroup
   id: CaptainBackpack
@@ -123,6 +139,10 @@
   - CaptainBackpack
   - CaptainSatchel
   - CaptainDuffel
+  # Imperial Captain Loadouts Start
+  - Capwhitebackpack
+  - CapSheriffbackpack
+  # Imperial Captain Loadouts End
 
 - type: loadoutGroup
   id: CaptainOuterClothing

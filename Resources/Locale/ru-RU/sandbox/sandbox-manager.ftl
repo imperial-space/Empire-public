@@ -15,3 +15,6 @@ sandbox-window-show-bb-button = Показать BB
 sandbox-window-show-npc-button = Показать NPC
 sandbox-window-link-machines-button = Связать устройства
 sandbox-window-ai-overlay-button = Оверлей ИИ
+sandbox-window-map-editing-label = Редактирование
+sandbox-window-visibility-label = Видимость
+sandbox-window-your-character-label = Ваш персонаж
