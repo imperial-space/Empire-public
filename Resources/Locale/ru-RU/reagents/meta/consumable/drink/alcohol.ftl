@@ -274,3 +274,5 @@ reagent-desc-cosmopolitan = Даже в худшей ситуации ничто
 reagent-desc-coconut-rum = Ром с кокосом для тропического настроения.
 reagent-desc-budget-insuls = Любимый напиток грейтайда.
 reagent-desc-blue-hawaiian = Алоха! Это значит "привет" или "пока"?
+reagent-name-zombiecocktail = зомби
+reagent-desc-zombiecocktail = Это лезет тебе в голову. В твои глаза.

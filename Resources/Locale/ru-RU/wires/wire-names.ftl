@@ -70,3 +70,4 @@ wire-name-pa-limiter = ЛИМТ
 wire-name-pa-keyboard = КЛАВ
 wire-name-log = ЛОГ
 wire-name-listen = МИК
+wires-board-name-barsign = Вывеска бара
