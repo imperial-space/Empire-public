@@ -90,3 +90,62 @@
   id: CaptainWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCap
+
+# Imperial Captain Loadouts Start
+
+- type: loadout
+  id: ClothingUniformJumpskirtWhiteCaptain
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtWhiteCaptain
+
+- type: loadout
+  id: ClothingUniformJumpsuitWhiteCaptain
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitWhiteCaptain
+
+- type: loadout
+  id: ClothingUniformJumpsuitSheriffCaptain
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSheriffCaptain
+
+- type: loadout
+  id: ClothingHeadHatBeretCaptainWhite
+  equipment:
+    head: ClothingHeadHatBeretCaptainWhite
+
+- type: loadout
+  id: ClothingHeadHatBeretCaptainSheriff
+  equipment:
+    head: ClothingHeadHatBeretCaptainSheriff
+
+- type: loadout
+  id: ClothingHeadHatCapcapWhite
+  equipment:
+    head: ClothingHeadHatCapcapWhite
+
+- type: loadout
+  id: ClothingHeadHatCapcapSheriff
+  equipment:
+    head: ClothingHeadHatCapcapSheriff
+
+- type: loadout
+  id: Capwhitecloack
+  equipment:
+    neck: Capwhitecloack
+
+- type: loadout
+  id: CapSheriffcloack
+  equipment:
+    neck: CapSheriffcloack
+
+- type: loadout
+  id: Capwhitebackpack
+  equipment:
+    back: Capwhitebackpack
+
+- type: loadout
+  id: CapSheriffbackpack
+  equipment:
+    back: CapSheriffbackpack
+
+# Imperial Captain Loadouts End

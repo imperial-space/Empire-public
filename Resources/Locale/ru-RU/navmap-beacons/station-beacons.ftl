@@ -74,3 +74,4 @@ station-beacon-cryosleep = Криосон
 station-beacon-escape-pod = Спасательная капсула
 station-beacon-gateway = Врата
 station-beacon-vox = Комната отдыха воксов
+station-beacon-anchor = Анкер
