@@ -1,5 +1,5 @@
 - type: entity
-  parent: GasTankRoundBase
+  parent: [ GasTankRoundBase, BaseMajorContraband ]
   id: NinjaOxygenTank
   name: ninja oxygen tank
   suffix: Filled, Crook, SpiderClan
@@ -20,7 +20,7 @@
     sprite: Imperial/SpiderClan/Clothing/tank.rsi
 
 - type: entity
-  parent: GasTankRoundBase
+  parent: [ GasTankRoundBase, BaseMajorContraband ]
   id: NinjaEmergencyOxygenTank
   name: ninja emergency oxygen tank
   suffix: Filled, Crook, SpiderClan
@@ -49,7 +49,7 @@
     sprite: Imperial/SpiderClan/Clothing/emergencytank.rsi
 
 - type: entity
-  parent: GasTankRoundBase
+  parent: [ GasTankRoundBase, BaseMajorContraband ]
   id: NinjaDoubleEmergencyOxygenTank
   name: ninja double emergency oxygen tank
   suffix: Filled, Crook, SpiderClan
