@@ -162,6 +162,7 @@
     - id: RCD
     - id: RCDAmmo
     - id: RubberStampCE
+    - id: HandHeldAtmosAlertsMonitor # Imperial add
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
