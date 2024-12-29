@@ -1,0 +1,15 @@
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushieHlimmy
+  name: Hlimmy Wugo
+  suffix: Crook, COMMUNITY, TOY
+  description: What? You can't put the Research Director in the artifact crusher?
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/SpiderClan/Plushie/hlimmywugo.rsi
+    state: icon
+  - type: StorageFill
+    contents:
+      - id: VlPCFlowerTwo
