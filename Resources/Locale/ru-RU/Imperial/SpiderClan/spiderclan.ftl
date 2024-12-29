@@ -27,3 +27,6 @@ ent-GhostBlueSpaceNinja = спавнер космический ниндзя
 id-card-access-level-ninja = Ниндзя клана Паука
 job-name-ninja = Ниндзя Клана Паука
 job-name-empty = Неизвестно
+
+ent-PlushieHlimmy = Хлимми Вьюго
+    .desc = Что? Вы не можете поместить Научного Руководителя в переработчик артефактов?
