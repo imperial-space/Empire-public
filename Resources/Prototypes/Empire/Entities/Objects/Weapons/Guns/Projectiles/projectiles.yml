@@ -1,0 +1,10 @@
+- type: entity
+  name: bullet no spread
+  id: DualLaserSpread
+  categories: [HideSpawnMenu]
+  parent: BulletLaser
+  components:
+  - type: ProjectileSpread
+    proto: BulletLaser
+    count: 2
+    spread: 5
