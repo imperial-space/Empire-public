@@ -107,6 +107,30 @@
       - DrinkShakeWhite
       - DrinkTheMartinez
       - DrinkMoonshineGlass
+      - DrinkKarmotrineGlass # start Imperial Space / VA-11Hall-A
+      - DrinkSugarRushGlass
+      - DrinkSparkleStarGlass
+      - DrinkFringeFeaverGlass
+      - DrinkBrandtiniGlass
+      - DrinkBlueFairyGlass
+      - DrinkMarsblastGlass
+      - DrinkMoonblastGlass
+      - DrinkMercuryblastGlass
+      - DrinkGrizzlyTempleGlass
+      - DrinkSunshineCloudGlass
+      - DrinkFluffyDreamGlass
+      - DrinkCobaltVelvetGlass
+      - DrinkBadTouchGlass
+      - DrinkBleedingJaneGlass
+      - DrinkGutPunchGlass
+      - DrinkCreviceSpikeGlass
+      - DrinkZenStarGlass
+      - DrinkPileDriverGlass
+      - DrinkSuplexGlass
+      - DrinkPianomanGlass
+      - DrinkPianowomanGlass
+      - DrinkFrothyWaterGlass
+      - DrinkBloomLightGlass # end Imperial Space / VA-11Hall-A
     chance: 0.8
     offset: 0.0
     #rare

@@ -46,5 +46,6 @@
     DrinkSakeBottleFull: 3
     DrinkBeerCan: 5
     DrinkWineCan: 5
+    DrinkKarmotrineCan: 5 # Imperial Space / VA-11Hall-A
   emaggedInventory:
     DrinkPoisonWinebottleFull: 2
