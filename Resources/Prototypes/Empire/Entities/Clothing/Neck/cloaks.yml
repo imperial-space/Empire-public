@@ -57,12 +57,18 @@
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakDecurion
   name: Decurion's cloak
-  description: Bullet-proof cloak, so you can
+  description: Bullet-proof cloak with minor armor on it.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/decurion.rsi
+    sprite: Empire/Clothing/Neck/Cloaks/decurion.rsi
   - type: StealTarget
     stealGroup: HeadCloak
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Piercing: 0.9
+        Heat: 0.95
 
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
