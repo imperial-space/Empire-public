@@ -1,0 +1,27 @@
+- type: entity
+  parent: PinpointerBase
+  name: The Hives Detector
+  description: It will help you find the vile hives that have invaded the planet.
+  id: PinpointerHive
+  suffix: HellDivers
+  components:
+  - type: Sprite
+    noRot: True 
+    sprite: Imperial/HellDivers/PinnHive.rsi
+    state: pinnhive
+    layers:
+    - state: pinnhive
+      map: ["enum.PinpointerLayers.Base"]
+    - state: pinonnull
+      map: ["enum.PinpointerLayers.Screen"]
+      shader: unshaded
+      visible: false
+  - type: Icon
+    sprite: Imperial/HellDivers/PinnHive.rsi
+    state: pinnhive
+  - type: Item
+    sprite: Imperial/HellDivers/PinnHive.rsi
+    state: pinnhave
+  - type: Pinpointer
+    component: TimedSpawner
+    targetName: Hive
