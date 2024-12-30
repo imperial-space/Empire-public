@@ -308,7 +308,7 @@
 
 - type: randomHumanoidSettings
   id: VisitorAtmosTech
-  parent: VisitorEngineering
+  parent: VisitorHead
   components:
     - type: GhostRole
       name: job-name-atmostech
