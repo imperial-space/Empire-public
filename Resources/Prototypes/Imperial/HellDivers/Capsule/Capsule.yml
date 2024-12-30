@@ -1,0 +1,16 @@
+- type: entity
+  name: Pod
+  id: Pod
+  parent: ClosetBase
+  suffix: HellDivers
+  components:
+    - type: Sprite
+      sprite: Imperial/HellDivers/Capsule.rsi
+      layers:
+      - state: generic
+        map: ["enum.StorageVisualLayers.Base"]
+      - state: generic_door
+        map: ["enum.StorageVisualLayers.Door"]
+      - state: welded
+        visible: false
+        map: ["enum.WeldableLayers.BaseWelded"]
