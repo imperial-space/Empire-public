@@ -308,7 +308,7 @@
 
 - type: randomHumanoidSettings
   id: VisitorAtmosTech
-  parent: VisitorHead
+  parent: VisitorHead # Imperial add MindShield
   components:
     - type: GhostRole
       name: job-name-atmostech
