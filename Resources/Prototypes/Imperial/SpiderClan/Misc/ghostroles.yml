@@ -1,7 +1,7 @@
 - type: entity
   id: GhostGreenSpaceNinja
   name: Space Ninja Spawner
-  suffix: ЦЕЛЕЙ НЕТ, Ghost role, Crook, SpiderClan
+  suffix: ЦЕЛЕЙ НЕТ, Crook, SpiderClan
   parent: MarkerBase
   components:
   - type: GhostRole
@@ -22,7 +22,7 @@
 - type: entity
   id: GhostRedSpaceNinja
   name: Space Ninja Spawner
-  suffix: ЦЕЛЕЙ НЕТ, Ghost role, Crook, SpiderClan
+  suffix: ЦЕЛЕЙ НЕТ, Crook, SpiderClan
   parent: MarkerBase
   components:
   - type: GhostRole
@@ -43,7 +43,7 @@
 - type: entity
   id: GhostBlueSpaceNinja
   name: Space Ninja Spawner
-  suffix: ЦЕЛЕЙ НЕТ, Ghost role, Crook, SpiderClan
+  suffix: ЦЕЛЕЙ НЕТ, Crook, SpiderClan
   parent: MarkerBase
   components:
   - type: GhostRole
