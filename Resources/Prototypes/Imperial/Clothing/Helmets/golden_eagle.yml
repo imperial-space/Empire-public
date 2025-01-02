@@ -23,6 +23,9 @@
         Shock: 0.7
         Caustic: 0.5
         Radiation: 0.7
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: IdentityBlocker
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8

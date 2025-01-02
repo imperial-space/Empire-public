@@ -30,6 +30,9 @@
     containers:
       key_slots:
       - EncryptionKeyCommon
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: IdentityBlocker
   - type: Headset
     requiredSlot: HEAD
   - type: EncryptionKeyHolder
