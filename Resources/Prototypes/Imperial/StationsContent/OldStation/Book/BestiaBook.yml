@@ -2,11 +2,11 @@
   parent: BookBase
   id: BestiaBook
   name: The Eridani Beast
-  suffix: Arcane
+  suffix: OldStation
   description: A dusty book that can remind someone of the old days.
   components:
     - type: Sprite
-      sprite: Imperial/StationsContent/ArcaneStation/Book.rsi
+      sprite: Imperial/StationsContent/OldStationStation/Book.rsi
       layers:
         - state: BestiaBook
     - type: Paper

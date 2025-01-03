@@ -1,5 +1,5 @@
 - type: startingGear
-  id: ArcaneTraderGear
+  id: OldStationTraderGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMinuteManFormal
     back: ClothingBackpackDuffel
@@ -12,7 +12,7 @@
     belt: ClothingBeltMinuteManMedicWebbing
 
 - type: startingGear
-  id: ArcaneSmugglerGear
+  id: OldStationSmugglerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitOperative
     back: ClothingBackpackDuffelSyndicate
@@ -27,7 +27,7 @@
     id: SyndiPDA
 
 - type: startingGear
-  id: ArcaneMercGear
+  id: OldStationMercGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMercenary
     back: ClothingBackpackMerc
@@ -41,7 +41,7 @@
     pocket1: ClothingMaskGasMerc
 
 - type: startingGear
-  id: ArcaneHeadMercGear
+  id: OldStationHeadMercGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMercenary
     back: ClothingBackpackMerc
@@ -55,7 +55,7 @@
     pocket1: ClothingMaskGasMerc
 
 - type: startingGear
-  id: ArcaneBomjGear
+  id: OldStationBomjGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineerNT
     back: ClothingBackpackCargo

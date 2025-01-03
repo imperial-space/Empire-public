@@ -64,9 +64,9 @@
 
 - type: entity
   #noSpawn: false
-  parent: ArcaneMercPreset
+  parent: OldStationMercPreset
   name: Наёмник InterGalactic
-  id: ArcaneMercInterGalacticPreset
+  id: OldStationMercInterGalacticPreset
   suffix: InterGalactic
   components:
     - type: Loadout

@@ -60,7 +60,7 @@
 # ID Карта Наёмника InterGalactic
 - type: entity
   parent: PirateIDCard
-  id: InterGalacticVlArcaneMercIDCard
+  id: InterGalacticVlOldStationMercIDCard
   name: ID карта наёмника InterGalactic
   description: Выглядит небычно. Взята с военных образцов.
   suffix: InterGalactic
