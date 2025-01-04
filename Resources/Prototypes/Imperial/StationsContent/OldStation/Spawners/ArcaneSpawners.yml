@@ -1,16 +1,16 @@
 - type: entity
   #noSpawn: true
-  id: SpawnArcaneTrader
+  id: SpawnOldStationTrader
   name: ghost role spawn point
-  suffix: Arcane
+  suffix: OldStation
   parent: MarkerBase
   components:
     - type: GhostRole
-      name: arcane-trader-name
-      description: arcane-trader-desc
-      rules: arcane-trader-rules
+      name: OldStation-trader-name
+      description: OldStation-trader-desc
+      rules: OldStation-trader-rules
     - type: GhostRoleMobSpawner
-      prototype: ArcaneTraderPreset
+      prototype: OldStationTraderPreset
     - type: Sprite
       sprite: Markers/jobs.rsi
       layers:
@@ -20,17 +20,17 @@
 
 - type: entity
   #noSpawn: true
-  id: SpawnArcaneSmuggler
+  id: SpawnOldStationSmuggler
   name: ghost role spawn point
-  suffix: Arcane
+  suffix: OldStation
   parent: MarkerBase
   components:
     - type: GhostRole
-      name: arcane-smuggler-name
-      description: arcane-smuggler-desc
-      rules: arcane-smuggler-rules
+      name: OldStation-smuggler-name
+      description: OldStation-smuggler-desc
+      rules: OldStation-smuggler-rules
     - type: GhostRoleMobSpawner
-      prototype: ArcaneSmugglerPreset
+      prototype: OldStationSmugglerPreset
     - type: Sprite
       sprite: Markers/jobs.rsi
       layers:
@@ -40,17 +40,17 @@
 
 - type: entity
   #noSpawn: true
-  id: SpawnArcaneMerc
+  id: SpawnOldStationMerc
   name: ghost role spawn point
-  suffix: Arcane
+  suffix: OldStation
   parent: MarkerBase
   components:
     - type: GhostRole
-      name: arcane-merc-name
-      description: arcane-merc-desc
-      rules: arcane-merc-rules
+      name: OldStation-merc-name
+      description: OldStation-merc-desc
+      rules: OldStation-merc-rules
     - type: GhostRoleMobSpawner
-      prototype: ArcaneMercPreset
+      prototype: OldStationMercPreset
     - type: Sprite
       sprite: Markers/jobs.rsi
       layers:
@@ -60,17 +60,17 @@
 
 - type: entity
   #noSpawn: true
-  id: SpawnArcaneHeadMerc
+  id: SpawnOldStationHeadMerc
   name: ghost role spawn point
-  suffix: Arcane
+  suffix: OldStation
   parent: MarkerBase
   components:
     - type: GhostRole
-      name: arcane-hmerc-name
-      description: arcane-hmerc-desc
-      rules: arcane-hmerc-rules
+      name: OldStation-hmerc-name
+      description: OldStation-hmerc-desc
+      rules: OldStation-hmerc-rules
     - type: GhostRoleMobSpawner
-      prototype: ArcaneHeadMercPreset
+      prototype: OldStationHeadMercPreset
     - type: Sprite
       sprite: Markers/jobs.rsi
       layers:
@@ -80,17 +80,17 @@
 
 - type: entity
   #noSpawn: true
-  id: SpawnArcaneBomj
+  id: SpawnOldStationBomj
   name: ghost role spawn point
-  suffix: Arcane
+  suffix: OldStation
   parent: MarkerBase
   components:
     - type: GhostRole
-      name: arcane-bomj-name
-      description: arcane-bomj-desc
-      rules: arcane-bomj-rules
+      name: OldStation-bomj-name
+      description: OldStation-bomj-desc
+      rules: OldStation-bomj-rules
     - type: GhostRoleMobSpawner
-      prototype: ArcaneBomjPreset
+      prototype: OldStationBomjPreset
     - type: Sprite
       sprite: Markers/jobs.rsi
       layers:
