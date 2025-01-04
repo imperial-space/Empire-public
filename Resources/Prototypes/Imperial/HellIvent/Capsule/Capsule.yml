@@ -1,11 +1,11 @@
 - type: entity
-  name: Pod
-  id: Pod
+  name: HellPod
+  id: HellPod
   parent: ClosetBase
-  suffix: HellDivers
+  suffix: HellIvent
   components:
     - type: Sprite
-      sprite: Imperial/HellDivers/Capsule.rsi
+      sprite: Imperial/HellIvent/Capsule.rsi
       layers:
       - state: generic
         map: ["enum.StorageVisualLayers.Base"]
