@@ -1,0 +1,25 @@
+- type: tile
+  id: WoodFloorSteelEmpireV1
+  name: tiles-floor-woodempireV1
+  sprite: /Textures/Empire/Tiles/WoodFloorEmpireV1.png
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemWood
+  heatCapacity: 10000
+
+
+
+- type: tile
+  id: WoodFloorSteelEmpireV2
+  name: tiles-floor-woodempireV2
+  sprite: /Textures/Empire/Tiles/WoodFloorEmpireV2.png
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemWood
+  heatCapacity: 10000
