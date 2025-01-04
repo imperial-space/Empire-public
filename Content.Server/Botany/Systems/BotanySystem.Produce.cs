@@ -16,7 +16,15 @@ public sealed partial class BotanySystem
             if (mutation.AppliesToProduce)
             {
                 var args = new EntityEffectBaseArgs(uid, EntityManager);
-                mutation.Effect.Effect(args);
+                // Imperial inf harvest fix
+                try
+                {
+                    mutation.Effect.Effect(args);
+                }
+                catch (KeyNotFoundException)
+                {
+                    Logger.Warning($"Failed to add mutation: {mutation.Name} to {args.TargetEntity} uid");
+                }
             }
         }
 
