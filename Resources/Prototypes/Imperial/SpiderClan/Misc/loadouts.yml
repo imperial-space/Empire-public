@@ -32,7 +32,7 @@
 - type: startingGear
   id: AltGreenNinja
   equipment:
-    jumpsuit: JumpsuitNinja
+    jumpsuit: AltJumpsuitNinja
     back: GreenBackpackNinja
     suitstorage: NinjaOxygenTank
     shoes: GreenShoesSpaceNinja
@@ -93,7 +93,7 @@
 - type: startingGear
   id: AltRedNinja
   equipment:
-    jumpsuit: JumpsuitNinja
+    jumpsuit: AltJumpsuitNinja
     back: RedBackpackNinja
     suitstorage: NinjaOxygenTank
     shoes: RedShoesSpaceNinja
@@ -154,7 +154,7 @@
 - type: startingGear
   id: AltBlueNinja
   equipment:
-    jumpsuit: JumpsuitNinja
+    jumpsuit: AltJumpsuitNinja
     back: BlueBackpackNinja
     suitstorage: NinjaOxygenTank
     shoes: BlueShoesSpaceNinja

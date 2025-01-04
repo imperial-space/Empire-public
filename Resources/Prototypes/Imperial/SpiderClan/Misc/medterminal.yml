@@ -6,7 +6,7 @@
   description: Makes it a lot easier to track your victims. Assuming, of course, they've turned on their sensors...
   components:
   - type: Sprite
-    sprite: Imperial/SpiderClan/terminal.rsi
+    sprite: Imperial/SpiderClan/Misc/terminal.rsi
     state: scanner
   - type: ActivatableUI
     key: enum.CrewMonitoringUIKey.Key
