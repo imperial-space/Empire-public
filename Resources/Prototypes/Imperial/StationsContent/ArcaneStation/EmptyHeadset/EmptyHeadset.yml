@@ -1,9 +1,9 @@
 - type: entity
   abstract: true
   parent: Clothing
-  id: ClothingOldStationEmptyHeadset
+  id: ClothingArcaneEmptyHeadset
   name: headset
-  suffix: OldStation
+  suffix: Arcane
   description: An updated, modular intercom that fits over the head. Takes encryption keys.
   components:
   - type: ContainerContainer
@@ -30,7 +30,7 @@
 
 
 - type: entity
-  parent: ClothingOldStationEmptyHeadset
+  parent: ClothingArcaneEmptyHeadset
   id: ClothingHeadsetGanza
   name: headset ganza
   components:
