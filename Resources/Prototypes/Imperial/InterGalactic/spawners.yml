@@ -52,7 +52,7 @@
       - state: green
   - type: ConditionalSpawner
     prototypes:
-    - OldStationMercInterGalacticPreset
+    - ArcaneMercInterGalacticPreset
 
 # Спавнер разведчика Синдиката
 - type: entity

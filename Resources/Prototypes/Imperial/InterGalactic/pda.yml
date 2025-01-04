@@ -52,4 +52,4 @@
   description: Больше выглядит как военный компьютер. Он весь в царапинах.
   components:
   - type: Pda
-    id: InterGalacticVlOldStationMercIDCard
+    id: InterGalacticVlArcaneMercIDCard

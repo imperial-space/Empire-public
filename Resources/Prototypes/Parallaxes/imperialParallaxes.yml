@@ -98,21 +98,21 @@
       slowness: 0.95
 
 - type: parallax
-  id: OldStationStation
+  id: ArcaneStation
   layers:
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Parallaxes/Imperial/OldStation/OldStationParallax.png"
+        path: "/Textures/Parallaxes/Imperial/arcane/ArcaneParallax.png"
       slowness: 0.998046875
       scale: "1, 1"
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Parallaxes/Imperial/OldStation/NebulaOldStationver.png"
+        path: "/Textures/Parallaxes/Imperial/arcane/NebulaArcanever.png"
       slowness: 0.993
       scale: "1,1"
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Parallaxes/Imperial/OldStation/StarsOldStation.png"
+        path: "/Textures/Parallaxes/Imperial/arcane/StarsArcane.png"
       slowness: 0.997
       scale: "1,1"
     - texture:
@@ -122,7 +122,7 @@
       slowness: 0.996625
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Parallaxes/Imperial/OldStation/PlanetOldStation.png"
+        path: "/Textures/Parallaxes/Imperial/arcane/PlanetArcane.png"
       slowness: 0.998046875
       scale: "1, 1"
       tiled: false
