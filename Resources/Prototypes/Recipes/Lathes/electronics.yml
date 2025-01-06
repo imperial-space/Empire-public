@@ -441,11 +441,6 @@
 
 - type: latheRecipe
   parent: BaseCircuitboardRecipe
-  id: PowerComputerCircuitboard
-  result: PowerComputerCircuitboard
-
-- type: latheRecipe
-  parent: BaseCircuitboardRecipe
   id: CloningConsoleComputerCircuitboard
   result: CloningConsoleComputerCircuitboard
 
@@ -619,3 +614,8 @@
   parent: BaseCircuitboardRecipe
   id: CutterMachineCircuitboard
   result: CutterMachineCircuitboard
+
+- type: latheRecipe
+  parent: BaseCircuitboardRecipe
+  id: HolopadMachineCircuitboard
+  result: HolopadMachineCircuitboard
