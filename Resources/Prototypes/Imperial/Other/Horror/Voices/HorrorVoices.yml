@@ -54,3 +54,13 @@
   id: KnightVoice
   sound:
     path: /Audio/Imperial/Horror/Knight/KinghtScream.ogg
+
+- type: emoteSounds
+  id: FrogVoice
+  sound:
+    path: /Audio/Imperial/Horror/Frog/frog-croaking.ogg
+
+- type: emoteSounds
+  id: HareVoice
+  sound:
+    path: /Audio/Imperial/Horror/Hare/Cryhare.ogg
