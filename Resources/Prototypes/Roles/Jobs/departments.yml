@@ -64,15 +64,15 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
-  - CentralCommandOfficial
-  - CBURN
-  - ERTLeader
-  - ERTChaplain
-  - ERTJanitor
-  - ERTMedical
-  - ERTSecurity
-  - ERTEngineer
-  - DeathSquad
+  # - CentralCommandOfficial # Imperial Space Закомментировано для адекватной выдачи джоббанов
+  # - CBURN
+  # - ERTLeader
+  # - ERTChaplain
+  # - ERTJanitor
+  # - ERTMedical
+  # - ERTSecurity
+  # - ERTEngineer
+  # - DeathSquad
   - Adjutant
   primary: false
   weight: 100
