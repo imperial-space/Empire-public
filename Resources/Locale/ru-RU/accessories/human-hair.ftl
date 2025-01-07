@@ -186,3 +186,4 @@ marking-HumanHairClassicLong3 = Классическая Длинные воло
 marking-HumanHairClassicLong2 = Классическая Длинные волосы 2
 marking-HumanHairClassicCornrows2 = Классическая Корнроу 2
 marking-HumanHairClassicBusiness = Классическая Деловая
+marking-HumanHairPulato = Пулато
