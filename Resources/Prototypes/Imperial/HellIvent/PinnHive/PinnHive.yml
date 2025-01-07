@@ -3,11 +3,11 @@
   name: The Hives Detector
   description: It will help you find the vile hives that have invaded the planet.
   id: PinpointerHive
-  suffix: HellDivers
+  suffix: HellIvent
   components:
   - type: Sprite
     noRot: True 
-    sprite: Imperial/HellDivers/PinnHive.rsi
+    sprite: Imperial/HellIvent/PinnHive.rsi
     state: pinnhive
     layers:
     - state: pinnhive
@@ -17,10 +17,10 @@
       shader: unshaded
       visible: false
   - type: Icon
-    sprite: Imperial/HellDivers/PinnHive.rsi
+    sprite: Imperial/HellIvent/PinnHive.rsi
     state: pinnhive
   - type: Item
-    sprite: Imperial/HellDivers/PinnHive.rsi
+    sprite: Imperial/HellIvent/PinnHive.rsi
     state: pinnhave
   - type: Pinpointer
     component: TimedSpawner
