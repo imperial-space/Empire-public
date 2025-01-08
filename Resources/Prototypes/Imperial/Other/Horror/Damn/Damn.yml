@@ -1,31 +1,30 @@
 - type: entity
-  name: Hare
+  name: Damn
   suffix: PN, Хоррор
   parent: SimpleSpaceMobBase
-  id: HorrorMobHare
+  id: HorrorMobFDamn
   description: A monster from another dimension who was swallowed up by a shadow.
   components:
     - type: Sprite
-      sprite: Imperial/Other/Horror/Hare.rsi
-      scale: 1, 1
+      sprite: Imperial/Other/Horror/Damn.rsi
       drawdepth: Mobs
       layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
-        state: Hare
+        state: Damn
       - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
         state: glow
         shader: unshaded
     - type: DamageStateVisuals
       states:
         Alive:
-          Base: Hare
+          Base: Damn
           BaseUnshaded: glow
         Dead:
-          Base: Hare_die
+          Base: Damn_die
     - type: MobThresholds
       thresholds:
         0: Alive
-        800: Dead
+        200: Dead
     - type: Tag
       tags:
       - DoorBumpOpener
@@ -41,17 +40,17 @@
         path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
       damage:
         types:
-          Structural: 35
+          Structural: 5
           Stamina: 40
-          Piercing: 20
+          Bloodloss: 25
     - type: Speech
       speechVerb: LargeMob
     - type: Vocal
       sounds:
-        Unsexed: HareVoice
+        Unsexed: DamnVoice
     - type: MovementSpeedModifier
-      baseWalkSpeed: 5
-      baseSprintSpeed: 3
+      baseWalkSpeed: 4
+      baseSprintSpeed: 7
     - type: NpcFactionMember
       factions:
         - SimpleHostile
@@ -71,5 +70,5 @@
         - Door
     - type: InteractionPopup
       successChance: 0.5
-      interactSuccessString: Вы гладите Зайца ночи, разглаживая его шёрстку. Он на вас странно смотрит. Тем не менее, ему нравится.
+      interactSuccessString: Вы гладите Лягушку ночи, разглаживая его шёрстку. Он на вас странно смотрит. Тем не менее, ему нравится.
       interactSuccessSpawn: EffectHearts

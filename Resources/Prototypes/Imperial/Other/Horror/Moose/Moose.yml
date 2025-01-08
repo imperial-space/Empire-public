@@ -43,12 +43,12 @@
         types:
           Structural: 35
           Stamina: 40
-          Piercing: 15
+          Piercing: 35
     - type: Speech
       speechVerb: LargeMob
     - type: Vocal
       sounds:
-        Unsexed: HareVoice
+        Unsexed: MooseVoice
     - type: MovementSpeedModifier
       baseWalkSpeed: 8
       baseSprintSpeed: 3
