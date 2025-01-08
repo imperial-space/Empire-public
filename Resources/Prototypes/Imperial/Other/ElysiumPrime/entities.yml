@@ -28,6 +28,23 @@
     state: pda
   - type: PdaBorderColor
 
+
+#Federation access
+- type: accessLevel
+  id: Federation
+  name: id-card-access-level-federation
+#Federation access
+
+#Door Electronics
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsFederation
+  suffix: ЗАКРЫТ, Elysium_Prime
+  components:
+  - type: AccessReader
+    access: [["Federation"]]
+#Door Electronics END
+
 #Tables
 - type: entity
   id: BlackTableReinforced
@@ -167,8 +184,9 @@
   components:
   - type: Sprite
     sprite: Imperial/Other/ElysiumPrime/Airlocks/federation.rsi
-  - type: AccessReader
-    access: [["Federation"]]
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsFederation ]
 
 - type: entity
   id: AirlockElysiumFederation
@@ -226,12 +244,7 @@
     sprite: Imperial/Other/ElysiumPrime/Misc/flags.rsi
 #Banners and flags END
 
-#PDA, ID card and access:
-#Federation access
-- type: accessLevel
-  id: Federation
-  name: id-card-access-level-federation
-
+#PDA, ID card:
 #Federation ID
 - type: entity
   id: ElysiumFederationIDCard
@@ -271,7 +284,7 @@
   - type: PdaBorderColor
     borderColor: "#242424"
     accentHColor: "#447987"
-#PDA, ID card and access END.
+#PDA, ID card END.
 
 #Federation folders
 - type: entity
@@ -325,5 +338,6 @@
       enum.GatewayUiKey.Key:
         type: GatewayBoundUserInterface
   - type: Gateway
+    enabled: true
 #Gateway END
 

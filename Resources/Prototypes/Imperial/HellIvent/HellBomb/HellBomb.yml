@@ -2,7 +2,7 @@
   parent: NuclearBomb
   id: HellBomb
   name: HellBomb
-  suffix: HellDivers
+  suffix: HellIvent
   description: You probably shouldn't stick around to see if this is armed.
   components:
   - type: Nuke
