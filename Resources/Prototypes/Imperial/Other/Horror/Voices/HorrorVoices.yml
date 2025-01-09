@@ -65,6 +65,11 @@
     path: /Audio/Imperial/Horror/Hare/Cryhare.ogg
 
 - type: emoteSounds
+  id: MooseVoice
+  sound:
+    path: /Audio/Imperial/Horror/Moose/Crymoose.ogg
+
+- type: emoteSounds
   id: DevilVoice
   sounds:
     Scream:
@@ -79,6 +84,7 @@
        path: /Audio/Imperial/Horror/Devil/Devilhrap.ogg
     Sigh:
        path: /Audio/Imperial/Horror/Devil/Devileating.ogg
+
 - type: emoteSounds
   id: DamnVoice
   sound:
