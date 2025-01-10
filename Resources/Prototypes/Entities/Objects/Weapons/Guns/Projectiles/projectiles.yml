@@ -60,7 +60,7 @@
     impactEffect: BulletImpactEffect
     damage:
       types:
-        Piercing: 14
+        Piercing: 9
     soundHit:
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
   - type: TimedDespawn
@@ -113,14 +113,14 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 14
+        Blunt: 7
   - type: PointLight
     enabled: true
     color: "#ff4300"
     radius: 2.0
     energy: 7.0
   - type: IgniteOnCollide
-    fireStacks: 0.25
+    fireStacks: 0.15
 
 - type: entity
   id: BaseBulletAP
@@ -135,7 +135,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 11 # 20% decrease
+        Piercing: 7 # 20% decrease
     ignoreResistances: true
 
 - type: entity
@@ -151,7 +151,7 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 11
+        Radiation: 7
 
 # Energy projectiles
 - type: entity
