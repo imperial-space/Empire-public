@@ -24,6 +24,11 @@
     accentVColor: "#42337a"
   - type: Icon
     state: pda-adjutant
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-adjutant
 
 - type: entity
   parent: IDCardStandard
