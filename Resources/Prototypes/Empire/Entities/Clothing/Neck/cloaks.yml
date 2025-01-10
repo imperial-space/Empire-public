@@ -1,0 +1,111 @@
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakCenturion
+  name: centurion's cloak
+  description: a cloak of great emperor warrior.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Neck/Cloaks/centurion.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakOption
+  name: option's cloak
+  description: cloak for option made with nano-silicon.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Neck/Cloaks/cap.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakInquisitor
+  name: inquisitor's cloak
+  description: only for court officials.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Neck/Cloaks/inquisitor.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakCapellan
+  name: capellan's cloak
+  description: a cloak of preacher who will lead you to the victory.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Neck/Cloaks/capellan.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakEmpireChiefMedicialOfficer
+  name: chief medicial officer's cloak
+  description: this cloak is very useful, you can prevent bleeding out with it.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Neck/Cloaks/cmo.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakDecurion
+  name: Decurion's cloak
+  description: Bullet-proof cloak with minor armor on it.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Neck/Cloaks/decurion.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Piercing: 0.9
+        Heat: 0.95
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakMagos
+  name: Magos's cloak
+  description: This cloak is isolated, so technically you can fix cabels if it is in your hands.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Neck/Cloaks/magos.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakHoW
+  name: head of workshop's cloak
+  description: A symbol of workshop.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Neck/Cloaks/how.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseRestrictedContraband]
+  id: ClothingNeckCloakTriaryBlack
+  name: triary's cloak
+  description: Black painted cloak. Owner of this leads legion.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Neck/Cloaks/triaryblack.rsi
+
+- type: entity
+  parent: [ClothingNeckBase, BaseRestrictedContraband]
+  id: ClothingNeckCloakTriaryGold
+  name: triary gold cloak
+  description: Gold painted cloak. Owner of this leads legion.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Neck/Cloaks/triarygold.rsi

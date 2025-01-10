@@ -1,0 +1,164 @@
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitHoW
+  name: Uniform of the head of workshop
+  description: "You idiot! You had to do a 10 axes, not AK's!"
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/how.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/how.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitWoW
+  name: Uniform of the worker
+  description: Hard work today, eat fruits tommorow.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/wow.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/wow.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitMagos
+  name: Magos jumpsuit
+  description: It's melted in lava twice and still exsists!
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/magos.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/magos.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTAScientist
+  name: uniform of scientist
+  description: It's a very comfortable jumpsuit, made of parts of singularity
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/scientist.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/scientist.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTAEngineer
+  name: Engineering uniform
+  description: This costume belong to man, who will help you to fix your wires or kill you with singularity.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/engineering.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/engineering.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitCenturion
+  name: Centurion uniform
+  description: A great warrior of Emperor wears it.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/centurion.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/centurion.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitOption
+  name: Option uniform
+  description: Owner of this will be your savior or your death. It's an option.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/option.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/option.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitInquisitor
+  name: Inquisitor uniform
+  description: "No please! It wasn't mean't to be!"
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/inquisitor.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/inquisitor.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitCapellan
+  name: Capellan uniform
+  description: You don't need a life, when you have connection with a God
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/capellan.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/capellan.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitDecurion
+  name: Decurion overcoat
+  description: "They're outflanking us! Recharging! Cover me!"
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/decurion.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/decurion.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseRestrictedContraband]
+  id: ClothingUniformJumpsuitTriary
+  name: Triary uniform
+  description: March!
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/triary.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/triary.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseRestrictedContraband]
+  id: ClothingUniformJumpsuitGuard
+  name: Guard uniform
+  description: I thought it would be a travel for 20 minutes.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/guard.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/guard.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitEmpireCMO
+  name: Chief Medical Officer Robe
+  description: This jumpsuit belongs to man, that saved one decuria at the battlefield.
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/cmo.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/cmo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitEmpireChemist
+  name: Chemist uniform
+  description: Haste or drugs?
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/chemist.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/chemist.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitEmpireMedico
+  name: Medico uniform
+  description: Is it brain or it is a bud?
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/medico.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpsuit/medico.rsi

@@ -17,7 +17,41 @@
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
     proto: Pulse
-    fireCost: 100 
+    fireCost: 100
   - type: Battery
     maxCharge: 3000
     startingCharge: 3000
+
+- type: entity
+  name: Dual Pistol
+  parent: [BaseWeaponBattery, BaseGunWieldable]
+  id: WeaponEnergyDualPistol
+  description: A prototype dual laser pistol.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+  - type: Gun
+    fireRate: 2
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: DualLaserSpread
+    fireCost: 100
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,3,1
+    sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
+    heldPrefix: energy
+  - type: GunRequiresWield
+  - type: Battery
+    maxCharge: 700
+    startingCharge: 700
