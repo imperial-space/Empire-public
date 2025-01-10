@@ -1,0 +1,47 @@
+- type: tile
+  id: FloorSteelEmpireV1
+  name: tiles-steel-floor-EmpireV1
+  sprite: /Textures/Empire/Tiles/FloorSteelEmpireV1.png
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorSteelEmpireV2
+  name: tiles-steel-floor-EmpireV2
+  sprite: /Textures/Empire/Tiles/FloorSteelEmpireV2.png
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorSteelEmpireV3
+  name: tiles-steel-floor-EmpireV3
+  sprite: /Textures/Empire/Tiles/FloorSteelEmpireV3.png
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorSteelEmpireV4
+  name: tiles-steel-floor-EmpireV4
+  sprite: /Textures/Empire/Tiles/FloorSteelEmpireV4.png
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
