@@ -2,11 +2,11 @@
   parent: BaseStructure
   id: Hive
   name: Hive
-  suffix: HellDivers
+  suffix: HellIvent
   description: Monsters Lair
   components:
   - type: Sprite
-    sprite: Imperial/HellDivers/Hive.rsi
+    sprite: Imperial/HellIvent/Hive.rsi
     state: Hive
   - type: Damageable
   - type: Destructible

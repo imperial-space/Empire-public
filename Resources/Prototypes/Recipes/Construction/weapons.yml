@@ -98,7 +98,7 @@
   objectType: Item
 
 - type: construction
-  name: Урановое опьё # Imperial Recipes Locale
+  name: Урановое копье # Imperial Recipes Locale
   id: SpearUranium
   graph: SpearUranium
   startNode: start
