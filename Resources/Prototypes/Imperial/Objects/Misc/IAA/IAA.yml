@@ -7,6 +7,11 @@
     - type: Pda
       id: IAAIDCard
       state: pda-lawyer
+      penSlot:
+        startingItem: PenCentcom
+        whitelist:
+          tags:
+          - Write
     - type: PdaBorderColor
       borderColor: "#6f6192"
     - type: Icon

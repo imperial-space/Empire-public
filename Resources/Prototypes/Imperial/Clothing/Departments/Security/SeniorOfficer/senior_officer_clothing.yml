@@ -14,7 +14,7 @@
   - type: Storage
     maxItemSize: Huge
     grid:
-    - 0,0,4,3
+    - 0,0,5,3
 
 - type: entity
   id: ClothingBeltMilitaryWebbingSeniorOfficerFilled
@@ -25,6 +25,7 @@
     contents:
       - id: GrenadeFlashBang
       - id: Flash
+      - id: TearGasGrenade
       - id: Zipties
       - id: Zipties
       - id: Handcuffs
