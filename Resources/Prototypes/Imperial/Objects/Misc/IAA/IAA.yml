@@ -8,7 +8,7 @@
       id: IAAIDCard
       state: pda-lawyer
       penSlot:
-        startingItem: PenCentcom
+        startingItem: LuxuryPen
         whitelist:
           tags:
           - Write
