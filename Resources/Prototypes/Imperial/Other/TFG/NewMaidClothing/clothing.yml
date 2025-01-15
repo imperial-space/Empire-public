@@ -125,21 +125,21 @@
   - type: Sprite
     sprite: Imperial/Other/TFG/NewMaidClothing/maidPDA.rsi
     layers:
-    - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
-    - state: "id_overlay"
-      map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
-      visible: false
+      - map: [ "enum.PdaVisualLayers.Base" ]
+      - state: "light_overlay"
+        map: [ "enum.PdaVisualLayers.Flashlight" ]
+        shader: "unshaded"
+        visible: false
+      - state: "id_overlay"
+        map: [ "enum.PdaVisualLayers.IdLight" ]
+        shader: "unshaded"
+        visible: false
   - type: Icon
     sprite: Imperial/Other/TFG/NewMaidClothing/maidPDA.rsi
-    state: pda-made
+    state: pda
   - type: Pda
     id: MaidIDCard
-    state: pda-made
+    state: pda
   - type: PdaBorderColor
     borderColor: "#242424"
     accentHColor: "#447987"

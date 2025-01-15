@@ -277,13 +277,25 @@
   components:
   - type: Sprite
     sprite: Imperial/Other/ElysiumPrime/Misc/pda.rsi
-    state: f-pod
+    layers:
+      - map: [ "enum.PdaVisualLayers.Base" ]
+      - state: "light_overlay"
+        map: [ "enum.PdaVisualLayers.Flashlight" ]
+        shader: "unshaded"
+        visible: false
+      - state: "id_overlay"
+        map: [ "enum.PdaVisualLayers.IdLight" ]
+        shader: "unshaded"
+        visible: false
   - type: Pda
     id: ElysiumFederationIDCard
-    state: f-pod
+    state: pda
   - type: PdaBorderColor
     borderColor: "#242424"
     accentHColor: "#447987"
+  - type: Icon
+    sprite: Imperial/Other/ElysiumPrime/Misc/pda.rsi
+    state: pda
 #PDA, ID card END.
 
 #Federation folders
