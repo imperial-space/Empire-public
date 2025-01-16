@@ -127,6 +127,7 @@
         Piercing: 0.35
         Heat: 0.35
         Caustic: 0.5
+        Stamina: 0.5
   - type: ExplosionResistance
     damageCoefficient: 0.35
   - type: ClothingSpeedModifier
