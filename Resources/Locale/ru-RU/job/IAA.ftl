@@ -37,9 +37,5 @@ stamp-component-stamped-name-iaa = Агент Внутренних Дел
 
 ### Imperial Space @keeyn
 loadout-group-IAA-briefcase = Чемодан
-loadout-group-IAA-jumpsuit = Комбинезон
-loadout-group-IAA-backpack = Рюкзак
-loadout-group-IAA-glasses = Очки
-loadout-group-IAA-neck = Шея
 loadout-group-IAA-shoes = Обувь
 ### Imperial Space @keeyn
