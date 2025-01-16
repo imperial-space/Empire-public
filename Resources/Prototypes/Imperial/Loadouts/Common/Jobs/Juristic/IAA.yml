@@ -2,6 +2,7 @@
   id: JobIAA
   groups:
   - GroupTankHarness
+  - IAABriefcase
   - IAAJumpsuit
   - IAABackpack
   - IAANeck
@@ -12,6 +13,12 @@
   - GroupSpeciesBreathTool
 
 # Groups Start
+
+- type: loadoutGroup
+  id: IAABriefcase
+  name: loadout-group-IAA-briefcase
+  loadouts:
+  - BriefcaseIAA
 
 - type: loadoutGroup
   id: IAAJumpsuit
@@ -54,6 +61,13 @@
 # Groups End
 
 # Loadouts Start
+
+# BreafcaseIAAFilled
+
+- type: loadout
+  id: BriefcaseIAA
+  equipment:
+    inhand: BriefcaseIAAFilled
 
 # ClothingUniformJumpsuitLawyerBlack
 
