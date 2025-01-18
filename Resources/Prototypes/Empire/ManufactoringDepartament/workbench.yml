@@ -1,0 +1,110 @@
+﻿- type: entity
+  id: WeaponWorkbenchMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: manufactoring worckbench control module
+  description: A machine printed circuit board for an workbench.
+  components:
+    - type: MachineBoard
+      prototype: IndustrialWorkbench
+      stackRequirements:
+        MatterBin: 2
+        Manipulator: 3
+
+- type: entity
+  id: IndustrialWorkbench
+  parent: BaseLatheLube
+  name: weaponry workbench
+  description: It produces basic items using metal and glass. Has the ability to process blueprints to print new recipes.
+  components:
+  - type: Sprite
+    sprite: Empire/ManufactoringDepartament/workbench.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: WeaponWorkbenchMachineCircuitboard
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+  - type: Lathe
+    idleState: icon
+    runningState: building
+    unlitIdleState: unlit
+    unlitRunningState: unlit-building
+    staticRecipes:
+      - MetalSrewdriver
+      - AKPart1
+      - AKPart2
+      - AKBase
+      - MKPart
+      - MKBase
+  - type: BlueprintReceiver
+    whitelist:
+      tags:
+      - BlueprintWorkbench
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      blueprint: !type:Container
+  - type: EmptyOnMachineDeconstruct
+    containers:
+    - blueprint
+
+- type: latheRecipe
+  name: ak-part-stock
+  id: AKPart1
+  result: AKPart1
+  completetime: 0.5
+  materials:
+    Steel: 450
+
+- type: latheRecipe
+  name: ak-part-shutter
+  id: AKPart2
+  result: AKPart2
+  completetime: 1
+  materials:
+    Steel: 450
+
+- type: latheRecipe
+  name: ak-part-base
+  id: AKBase
+  result: AKBase
+  completetime: 3
+  materials:
+    Steel: 600
+
+- type: latheRecipe
+  name: mk-part-shutter
+  id: MKPart
+  result: MKPart
+  completetime: 0.5
+  materials:
+    Steel: 250
+
+- type: latheRecipe
+  name: mk-part-base
+  id: MKBase
+  result: MKBase
+  completetime: 3
+  materials:
+    Steel: 500
+
+- type: latheRecipe
+  id: MetalSrewdriver
+  result: Screwdriver
+  completetime: 3
+  materials:
+    Steel: 200
