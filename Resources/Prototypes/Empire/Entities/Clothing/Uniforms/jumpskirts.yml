@@ -1,0 +1,166 @@
+#TODO: Описания
+#By: Dreak, Empire dev team
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtHoW
+  name: head of workshop skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/how.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/how.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtWoW
+  name: worker of workshop skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/wow.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/wow.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtMagos
+  name: magos skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/magos.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/magos.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtTAScientist
+  name: scientist skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/scientist.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/scientist.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtTAEngineering
+  name: engineering skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/engineering.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/engineering.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtCenturion
+  name: centurion skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/centurion.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/centurion.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtOption
+  name: option skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/option.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/option.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtInquisitor
+  name: inquisitor skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/inquisitor.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/inquisitor.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtCapellan
+  name: capellan skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/capellan.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/capellan.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtDecurion
+  name: decurion skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/decurion.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/decurion.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseRestrictedContraband]
+  id: ClothingUniformJumpskirtTriary
+  name: triary skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/triary.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/triary.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseRestrictedContraband]
+  id: ClothingUniformJumpskirtGuard
+  name: guard skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/guard.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/guard.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtEmpireCheifMedicialOfficer
+  name: сhief medicial officer skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/cmo.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/cmo.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtLEmpireChemist
+  name: сhemist skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/chemist.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/chemist.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtEmpireMedico
+  name: medico skirt
+  description: Female version of jumpsuit
+  components:
+  - type: Sprite
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/medico.rsi
+  - type: Clothing
+    sprite: Empire/Clothing/Uniforms/Jumpskirt/medico.rsi

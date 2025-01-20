@@ -1,0 +1,91 @@
+- type: decal
+  id: GreyE
+  tags: ["station", "empire"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey1
+
+- type: decal
+  id: GreyES
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey2
+
+- type: decal
+  id: GreyFull
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey3
+
+- type: decal
+  id: GreyN
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey4
+
+- type: decal
+  id: GreyNE
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey5
+
+- type: decal
+  id: GreyNECorner
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey6
+
+- type: decal
+  id: GreyS
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey7
+
+- type: decal
+  id: GreySECorner
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey8
+
+- type: decal
+  id: GreySW
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey9
+
+- type: decal
+  id: GreySWCorner
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey10
+
+- type: decal
+  id: GreyW
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey11
+
+- type: decal
+  id: GreyWN
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey12
+
+- type: decal
+  id: GreyWNCorner
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/grey.rsi
+    state: grey13

@@ -1,0 +1,105 @@
+- type: entity
+  name: offshore soap
+  id: OffshoreSoap
+  parent: BaseItem
+  description: A cheap bar of soap. It was buyed from offshore company.
+  components:
+  - type: Tag
+    tags:
+    - Soap
+  - type: Sprite
+    sprite: Empire/Objects/Specific/Janitorial/offshoresoap.rsi
+  - type: Appearance
+  - type: Item
+    sprite: Empire/Objects/Specific/Janitorial/offshoresoap.rsi
+    storedRotation: -90
+  - type: Slippery
+  - type: StepTrigger
+    intersectRatio: 0.2
+  - type: CollisionWake
+    enabled: false
+  - type: Physics
+    bodyType: Dynamic
+  - type: Fixtures
+    fixtures:
+      slips:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.3,0.4,0.3"
+        layer:
+        - SlipLayer
+        hard: false
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.3,0.4,0.3"
+        density: 10
+        mask:
+        - ItemMask
+  - type: SolutionContainerManager
+    solutions:
+      soap:
+        maxVol: 50
+        reagents:
+        - ReagentId: SoapReagent
+          Quantity: 50
+  - type: SolutionTransfer
+    transferAmount: 10
+    minTransferAmount: 1
+    maxTransferAmount: 25
+    canReceive: false
+    canChangeTransferAmount: true
+  - type: DrainableSolution
+    solution: soap
+  - type: DeleteOnSolutionEmpty
+    solution: soap
+  - type: CleansForensics
+  - type: Residue
+    residueAdjective: residue-slippery
+    residueColor: residue-green
+
+- type: entity
+  name: Imperial soap
+  id: ImperialSoap
+  parent: OffshoreSoap
+  description: IT'S THE BEST SOAP EVER!!! GLORY TO EMPIRE!!!
+  components:
+  - type: Sprite
+    sprite: Empire/Objects/Specific/Janitorial/imperialsoap.rsi
+  - type: Appearance
+  - type: Item
+    sprite: Empire/Objects/Specific/Janitorial/imperialsoap.rsi
+    heldPrefix: imperial
+  - type: SolutionContainerManager
+    solutions:
+      soap:
+        maxVol: 100
+        reagents:
+        - ReagentId: SoapReagent
+          Quantity: 100
+  - type: Residue
+    residueAdjective: residue-slippery
+    residueColor: residue-grey
+
+- type: entity
+  name: chaos soap
+  id: ChaosSoap
+  parent: OffshoreSoap
+  description: This soap isn't regular soap. It's made as guns against tyranny. Chaos, unite!
+  components:
+  - type: Sprite
+    sprite: Empire/Objects/Specific/Janitorial/chaossoap.rsi
+  - type: Appearance
+  - type: Item
+    sprite: Empire/Objects/Specific/Janitorial/chaossoap.rsi
+    heldPrefix: chaos
+  - type: SolutionContainerManager
+    solutions:
+      soap:
+        maxVol: 100
+        reagents:
+        - ReagentId: SoapReagent
+          Quantity: 100
+  - type: Residue
+    residueAdjective: residue-slippery
+    residueColor: residue-grey
