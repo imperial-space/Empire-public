@@ -1,14 +1,14 @@
 - type: entity
-  id: ClothingHeadHelmetBulat
+  id: ClothingHeadHelmetPSY
   parent: ClothingHeadHelmetBase
   name: fire helmet
   description: An atmos tech's best friend. Provides some heat resistance and looks cool.
   suffix: DeadSector
   components:
   - type: Sprite
-    sprite: Imperial/Clothing/Head/Helmets/bulat.rsi
+    sprite: Imperial/Clothing/Head/Helmets/wood_grouse_green.rsi
   - type: Clothing
-    sprite: Imperial/Clothing/Head/Helmets/bulat.rsi
+    sprite: Imperial/Clothing/Head/Helmets/wood_grouse_green.rsi
     quickEquip: true
   - type: Item
     heldPrefix: off
@@ -16,13 +16,13 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.5
-        Slash: 0.65
-        Piercing: 0.65
-        Heat: 0.35
-        Cold: 0.35
-        Shock: 0.35
-        Caustic: 0.35
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.1
+        Cold: 0.1
+        Shock: 0.1
+        Caustic: 0.1
         Radiation: 0.15
   - type: ContainerContainer
     containers:
@@ -31,14 +31,11 @@
     containers:
       key_slots:
       - EncryptionKeyCommon
-  - type: BreathMask
   - type: IngestionBlocker
-  - type: IdentityBlocker
   - type: Headset
     requiredSlot: HEAD
   - type: EncryptionKeyHolder
     keySlots: 256
   - type: HideLayerClothing
     slots:
-    - Hair
     - HeadTop

@@ -3,6 +3,7 @@
   parent: ClothingHeadHelmetBase
   name: fire helmet
   description: An atmos tech's best friend. Provides some heat resistance and looks cool.
+  suffix: DeadSector
   components:
   - type: Sprite
     sprite: Imperial/Clothing/Head/Helmets/k6_3.rsi
