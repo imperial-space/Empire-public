@@ -35,4 +35,21 @@ public sealed partial class ICCVars : CVars
     /// </summary>
     public static readonly CVarDef<bool> DiscordRoundStartOnly =
         CVarDef.Create("discord.round_start_only", false, CVar.SERVERONLY);
+
+    #region Broadphase Check
+
+    /// <summary>
+    /// Should we check players broadphas to avoid collision errors
+    /// </summary>
+    public static readonly CVarDef<bool> BroadphaseCheckEnabled =
+        CVarDef.Create("imperial.broadphase_check_enable", true, CVar.SERVERONLY);
+
+
+    /// <summary>
+    /// The time in seconds after which we will iterate over all entities and check them
+    /// </summary>
+    public static readonly CVarDef<float> BroadphaseCheckUpdateRate =
+        CVarDef.Create("imperial.broadphase_check_update_rate", 1.0f, CVar.SERVERONLY);
+
+    #endregion
 }
