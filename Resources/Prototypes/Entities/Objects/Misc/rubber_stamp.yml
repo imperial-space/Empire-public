@@ -52,7 +52,7 @@
 
 - type: entity
   name: CentComm rubber stamp
-  parent: RubberStampBase
+  parent: [RubberStampBase, BaseCentcommContraband]
   id: RubberStampCentcom
   suffix: DO NOT MAP
   components:

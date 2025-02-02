@@ -24,6 +24,11 @@
     accentVColor: "#42337a"
   - type: Icon
     state: pda-adjutant
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-adjutant
 
 - type: entity
   parent: IDCardStandard
@@ -62,3 +67,13 @@
       key_slots:
       - EncryptionKeyCommand
       - EncryptionKeyCommon
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpack
+  id: ClothingBackpackHOPFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvival
+      - id: Flash

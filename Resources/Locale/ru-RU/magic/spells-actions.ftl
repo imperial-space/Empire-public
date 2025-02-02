@@ -40,3 +40,4 @@ action-speech-spell-summon-guns = YOR'NEE VES-KORFA
 action-name-spell-summon-magic = Призыв магии
 action-description-spell-summon-magic = Перед всеми появляется случайный магический предмет. Ничто не может пойти не так! Отключает накопление при активации!
 action-speech-spell-summon-magic = RYGOIN FEMA-VERECO
+ction-speech-spell-mind-swap = GIN'YU CAPAN!

@@ -26,9 +26,9 @@
   - GroupSpeciesBreathTool
 
 # Silicons
-- type: roleLoadout
-  id: JobStationAi
-  nameDataset: names_ai
+# - type: roleLoadout // Imperial Space отключение лодаутов ИИ
+#   id: JobStationAi
+#   nameDataset: NamesAI
 
 # Civilian
 - type: roleLoadout
@@ -377,7 +377,6 @@
 - type: roleLoadout
   id: JobDetective
   groups:
-  - GroupTankHarness
   - DetectiveHead
   - DetectiveNeck
   - DetectiveJumpsuit

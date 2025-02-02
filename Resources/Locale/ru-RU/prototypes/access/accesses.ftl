@@ -42,3 +42,5 @@ id-card-access-level-nuclear-operative = Ядерные Оперативники
 id-card-access-level-syndicate-agent = Агент Синдиката
 
 id-card-access-level-central-command = Центральное Командование
+
+id-card-access-level-wizard = Волшебник

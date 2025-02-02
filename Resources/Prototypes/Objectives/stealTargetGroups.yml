@@ -406,3 +406,14 @@
   sprite:
     sprite: Mobs/Animals/crab.rsi
     state: crab
+
+# Imperial Energy Shotgun Traitor Fix Start
+
+- type: stealTargetGroup
+  id: WeaponEnergyShotgun
+  name: Энергетический дробовик
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+    state: base
+
+# Imperial Energy Shotgun Traitor Fix End

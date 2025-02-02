@@ -4,6 +4,7 @@
   equipment:
     jumpsuit: JumpsuitNinja
     back: GreenBackpackNinja
+    suitstorage: NinjaOxygenTank
     shoes: GreenShoesSpaceNinja
     mask: GreenMaskNinja
     head: GreenHelmetSpaceNinja
@@ -31,8 +32,9 @@
 - type: startingGear
   id: AltGreenNinja
   equipment:
-    jumpsuit: JumpsuitNinja
+    jumpsuit: AltJumpsuitNinja
     back: GreenBackpackNinja
+    suitstorage: NinjaOxygenTank
     shoes: GreenShoesSpaceNinja
     mask: GreenMaskNinja
     head: GreenAltHelmetSpaceNinja
@@ -63,6 +65,7 @@
   equipment:
     jumpsuit: JumpsuitNinja
     back: RedBackpackNinja
+    suitstorage: NinjaOxygenTank
     shoes: RedShoesSpaceNinja
     mask: RedMaskNinja
     head: RedHelmetSpaceNinja
@@ -90,8 +93,9 @@
 - type: startingGear
   id: AltRedNinja
   equipment:
-    jumpsuit: JumpsuitNinja
+    jumpsuit: AltJumpsuitNinja
     back: RedBackpackNinja
+    suitstorage: NinjaOxygenTank
     shoes: RedShoesSpaceNinja
     mask: RedMaskNinja
     head: RedAltHelmetSpaceNinja
@@ -122,6 +126,7 @@
   equipment:
     jumpsuit: JumpsuitNinja
     back: BlueBackpackNinja
+    suitstorage: NinjaOxygenTank
     shoes: BlueShoesSpaceNinja
     mask: BlueMaskNinja
     head: BlueHelmetSpaceNinja
@@ -149,8 +154,9 @@
 - type: startingGear
   id: AltBlueNinja
   equipment:
-    jumpsuit: JumpsuitNinja
+    jumpsuit: AltJumpsuitNinja
     back: BlueBackpackNinja
+    suitstorage: NinjaOxygenTank
     shoes: BlueShoesSpaceNinja
     mask: BlueMaskNinja
     head: BlueAltHelmetSpaceNinja

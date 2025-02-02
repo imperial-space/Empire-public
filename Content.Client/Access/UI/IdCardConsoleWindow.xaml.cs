@@ -176,12 +176,13 @@ namespace Content.Client.Access.UI
             var jobIndex = _jobPrototypeIds.IndexOf(state.TargetIdJobPrototype);
             // If the job index is < 0 that means they don't have a job registered in the station records.
             // For example, a new ID from a box would have no job index.
-            if (jobIndex < 0)
+            if (jobIndex >= 0)
             {
-                jobIndex = _jobPrototypeIds.IndexOf(_defaultJob);
+                JobPresetOptionButton.SelectId(jobIndex); // Imperial Space - новая строчка. При необходимости удалить и снять комментарии снизу
+                // jobIndex = _jobPrototypeIds.IndexOf(_defaultJob); // Imperial Space Закомментировано для фикса шаблонов консоли ID карт. При необходимости снять комментирование
             }
 
-            JobPresetOptionButton.SelectId(jobIndex);
+            // JobPresetOptionButton.SelectId(jobIndex); // Imperial Space Закомментировано для фикса шаблонов консоли ID карт. При необходимости снять комментирование
 
             _lastFullName = state.TargetIdFullName;
             _lastJobTitle = state.TargetIdJobTitle;

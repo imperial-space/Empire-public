@@ -162,6 +162,7 @@
     - id: RCD
     - id: RCDAmmo
     - id: RubberStampCE
+    - id: HandHeldAtmosAlertsMonitor # Imperial add
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -220,6 +221,7 @@
     - id: MedkitFilled
     - id: RubberStampCMO
     - id: MedTekCartridge
+    - id: CompactDefibrillator # Imperial Space Компактный дефибриллятор в шкафчике ГВ
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -329,6 +331,7 @@
     - id: SecurityTechFabCircuitboard
     - id: WeaponDisabler
     - id: WantedListCartridge
+    - id: HandHeldSecurityMonitor # Imperial add
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable

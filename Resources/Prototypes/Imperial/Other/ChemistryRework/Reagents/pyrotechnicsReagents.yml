@@ -292,6 +292,9 @@
       conditions:
         - !type:SolutionTemperature
           min: 290
+        - !type:ReagentThreshold
+          min: 1
+          reagent: ConcentratedBluespaceLiquid
 
 - type: reagent
   id: ConcentratedBluespaceLiquid
@@ -314,4 +317,7 @@
       conditions:
         - !type:SolutionTemperature
           min: 290
+        - !type:ReagentThreshold
+          min: 1
+          reagent: ConcentratedBluespaceLiquid
 

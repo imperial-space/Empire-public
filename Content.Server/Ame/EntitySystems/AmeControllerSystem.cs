@@ -17,6 +17,7 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
+using Content.Server.Administration.Managers; //Imperial admin alert sounds
 
 namespace Content.Server.Ame.EntitySystems;
 
@@ -28,6 +29,8 @@ public sealed class AmeControllerSystem : EntitySystem
     [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
     [Dependency] private readonly UserInterfaceSystem _userInterfaceSystem = default!;
     [Dependency] private readonly ItemSlotsSystem _itemSlots = default!;
+    [Dependency] private readonly IChatManager _chatManager = default!; // Imperial admin alert sounds
+    [Dependency] private readonly IAdminManager _adminManager = default!; // Imperial admin alert sounds
 
     public override void Initialize()
     {
@@ -269,8 +272,8 @@ public sealed class AmeControllerSystem : EntitySystem
         var humanReadableState = controller.Injecting ? "Inject" : "Not inject";
         _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{EntityManager.ToPrettyString(user.Value):player} has set the AME to inject {controller.InjectionAmount} while set to {humanReadableState}");
 
-        /* This needs to be information which an admin is very likely to want to be informed about in order to be an admin alert or have a sound notification.
-        At the time of editing, players regularly "overclock" the AME and those cases require no admin attention.
+        // This needs to be information which an admin is very likely to want to be informed about in order to be an admin alert or have a sound notification.
+        // At the time of editing, players regularly "overclock" the AME and those cases require no admin attention.
 
         // Admin alert
         var safeLimit = int.MaxValue;
@@ -282,12 +285,12 @@ public sealed class AmeControllerSystem : EntitySystem
             if (_gameTiming.CurTime > controller.EffectCooldown)
             {
                 _chatManager.SendAdminAlert(user.Value, $"increased AME over safe limit to {controller.InjectionAmount}");
-                _audioSystem.PlayGlobal("/Audio/Misc/adminlarm.ogg",
-                    Filter.Empty().AddPlayers(_adminManager.ActiveAdmins), false, AudioParams.Default.WithVolume(-8f));
+                _audioSystem.PlayGlobal("/Audio/Effects/ame_overloading_admin_alert.ogg", Filter.Empty().AddPlayers(_adminManager.ActiveAdmins), true, AudioParams.Default.WithVolume(-4f));//Imperial admin alert sounds
+                    //Filter.Empty().AddPlayers(_adminManager.ActiveAdmins), false, AudioParams.Default.WithVolume(-8f));
                 controller.EffectCooldown = _gameTiming.CurTime + controller.CooldownDuration;
             }
         }
-        */
+        
     }
 
     public void AdjustInjectionAmount(EntityUid uid, int delta, EntityUid? user = null, AmeControllerComponent? controller = null)

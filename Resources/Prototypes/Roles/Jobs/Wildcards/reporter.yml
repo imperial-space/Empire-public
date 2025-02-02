@@ -16,6 +16,8 @@
     shoes: ClothingShoesColorWhite
     id: ReporterPDA
     ears: ClothingHeadsetService
+    belt: BoxFolderClipboard # Imperial Space @keeyn
+    pocket1: MicrophoneInstrument # Imperial Space @keeyn
   #storage:
     #back:
     #- Stuff

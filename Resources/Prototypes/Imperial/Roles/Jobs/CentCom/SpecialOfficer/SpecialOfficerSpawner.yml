@@ -9,7 +9,7 @@
     head: ClothingHeadHatSpecialOfficer
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesCombat
-    id: CentcomPDA
+    id: DeadSquadPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltHolsterSpecialOfficer
 
@@ -28,6 +28,9 @@
       prototypes: [ SpecialOfficerGear ]
     - type: RandomHumanoidAppearance
       randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
 
 - type: dataset ## Датасет, чтобы ОСО начинался с офицер
   id: SpecialOfficerName

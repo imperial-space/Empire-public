@@ -161,8 +161,9 @@
     parent: true
     components:
     - type: Stealth
-      minVisibility: 0.1
-      lastVisibility: 0.1
+      minVisibility: -10 # Imperial Space "0.1 > -10" @CrookLv and @ArturUr для ребаланса ниндзи
+      lastVisibility: -1 # Imperial Space "0.1 > -1" @CrookLv and @ArturUr для ребаланса ниндзи
+      maxVisibility: 1 # Imperial Space
   - type: PowerCellDraw
     drawRate: 1.8 # 200 seconds on the default cell
   - type: ToggleCellDraw

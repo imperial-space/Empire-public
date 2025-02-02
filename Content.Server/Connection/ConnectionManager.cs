@@ -2,6 +2,7 @@ using System.Collections.Immutable;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
+using Content.Server.Administration.Managers;
 using Content.Server.Chat.Managers;
 using Content.Server.Database;
 using Content.Server.GameTicking;
@@ -58,6 +59,7 @@ namespace Content.Server.Connection
         [Dependency] private readonly ILogManager _logManager = default!;
         [Dependency] private readonly IChatManager _chatManager = default!;
         [Dependency] private readonly SponsorsManager _sponsorsManager = default!; //Imperial sponsors
+        [Dependency] private readonly IAdminManager _adminManager = default!;
 
         private ISawmill _sawmill = default!;
         private readonly Dictionary<NetUserId, TimeSpan> _temporaryBypasses = [];
@@ -274,7 +276,14 @@ namespace Content.Server.Connection
                             ticker.PlayerGameStatuses.TryGetValue(userId, out var status) &&
                             status == PlayerGameStatus.JoinedGame;
             var adminBypass = _cfg.GetCVar(CCVars.AdminBypassMaxPlayers) && adminData != null;
-            if ((_plyMgr.PlayerCount >= _cfg.GetCVar(CCVars.SoftMaxPlayers) && !adminBypass) && !wasInGame && !isPriorityJoin) //Imperial sponsors
+            var softPlayerCount = _plyMgr.PlayerCount;
+
+            if (!_cfg.GetCVar(CCVars.AdminsCountForMaxPlayers))
+            {
+                softPlayerCount -= _adminManager.ActiveAdmins.Count();
+            }
+
+            if ((softPlayerCount >= _cfg.GetCVar(CCVars.SoftMaxPlayers) && !adminBypass) && !wasInGame && !isPriorityJoin)
             {
                 return (ConnectionDenyReason.Full, Loc.GetString("soft-player-cap-full"), null);
             }
@@ -291,7 +300,7 @@ namespace Content.Server.Connection
 
                 foreach (var whitelist in _whitelists)
                 {
-                    if (!IsValid(whitelist, _plyMgr.PlayerCount))
+                    if (!IsValid(whitelist, softPlayerCount))
                     {
                         // Not valid for current player count.
                         continue;

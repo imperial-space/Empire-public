@@ -1,8 +1,8 @@
-## See also ../settings.yml and ../spawners.yml
+## Смотрите также ../settings.yml и ../spawners.yml
 
-### Visitors with Visitor ID
+### Посетители с ID посетителя
 
-# Command
+# Коммандный
 
 - type: entity
   id: RandomHumanoidVisitorCaptain
@@ -16,6 +16,7 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
+
 
 - type: entity
   id: RandomHumanoidVisitorCE
@@ -95,7 +96,7 @@
       implants:
       - MindShieldImplant
 
-# Security
+# Служба Безопасности
 
 - type: entity
   id: RandomHumanoidVisitorSecurityCadet
@@ -149,7 +150,7 @@
       implants:
       - MindShieldImplant
 
-# Cargo
+# Снабжение
 
 - type: entity
   id: RandomHumanoidVisitorCargoTechnician
@@ -171,7 +172,8 @@
     - type: RandomHumanoidSpawner
       settings: VisitorSalvageSpecialist
 
-# Engineering
+
+# Инженерный
 
 - type: entity
   id: RandomHumanoidVisitorAtmosTech
@@ -182,6 +184,9 @@
       state: atmospherics
     - type: RandomHumanoidSpawner
       settings: VisitorAtmosTech
+    - type: AutoImplant # Imperial add
+      implants: # Imperial add
+      - MindShieldImplant # Imperial add
 
 - type: entity
   id: RandomHumanoidVisitorTechnicalAssistant
@@ -203,7 +208,7 @@
     - type: RandomHumanoidSpawner
       settings: VisitorEngineer
 
-# Medical
+# Медицинский
 
 - type: entity
   id: RandomHumanoidVisitorMedicalIntern
@@ -285,7 +290,7 @@
     - type: RandomHumanoidSpawner
       settings: VisitorDentist
 
-# Science
+# Научный
 
 - type: entity
   id: RandomHumanoidVisitorResearchAssistant
@@ -307,7 +312,7 @@
     - type: RandomHumanoidSpawner
       settings: VisitorScientist
 
-# Civilian
+# Гражданский
 
 - type: entity
   id: RandomHumanoidVisitorBartender
@@ -338,7 +343,6 @@
       state: boxer
     - type: RandomHumanoidSpawner
       settings: VisitorBoxer
-
 - type: entity
   id: RandomHumanoidVisitorChaplain
   name: visiting chaplain ghost role
@@ -368,7 +372,6 @@
       state: clown
     - type: RandomHumanoidSpawner
       settings: VisitorClown
-
 - type: entity
   id: RandomHumanoidVisitorJanitor
   name: visiting janitor ghost role
@@ -388,7 +391,6 @@
       state: lawyer
     - type: RandomHumanoidSpawner
       settings: VisitorLawyer
-
 - type: entity
   id: RandomHumanoidVisitorLawyerCentcom
   name: visiting centcom lawyer ghost role
@@ -418,7 +420,6 @@
       state: musician
     - type: RandomHumanoidSpawner
       settings: VisitorMusician
-
 - type: entity
   id: RandomHumanoidVisitorMusicianFancy
   name: visiting fancy musician ghost role
@@ -479,7 +480,7 @@
     - type: RandomHumanoidSpawner
       settings: VisitorZookeeper
 
-# Misc
+# Разное
 
 - type: entity
   id: RandomHumanoidClownTroupeBanana
@@ -489,15 +490,15 @@
     - type: RandomHumanoidSpawner
       settings: ClownTroupeBanana
 
-### Visitors missing equipment for challenges
+# Посетители с неполной экипировкой
 
-# Command
+# Коммандный
 
 - type: entity
   id: RandomHumanoidChallengeVictimCaptain
   name: disaster victim Captain ghost role
   suffix: CHALLENGE
-  # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: Sprite
       sprite: Mobs/Species/Skeleton/parts.rsi
@@ -513,7 +514,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim CE ghost role
   suffix: CHALLENGE
-  # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimChiefEngineer
@@ -526,7 +527,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim CMO ghost role
   suffix: CHALLENGE
-  # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimCMO
@@ -539,7 +540,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim HOP ghost role
   suffix: CHALLENGE
-  # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimHeadOfPersonnel
@@ -552,7 +553,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim HOS ghost role
   suffix: CHALLENGE
-  # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimHeadOfSecurity
@@ -565,7 +566,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim RD ghost role
   suffix: CHALLENGE
-  # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimResearchDirector
@@ -578,7 +579,7 @@
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster victim QM ghost role
   suffix: CHALLENGE
-  # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimQuartermaster
@@ -586,31 +587,31 @@
       implants:
       - MindShieldImplant
 
-# Security
+# Служба Безопасности
 
-# Cargo
+# Снабжение
 
 - type: entity
   id: RandomHumanoidChallengeCargoTechnician
   parent: RandomHumanoidChallengeVictimCaptain
   name: disaster cargo technician ghost role
   suffix: CHALLENGE
-  # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+# Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
   components:
     - type: RandomHumanoidSpawner
       settings: ChallengeCargoTechnician
 
-# Engineering
+# Инженерный
 
-# Medical
+# Медицинский
 
-# Science
+# Научный
 
-# Civilian
+# Гражданский
 
-# Misc
+# Разное
 
-### Syndicate & Hostiles
+# Синдикат & Враги
 
 - type: entity
   id: RandomHumanoidSyndieSoldierTeamLeader
@@ -664,7 +665,7 @@
     - type: RandomHumanoidSpawner
       settings: PirateCaptainScooner
 
-### Other
+# Другое
 
 - type: entity
   id: RandomHumanoidVisitorBlackmarketeer

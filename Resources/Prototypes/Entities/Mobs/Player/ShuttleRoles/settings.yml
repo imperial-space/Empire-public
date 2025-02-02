@@ -1,9 +1,9 @@
-## See also ../roles.yml and ../spawners.yml
+## Посмотрите также ../roles.yml и ../spawners.yml
 
-### Visitors with Visitor ID
+### Посетители с ID посетителя
 
-# Command
-# Following use EventHumanoidMindShielded since they are heads and probably should have mindshields
+# Коммандный
+# После использования EventHumanoidMindShielded, так как они являются главами и, вероятно, должны иметь защиту разума
 
 - type: randomHumanoidSettings
   id: VisitorHead
@@ -26,6 +26,13 @@
     - type: Loadout
       prototypes: [ VisitorCaptain, VisitorCaptainAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
+        - skillShooting
 
 - type: randomHumanoidSettings
   id: VisitorCE
@@ -37,6 +44,19 @@
     - type: Loadout
       prototypes: [ VisitorCE, VisitorCEAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillHacking
+        - skillInstrumentation
+        - skillMaintenance
+        - skillMediumConstruction
+        - skillBasicAtmos
+        - skillPiloting
+        - skillAtmos
+        - skillHardInstrumentation
 
 - type: randomHumanoidSettings
   id: VisitorCMO
@@ -48,6 +68,17 @@
     - type: Loadout
       prototypes: [ VisitorCMO, VisitorCMOAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPharmaceuticals
+        - skillPiloting
+        - skillSurgery
+        - skillNeuroSurgery
 
 - type: randomHumanoidSettings
   id: VisitorHOP
@@ -59,6 +90,12 @@
     - type: Loadout
       prototypes: [ VisitorHOP, VisitorHOPAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorHOS
@@ -70,6 +107,13 @@
     - type: Loadout
       prototypes: [ VisitorHOS, VisitorHOSAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
+        - skillShooting
 
 - type: randomHumanoidSettings
   id: VisitorResearchDirector
@@ -81,6 +125,26 @@
     - type: Loadout
       prototypes: [ VisitorRD, VisitorRDAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillHacking
+        - skillInstrumentation
+        - skillMaintenance
+        - skillMediumConstruction
+        - skillBasicAtmos
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillHardInstrumentation
+        - skillRobotics
+        - skillResearch
+        - skillPharmaceuticals
+        - skillPiloting
+        - skillSurgery
+        - skillNeuroSurgery
+
 
 - type: randomHumanoidSettings
   id: VisitorQM
@@ -92,9 +156,15 @@
     - type: Loadout
       prototypes: [ VisitorQM, VisitorQMAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
-# Security
-# Following use EventHumanoidMindShielded since they are heads and probably should have mindshields
+# Служба Безопасности
+# После использования EventHumanoidMindShielded, так как они являются главами и, вероятно, должны иметь защиту разума
 
 - type: randomHumanoidSettings
   id: VisitorSecurity
@@ -116,6 +186,13 @@
     - type: Loadout
       prototypes: [ VisitorSecurityCadet, VisitorSecurityCadetAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillShooting
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorSecurityOfficer
@@ -126,6 +203,13 @@
     - type: Loadout
       prototypes: [ VisitorSecurityOfficer, VisitorSecurityOfficerAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillShooting
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorDetective
@@ -136,6 +220,13 @@
     - type: Loadout
       prototypes: [ VisitorDetective, VisitorDetectiveAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillShooting
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorWarden
@@ -146,8 +237,15 @@
     - type: Loadout
       prototypes: [ VisitorWarden, VisitorWardenAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
+        - skillShooting
 
-# Cargo
+# Снабжение
 
 - type: randomHumanoidSettings
   id: VisitorCargonian
@@ -169,6 +267,12 @@
     - type: Loadout
       prototypes: [ VisitorCargoTech, VisitorCargoTechAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorSalvageSpecialist
@@ -179,8 +283,17 @@
     - type: Loadout
       prototypes: [ VisitorSalvageSpecialist, VisitorSalvageSpecialistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillHacking
+        - skillMediumConstruction
+        - skillPiloting
+        - skillShooting
 
-# Engineering
+# Инженерный
 
 - type: randomHumanoidSettings
   id: VisitorEngineering
@@ -195,13 +308,30 @@
 
 - type: randomHumanoidSettings
   id: VisitorAtmosTech
-  parent: VisitorEngineering
+  parent: VisitorHead # Imperial add MindShield
   components:
     - type: GhostRole
       name: job-name-atmostech
+      description: ghost-role-information-engineering-description
+      rules: ghost-role-information-nonantagonist-rules
+      raffle:
+        settings: short
     - type: Loadout
       prototypes: [ VisitorAtmosTech, VisitorAtmosTechAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillHacking
+        - skillInstrumentation
+        - skillMaintenance
+        - skillMediumConstruction
+        - skillBasicAtmos
+        - skillPiloting
+        - skillAtmos
+        - skillHardInstrumentation
 
 - type: randomHumanoidSettings
   id: VisitorTechnicalAssistant
@@ -212,6 +342,16 @@
     - type: Loadout
       prototypes: [ VisitorTechnicalAssistant, VisitorTechnicalAssistantAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillHacking
+        - skillInstrumentation
+        - skillMaintenance
+        - skillMediumConstruction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorEngineer
@@ -222,8 +362,20 @@
     - type: Loadout
       prototypes: [ VisitorEngineer, VisitorEngineerAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillHacking
+        - skillInstrumentation
+        - skillMaintenance
+        - skillMediumConstruction
+        - skillBasicAtmos
+        - skillPiloting
+        - skillHardInstrumentation
 
-# Medical
+# Медицинский
 
 - type: randomHumanoidSettings
   id: VisitorMedical
@@ -245,6 +397,14 @@
     - type: Loadout
       prototypes: [ VisitorMedicalIntern, VisitorMedicalInternAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorMedicalDoctor
@@ -255,6 +415,16 @@
     - type: Loadout
       prototypes: [ VisitorMedicalDoctor, VisitorMedicalDoctorAlt , VisitorScrubsPurple, VisitorScrubsGreen, VisitorScrubsBlue]
       roleLoadout: [ RoleSurvivalMedical ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillSurgery
+        - skillNeuroSurgery
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorParamedic
@@ -265,6 +435,14 @@
     - type: Loadout
       prototypes: [ VisitorParamedic, VisitorParamedicAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorVirologist
@@ -275,6 +453,16 @@
     - type: Loadout
       prototypes: [ VisitorVirologist, VisitorVirologistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
+        - skillSurgery
+        - skillNeuroSurgery
 
 - type: randomHumanoidSettings
   id: VisitorGeneticist
@@ -285,6 +473,16 @@
     - type: Loadout
       prototypes: [ VisitorGeneticist, VisitorGeneticistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
+        - skillSurgery
+        - skillNeuroSurgery
 
 - type: randomHumanoidSettings
   id: VisitorPsychologist
@@ -295,6 +493,13 @@
     - type: Loadout
       prototypes: [ VisitorPsychologist, VisitorPsychologistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPharmacology
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorChemist
@@ -305,6 +510,15 @@
     - type: Loadout
       prototypes: [ VisitorChemist, VisitorChemistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPharmaceuticals
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorDentist
@@ -315,8 +529,18 @@
     - type: Loadout
       prototypes: [ VisitorDentist ]
       roleLoadout: [ RoleSurvivalMedical ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
+        - skillSurgery
+        - skillNeuroSurgery
 
-# Science
+# Наука
 
 - type: randomHumanoidSettings
   id: VisitorScience
@@ -338,6 +562,21 @@
     - type: Loadout
       prototypes: [ VisitorResearchAssistant, VisitorResearchAssistantAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillHacking
+        - skillInstrumentation
+        - skillMediumConstruction
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
+        - skillResearch
+        - skillPharmaceuticals
+        - skillSurgery
+        - skillNeuroSurgery
 
 - type: randomHumanoidSettings
   id: VisitorScientist
@@ -348,8 +587,26 @@
     - type: Loadout
       prototypes: [ VisitorScientist, VisitorScientistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillHacking
+        - skillInstrumentation
+        - skillMediumConstruction
+        - skillBasicAtmos
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillHardInstrumentation
+        - skillRobotics
+        - skillResearch
+        - skillPharmaceuticals
+        - skillPiloting
+        - skillSurgery
+        - skillNeuroSurgery
 
-# Civilian
+# Гражданские
 
 - type: randomHumanoidSettings
   id: VisitorCivilian
@@ -371,6 +628,14 @@
     - type: Loadout
       prototypes: [ VisitorBartender, VisitorBartenderAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillBartending
+        - skillShooting
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorBotanist
@@ -381,6 +646,14 @@
     - type: Loadout
       prototypes: [ VisitorBotanist, VisitorBotanistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillCooking
+        - skillMediumBotany
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorBoxer
@@ -391,6 +664,12 @@
     - type: Loadout
       prototypes: [ VisitorBoxer, VisitorBoxerAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorChaplain
@@ -402,6 +681,12 @@
     - type: Loadout
       prototypes: [ VisitorChaplain, VisitorChaplainAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorChef
@@ -412,6 +697,13 @@
     - type: Loadout
       prototypes: [ VisitorChef, VisitorChefAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillCooking
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorClown
@@ -426,6 +718,13 @@
     - type: RandomMetadata
       nameSegments:
       - names_clown
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillClownJoker
+        - skillPiloting
       
 - type: randomHumanoidSettings
   id: VisitorJanitor
@@ -436,6 +735,12 @@
     - type: Loadout
       prototypes: [ VisitorJanitor, VisitorJanitorAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorLawyer
@@ -446,6 +751,12 @@
     - type: Loadout
       prototypes: [ VisitorLawyerAltA, VisitorLawyerAltB, VisitorLawyerAltC, VisitorLawyerAltD, VisitorLawyerAltE ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorLawyerCentcom
@@ -457,6 +768,12 @@
     - type: Loadout
       prototypes: [ VisitorLawyerCentcom ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorLibrarian
@@ -467,6 +784,12 @@
     - type: Loadout
       prototypes: [ VisitorLibrarian, VisitorLibrarianAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorMusician
@@ -477,6 +800,12 @@
     - type: Loadout
       prototypes: [ VisitorMusicianFancyAltA, VisitorMusicianFancyAltB, VisitorMusicianFancyAltC, VisitorMusicianFancyAltD, VisitorMusicianFancyAltE, VisitorMusicianFancyAltF, VisitorMusicianFancyAltG, VisitorMusicianFancyAltH, VisitorMusicianFancyAltI, VisitorMusicianRelaxedAltA, VisitorMusicianRelaxedAltB, VisitorMusicianRelaxedAltC, VisitorMusicianRelaxedAltD, VisitorMusicianRelaxedAltE, VisitorMusicianRelaxedAltF, VisitorMusicianMariachi ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorMusicianFancy
@@ -487,6 +816,12 @@
     - type: Loadout
       prototypes: [ VisitorMusicianFancyAltA, VisitorMusicianFancyAltB, VisitorMusicianFancyAltC, VisitorMusicianFancyAltD, VisitorMusicianFancyAltE, VisitorMusicianFancyAltF, VisitorMusicianFancyAltG, VisitorMusicianFancyAltH, VisitorMusicianFancyAltI ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorMusicianRelaxed
@@ -497,6 +832,12 @@
     - type: Loadout
       prototypes: [ VisitorMusicianRelaxedAltA, VisitorMusicianRelaxedAltB, VisitorMusicianRelaxedAltC, VisitorMusicianRelaxedAltD, VisitorMusicianRelaxedAltE, VisitorMusicianRelaxedAltF, VisitorMusicianMariachi ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorMime
@@ -508,6 +849,12 @@
     - type: Loadout
       prototypes: [ VisitorMime, VisitorMimeAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorReporter
@@ -518,6 +865,12 @@
     - type: Loadout
       prototypes: [ VisitorReporter, VisitorReporterAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorServiceWorker
@@ -528,6 +881,12 @@
     - type: Loadout
       prototypes: [ VisitorServiceWorker, VisitorServiceWorkerAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: VisitorZookeeper
@@ -538,6 +897,12 @@
     - type: Loadout
       prototypes: [ VisitorZookeeper, VisitorZookeeperAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: ClownTroupeBanana
@@ -547,16 +912,22 @@
     - type: Loadout
       prototypes: [ BananaClown ]
       roleLoadout: [ RoleSurvivalClown ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 # Misc
 
-### Visitors missing equipment for challenges
+### Посетителям не хватает оборудования для испытаний
 # CHALLENGE #
-# these are specifically missing QOL equipment and have settings to make them harder.
-# making changes to these should be done with care to avoid unbalancing challenging scenarios.
+# Это специально недостающее оборудование для QOL, и у них есть настройки, чтобы сделать их сложнее.
+# Вносить изменения в них следует с осторожностью, чтобы не разбалансировать сложные сценарии.
 
-# Command
-# Following use EventHumanoidMindShielded since they are heads and probably should have mindshields
+# Коммандный
+# После использования EventHumanoidMindShielded, так как они являются головами и, вероятно, должны иметь защиту разума
 
 - type: randomHumanoidSettings
   id: ChallengeVictimCaptain
@@ -571,12 +942,19 @@
         settings: default
     - type: GhostTakeoverAvailable
     - type: Loadout
-      prototypes: [ ChallengeVictimCaptain, ChallengeVictimCaptainAlt ] #!! This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+      prototypes: [ ChallengeVictimCaptain, ChallengeVictimCaptainAlt ] #!! Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
       roleLoadout: [ RoleSurvivalVoxSupport ]
     - type: RandomMetadata
       nameSegments:
       - names_first
       - names_last
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
+        - skillShooting
 
 - type: randomHumanoidSettings
   id: ChallengeVictimChiefEngineer
@@ -590,12 +968,25 @@
         settings: default
     - type: GhostTakeoverAvailable
     - type: Loadout
-      prototypes: [ ChallengeVictimCE, ChallengeVictimCEAlt ] #!! This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+      prototypes: [ ChallengeVictimCE, ChallengeVictimCEAlt ] #!! Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
       roleLoadout: [ RoleSurvivalVoxSupport ]
     - type: RandomMetadata
       nameSegments:
       - names_first
       - names_last
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillHacking
+        - skillInstrumentation
+        - skillMaintenance
+        - skillMediumConstruction
+        - skillBasicAtmos
+        - skillPiloting
+        - skillAtmos
+        - skillHardInstrumentation
 
 - type: randomHumanoidSettings
   id: ChallengeVictimCMO
@@ -609,12 +1000,23 @@
         settings: default
     - type: GhostTakeoverAvailable
     - type: Loadout
-      prototypes: [ ChallengeVictimCMO, ChallengeVictimCMOAlt ] #!! This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+      prototypes: [ ChallengeVictimCMO, ChallengeVictimCMOAlt ] #!! Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
       roleLoadout: [ RoleSurvivalVoxSupport ]
     - type: RandomMetadata
       nameSegments:
       - names_first
       - names_last
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPharmaceuticals
+        - skillPiloting
+        - skillSurgery
+        - skillNeuroSurgery
 
 - type: randomHumanoidSettings
   id: ChallengeVictimHeadOfPersonnel
@@ -628,12 +1030,18 @@
         settings: default
     - type: GhostTakeoverAvailable
     - type: Loadout
-      prototypes: [ ChallengeVictimHOP, ChallengeVictimHOPAlt ] #!! This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+      prototypes: [ ChallengeVictimHOP, ChallengeVictimHOPAlt ] #!! Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
       roleLoadout: [ RoleSurvivalVoxSupport ]
     - type: RandomMetadata
       nameSegments:
       - names_first
       - names_last
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
 - type: randomHumanoidSettings
   id: ChallengeVictimHeadOfSecurity
@@ -647,12 +1055,19 @@
         settings: default
     - type: GhostTakeoverAvailable
     - type: Loadout
-      prototypes: [ ChallengeVictimHOS, ChallengeVictimHOSAlt ] #!! This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+      prototypes: [ ChallengeVictimHOS, ChallengeVictimHOSAlt ] #!! Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
       roleLoadout: [ RoleSurvivalVoxSupport ]
     - type: RandomMetadata
       nameSegments:
       - names_first
       - names_last
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
+        - skillShooting
 
 - type: randomHumanoidSettings
   id: ChallengeVictimResearchDirector
@@ -666,12 +1081,30 @@
         settings: default
     - type: GhostTakeoverAvailable
     - type: Loadout
-      prototypes: [ ChallengeVictimRD, ChallengeVictimRDAlt ] #!! This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+      prototypes: [ ChallengeVictimRD, ChallengeVictimRDAlt ] #!! Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
       roleLoadout: [ RoleSurvivalVoxSupport ]
     - type: RandomMetadata
       nameSegments:
       - names_first
       - names_last
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillHacking
+        - skillInstrumentation
+        - skillMediumConstruction
+        - skillBasicAtmos
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
+        - skillHardInstrumentation
+        - skillRobotics
+        - skillResearch
+        - skillPharmaceuticals
+        - skillSurgery
+        - skillNeuroSurgery
 
 - type: randomHumanoidSettings
   id: ChallengeVictimQuartermaster
@@ -685,17 +1118,23 @@
         settings: default
     - type: GhostTakeoverAvailable
     - type: Loadout
-      prototypes: [ ChallengeVictimQM, ChallengeVictimQMAlt ] #!! This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+      prototypes: [ ChallengeVictimQM, ChallengeVictimQMAlt ] #!! Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
       roleLoadout: [ RoleSurvivalVoxSupport ]
     - type: RandomMetadata
       nameSegments:
       - names_first
       - names_last
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
-# Security
-# Following use EventHumanoidMindShielded since they are heads and probably should have mindshields
+# Служба Безопасности
+# После использования EventHumanoidMindShielded, так как они являются головами и, вероятно, должны иметь защиту разума
 
-# Cargo
+# Снабжение
 
 - type: randomHumanoidSettings
   id: ChallengeCargoTechnician
@@ -709,24 +1148,30 @@
         settings: short
     - type: GhostTakeoverAvailable
     - type: Loadout
-      prototypes: [ ChallengeCargoTechGearSuit, ChallengeCargoTechGearCoat ] #!! This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
+      prototypes: [ ChallengeCargoTechGearSuit, ChallengeCargoTechGearCoat ] #!! Предполагается, что это предназначено для сложных событий. В нем намеренно отсутствует QOL-снаряжение, чтобы создать интересные сценарии.
       roleLoadout: [ RoleSurvivalVoxSupport ]
     - type: RandomMetadata
       nameSegments:
       - names_first
       - names_last
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
 
-# Engineering
+# Инженерный
 
-# Medical
+# Медицинский
 
-# Science
+# Наука
 
-# Civilian
+# Гражданские
 
-# Misc
+# Разное
 
-### Syndicate & Hostiles
+### Синдикат & Враги
 
 - type: randomHumanoidSettings
   id: SyndieSoldierTeamLeader
@@ -745,6 +1190,31 @@
     - type: Loadout
       prototypes: [ SyndicateFootsoldierTeamLeaderGear ]
       roleLoadout: [ RoleSurvivalSyndicate ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillCooking
+        - skillBartending
+        - skillHacking
+        - skillInstrumentation
+        - skillMaintenance
+        - skillMediumConstruction
+        - skillMediumBotany
+        - skillBasicAtmos
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
+        - skillAtmos
+        - skillHardInstrumentation
+        - skillRobotics
+        - skillResearch
+        - skillPharmaceuticals
+        - skillPiloting
+        - skillShooting
+        - skillSurgery
+        - skillNeuroSurgery
 
 - type: randomHumanoidSettings
   id: SyndieSoldier
@@ -763,6 +1233,31 @@
     - type: Loadout
       prototypes: [ SyndicateFootsoldierGear ]
       roleLoadout: [ RoleSurvivalSyndicate ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillCooking
+        - skillBartending
+        - skillHacking
+        - skillInstrumentation
+        - skillMaintenance
+        - skillMediumConstruction
+        - skillMediumBotany
+        - skillBasicAtmos
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
+        - skillAtmos
+        - skillHardInstrumentation
+        - skillRobotics
+        - skillResearch
+        - skillPharmaceuticals
+        - skillPiloting
+        - skillShooting
+        - skillSurgery
+        - skillNeuroSurgery
 
 - type: randomHumanoidSettings
   id: SyndieVisitor
@@ -780,6 +1275,31 @@
     - type: Loadout
       prototypes: [ SyndicateOperativeGearCivilian ]
       roleLoadout: [ RoleSurvivalSyndicate ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillCooking
+        - skillBartending
+        - skillHacking
+        - skillInstrumentation
+        - skillMaintenance
+        - skillMediumConstruction
+        - skillMediumBotany
+        - skillBasicAtmos
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
+        - skillAtmos
+        - skillHardInstrumentation
+        - skillRobotics
+        - skillResearch
+        - skillPharmaceuticals
+        - skillPiloting
+        - skillShooting
+        - skillSurgery
+        - skillNeuroSurgery
 
 - type: randomHumanoidSettings
   id: PirateScooner
@@ -797,6 +1317,31 @@
     - type: Loadout
       prototypes: [ PirateScoonerAltA, PirateScoonerAltB, PirateScoonerAltC, PirateScoonerAltD ]
       roleLoadout: [ RoleSurvivalEVA ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillCooking
+        - skillBartending
+        - skillHacking
+        - skillInstrumentation
+        - skillMaintenance
+        - skillMediumConstruction
+        - skillMediumBotany
+        - skillBasicAtmos
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
+        - skillAtmos
+        - skillHardInstrumentation
+        - skillRobotics
+        - skillResearch
+        - skillPharmaceuticals
+        - skillPiloting
+        - skillShooting
+        - skillSurgery
+        - skillNeuroSurgery
 
 - type: randomHumanoidSettings
   id: PirateCaptainScooner
@@ -814,8 +1359,33 @@
     - type: Loadout
       prototypes: [ PirateCaptainScooner ]
       roleLoadout: [ RoleSurvivalEVA ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillCooking
+        - skillBartending
+        - skillHacking
+        - skillInstrumentation
+        - skillMaintenance
+        - skillMediumConstruction
+        - skillMediumBotany
+        - skillBasicAtmos
+        - skillMedicalEquipment
+        - skillPharmacology
+        - skillPiloting
+        - skillAtmos
+        - skillHardInstrumentation
+        - skillRobotics
+        - skillResearch
+        - skillPharmaceuticals
+        - skillPiloting
+        - skillShooting
+        - skillSurgery
+        - skillNeuroSurgery
 
-### Other
+### Другие
 
 - type: randomHumanoidSettings
   id: VisitorBlackmarketeer
@@ -830,6 +1400,13 @@
     - type: Loadout
       prototypes: [ VisitorBlackmarketeer, VisitorBlackmarketeer ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting
+        - skillShooting
 
 - type: randomHumanoidSettings
   id: Cossack
@@ -848,3 +1425,9 @@
     - type: Loadout
       prototypes: [ CossackGear ]
       roleLoadout: [ RoleSurvivalEVA ]
+    - type: CrewSkills
+      skills:
+        - skillBotany
+        - skillBaseMed
+        - skillBaseConstraction
+        - skillPiloting

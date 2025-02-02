@@ -22,7 +22,7 @@
   parent: IDCardStandard
   id: NinjaIDCardStandard
   name: Spider Clan card
-  description: 1 - Don't kill the ninja.                                                     2 - Don't be exposed.                                      3 - Act quietly, sticking to the shadows.                            4 - Get results by any means necessary.                     5 - Help the clan flourish.
+  description: Act quietly, sticking to the shadows.
   suffix: Standard, Crook, SpiderClan
   components:
   - type: PresetIdCard
@@ -46,7 +46,7 @@
   id: NinjaIDCard
   name: Spider Clan card
   description: It looks quite unusual...
-  suffix: Crook, SpiderClan
+  suffix: Agent, Crook, SpiderClan
   components:
   - type: PresetIdCard
     job: Passenger

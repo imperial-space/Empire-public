@@ -87,6 +87,18 @@
               doAfter: 1
             - material: Cloth
               amount: 1
+        # Imperial Couchs start
+        - to: couchComfy
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 2
+        - to: couchGold
+          steps:
+            - material: Gold
+              amount: 5
+              doAfter: 2
+        # Imperial Couchs end
 
     - node: chair
       entity: Chair
@@ -276,3 +288,78 @@
               doAfter: 1
             - tool: Screwing
               doAfter: 1
+
+    # Imperial Couch Fix start
+
+    - node: couchComfy
+      entity: ComfyCouch
+    - node: chairSteelBench
+      entity: SteelBench
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: chairWoodBench
+      entity: WoodenBench
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 4
+          steps:
+            - tool: Screwing
+              doAfter: 2
+
+    - node: redComfBench
+      entity: BenchRedComfy
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+            - !type:SpawnPrototype
+              prototype: MaterialCloth1
+              amount: 1
+          steps:
+            - tool: Cutting
+              doAfter: 1
+            - tool: Screwing
+              doAfter: 1
+
+    - node: blueComfBench
+      entity: BenchBlueComfy
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+            - !type:SpawnPrototype
+              prototype: MaterialCloth1
+              amount: 1
+          steps:
+            - tool: Cutting
+              doAfter: 1
+            - tool: Screwing
+              doAfter: 1
+
+    - node: couchGold
+      entity: GoldCouch
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: IngotGold1
+              amount: 5
+          steps:
+            - tool: Screwing
+              doAfter: 2
+    # Imperial Couch Fix End

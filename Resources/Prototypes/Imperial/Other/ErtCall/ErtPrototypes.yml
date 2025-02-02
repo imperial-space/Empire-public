@@ -19,6 +19,9 @@
       prototypes: [ ERTCallLeaderGearEVA ]
     - type: RandomHumanoidAppearance
       randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
 
 #Medic
 - type: entity
@@ -40,6 +43,9 @@
       prototypes: [ ERTCallMedicalGearEVA ]
     - type: RandomHumanoidAppearance
       randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
 
 #Security
 - type: entity
@@ -61,6 +67,9 @@
       prototypes: [ ERTCallSecurityGearEVA ]
     - type: RandomHumanoidAppearance
       randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
 
 #Engineer
 - type: entity
@@ -82,6 +91,9 @@
       prototypes: [ ERTCallEngineerGearEVA ]
     - type: RandomHumanoidAppearance
       randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
 
 #Junitor
 - type: entity
@@ -103,6 +115,9 @@
       prototypes: [ ERTCallJanitorGearEVA ]
     - type: RandomHumanoidAppearance
       randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
 
 #ERT END
 
@@ -126,6 +141,9 @@
       prototypes: [ ERTCallCBURNLeaderGearEVA ]
     - type: RandomHumanoidAppearance
       randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
 
 #Security
 - type: entity
@@ -146,6 +164,9 @@
       prototypes: [ ERTCallCBURNSecurityGearEVA ]
     - type: RandomHumanoidAppearance
       randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
 
 #Medic
 - type: entity
@@ -166,6 +187,9 @@
       prototypes: [ ERTCallCBURNMedicGearEVA ]
     - type: RandomHumanoidAppearance
       randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
 #CBURN END
 
 #DEAD SQUAD START
@@ -189,10 +213,11 @@
       implants:
       - FreedomImplant
       - EmpImplant
+      - MindShieldImplant
     - type: NpcFactionMember
       factions:
       - DeathSquad
-
+      
 - type: npcFaction ##Новая фракция для эскадрона смерти
   id: DeathSquad
   hostile:
