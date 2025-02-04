@@ -1,0 +1,179 @@
+﻿
+### AK
+- type: entity
+  id: BaseAKPart
+  parent: BaseMechPart
+  abstract: true
+  components:
+  - type: Item
+    size: Normal
+  - type: Sprite
+    drawdepth: Items
+    sprite: Empire/ManufactoringDepartament/Constructions/ak_construction.rsi
+
+- type: Tag
+  id: AKPart1
+
+- type: entity
+  parent: BaseAKPart
+  id: AKPart1
+  name: AK stock
+  components:
+  - type: Sprite
+    state: ak_1
+  - type: Tag
+    tags:
+    - AKPart1
+
+- type: Tag
+  id: AKPart2
+
+- type: entity
+  parent: BaseAKPart
+  id: AKPart2
+  name: AK shutter
+  components:
+  - type: Sprite
+    state: ak_2
+  - type: Tag
+    tags:
+    - AKPart2
+
+
+- type: entity
+  parent: BaseAKPart
+  id: AKBase
+  name: AK casing
+  description: The core of the Ripley APLU.
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      ak_1+o:
+        whitelist:
+          tags:
+          - AKPart1
+      ak_2+o:
+        whitelist:
+          tags:
+          - AKPart2
+    sprite: Empire/ManufactoringDepartament/Constructions/ak_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: AKCompleted
+    requiredParts:
+      AKPart1: false
+      AKPart2: false
+  - type: Sprite
+    sprite: Empire/ManufactoringDepartament/Constructions/ak_construction.rsi
+    state: ak_base+o
+
+- type: entity
+  id: AKCompleted
+  parent: BaseAKPart
+  name: AK casing
+  description: An in-progress construction of the Ripley APLU mech.
+  components:
+  - type: Appearance
+  - type: Sprite
+    state: ak_construction
+  - type: Construction
+    graph: AKConstruction
+    node: start
+    defaultTarget: complete
+
+- type: constructionGraph
+  id: AKConstruction
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: complete
+          steps:
+          - tool: Screwing
+            doAfter: 3
+
+    - node: complete
+      actions:
+      - !type:SpawnPrototype
+        prototype: WeaponRifleAk
+      - !type:DeleteEntity {}
+
+
+### MK
+
+- type: Tag
+  id: MKPart
+
+- type: entity
+  parent: BaseAKPart
+  id: MKPart
+  name: MK shutter
+  components:
+  - type: Sprite
+    sprite: Empire/ManufactoringDepartament/Constructions/mk_construction.rsi
+    state: mk_1
+  - type: Tag
+    tags:
+    - MKPart
+
+
+- type: entity
+  parent: BaseAKPart
+  id: MKBase
+  name: MK casing
+  description: The core of the Ripley APLU.
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      mk_1+o:
+        whitelist:
+          tags:
+          - MKPart
+    sprite: Empire/ManufactoringDepartament/Constructions/mk_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: MKCompleted
+    requiredParts:
+      MKPart: false
+  - type: Sprite
+    sprite: Empire/ManufactoringDepartament/Constructions/mk_construction.rsi
+    state: mk_base+o
+
+
+- type: entity
+  id: MKCompleted
+  parent: BaseAKPart
+  name: MK casing
+  description: An in-progress construction of the Ripley APLU mech.
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: Empire/ManufactoringDepartament/Constructions/mk_construction.rsi
+    state: mk_construction
+  - type: Construction
+    graph: MKConstruction
+    node: start
+    defaultTarget: complete
+
+- type: constructionGraph
+  id: MKConstruction
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: complete
+          steps:
+          - tool: Screwing
+            doAfter: 3
+
+    - node: complete
+      actions:
+      - !type:SpawnPrototype
+        prototype: WeaponPistolMk58
+      - !type:DeleteEntity {}
