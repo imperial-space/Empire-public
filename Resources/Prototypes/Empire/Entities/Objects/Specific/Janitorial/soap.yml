@@ -1,17 +1,24 @@
 - type: entity
   name: offshore soap
-  id: OffshoreSoap
+  id: SoapEmpire
   parent: BaseItem
-  description: A cheap bar of soap. It was buyed from offshore company.
+  description: A cheap bar of soap. Smells like rotten bananas.
   components:
   - type: Tag
     tags:
     - Soap
   - type: Sprite
-    sprite: Empire/Objects/Specific/Janitorial/offshoresoap.rsi
+    sprite: Empire/Objects/Specific/Janitorial/soap.rsi
+    layers:
+    - state: normal-4
+      map: ["enum.SolutionContainerLayers.Fill"]
+  - type: SolutionContainerVisuals
+    maxFillLevels: 4
+    fillBaseName: normal-
+    changeColor: false
   - type: Appearance
   - type: Item
-    sprite: Empire/Objects/Specific/Janitorial/offshoresoap.rsi
+    sprite: Empire/Objects/Specific/Janitorial/soap.rsi
     storedRotation: -90
   - type: Slippery
   - type: StepTrigger
@@ -53,23 +60,31 @@
     solution: soap
   - type: DeleteOnSolutionEmpty
     solution: soap
+  - type: FlavorProfile
+    flavors:
+      - clean
+  - type: Food
+    solution: soap
+  - type: BadFood
   - type: CleansForensics
   - type: Residue
     residueAdjective: residue-slippery
     residueColor: residue-green
 
 - type: entity
-  name: Imperial soap
-  id: ImperialSoap
-  parent: OffshoreSoap
-  description: IT'S THE BEST SOAP EVER!!! GLORY TO EMPIRE!!!
+  name: soap
+  id: SoapImperiumEmpire
+  parent: SoapEmpire
+  description: A Empire soap. Smells like a greatest patriotic song.
   components:
   - type: Sprite
-    sprite: Empire/Objects/Specific/Janitorial/imperialsoap.rsi
-  - type: Appearance
+    layers:
+    - state: imperial-4
+      map: ["enum.SolutionContainerLayers.Fill"]
+  - type: SolutionContainerVisuals
+    fillBaseName: imperial-
   - type: Item
-    sprite: Empire/Objects/Specific/Janitorial/imperialsoap.rsi
-    heldPrefix: imperial
+    heldPrefix: empire
   - type: SolutionContainerManager
     solutions:
       soap:
@@ -83,23 +98,28 @@
 
 - type: entity
   name: chaos soap
-  id: ChaosSoap
-  parent: OffshoreSoap
-  description: This soap isn't regular soap. It's made as guns against tyranny. Chaos, unite!
+  id: SoapChaotic
+  parent: [SoapEmpire, BaseSyndicateContraband]
+  description: This soap belongs to unknown clan. While you smelling it, you can hear voices in your head.
   components:
   - type: Sprite
-    sprite: Empire/Objects/Specific/Janitorial/chaossoap.rsi
-  - type: Appearance
+    layers:
+    - state: chaos-4
+      map: ["enum.SolutionContainerLayers.Fill"]
+  - type: SolutionContainerVisuals
+    fillBaseName: chaos-
+  - type: Slippery
+    paralyzeTime: 3.0
+    launchForwardsMultiplier: 1.2
   - type: Item
-    sprite: Empire/Objects/Specific/Janitorial/chaossoap.rsi
-    heldPrefix: chaos
+    heldPrefix: omega
   - type: SolutionContainerManager
     solutions:
       soap:
-        maxVol: 100
+        maxVol: 240 
         reagents:
         - ReagentId: SoapReagent
-          Quantity: 100
+          Quantity: 240
   - type: Residue
     residueAdjective: residue-slippery
-    residueColor: residue-grey
+    residueColor: residue-blue
