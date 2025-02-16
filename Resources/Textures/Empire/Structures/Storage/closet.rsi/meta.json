@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "copyright": "Taken from tgstation, brigmedic locker is a resprited CMO locker by PuroSlavKing (Github), n2 sprites based on fire and emergency sprites",
+  "license": "CC-BY-SA-3.0",
+  "states": [
+    {
+      "name": "base"
+    },
+    {
+      "name": "base_door"
+    },
+    {
+      "name": "base_open"
+    },
+    {
+      "name": "TAEngineering"
+    },
+    {
+      "name": "TAEngineering_door"
+    },
+    {
+      "name": "TAEngineering_open"
+    },
+    {
+      "name": "TAScientist"
+    },
+    {
+      "name": "TAScientist_door"
+    },
+    {
+      "name": "TAScientist_open"
+    },
+    {
+      "name": "medic"
+    },
+    {
+      "name": "medic_door"
+    },
+    {
+      "name": "medic_open"
+    },
+    {
+      "name": "guard"
+    },
+    {
+      "name": "guard_door"
+    },
+    {
+      "name": "guard_open"
+    },
+    {
+      "name": "fabric"
+    },
+    {
+      "name": "fabric_door"
+    },
+    {
+      "name": "fabric_open"
+    }
+  ]
+}
