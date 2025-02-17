@@ -1,0 +1,20 @@
+- type: decal
+  id: MedBaySign1
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/medbay.rsi
+    state: medbay1
+
+- type: decal
+  id: MedBaySign2
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/medbay.rsi
+    state: medbay2
+
+- type: decal
+  id: MedBaySing3
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/medbay.rsi
+    state: medbay3

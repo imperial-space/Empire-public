@@ -17,31 +17,31 @@
       "name": "base_open"
     },
     {
-      "name": "TAEngineering"
+      "name": "taengineering"
     },
     {
-      "name": "TAEngineering_door"
+      "name": "taengineering_door"
     },
     {
-      "name": "TAEngineering_open"
+      "name": "taengineering_open"
     },
     {
-      "name": "TAScientist"
+      "name": "tascientist"
     },
     {
-      "name": "TAScientist_door"
+      "name": "tascientist_door"
     },
     {
-      "name": "TAScientist_open"
+      "name": "tascientist_open"
     },
     {
-      "name": "medic"
+      "name": "medico"
     },
     {
-      "name": "medic_door"
+      "name": "medico_door"
     },
     {
-      "name": "medic_open"
+      "name": "medico_open"
     },
     {
       "name": "guard"
@@ -68,7 +68,18 @@
       "name": "unlocked"
     },
     {
-      "name": "sparking"
+      "name": "locked"
+    },
+    {
+      "name": "sparking",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
     }
   ]
 }
