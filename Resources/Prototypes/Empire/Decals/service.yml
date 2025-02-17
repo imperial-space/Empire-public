@@ -1,0 +1,20 @@
+- type: decal
+  id: ServiceSign1
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/service.rsi
+    state: service1
+
+- type: decal
+  id: ServiceSign2
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/service.rsi
+    state: service2
+
+- type: decal
+  id: ServiceSign3
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/service.rsi
+    state: service3
