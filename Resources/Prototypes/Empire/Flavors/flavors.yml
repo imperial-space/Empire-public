@@ -1,0 +1,9 @@
+- type: flavor
+  id: patriotic
+  flavorType: Base
+  description: flavor-base-patriotic
+
+- type: flavor
+  id: chaotic
+  flavorType: Base
+  description: flavor-base-chaotic

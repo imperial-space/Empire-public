@@ -1,0 +1,18 @@
+- type: accessLevel
+  id: Magos
+  name: id-card-access-level-magos
+
+- type: accessLevel
+  id: Techno-Arcanum scientist
+  name: id-card-access-level-tas
+
+- type: accessLevel
+  id: Techno-Arcanum engineering
+  name: id-card-access-level-tae
+
+- type: accessGroup
+  id: Techno-Arcanum
+  tags:
+  - Magos
+  - Techno-Arcanum scientist
+  - Techno-Arcanum engineering

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "By Empire",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "service1"
+    },
+    {
+      "name": "service2"
+    },
+    {
+      "name": "service3"
+    }
+  ]
+}

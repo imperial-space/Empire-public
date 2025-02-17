@@ -1,0 +1,13 @@
+- type: accessLevel
+  id: HeadOfWorkshop
+  name: id-card-access-level-how
+
+- type: accessLevel
+  id: WorkerOfWorkshop
+  name: id-card-access-level-wow
+
+- type: accessGroup
+  id: Fabric
+  tags:
+  - HeadOfWorkshop
+  - WorkerOfWorkshop

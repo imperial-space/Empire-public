@@ -1,0 +1,18 @@
+- type: accessLevel
+  id: ChiefMedicialOfficerEmpire
+  name: id-card-access-level-cmo-empire
+
+- type: accessLevel
+  id: ChemistEmpire
+  name: id-card-access-level-chemist-empire
+
+- type: accessLevel
+  id: Medico
+  name: id-card-access-level-medico
+
+- type: accessGroup
+  id: Medico
+  tags:
+  - ChiefMedicialOfficerEmpire
+  - ChemistEmpire
+  - Medico

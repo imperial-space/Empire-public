@@ -1,0 +1,23 @@
+- type: accessLevel
+  id: Decurion
+  name: id-card-access-level-decurion
+
+- type: accessLevel
+  id: Triary
+  name: id-card-access-level-triary
+
+- type: accessLevel
+  id: Gestat
+  name: id-card-access-level-gestat
+
+- type: accessLevel
+  id: Legioner
+  name: id-card-access-level-legioner
+
+- type: accessGroup
+  id: Guard
+  tags:
+  - Decurion
+  - Triary
+  - Gestat
+  - Legioner
