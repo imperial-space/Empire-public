@@ -20,9 +20,6 @@
     fireCost: 100 
   - type: Battery
     maxCharge: 3000
-<<<<<<< Updated upstream
-    startingCharge: 3000
-=======
     startingCharge: 3000
 
 # ПЕРЕДЕЛАТЬ С ПОЯВЛЕНИЕМ СИСТЕМЫ ОТ ЛАВЫ
@@ -126,4 +123,3 @@
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-inanimate
     weight: 0.0002
->>>>>>> Stashed changes

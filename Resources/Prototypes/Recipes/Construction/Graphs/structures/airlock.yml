@@ -125,7 +125,7 @@
     - to: glassElectronics
       conditions:
       - !type:EntityAnchored {}
-      - !type:DoorWelded {}
+      - !type:Door {}
       - !type:DoorBolted
         value: false
       - !type:WirePanel {}
@@ -165,7 +165,7 @@
     - to: wired
       conditions:
       - !type:EntityAnchored {}
-      - !type:DoorWelded {}
+      - !type:Door {}
       - !type:DoorBolted
         value: false
       - !type:WirePanel {}

@@ -10,11 +10,11 @@
     sprite: Empire/Structures/Storage/closet.rsi
     noRot: true
     layers:
-    - state: generic
+    - state: base
       map: ["enum.StorageVisualLayers.Base"]
-    - state: generic_door
+    - state: base_open
       map: ["enum.StorageVisualLayers.Door"]
-    - state: locked
+    - state: base_door
       map: ["enum.LockVisualLayers.Lock"]
       shader: unshaded
     - state: welded
@@ -62,8 +62,60 @@
   components:
   - type: Appearance
   - type: EntityStorageVisuals
-    stateBaseClosed: hydro
-    stateDoorOpen: hydro_open
-    stateDoorClosed: hydro_door
+    stateBaseClosed: guard
+    stateDoorOpen: guard_open
+    stateDoorClosed: guard_door
   - type: AccessReader
-    access: [ [ "Armory" ] ]
+    access: [ [ "Guard" ] ]
+
+- type: entity
+  id: LockerMedico
+  parent: LockerBaseEmpire
+  name: medico locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: medico
+    stateDoorOpen: medico_open
+    stateDoorClosed: medico_door
+  - type: AccessReader
+    access: [["Medico"]]
+
+- type: entity
+  id: LockerTAEngineering
+  parent: LockerBaseEmpire
+  name: engineering locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: TAEngineering
+    stateDoorOpen: TAEngineering_open
+    stateDoorClosed: TAEngineering_door
+  - type: AccessReader
+    access: [ [ "Techno-Arcanum" ] ]
+
+- type: entity
+  id: LockerTAScientist
+  parent: LockerBaseEmpire
+  name: scientist's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: TAScientist
+    stateDoorOpen: TAScientist_open
+    stateDoorClosed: TAScientist_door
+  - type: AccessReader
+    access: [ [ "Techno-Arcanum" ] ]
+
+- type: entity
+  id: LockerFabric
+  parent: LockerBaseEmpire
+  name: fabric locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: fabric
+    stateDoorOpen: fabric_open
+    stateDoorClosed: fabric_door
+  - type: AccessReader
+    access: [ [ "Fabric" ] ]
