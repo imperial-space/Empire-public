@@ -17,14 +17,15 @@
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
     proto: Pulse
-    fireCost: 100
+    fireCost: 100 
   - type: Battery
     maxCharge: 3000
     startingCharge: 3000
 
+# ПЕРЕДЕЛАТЬ С ПОЯВЛЕНИЕМ СИСТЕМЫ ОТ ЛАВЫ
 - type: entity
   name: Dual Pistol
-  parent: [BaseWeaponBattery, BaseGunWieldable]
+  parent: BaseWeaponBattery
   id: WeaponEnergyDualPistol
   description: A prototype dual laser pistol.
   components:
@@ -36,10 +37,8 @@
     - state: mag-unshaded-4
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
-  - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
   - type: Gun
-    fireRate: 2
+    firerate: 1
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: ProjectileBatteryAmmoProvider
@@ -51,7 +50,76 @@
     - 0,0,3,1
     sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
     heldPrefix: energy
-  - type: GunRequiresWield
   - type: Battery
     maxCharge: 700
     startingCharge: 700
+
+- type: entity
+  name: apollon
+  parent: [BaseWeaponBatterySmall, BaseCommandContraband]
+  id: WeaponApollon
+  description: Option is owner of this weapon. No one knows how much blood was split to achive this one.
+  components:
+  - type: Sprite
+    sprite: Empire/Entities/Objects/Weapons/Guns/Battery/apollon.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-3
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Gun
+    fireRate: 3
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: ApollonRedLaser
+    fireCost: 100
+  - type: MagazineVisuals
+    magState: mag
+    steps: 4
+    zeroVisible: true
+  - type: Battery
+    maxCharge: 800
+    startingCharge: 800
+
+- type: entity
+  name: ares
+  parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
+  id: WeaponAres
+  description: This gun belongs to Centurion. While you holding it, you fill like a thousand souls passing through you.
+  components:
+  - type: Sprite
+    sprite: Empire/Entities/Objects/Weapons/Guns/Battery/ares.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-3
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: AresRedLaser
+    fireCost: 100
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 35
+  - type: MagazineVisuals
+    magState: mag
+    steps: 4
+    zeroVisible: true
+  - type: Appearance
+  - type: Tag
+    tags:
+    - HighRiskItem
+    - Sidearm
+    - WeaponAntiqueLaser
+  - type: StaticPrice
+    price: 750
+  - type: StealTarget
+    stealGroup: WeaponAntiqueLaser
+  - type: SentienceTarget
+    flavorKind: station-event-random-sentience-flavor-inanimate
+    weight: 0.0002

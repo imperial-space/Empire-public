@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "copyright": "By @mishkas_artem",
+  "license": "CC-BY-SA-3.0",
+  "states": [
+    {
+      "name": "base"
+    },
+    {
+      "name": "base_door"
+    },
+    {
+      "name": "base_open"
+    },
+    {
+      "name": "taengineering"
+    },
+    {
+      "name": "taengineering_door"
+    },
+    {
+      "name": "taengineering_open"
+    },
+    {
+      "name": "tascientist"
+    },
+    {
+      "name": "tascientist_door"
+    },
+    {
+      "name": "tascientist_open"
+    },
+    {
+      "name": "medico"
+    },
+    {
+      "name": "medico_door"
+    },
+    {
+      "name": "medico_open"
+    },
+    {
+      "name": "guard"
+    },
+    {
+      "name": "guard_door"
+    },
+    {
+      "name": "guard_open"
+    },
+    {
+      "name": "fabric"
+    },
+    {
+      "name": "fabric_door"
+    },
+    {
+      "name": "fabric_open"
+    },
+    {
+      "name": "welded"
+    },
+    {
+      "name": "unlocked"
+    },
+    {
+      "name": "locked"
+    },
+    {
+      "name": "sparking",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    }
+  ]
+}

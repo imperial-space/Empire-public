@@ -1,0 +1,13 @@
+- type: entity
+  id: StatueEngineering
+  parent: BaseStructure
+  name: statue of Great Engineer
+  suffix: Empire
+  description: A with statue with deep meaning. It has huge emotional influence of workers around all the Empire.
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: Empire/Structures/Decoration/statues.rsi
+    state: engineering
+    drawdepth: Mobs
+    offset: "0.0,0.5"

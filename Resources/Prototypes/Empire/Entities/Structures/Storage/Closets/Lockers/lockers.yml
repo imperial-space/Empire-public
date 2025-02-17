@@ -1,0 +1,121 @@
+- type: entity
+  id: LockerBaseEmpire
+  parent: ClosetBase
+  abstract: true
+  components:
+  - type: AccessReader
+  - type: Lock
+  - type: LockVisuals
+  - type: Sprite
+    sprite: Empire/Structures/Storage/closet.rsi
+    noRot: true
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: base_open
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: base_door
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: paper
+      visible: false
+      sprite: Structures/Storage/closet_labels.rsi
+      offset: "-0.065,0"
+      map: ["enum.PaperLabelVisuals.Layer"]
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+          params:
+            volume: -6
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetSteel1:
+            min: 1
+            max: 2
+  - type: Construction
+    graph: ClosetSteelSecure
+    node: done
+    containers:
+    - entity_storage
+
+- type: entity
+  id: LockerGuard
+  parent: LockerBaseEmpire
+  name: guard's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: guard
+    stateDoorOpen: guard_open
+    stateDoorClosed: guard_door
+  - type: AccessReader
+    access: [ [ "Guard" ] ]
+
+- type: entity
+  id: LockerMedico
+  parent: LockerBaseEmpire
+  name: medico locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: medico
+    stateDoorOpen: medico_open
+    stateDoorClosed: medico_door
+  - type: AccessReader
+    access: [["Medico"]]
+
+- type: entity
+  id: LockerTAEngineering
+  parent: LockerBaseEmpire
+  name: engineering locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: taengineering
+    stateDoorOpen: taengineering_open
+    stateDoorClosed: taengineering_door
+  - type: AccessReader
+    access: [ [ "Techno-Arcanum" ] ]
+
+- type: entity
+  id: LockerTAScientist
+  parent: LockerBaseEmpire
+  name: scientist's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: tascientist
+    stateDoorOpen: tascientist_open
+    stateDoorClosed: tascientist_door
+  - type: AccessReader
+    access: [ [ "Techno-Arcanum" ] ]
+
+- type: entity
+  id: LockerFabric
+  parent: LockerBaseEmpire
+  name: fabric locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: fabric
+    stateDoorOpen: fabric_open
+    stateDoorClosed: fabric_door
+  - type: AccessReader
+    access: [ [ "Fabric" ] ]

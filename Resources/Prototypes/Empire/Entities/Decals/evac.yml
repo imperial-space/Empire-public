@@ -1,0 +1,20 @@
+- type: decal
+  id: EvacSign1
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/evac.rsi
+    state: evac1
+
+- type: decal
+  id: EvacSign2
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/evac.rsi
+    state: evac2
+
+- type: decal
+  id: EvacSign3
+  tags: ["station", "empire"]
+  sprite:
+    sprite: Empire/Decals/evac.rsi
+    state: evac3

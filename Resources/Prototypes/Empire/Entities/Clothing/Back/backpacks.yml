@@ -137,7 +137,7 @@
   parent: ClothingBackpack
   id: ClothingBackpackEmpireBartender
   name: bartender's backpack
-  description: "Sir, i want a drink with blood... and skulls".
+  description: "Sir, i want a drink with blood... and skulls"
   components:
   - type: Sprite
     sprite: Empire/Clothing/Back/Backpacks/bartender.rsi
